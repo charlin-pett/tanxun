@@ -1,26 +1,98 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
+/*
+ * ==========================================
+ * 探寻 - 国风设计系统
+ * ==========================================
+ *
+ * 配色方案（东方美学）：
+ *   墨色    #1a1a2e  - 标题/重要文字
+ *   朱红    #c0392b  - 强调色/重要标识
+ *   金色    #d4a017  - 装饰/高亮
+ *   宣纸    #f5efe0  - 背景底色
+ *   檀木    #8b5a2b  - 次要文字/边框
+ *
+ * 字体策略：
+ *   标题：Geist Sans / 思源宋体（可商用）
+ *   正文：系统默认 sans-serif
+ *   古风引用：serif（产生古籍感）
+ *
+ * 设计原则：
+ *   留白丰富 · 低饱和度 · 纸质质感 · 水墨意境
+ */
+
+/* CSS 变量定义 */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* 主色调 */
+  --color-ink: #1a1a2e;
+  --color-vermillion: #c0392b;
+  --color-gold: #d4a017;
+  --color-paper: #f5efe0;
+  --color-sandalwood: #8b5a2b;
+
+  /* 功能色 */
+  --background: var(--color-paper);
+  --foreground: var(--color-ink);
 }
 
+/* Tailwind 主题扩展（@theme 指令） */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-geist-sans), 'Noto Serif SC', 'Source Han Serif SC', serif;
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* 全局基础样式 */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 国风字体（用于古诗词、卦辞等特殊文本） */
+.font-classic {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', serif;
+}
+
+/* 金色装饰线 */
+.gold-divider {
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--color-gold), transparent);
+}
+
+/* 去除默认焦点环，使用自定义样式 */
+*:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* 慢速旋转动画（过渡动画用） */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow linear infinite;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-paper);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-sandalwood);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink);
 }

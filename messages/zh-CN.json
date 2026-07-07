@@ -1,0 +1,154 @@
+{
+  "$schema": "https://next-intl.dev/schema.json",
+  "description": "中文语言包 - 基准语言",
+
+  "site": {
+    "name": "探寻",
+    "tagline": "探索中华玄学智慧",
+    "description": "一个集周易、五行、八字、解梦于一体的玄学文化平台"
+  },
+
+  "nav": {
+    "home": "首页",
+    "dream": "解梦",
+    "bazi": "八字算命",
+    "knowledge": "玄学百科",
+    "hexagram": "六十四卦"
+  },
+
+  "home": {
+    "hero": {
+      "title": "探寻玄学奥秘",
+      "subtitle": "周易·五行·八字·解梦",
+      "description": "集中国传统玄学智慧于一体，助你了解命理、解析梦境、探索易学"
+    },
+    "features": {
+      "dream": {
+        "title": "梦境解译",
+        "description": "输入梦境，AI 结合《周公解梦》与心理学为你解读"
+      },
+      "bazi": {
+        "title": "八字排盘",
+        "description": "输入生辰，自动排四柱、推大运、断流年"
+      },
+      "hexagram": {
+        "title": "周易六十四卦",
+        "description": "查阅每卦卦辞爻辞，理解易理智慧"
+      },
+      "knowledge": {
+        "title": "玄学百科",
+        "description": "涵盖五行、天干地支、奇门遁甲等传统文化知识"
+      }
+    },
+    "dailyFortune": {
+      "title": "每日运势",
+      "description": "今日运势尚未生成，请稍后再来"
+    }
+  },
+
+  "dream": {
+    "title": "梦境解译",
+    "subtitle": "描述你的梦境，探寻其深意",
+    "placeholder": "请详细描述你的梦境……",
+    "placeholderHint": "例如：我梦见自己在飞翔，天空中有两条龙……",
+    "submit": "开始解梦",
+    "submitting": "正在解读中……",
+    "resultTitle": "梦境解析",
+    "historyTitle": "解梦记录",
+    "emptyHistory": "暂无解梦记录",
+    "error": "解梦出错了，请稍后再试",
+    "categories": {
+      "animals": "动物",
+      "nature": "自然现象",
+      "people": "人物",
+      "objects": "物品",
+      "actions": "行为动作",
+      "places": "场所",
+      "body": "身体",
+      "other": "其他"
+    }
+  },
+
+  "bazi": {
+    "title": "八字排盘",
+    "subtitle": "输入出生信息，查看命盘",
+    "form": {
+      "title": "出生信息",
+      "year": "出生年份",
+      "month": "月份",
+      "day": "日期",
+      "hour": "出生时辰",
+      "hourUnknown": "时辰未知",
+      "minute": "分钟",
+      "gender": "性别",
+      "male": "男",
+      "female": "女",
+      "birthplace": "出生地",
+      "submit": "排盘",
+      "submitting": "正在排盘中……"
+    },
+    "result": {
+      "title": "八字命盘",
+      "fourPillars": "四柱",
+      "yearPillar": "年柱",
+      "monthPillar": "月柱",
+      "dayPillar": "日柱",
+      "hourPillar": "时柱",
+      "heavenlyStem": "天干",
+      "earthlyBranch": "地支",
+      "hiddenStems": "藏干",
+      "shishen": "十神",
+      "wuxing": "五行",
+      "dayMaster": "日主",
+      "dayMasterIs": "日主为",
+      "wuxingChart": "五行分布",
+      "dayun": "大运",
+      "liunian": "流年运势",
+      "summary": "命格总论"
+    },
+    "error": "排盘出错，请检查输入信息"
+  },
+
+  "knowledge": {
+    "title": "玄学百科",
+    "subtitle": "探索中华传统文化智慧",
+    "search": "搜索知识库……",
+    "noResults": "未找到相关结果",
+    "categories": {
+      "yijing": "周易",
+      "wuxing": "五行",
+      "ganzhi": "天干地支",
+      "qimen": "奇门遁甲",
+      "fengshui": "风水",
+      "face": "面相手相"
+    }
+  },
+
+  "hexagram": {
+    "title": "周易六十四卦",
+    "subtitle": "探索卦象智慧",
+    "loading": "加载卦象中……",
+    "notFound": "未找到该卦",
+    "lines": "爻辞",
+    "judgment": "卦辞",
+    "xiang": "象传",
+    "meaning": "释义",
+    "prev": "上一卦",
+    "next": "下一卦"
+  },
+
+  "common": {
+    "loading": "加载中……",
+    "error": "出错了",
+    "retry": "重试",
+    "back": "返回",
+    "home": "首页",
+    "language": "语言",
+    "switchLang": "切换语言",
+    "chinese": "中文",
+    "english": "English",
+    "russian": "Русский",
+    "copyright": "© 2026 探寻 - 仅供文化参考，不构成专业建议",
+    "disclaimer": "免责声明：本网站内容仅供传统文化研究参考，并非科学验证的结果。用户应理性看待，切勿沉迷。"
+  }
+}
