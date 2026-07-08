@@ -43,14 +43,45 @@ const DATA: Record<string, DataMap> = {
   es: { yijing: yijingES as Article[], wuxing: wuxingES as Article[], ganzhi: ganzhiES as Article[], qimen: qimenES as Article[], fengshui: fengshuiES as Article[], face: faceES as Article[] },
 };
 
-export const KNOWLEDGE_CATEGORIES = [
-  { id: 'yijing', name: '周易', icon: '䷀', description: '群经之首，大道之源——易经的智慧' },
-  { id: 'wuxing', name: '五行', icon: '♨', description: '金木水火土——宇宙的五种基本元素' },
-  { id: 'ganzhi', name: '天干地支', icon: '干支', description: '十天干与十二地支——古老的时间坐标' },
-  { id: 'qimen', name: '奇门遁甲', icon: '九宫', description: '帝王之学——最高深的预测术' },
-  { id: 'fengshui', name: '风水', icon: '山水', description: '人与环境的和谐之道' },
-  { id: 'face', name: '面相手相', icon: '面相', description: '掌中乾坤，面中命运' },
-];
+/** 获取分类名称和描述（按语言） */
+const CATEGORY_NAMES: Record<string, Array<{ id: string; name: string; icon: string; description: string }>> = {
+  'zh-CN': [
+    { id: 'yijing', name: '周易', icon: '䷀', description: '群经之首，大道之源——易经的智慧' },
+    { id: 'wuxing', name: '五行', icon: '♨', description: '金木水火土——宇宙的五种基本元素' },
+    { id: 'ganzhi', name: '天干地支', icon: '干支', description: '十天干与十二地支——古老的时间坐标' },
+    { id: 'qimen', name: '奇门遁甲', icon: '九宫', description: '帝王之学——最高深的预测术' },
+    { id: 'fengshui', name: '风水', icon: '山水', description: '人与环境的和谐之道' },
+    { id: 'face', name: '面相手相', icon: '面相', description: '掌中乾坤，面中命运' },
+  ],
+  en: [
+    { id: 'yijing', name: 'I-Ching', icon: '䷀', description: 'The Book of Changes — the foundation of Chinese metaphysics' },
+    { id: 'wuxing', name: 'Five Elements', icon: '♨', description: 'Wood, Fire, Earth, Metal, Water — the five forces' },
+    { id: 'ganzhi', name: 'Stems & Branches', icon: '干支', description: 'The ancient time-keeping system of China' },
+    { id: 'qimen', name: 'Qi Men Dun Jia', icon: '九宫', description: 'The Emperor\'s art — supreme divination' },
+    { id: 'fengshui', name: 'Feng Shui', icon: '山水', description: 'The art of harmonious space' },
+    { id: 'face', name: 'Face & Palm', icon: '面相', description: 'Reading destiny in the face and hands' },
+  ],
+  ru: [
+    { id: 'yijing', name: 'И-Цзин', icon: '䷀', description: 'Книга Перемен — основа китайской метафизики' },
+    { id: 'wuxing', name: 'Пять Элементов', icon: '♨', description: 'Дерево, Огонь, Земля, Металл, Вода' },
+    { id: 'ganzhi', name: 'Стволы и Ветви', icon: '干支', description: 'Древняя система летоисчисления' },
+    { id: 'qimen', name: 'Ци Мэнь', icon: '九宫', description: 'Искусство Императора' },
+    { id: 'fengshui', name: 'Фэн-Шуй', icon: '山水', description: 'Гармония пространства' },
+    { id: 'face', name: 'Физиогномика', icon: '面相', description: 'Судьба на лице и ладони' },
+  ],
+  es: [
+    { id: 'yijing', name: 'I-Ching', icon: '䷀', description: 'El Clásico de los Cambios' },
+    { id: 'wuxing', name: 'Cinco Elementos', icon: '♨', description: 'Madera, Fuego, Tierra, Metal, Agua' },
+    { id: 'ganzhi', name: 'Troncos y Ramas', icon: '干支', description: 'El antiguo sistema de cronometraje' },
+    { id: 'qimen', name: 'Qi Men', icon: '九宫', description: 'El arte del Emperador' },
+    { id: 'fengshui', name: 'Feng Shui', icon: '山水', description: 'El arte de la armonía espacial' },
+    { id: 'face', name: 'Rostro y Mano', icon: '面相', description: 'Lectura del destino en el rostro' },
+  ],
+};
+
+export function getKnowledgeCategories(locale: string = 'zh-CN') {
+  return CATEGORY_NAMES[locale] || CATEGORY_NAMES['zh-CN'];
+}
 
 function getData(locale: string = 'zh-CN'): DataMap {
   return DATA[locale] || DATA['zh-CN'];
@@ -58,7 +89,7 @@ function getData(locale: string = 'zh-CN'): DataMap {
 
 export async function getAllCategories(locale: string = 'zh-CN'): Promise<KnowledgeCategory[]> {
   const data = getData(locale);
-  return KNOWLEDGE_CATEGORIES.map(m => ({ ...m, articles: data[m.id] || [] }));
+  return getKnowledgeCategories(locale).map(m => ({ ...m, articles: data[m.id] || [] }));
 }
 
 export async function getArticlesByCategory(categoryId: string, locale: string = 'zh-CN'): Promise<Article[]> {
@@ -69,7 +100,7 @@ export async function getArticle(categoryId: string, articleId: string, locale: 
   const articles = getData(locale)[categoryId] || [];
   const article = articles.find(a => a.id === articleId);
   if (!article) return null;
-  const category = KNOWLEDGE_CATEGORIES.find(c => c.id === categoryId);
+  const category = getKnowledgeCategories(locale).find(c => c.id === categoryId);
   if (!category) return null;
   return { article, category };
 }

@@ -252,11 +252,17 @@ cd /d/探寻 && npm run dev
 | AI 解梦（prompt） | ✅（Phase 7已完成） | ✅（Phase 7已完成） | ✅（Phase 7已完成） |
 | 星座卡片组件 | ✅ 自动语言切换 | ✅ | ✅ |
 
+#### ✅ AdSense 盈利准备（2026-07-08）
+- **隐私政策页面** — 4种语言完整版（/zh-CN/privacy, /en/privacy 等）
+- **关于我们页面** — 4种语言完整版（/zh-CN/about 等）
+- **Footer** — 底部添加隐私政策和关于我们链接
+- **AdSense 广告组件** — `AdSenseAd` 组件，审核通过后填入 slot ID 即可显示广告
+- **AdSense 脚本组件** — `AdSenseScript` 自动加载 AdSense 脚本（环境变量控制）
+- 各语言包添加 privacy / about 字段
+
 #### 🔜 待办
 - ⏳ 六十四卦翻译（64卦 × 4语言，量大，放最后）
-| 🇪🇸 西班牙语 | es | 完整翻译 |
-
-- 配置文件（proxy.ts / navigation.ts）均已添加 es
+- ⏳ Google AdSense 审核 + 配置环境变量
 - LocaleSwitcher 支持四种语言切换
 - 解梦 API 四种语言独立 prompt，四种语言各自生成解梦内容
 

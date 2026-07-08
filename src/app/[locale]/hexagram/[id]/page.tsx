@@ -1,45 +1,31 @@
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getAllHexagrams, getHexagramByNumber } from '@/lib/hexagram';
 import { Link } from '@/i18n/navigation';
 import type { HexagramLine } from '@/types/hexagram';
 
-/**
- * 卦象详情页面
- *
- * 展示单个卦象的完整信息：
- * - 卦符 + 卦名 + 卦辞
- * - 六爻爻辞
- * - 象传
- * - 现代释义
- * - 前后卦导航
- *
- * 如果 URL 中的卦序超出 1-64 范围，显示 404
- */
-
 // 定义 props 类型（Next.js 15+ 使用 Promise params）
 interface HexagramDetailProps {
-  params: Promise<{ id: string }>;
+  params: Promise<{ locale: string; id: string }>;
 }
 
 export default async function HexagramDetailPage({
   params,
 }: HexagramDetailProps) {
-  const { id } = await params;
+  const { locale, id } = await params;
+  setRequestLocale(locale);
 
-  // 验证卦序是否合法
   const hexNumber = parseInt(id, 10);
   if (isNaN(hexNumber) || hexNumber < 1 || hexNumber > 64) {
     notFound();
   }
 
-  // 获取当前卦象数据
   const hexagram = await getHexagramByNumber(hexNumber);
   if (!hexagram) {
     notFound();
   }
 
-  const t = await getTranslations('hexagram');
+  const t = await getTranslations({ locale, namespace: 'hexagram' });
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">

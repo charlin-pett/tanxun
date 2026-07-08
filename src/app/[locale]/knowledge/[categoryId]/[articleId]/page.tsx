@@ -2,15 +2,8 @@ import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
 import { getArticle, getArticlesByCategory } from '@/lib/knowledge';
 
-/**
- * 百科文章详情页
- *
- * 展示单篇文章的完整内容，含分类导航和文章切换。
- */
-
-// 定义 props 类型（Next.js 15+ 使用 Promise params）
 interface ArticleDetailProps {
-  params: Promise<{ categoryId: string; articleId: string }>;
+  params: Promise<{ locale: string; categoryId: string; articleId: string }>;
 }
 
 /** 分类配色 */
@@ -24,10 +17,9 @@ const CATEGORY_COLORS: Record<string, { bg: string; text: string; border: string
 };
 
 export default async function ArticleDetailPage({ params }: ArticleDetailProps) {
-  const { categoryId, articleId } = await params;
+  const { locale, categoryId, articleId } = await params;
 
-  // 获取文章数据
-  const result = await getArticle(categoryId, articleId);
+  const result = await getArticle(categoryId, articleId, locale);
   if (!result) {
     notFound();
   }
