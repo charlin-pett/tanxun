@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback } from 'react';
+import { useLocale } from 'next-intl';
 import type { BaZiInput } from '@/engine/types';
 import { SHI_CHEN } from '@/engine/labels';
 import BaziResultView from './BaziResultView';
@@ -15,6 +16,8 @@ import BaziTransition from './BaziTransition';
  *   结果屏 → 星座卡片 + 八字命盘 + AI命理报告
  */
 export default function BaziForm() {
+  const locale = useLocale();
+  const shiChenOptions = SHI_CHEN(locale);
   // ===== 当前屏幕: 'form' | 'transition' | 'result' =====
   const [screen, setScreen] = useState<'form' | 'transition' | 'result'>('form');
 
@@ -249,7 +252,7 @@ export default function BaziForm() {
                              text-gray-900 bg-white
                              focus:outline-none focus:ring-2 focus:ring-amber-500"
                 >
-                  {SHI_CHEN.map((name, idx) => (
+                  {shiChenOptions.map((name, idx) => (
                     <option key={idx} value={idx}>
                       {name}
                     </option>

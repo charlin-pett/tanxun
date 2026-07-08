@@ -1,0 +1,24 @@
+[
+  {
+    "id": "yijing-intro",
+    "title": "¿Qué es el I-Ching? — El Clásico de los Cambios",
+    "summary": "El I-Ching, o Libro de los Cambios, es el más antiguo y venerado de los clásicos chinos, una guía filosófica para comprender el cambio.",
+    "content": "El I-Ching (易经), también conocido como Libro de los Cambios, es uno de los textos más antiguos e importantes de la literatura universal. Sus orígenes se remontan más de tres mil años atrás.\n\n【Orígenes】\nCuenta la leyenda que el sabio Fu Xi creó los ocho trigramas observando la naturaleza. El rey Wen de Zhou, durante su cautiverio, los desarrolló hasta formar los 64 hexagramas y escribió los textos de juicio. Confucio y sus discípulos añadieron más tarde las Diez Alas, comentarios que transformaron el I-Ching en una obra maestra filosófica.\n\n【Estructura】\nEl I-Ching tiene dos partes: el Canon (64 hexagramas con juicios) y los Comentarios (Diez Alas). Cada hexagrama consta de seis líneas.\n\n【Relevancia Actual】\nLa enseñanza central del I-Ching — que el cambio es la única constante — resuena a través de todas las culturas y siglos.",
+    "tags": [
+      "I-Ching",
+      "Libro de los Cambios",
+      "filosofía"
+    ]
+  },
+  {
+    "id": "bagua",
+    "title": "Los Ocho Trigramas — Fuerzas Fundamentales del Universo",
+    "summary": "Los ocho trigramas son los componentes básicos del I-Ching, cada uno representa una fuerza natural fundamental.",
+    "content": "Los ocho trigramas (八卦) son los cimientos del sistema del I-Ching. Cada trigrama consta de tres líneas y representa un fenómeno natural básico.\n\n【Qian ☰ — Cielo】\nTres líneas yang. Simboliza la creatividad, la fuerza, la iniciativa.\n\n【Kun ☷ — Tierra】\nTres líneas yin. Simboliza la receptividad, la nutrición, la devoción.\n\n【Zhen ☳ — Trueno】\nUn yang bajo dos yin. Simboliza la acción, el despertar.\n\n【Xun ☴ — Viento】\nUn yin bajo dos yang. Simboliza la penetración, la adaptabilidad.\n\n【Kan ☵ — Agua】\nUn yang entre dos yin. Simboliza el peligro, el flujo, la sabiduría.\n\n【Li ☲ — Fuego】\nUn yin entre dos yang. Simboliza la luz, la claridad, la civilización.\n\n【Gen ☶ — Montaña】\nUn yang sobre dos yin. Simboliza el descanso, la quietud.\n\n【Dui ☱ — Lago】\nUn yin sobre dos yang. Simboliza la alegría, la comunicación.",
+    "tags": [
+      "I-Ching",
+      "trigramas",
+      "Bagua"
+    ]
+  }
+]

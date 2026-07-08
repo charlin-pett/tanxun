@@ -32,6 +32,7 @@ interface ReadingParams {
   wuxingSummary: string;
   daYun: string;
   liuNian: string;
+  locale?: string;
 }
 
 interface AiReadingProps {

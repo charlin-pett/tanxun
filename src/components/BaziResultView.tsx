@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo } from 'react';
+import { useLocale } from 'next-intl';
 import type { BaZiInput } from '@/engine/types';
 import { calcBaZi } from '@/engine/bazi';
 import {
@@ -31,16 +32,23 @@ interface BaziResultViewProps {
 }
 
 export default function BaziResultView({ input, autoFetchReading = false }: BaziResultViewProps) {
+  const locale = useLocale();
   // 计算命盘
   const result = useMemo(() => calcBaZi(input), [input]);
 
   const fp = result.fourPillars;
   const pillars = [fp.year, fp.month, fp.day, fp.hour];
-  const pillarNames = ['年柱', '月柱', '日柱', '时柱'];
+  const pillarNames = locale === 'zh-CN' ? ['年柱', '月柱', '日柱', '时柱']
+    : locale === 'en' ? ['Year', 'Month', 'Day', 'Hour']
+    : locale === 'ru' ? ['Год', 'Месяц', 'День', 'Час']
+    : locale === 'es' ? ['Año', 'Mes', 'Día', 'Hora']
+    : ['年柱', '月柱', '日柱', '时柱'];
 
   // 格式化出生信息
-  const hourText = getShiChenText(input.hour, input.minute);
-  const genderText = input.gender === 0 ? '男' : '女';
+  const hourText = getShiChenText(input.hour, input.minute, locale);
+  const genderText = input.gender === 0
+    ? (locale === 'zh-CN' ? '男' : locale === 'en' ? 'Male' : locale === 'ru' ? 'Муж' : locale === 'es' ? 'Masculino' : '男')
+    : (locale === 'zh-CN' ? '女' : locale === 'en' ? 'Female' : locale === 'ru' ? 'Жен' : locale === 'es' ? 'Femenino' : '女');
 
   // 五行颜色
   const wxColors = ['bg-green-500', 'bg-red-500', 'bg-yellow-600', 'bg-gray-400', 'bg-blue-500'];
@@ -73,7 +81,7 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
 
     // 五行分布文本
     const wxText = result.wuXingCount
-      .map((c, i) => `${getWuxingText(i)}:${c}`)
+      .map((c, i) => `${getWuxingText(i, locale)}:${c}`)
       .join('，');
 
     // 大运文本
@@ -101,11 +109,15 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
         day: getPillarText(fp.day),
         hour: getPillarText(fp.hour),
       },
-      dayMaster: getGanText(result.dayMaster),
+      dayMaster: getGanText(result.dayMaster, locale),
       wuxingSummary: wxText,
-      daYun: `顺排(${result.daYun.isShun ? '顺' : '逆'}) ${result.daYun.startAge}岁起运：${dyText}`,
+      locale,
+      daYun: `${result.daYun.isShun
+        ? (locale === 'zh-CN' ? '顺排' : locale === 'en' ? 'Forward' : locale === 'ru' ? 'Прямой' : 'Directo')
+        : (locale === 'zh-CN' ? '逆排' : locale === 'en' ? 'Reverse' : locale === 'ru' ? 'Обратный' : 'Inverso')}
+ ${result.daYun.startAge}${locale === 'zh-CN' ? '岁起运' : locale === 'en' ? 'yo start' : locale === 'ru' ? ' лет' : ' años'}：${dyText}`,
       liuNian: result.liuNian
-        ? `${result.liuNian.year}年 · ${getGanzhiText(result.liuNian.pillar.ganIndex, result.liuNian.pillar.zhiIndex)}`
+        ? `${result.liuNian.year}${locale === 'zh-CN' ? '年' : ''} · ${getGanzhiText(result.liuNian.pillar.ganIndex, result.liuNian.pillar.zhiIndex)}`
         : '未知',
     };
   }, [result, input, genderText]);
@@ -115,7 +127,7 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
       {/* ===== 出生信息摘要 ===== */}
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-4 text-center">
         <p className="text-sm text-gray-500">
-          {input.year}年{input.month}月{input.day}日 · {hourText} · {genderText}
+          {input.year}{locale === 'zh-CN' ? '年' : ''}{input.month}{locale === 'zh-CN' ? '月' : '/'}{input.day}{locale === 'zh-CN' ? '日' : ''} · {hourText} · {genderText}
         </p>
       </div>
 
@@ -141,10 +153,12 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
           {pillars.map((p, i) => (
             <div key={`gan-${i}`} className="p-3 text-center">
               <span className="text-2xl font-bold text-gray-900">
-                {getGanText(p.ganIndex)}
+                {getGanText(p.ganIndex, locale)}
               </span>
               {i === 2 && (
-                <span className="block text-xs text-amber-600 mt-0.5">日主</span>
+                <span className="block text-xs text-amber-600 mt-0.5">
+                  {locale === 'zh-CN' ? '日主' : locale === 'en' ? 'Master' : locale === 'ru' ? 'Хозяин' : 'Maestro'}
+                </span>
               )}
             </div>
           ))}
@@ -154,7 +168,7 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
             <div key={`ss-${i}`} className="p-1 text-center">
               {i !== 2 ? (
                 <span className="text-xs text-gray-500">
-                  {getShishenText(ss)}
+                  {getShishenText(ss, locale)}
                 </span>
               ) : (
                 <span className="text-xs text-amber-600 font-medium">日元</span>
@@ -169,7 +183,7 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
           {pillars.map((p, i) => (
             <div key={`zhi-${i}`} className="p-3 text-center">
               <span className="text-2xl font-bold text-gray-900">
-                {getZhiText(p.zhiIndex)}
+                {getZhiText(p.zhiIndex, locale)}
               </span>
             </div>
           ))}
@@ -195,7 +209,7 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
             return (
               <div key={i} className="flex items-center gap-3">
                 <span className="w-8 text-sm font-medium text-gray-700 text-right">
-                  {getWuxingText(i)}
+                  {getWuxingText(i, locale)}
                 </span>
                 <div className="flex-1 h-5 bg-gray-100 rounded-full overflow-hidden">
                   <div
@@ -213,10 +227,10 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
       </div>
 
       {/* ===== 大运 ===== */}
-      <DaYunDisplay daYun={result.daYun} />
+      <DaYunDisplay daYun={result.daYun} locale={locale} />
 
       {/* ===== 当前流年 ===== */}
-      <LiuNianDisplay liuNian={result.liuNian} currentYear={new Date().getFullYear()} />
+      <LiuNianDisplay liuNian={result.liuNian} currentYear={new Date().getFullYear()} locale={locale} />
 
       {/* ===== AI 命理报告 ===== */}
       <AiReading params={readingParams} autoFetch={autoFetchReading} />
@@ -228,15 +242,18 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
  * 大运展示组件
  */
 function DaYunDisplay({
-  daYun,
+  daYun, locale = 'zh-CN'
 }: {
-  daYun: ReturnType<typeof calcBaZi>['daYun'];
+  daYun: ReturnType<typeof calcBaZi>['daYun']; locale?: string
 }) {
   return (
     <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
       <h3 className="text-base font-bold text-gray-900 mb-4">大运</h3>
       <p className="text-xs text-gray-500 mb-3">
-        {daYun.isShun ? '顺排' : '逆排'} · {daYun.startAge}岁起运
+        {daYun.isShun
+          ? (locale === 'zh-CN' ? '顺排' : locale === 'en' ? 'Forward' : locale === 'ru' ? 'Прямой' : 'Directo')
+          : (locale === 'zh-CN' ? '逆排' : locale === 'en' ? 'Reverse' : locale === 'ru' ? 'Обратный' : 'Inverso')}
+        · {daYun.startAge}{locale === 'zh-CN' ? '岁起运' : locale === 'en' ? 'yo start' : locale === 'ru' ? ' лет старт' : ' años inicio'}
       </p>
       <div className="flex flex-wrap gap-2">
         {daYun.pillars.map((p, i) => {
@@ -265,11 +282,10 @@ function DaYunDisplay({
  * 流年展示组件
  */
 function LiuNianDisplay({
-  liuNian,
-  currentYear,
+  liuNian, currentYear, locale = 'zh-CN'
 }: {
   liuNian?: { year: number; pillar: { ganIndex: number; zhiIndex: number } };
-  currentYear: number;
+  currentYear: number; locale?: string
 }) {
   if (!liuNian) return null;
 
@@ -285,8 +301,8 @@ function LiuNianDisplay({
         <div>
           <p className="text-2xl font-bold text-gray-900">{liuNian.year}年</p>
           <p className="text-sm text-gray-500">
-            流年干支：{getGanText(liuNian.pillar.ganIndex)}
-            {getZhiText(liuNian.pillar.zhiIndex)}
+            {locale === 'zh-CN' ? '流年干支' : locale === 'en' ? 'Year Pillar' : locale === 'ru' ? 'Столп года' : 'Pilar del año'}：{getGanText(liuNian.pillar.ganIndex, locale)}
+            {getZhiText(liuNian.pillar.zhiIndex, locale)}
           </p>
         </div>
       </div>

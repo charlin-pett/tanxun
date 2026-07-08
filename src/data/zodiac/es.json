@@ -1,0 +1,134 @@
+{
+  "0": {
+    "name": "Aries", "englishName": "Aries",
+    "date": "21 mar – 19 abr", "element": "Fuego", "ruler": "Marte",
+    "keywords": ["Apasionado", "Impulsivo", "Valiente", "Directo", "Aventurero", "Seguro"],
+    "strengths": ["Valentía", "Entusiasmo", "Liderazgo natural", "Determinación", "Honestidad"],
+    "weaknesses": ["Impaciencia", "Genio vivo", "Falta de tacto", "Competitividad", "Impulsividad"],
+    "personality": "Aries es la chispa original del zodíaco. Regido por Marte, el planeta de la acción y el deseo, quienes nacen bajo este signo son pioneros natos que se lanzan de cabeza a la vida. Poseen una vitalidad contagiosa y un entusiasmo casi infantil por las nuevas empresas. Son directos hasta la crudeza: un Aries te dirá exactamente lo que piensa, sin rodeos ni segundas intenciones. Su valentía es genuina: donde otros dudan, ellos saltan. El lado oscuro de Aries es su mal genio y su tendencia a actuar primero y pensar después. La paciencia no es su virtud. Pero su honestidad y su capacidad para empezar de nuevo los hacen infinitamente resilientes.",
+    "love": "En el amor, Aries es un conquistador apasionado. Disfrutan la emoción de la caza y aportan un fuego intenso al romance. Necesitan una pareja que pueda igualar su energía y darles espacio. Un Aries enamorado es ferozmente leal, aunque necesita emoción para mantenerse interesado.",
+    "career": "Aries brilla en roles que premian la iniciativa: emprendedor, atleta, militar, cirujano, bombero. Necesitan autonomía y se ahogan en jerarquías rígidas.",
+    "fortune": "Números de la suerte: 1 y 9. Colores de la suerte: rojo y blanco. Dirección: Este."
+  },
+  "1": {
+    "name": "Tauro", "englishName": "Taurus",
+    "date": "20 abr – 20 may", "element": "Tierra", "ruler": "Venus",
+    "keywords": ["Constante", "Determinado", "Práctico", "Paciente", "Sensual", "Leal"],
+    "strengths": ["Fiabilidad", "Persistencia", "Sentido estético", "Inteligencia financiera", "Lealtad"],
+    "weaknesses": ["Terquedad", "Resistencia al cambio", "Posesividad", "Comodidad excesiva", "Lentitud"],
+    "personality": "Tauro es el ancla del zodíaco. Regido por Venus, el planeta del amor y la belleza, los tauro construyen su vida lenta, sólida y hermosamente. No se apresuran. Se toman su tiempo para evaluar, decidir y comprometerse. Una vez que lo hacen, son inamovibles. Esto los hace extraordinariamente fiables, pero también profundamente tercos. Encuentran consuelo en lo familiar: buena comida, entornos hermosos, el tacto de un ser querido. Su relación con el dinero es práctica, no codiciosa. Cuando un Tauro se fija una meta, superará cualquier obstáculo con pura perseverancia.",
+    "love": "Tauro ama profunda y constantemente. No le interesan los romances fugaces: busca un amor que se haga más fuerte con el tiempo. El afecto físico, la lealtad y las rutinas compartidas importan más que los grandes gestos.",
+    "career": "Destaca en carreras que premian la paciencia: analista financiero, chef, arquitecto, paisajista, contable, sumiller. Tauro rinde mejor en entornos estables.",
+    "fortune": "Números de la suerte: 2 y 6. Colores de la suerte: verde y rosa. Dirección: Noreste."
+  },
+  "2": {
+    "name": "Géminis", "englishName": "Gemini",
+    "date": "21 may – 20 jun", "element": "Aire", "ruler": "Mercurio",
+    "keywords": ["Curioso", "Versátil", "Ingenioso", "Comunicativo", "Intelectual", "Lúdico"],
+    "strengths": ["Mente rápida", "Comunicador brillante", "Alta adaptabilidad", "Curiosidad insaciable", "Carisma social"],
+    "weaknesses": ["Dispersión", "Tendencia superficial", "Inconstancia", "Falta de profundidad", "Nerviosismo"],
+    "personality": "Géminis es el eterno estudiante del zodíaco, impulsado por una sed insaciable de conocimiento. Regido por Mercurio, el planeta de la comunicación, los géminis procesan el mundo a través de la conversación y el intelecto. Son las mentes más rápidas de la sala, capaces de ver todos los ángulos de un argumento en segundos. Su encanto es natural: pueden hablar con cualquiera sobre cualquier cosa y hacerlo fascinante. Pero la misma energía inquieta que los hace brillantes conversadores también los hace difíciles de atrapar. Sus intereses cambian como el viento. A veces sacrifican profundidad por variedad, pero su versatilidad no tiene igual.",
+    "love": "Géminis necesita una pareja que pueda seguirle intelectualmente. El aburrimiento es la forma más rápida de perder su corazón. Necesitan conversación, variedad y estimulación mental. Detrás de su volubilidad hay una lealtad sorprendente cuando encuentran a alguien que realmente les entiende.",
+    "career": "Perfecto para roles dinámicos: periodista, presentador, ejecutivo de ventas, estratega, traductor, profesor. Géminis prospera en la variedad y muere en la rutina.",
+    "fortune": "Números de la suerte: 5 y 7. Colores de la suerte: amarillo y azul cielo. Dirección: Noroeste."
+  },
+  "3": {
+    "name": "Cáncer", "englishName": "Cancer",
+    "date": "21 jun – 22 jul", "element": "Agua", "ruler": "Luna",
+    "keywords": ["Protector", "Intuitivo", "Emocional", "Cariñoso", "Hogareño", "Tenaz"],
+    "strengths": ["Empatía profunda", "Memoria prodigiosa", "Amor familiar", "Intuición aguda", "Lealtad inquebrantable"],
+    "weaknesses": ["Susceptibilidad", "Cambios de humor", "Apego excesivo", "Dependencia emocional", "Dificultad para soltar"],
+    "personality": "Cáncer es el corazón del zodíaco: profundo, sensible y ferozmente protector con quienes ama. Regido por la Luna, que cambia de forma cada noche, los cáncer sienten intensamente cada emoción. Su intuición es casi psíquica; pueden entrar en una habitación y percibir al instante su estado de ánimo. El hogar y la familia son los pilares de su mundo. Son los que recuerdan cumpleaños, guardan álbumes de fotos, cocinan los sabores de la infancia. Su caparazón es real: cuando los hieren, se retiran a su interior. Pero dentro de ese caparazón late uno de los corazones más tiernos del zodíaco.",
+    "love": "Cáncer ama cuidando. Muestra su afecto a través de actos de servicio, recordando los pequeños detalles, creando un hogar. Necesita seguridad emocional y se vuelve ansioso sin ella. Pero cuando se siente seguro, su amor es profundo como el océano.",
+    "career": "Destaca en profesiones de cuidado: terapeuta, enfermero, profesor, trabajador social, diseñador de interiores, chef. Cáncer rinde mejor en ambientes que se sienten como familia.",
+    "fortune": "Números de la suerte: 3 y 8. Colores de la suerte: plata y blanco. Dirección: Norte."
+  },
+  "4": {
+    "name": "Leo", "englishName": "Leo",
+    "date": "23 jul – 22 ago", "element": "Fuego", "ruler": "Sol",
+    "keywords": ["Confiado", "Generoso", "Orgulloso", "Carismático", "Creativo", "Cálido"],
+    "strengths": ["Carisma natural", "Generosidad", "Brillantez creativa", "Confianza inquebrantable", "Lealtad real"],
+    "weaknesses": ["Hipersensible a la crítica", "Arrogancia", "Tendencia al drama", "Necesidad de admiración", "Orgullo herido"],
+    "personality": "Leo es el sol del zodíaco: radiante, cálido e imposible de ignorar. Regido por el Sol mismo, los leo son actores natos con un sentido innato del drama y la majestad. Entran en una sala y captan la atención sin decir una palabra. Su generosidad es legendaria. Son ferozmente leales a su círculo. El lado oscuro de Leo es el orgullo. Necesitan reconocimiento y se marchitan sin admiración. Pero su calidez y magnanimidad son genuinas: quieren que todos brillen, aunque ellos brillen un poco más.",
+    "love": "Leo ama de manera grandiosa y teatral. Quiere una pareja que le adore y no tenga miedo de mostrarlo. El romance con un Leo son cenas a la luz de velas, regalos sorpresa y declaraciones públicas. A cambio, protegerá y elevará a su pareja con todas sus fuerzas.",
+    "career": "Triunfa en el centro del escenario: actor, director, CEO, político, diseñador, organizador de eventos. Leo necesita un escenario y un papel que le permita inspirar.",
+    "fortune": "Números de la suerte: 1 y 4. Colores de la suerte: dorado y naranja. Dirección: Sur."
+  },
+  "5": {
+    "name": "Virgo", "englishName": "Virgo",
+    "date": "23 ago – 22 sep", "element": "Tierra", "ruler": "Mercurio",
+    "keywords": ["Analítico", "Meticuloso", "Práctico", "Modesto", "Trabajador", "Refinado"],
+    "strengths": ["Atención al detalle", "Claridad intelectual", "Ética laboral", "Modestia", "Habilidad para resolver problemas"],
+    "weaknesses": ["Hipercrítico", "Tendencia a preocuparse", "Perfeccionismo paralizante", "Exigente", "Reservado emocionalmente"],
+    "personality": "Virgo es el artesano del zodíaco, que pule todo lo que toca. Regido por Mercurio, los virgo poseen una mente que analiza y ordena con precisión quirúrgica. Nada escapa a su atención. Este don los convierte en magníficos editores, sanadores y solucionadores de problemas. Pero también viene con un crítico interior que nunca descansa. Su juez más duro son ellos mismos. Pueden perderse en la búsqueda de la perfección. Su modestia es genuina: prefieren mejorar el trabajo a llevarse el crédito. Bajo la superficie crítica yace un profundo deseo de ser útiles, de servir, de hacer las cosas mejores.",
+    "love": "Virgo demuestra amor a través de actos de servicio y devoción silenciosa. Notan lo que necesitas antes de que lo digas. Pueden ser reservados emocionalmente, pero su amor se demuestra con fiabilidad y cuidado constante.",
+    "career": "Perfecto para roles detallistas: médico, analista de datos, editor, investigador, ingeniero de software, nutricionista. La precisión de Virgo es insuperable.",
+    "fortune": "Números de la suerte: 5 y 9. Colores de la suerte: gris y beige. Dirección: Suroeste."
+  },
+  "6": {
+    "name": "Libra", "englishName": "Libra",
+    "date": "23 sep – 22 oct", "element": "Aire", "ruler": "Venus",
+    "keywords": ["Diplomático", "Encantador", "Justo", "Elegante", "Social", "Artístico"],
+    "strengths": ["Diplomacia natural", "Sentido de la justicia", "Gusto exquisito", "Gracia social", "Espíritu colaborador"],
+    "weaknesses": ["Indecisión", "Huida del conflicto", "Superficialidad", "Dependencia de otros", "Complacencia"],
+    "personality": "Libra es el diplomático del zodíaco, siempre buscando equilibrio, armonía y belleza. Regido por Venus, los libra tienen un sentido innato de la elegancia y la proporción. Son quienes suavizan conflictos, encuentran el término medio, se aseguran de que todos se sientan escuchados. Su inteligencia social es extraordinaria. Pero este don tiene un precio: pueden volverse tan hábiles viendo ambos lados que pierden de vista el suyo propio. La indecisión es su talón de Aquiles. Necesitan la sociedad y les cuesta estar solos.",
+    "love": "Libra es un romántico empedernido que cree en el amor de cuento de hadas. Es un compañero encantador y atento que crea relaciones hermosas. Pero necesita una pareja que le ayude a decidir y que valore la armonía tanto como él.",
+    "career": "Destaca en roles que requieren diplomacia: diplomático, abogado, juez, diseñador, relaciones públicas, recursos humanos. Libra florece en entornos elegantes y colaborativos.",
+    "fortune": "Números de la suerte: 6 y 8. Colores de la suerte: azul y rosa. Dirección: Oeste."
+  },
+  "7": {
+    "name": "Escorpio", "englishName": "Scorpio",
+    "date": "23 oct – 21 nov", "element": "Agua", "ruler": "Plutón/Marte",
+    "keywords": ["Intenso", "Misterioso", "Apasionado", "Ingenioso", "Decidido", "Perceptivo"],
+    "strengths": ["Intuición extraordinaria", "Determinación inquebrantable", "Profundidad emocional", "Recurso bajo presión", "Buscador de la verdad"],
+    "weaknesses": ["Celos", "Secretismo", "Actitud vengativa", "Obsesión", "Desconfianza"],
+    "personality": "Escorpio es el signo más intenso del zodíaco — un pozo profundo de emoción, poder y misterio. Regido por Plutón y Marte, los escorpio están impulsados por la necesidad de penetrar bajo la superficie de todo. No les interesan las conversaciones superficiales. Quieren saber lo que te mueve, lo que escondes, lo que temes. Su intuición es afilada como una navaja. Cuando un Escorpio se compromete con algo, lo persigue con una concentración que roza la obsesión. Son capaces de transformaciones extraordinarias, renaciendo de sus cenizas. La confianza de un Escorpio es difícil de ganar, pero una vez dada, es absoluta.",
+    "love": "Escorpio ama con entrega total. Su pasión lo consume todo y exige la misma profundidad de su pareja. Los celos y la posesividad pueden aparecer, pero nacen de una devoción profunda. El amor de un Escorpio, una vez ganado, es inquebrantable.",
+    "career": "Creado para roles de profundidad: detective, psicólogo, cirujano, investigador, periodista de investigación, estratega. Escorpio sobresale donde otros temen mirar.",
+    "fortune": "Números de la suerte: 2 y 7. Colores de la suerte: negro y rojo profundo. Dirección: Norte."
+  },
+  "8": {
+    "name": "Sagitario", "englishName": "Sagittarius",
+    "date": "22 nov – 21 dic", "element": "Fuego", "ruler": "Júpiter",
+    "keywords": ["Optimista", "Aventurero", "Filósofo", "Honesto", "Espíritu libre", "Humorístico"],
+    "strengths": ["Optimismo sin límites", "Curiosidad intelectual", "Honestidad brutal", "Espíritu aventurero", "Gran sentido del humor"],
+    "weaknesses": ["Falta de tacto", "Inquietud", "Miedo al compromiso", "Promesas excesivas", "Impaciencia con los detalles"],
+    "personality": "Sagitario es el arquero del zodíaco, siempre apuntando al horizonte. Regido por Júpiter, el planeta de la expansión y la suerte, los sagitario están impulsados por un deseo inquieto de explorar. Son los filósofos, los viajeros, los que preguntan '¿y si...?' y van a averiguarlo. Su optimismo es contagioso. Son brutalmente honestos — a veces dolorosamente — porque creen que la verdad, por incómoda que sea, siempre es mejor que una mentira cómoda. El desafío de Sagitario es el compromiso. Teme estar atado a un lugar, una persona o una rutina. Su libertad es sagrada.",
+    "love": "Sagitario necesita una pareja que sea también una compañera de aventuras. Alguien que diga que sí a un viaje espontáneo, que comparta su amor por el aprendizaje, que no intente enjaularlo. El amor con un Sagitario es un viaje emocionante.",
+    "career": "Triunfa en roles que ofrecen libertad: escritor de viajes, fotógrafo, profesor, filósofo, guía, piloto, emprendedor. Sagitario no puede estar encerrado en una oficina.",
+    "fortune": "Números de la suerte: 3 y 7. Colores de la suerte: púrpura y azul profundo. Dirección: Sur."
+  },
+  "9": {
+    "name": "Capricornio", "englishName": "Capricorn",
+    "date": "22 dic – 19 ene", "element": "Tierra", "ruler": "Saturno",
+    "keywords": ["Ambicioso", "Disciplinado", "Responsable", "Práctico", "Reservado", "Perseverante"],
+    "strengths": ["Disciplina excepcional", "Responsabilidad", "Visión estratégica", "Paciencia", "Autoridad silenciosa"],
+    "weaknesses": ["Excesiva seriedad", "Adicción al trabajo", "Reserva emocional", "Pesimismo", "Rigidez"],
+    "personality": "Capricornio es el escalador de montañas del zodíaco. Regido por Saturno, el planeta de la estructura y el tiempo, los capricornio entienden mejor que ningún otro signo que las grandes cosas se construyen lentamente. No les interesan los atajos. Juegan a largo plazo. Su determinación es silenciosa pero absoluta. Su sentido de la responsabilidad es tanto su mayor fortaleza como su carga más pesada. Toman más de lo que les corresponde porque confían en su propia capacidad. Bajo el exterior serio hay un ingenio seco y una profunda capacidad de lealtad, pero hay que ganarse el derecho a verlo.",
+    "love": "Capricornio ama construyendo. Demuestra compromiso a través de la fiabilidad, la presencia, el cuidado. Puede no ser el signo más romántico, pero su amor se demuestra a lo largo de una vida. Necesita una pareja que respete su ambición.",
+    "career": "Destinado al liderazgo: CEO, banquero, abogado, ingeniero, arquitecto, funcionario. Capricornio nació para escalar.",
+    "fortune": "Números de la suerte: 8 y 4. Colores de la suerte: marrón y negro. Dirección: Noreste."
+  },
+  "10": {
+    "name": "Acuario", "englishName": "Aquarius",
+    "date": "20 ene – 18 feb", "element": "Aire", "ruler": "Urano/Saturno",
+    "keywords": ["Innovador", "Independiente", "Humanista", "Excéntrico", "Intelectual", "Visionario"],
+    "strengths": ["Originalidad brillante", "Sentido de la justicia", "Profundidad intelectual", "Valores humanitarios", "Visión de futuro"],
+    "weaknesses": ["Distancia emocional", "Rebeldía", "Frialdad", "Impredecibilidad", "Terquedad poco convencional"],
+    "personality": "Acuario es el visionario del zodíaco, nacido un siglo antes de su tiempo. Regido por Urano, el planeta de la innovación, los acuario ven el mundo no como es, sino como podría ser. Son los inventores, los activistas, los que cuestionan todas las suposiciones. Su mente está programada para lo no convencional. Valoran su independencia por encima de todo. Pueden parecer distantes emocionalmente porque procesan el mundo a través del intelecto. Pero tras esa distancia hay una profunda preocupación por la humanidad. A un Acuario le importa la justicia, el progreso, el bien colectivo — aunque a veces le cueste conectar a nivel individual.",
+    "love": "Acuario necesita una pareja que respete su independencia y comparta sus pasiones intelectuales. No le interesan las relaciones convencionales. Busca una unión de mentes, una sociedad que permita a ambos crecer. La intensidad emocional le abruma — dale espacio y se acercará.",
+    "career": "Perfecto para roles de futuro: científico, inventor, programador, activista, astronauta, futurista. Acuario prospera en la vanguardia.",
+    "fortune": "Números de la suerte: 4 y 1. Colores de la suerte: azul cielo y plata. Dirección: Noroeste."
+  },
+  "11": {
+    "name": "Piscis", "englishName": "Pisces",
+    "date": "19 feb – 20 mar", "element": "Agua", "ruler": "Neptuno/Júpiter",
+    "keywords": ["Soñador", "Compasivo", "Artístico", "Intuitivo", "Gentil", "Abnegado"],
+    "strengths": ["Creatividad sin límites", "Empatía profunda", "Genio artístico", "Profundidad espiritual", "Naturaleza adaptable"],
+    "weaknesses": ["Fácil abrumamiento", "Evasión de la realidad", "Excesiva confianza", "Falta de límites", "Melancolía"],
+    "personality": "Piscis es el soñador del zodíaco, el que siente el dolor y la belleza del mundo con más intensidad que nadie. Regido por Neptuno, el planeta de los sueños y la ilusión, los piscis habitan un mundo entre la realidad y la imaginación. Son los artistas, los místicos, los que oyen música en el silencio. Su empatía es extraordinaria — absorben las emociones de todos, a veces en su propio detrimento. Los límites son su desafío; dan y dan hasta que no queda nada. Su creatividad fluye de un pozo profundo de imágenes del subconsciente. El lado oscuro de Piscis es la tendencia a evadirse — a través de la fantasía, buscando cualquier puerta de salida de un mundo que suele ser demasiado duro para su alma gentil.",
+    "love": "Piscis ama como un poema — romántico, abnegado, ligeramente irreal. Busca un alma gemela, una unión de espíritus. Su desafío es encontrar una pareja con los pies en la tierra que no aplaste sus hermosos sueños.",
+    "career": "Destaca en profesiones creativas: artista, músico, escritor, terapeuta, sanador, fotógrafo, cineasta. Piscis brilla cuando transforma su profundidad emocional en creación.",
+    "fortune": "Números de la suerte: 7 y 3. Colores de la suerte: azul marino y púrpura. Dirección: Sureste."
+  }
+}

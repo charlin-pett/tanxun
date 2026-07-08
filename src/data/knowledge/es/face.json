@@ -1,0 +1,24 @@
+[
+  {
+    "id": "face-intro",
+    "title": "Lectura Facial — El Rostro como Espejo del Alma",
+    "summary": "La lectura facial china analiza los rasgos del rostro para revelar el carácter y el destino.",
+    "content": "La lectura facial (面相) es una práctica china ancestral basada en el principio de que el rostro refleja la mente.\n\n【Los Doce Palacios del Rostro】\n- Palacio de la Vida (entre cejas): energía vital\n- Palacio de la Riqueza (punta de la nariz): finanzas\n- Palacio de los Hermanos (cejas): relaciones familiares\n- Palacio del Cónyuge (comisuras de ojos): matrimonio\n- Palacio de los Hijos (bajo los ojos): descendencia\n\n【Los Cinco Órganos del Rostro】\nOrejas: infancia, energía renal. Cejas: relaciones, longevidad. Ojos: sabiduría, espíritu. Nariz: riqueza. Boca: expresión, destino.",
+    "tags": [
+      "lectura facial",
+      "rostro",
+      "carácter"
+    ]
+  },
+  {
+    "id": "palm-intro",
+    "title": "Quiromancia — El Universo en tus Manos",
+    "summary": "La quiromancia china lee las líneas, formas y montes de la mano para revelar el carácter y el destino.",
+    "content": "La quiromancia (手相) es el arte tradicional de leer el mapa de la vida en las líneas de las manos.\n\n【Las Tres Líneas Principales】\n1. Línea de la Vida: rodea el pulgar. Salud y vitalidad.\n2. Línea de la Cabeza: cruza la palma. Intelecto.\n3. Línea del Corazón: sobre la línea de la cabeza. Emociones.\n\n【Líneas Secundarias】\n- Línea del Matrimonio: bajo el meñique\n- Línea del Destino: desde la muñeca al dedo medio\n- Línea del Sol: bajo el anular, fama y creatividad",
+    "tags": [
+      "quiromancia",
+      "líneas de la mano",
+      "destino"
+    ]
+  }
+]

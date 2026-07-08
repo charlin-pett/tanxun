@@ -1,0 +1,134 @@
+{
+  "0": {
+    "name": "Aries", "englishName": "Aries",
+    "date": "Mar 21 – Apr 19", "element": "Fire", "ruler": "Mars",
+    "keywords": ["Passionate", "Impulsive", "Courageous", "Direct", "Adventurous", "Confident"],
+    "strengths": ["Fearless and decisive", "Boundless enthusiasm", "Natural leader", "Action-oriented", "Honest and straightforward"],
+    "weaknesses": ["Impulsive temper", "Impatient nature", "Easily bored", "Poor listener", "Overcompetitive"],
+    "personality": "Aries is the first sign of the zodiac, and those born under it carry the energy of a spark about to catch fire. Ruled by Mars, the planet of action and desire, Arians are natural pioneers who charge headfirst into life. They possess an infectious vitality and an almost childlike enthusiasm for new ventures. Direct to a fault, an Aries will tell you exactly what they think — there is no subtlety, no hidden agenda. Their courage is genuine: where others hesitate, they leap. The shadow side of Aries is a short fuse and a tendency to act first and think later. Patience does not come easily, and they can be frustrated by anything that moves too slowly. But their honesty and ability to start over make them endlessly resilient.",
+    "love": "In love, Aries is a passionate pursuer. They thrive on the thrill of the chase and bring intense heat to romance. They need a partner who can match their energy and give them space to be themselves. An Aries in love is fiercely loyal, but they need excitement to stay engaged.",
+    "career": "Aries excels in roles that reward initiative and boldness: entrepreneur, athlete, military officer, firefighter, surgeon, or startup founder. They lead best when given autonomy and struggle in rigid hierarchies.",
+    "fortune": "Lucky numbers: 1 and 9. Lucky colors: red and white. Lucky direction: East."
+  },
+  "1": {
+    "name": "Taurus", "englishName": "Taurus",
+    "date": "Apr 20 – May 20", "element": "Earth", "ruler": "Venus",
+    "keywords": ["Steadfast", "Determined", "Practical", "Patient", "Sensual", "Loyal"],
+    "strengths": ["Reliable and grounded", "Remarkable endurance", "Keen aesthetic sense", "Financial shrewdness", "Devoted loyalty"],
+    "weaknesses": ["Stubborn to a fault", "Resistant to change", "Possessive streak", "Can be indulgent", "Slow to adapt"],
+    "personality": "Taurus is the anchor of the zodiac. Born under the sign of the Bull and ruled by Venus, Taureans are creatures of stability and sensual pleasure. They are the ones who build slowly, steadily, and beautifully — whether that means a career, a home, or a relationship. A Taurus does not rush. They take their time to assess, to decide, and to commit. Once they do, they are immovable. This makes them extraordinarily reliable but also deeply stubborn. They find comfort in the familiar — good food, beautiful surroundings, the touch of someone they love. Their relationship with money is practical and rooted in a desire for security, not greed. When a Taurus sets a goal, they will outlast every obstacle through sheer persistence.",
+    "love": "Taurus loves deeply and steadily. They are not interested in fleeting romance — they want a love that grows deeper with time. Physical affection, loyalty, and shared routines matter more than grand gestures. Their possessiveness comes from a place of devotion, not control.",
+    "career": "Thrives in careers that reward patience and craftsmanship: financial analyst, chef, architect, landscape designer, accountant, or winemaker. Taurus does best in stable environments where their efforts compound over time.",
+    "fortune": "Lucky numbers: 2 and 6. Lucky colors: green and pink. Lucky direction: Northeast."
+  },
+  "2": {
+    "name": "Gemini", "englishName": "Gemini",
+    "date": "May 21 – Jun 20", "element": "Air", "ruler": "Mercury",
+    "keywords": ["Curious", "Adaptable", "Witty", "Talkative", "Intellectual", "Playful"],
+    "strengths": ["Rapid thinker", "Brilliant communicator", "Highly adaptable", "Insatiable curiosity", "Charming and sociable"],
+    "weaknesses": ["Easily distracted", "Superficial tendencies", "Moody and restless", "Can be inconsistent", "Difficulty committing"],
+    "personality": "Gemini is the eternal student of the zodiac, driven by an insatiable hunger to know, to explore, and to connect. Ruled by Mercury, the messenger planet, Geminis process the world through conversation and intellect. They are the quickest minds in the room, capable of seeing every angle of an argument in seconds. Their charm is effortless — they can talk to anyone about anything and make it fascinating. But the same restless energy that makes them brilliant conversationalists also makes them hard to pin down. A Gemini's interests shift like the wind, and they can abandon a passion project mid-stride because something shinier caught their eye. Depth can sometimes be sacrificed for breadth, but their versatility is unmatched.",
+    "love": "Gemini needs a partner who can keep up intellectually. Boredom is the fastest way to lose a Gemini's heart. They crave conversation, variety, and mental stimulation. Though they can seem flighty, once a Gemini finds someone who truly understands them, they can be surprisingly devoted.",
+    "career": "Best suited for dynamic, people-oriented roles: journalist, podcaster, sales executive, strategist, translator, teacher, or product manager. Gemini thrives on variety and dies by routine.",
+    "fortune": "Lucky numbers: 5 and 7. Lucky colors: yellow and sky blue. Lucky direction: Northwest."
+  },
+  "3": {
+    "name": "Cancer", "englishName": "Cancer",
+    "date": "Jun 21 – Jul 22", "element": "Water", "ruler": "Moon",
+    "keywords": ["Nurturing", "Intuitive", "Emotional", "Protective", "Tenacious", "Home-loving"],
+    "strengths": ["Deeply caring", "Remarkable memory", "Strong family values", "Keen intuition", "Loyal to the core"],
+    "weaknesses": ["Overly sensitive", "Mood swings", "Clingy tendencies", "Easily hurt", "Struggles to let go"],
+    "personality": "Cancer is the heart of the zodiac — deep, feeling, and fiercely protective of those they love. Ruled by the Moon, which changes shape every night, Cancerians are deeply attuned to the emotional tides around them. They feel everything intensely: joy, sorrow, love, fear. Their intuition is almost psychic; they can walk into a room and instantly sense the mood. Home and family are the bedrock of a Cancer's world. They are the ones who remember birthdays, who keep photo albums, who cook the meals that taste like childhood. Their shell is real — when hurt, they retreat into themselves and may not come out for a long time. But inside that shell is one of the most tender hearts in the zodiac.",
+    "love": "Cancer loves by nurturing. They show affection through acts of service, through remembering the little things, through creating a home. They need reassurance and can become anxious without it. But once secure, their love is as deep as the ocean.",
+    "career": "Excels in caring and creative roles: therapist, nurse, teacher, social worker, interior designer, chef, or historian. Cancer works best in environments that feel like family.",
+    "fortune": "Lucky numbers: 3 and 8. Lucky colors: silver and white. Lucky direction: North."
+  },
+  "4": {
+    "name": "Leo", "englishName": "Leo",
+    "date": "Jul 23 – Aug 22", "element": "Fire", "ruler": "Sun",
+    "keywords": ["Confident", "Generous", "Proud", "Charismatic", "Creative", "Warm-hearted"],
+    "strengths": ["Natural charisma", "Magnificent generosity", "Creative brilliance", "Unshakeable confidence", "Royal loyalty"],
+    "weaknesses": ["Thin-skinned to criticism", "Can be arrogant", "Dramatic tendencies", "Needs constant admiration", "Stubborn pride"],
+    "personality": "Leo is the sun of the zodiac — radiant, warm, and impossible to ignore. Ruled by the Sun itself, Leos are born performers with an innate sense of drama and majesty. They walk into a room and command attention without saying a word. Their generosity is legendary: a Leo will give you the shirt off their back and throw a party while doing it. They are fiercely loyal to their circle and will defend their loved ones with the ferocity of a lioness protecting her cubs. The shadow side of Leo is pride. They crave recognition and can wilt under criticism. An ignored Leo is a wounded Leo. But their warmth and magnanimity are genuine — they want everyone around them to shine, as long as they can shine the brightest.",
+    "love": "Leo loves grandly and theatrically. They want a partner who adores them and isn't afraid to show it. Romance with a Leo is candlelit dinners, surprise gifts, and public declarations. In return, they will protect and elevate their partner with all their might.",
+    "career": "Thrives on center stage: performer, director, CEO, politician, designer, event planner, or motivational speaker. Leo needs an audience and a role that lets them inspire.",
+    "fortune": "Lucky numbers: 1 and 4. Lucky colors: gold and orange. Lucky direction: South."
+  },
+  "5": {
+    "name": "Virgo", "englishName": "Virgo",
+    "date": "Aug 23 – Sep 22", "element": "Earth", "ruler": "Mercury",
+    "keywords": ["Analytical", "Meticulous", "Practical", "Modest", "Hardworking", "Refined"],
+    "strengths": ["Keen attention to detail", "Intellectual clarity", "Strong work ethic", "Modest and humble", "Problem-solving genius"],
+    "weaknesses": ["Overcritical", "Prone to worry", "Perfectionist paralysis", "Hard to please", "Emotionally reserved"],
+    "personality": "Virgo is the craftsman of the zodiac, honing everything they touch to a fine edge. Ruled by Mercury, Virgos possess a mind that analyzes and organizes with surgical precision. Nothing escapes their notice — a crooked picture frame, a typo in a document, a slightly off note in a conversation. This gift for discernment makes them superb editors, healers, and problem-solvers. But it also comes with an inner critic that never rests. A Virgo's own harshest judge is themselves. They can get lost in the pursuit of perfection, paralyzed by the gap between what is and what could be. Their modesty is genuine — they would rather improve the work than take the credit. Beneath the critical exterior lies a deep desire to be useful, to serve, to make things better.",
+    "love": "Virgo shows love through acts of service and quiet devotion. They notice what you need before you do and attend to it without fanfare. They can be reserved emotionally, but their love is proven through reliability and care.",
+    "career": "Perfect for detail-oriented roles: doctor, data analyst, editor, researcher, software engineer, nutritionist, or quality assurance. Virgo's precision is unmatched in any field.",
+    "fortune": "Lucky numbers: 5 and 9. Lucky colors: gray and beige. Lucky direction: Southwest."
+  },
+  "6": {
+    "name": "Libra", "englishName": "Libra",
+    "date": "Sep 23 – Oct 22", "element": "Air", "ruler": "Venus",
+    "keywords": ["Diplomatic", "Charming", "Fair-minded", "Graceful", "Social", "Artistic"],
+    "strengths": ["Natural diplomat", "Keen sense of justice", "Exquisite taste", "Socially graceful", "Collaborative spirit"],
+    "weaknesses": ["Indecisive", "Conflict-averse", "Can be superficial", "Overly dependent on others", "People-pleasing"],
+    "personality": "Libra is the diplomat of the zodiac, forever seeking balance, harmony, and beauty. Ruled by Venus, Librans have an innate sense of elegance and proportion — in art, in relationships, and in life. They are the ones who smooth over conflicts, who find the middle ground, who make sure everyone feels heard. Their social intelligence is extraordinary; they know exactly what to say to put people at ease. But this gift for harmony comes at a cost. Libras can become so adept at seeing both sides that they lose sight of their own. Indecision is their Achilles' heel — they can weigh options for so long that the moment passes. They crave partnership and struggle with being alone, sometimes staying in relationships or situations that no longer serve them because the idea of upsetting the balance is unbearable.",
+    "love": "Libra is a hopeless romantic who believes in fairy-tale love. They are charming, attentive partners who create beautiful relationships. But they need a partner who can help them make decisions and who values harmony as much as they do.",
+    "career": "Excels in roles that require diplomacy and taste: diplomat, lawyer, judge, designer, art curator, public relations, or human resources. Libra thrives in collaborative, elegant environments.",
+    "fortune": "Lucky numbers: 6 and 8. Lucky colors: blue and pink. Lucky direction: West."
+  },
+  "7": {
+    "name": "Scorpio", "englishName": "Scorpio",
+    "date": "Oct 23 – Nov 21", "element": "Water", "ruler": "Pluto/Mars",
+    "keywords": ["Intense", "Mysterious", "Passionate", "Resourceful", "Determined", "Perceptive"],
+    "strengths": ["Extraordinary intuition", "Unwavering determination", "Deep emotional capacity", "Resourceful under pressure", "Fearless truth-seeker"],
+    "weaknesses": ["Jealous tendencies", "Secretive nature", "Vengeful when wronged", "Obsessive streak", "Trust issues"],
+    "personality": "Scorpio is the most intense sign of the zodiac — a deep well of emotion, power, and mystery. Ruled by Pluto (the planet of transformation) and Mars (the planet of desire), Scorpios are driven by a need to penetrate beneath the surface of everything. They are not interested in small talk or superficial connections. They want to know what makes you tick, what you hide, what you fear. Their intuition is razor-sharp; they can sense lies and hidden motives from a mile away. Once a Scorpio commits to something — a person, a goal, a cause — they pursue it with a focus that borders on obsessive. They are capable of extraordinary transformation, rising from the ashes of their own failures like the phoenix. Trust is hard-won with a Scorpio, but once given, it is absolute.",
+    "love": "Scorpio loves with total abandon. Their passion is all-consuming, and they demand the same depth from their partner. Jealousy and possessiveness can surface, but these come from a place of profound devotion. A Scorpio's love, once earned, is unshakeable.",
+    "career": "Built for roles requiring depth and intensity: detective, psychologist, surgeon, researcher, investigative journalist, or strategist. Scorpio excels where others fear to look.",
+    "fortune": "Lucky numbers: 2 and 7. Lucky colors: black and deep red. Lucky direction: North."
+  },
+  "8": {
+    "name": "Sagittarius", "englishName": "Sagittarius",
+    "date": "Nov 22 – Dec 21", "element": "Fire", "ruler": "Jupiter",
+    "keywords": ["Optimistic", "Adventurous", "Philosophical", "Honest", "Free-spirited", "Humorous"],
+    "strengths": ["Boundless optimism", "Intellectual curiosity", "Brutal honesty", "Adventurous spirit", "Great sense of humor"],
+    "weaknesses": ["Tactless", "Restless", "Commitment-phobic", "Overpromising", "Impatient with details"],
+    "personality": "Sagittarius is the archer of the zodiac, always aiming toward the horizon. Ruled by Jupiter, the planet of expansion and luck, Sagittarians are driven by a restless desire to explore — physically, intellectually, and spiritually. They are the philosophers, the travelers, the ones who ask 'what if' and actually go find out. Their optimism is infectious; even in the darkest situations, a Sagittarius can find a reason to hope. They are brutally honest — sometimes painfully so — because they believe that truth, however uncomfortable, is always better than a comfortable lie. The Sagittarian challenge is commitment. They fear being tied down, whether to a place, a person, or a routine. Their freedom is sacred, and they will guard it fiercely.",
+    "love": "Sagittarius needs a partner who is also a fellow adventurer. They want someone who will say yes to a spontaneous trip, who shares their love of learning, who doesn't try to cage them. Love with a Sagittarius is an exciting journey, never a destination.",
+    "career": "Thrives in roles that offer freedom and exploration: travel writer, photographer, professor, philosopher, guide, pilot, or entrepreneur. Sagittarius cannot be confined to a cubicle.",
+    "fortune": "Lucky numbers: 3 and 7. Lucky colors: purple and deep blue. Lucky direction: South."
+  },
+  "9": {
+    "name": "Capricorn", "englishName": "Capricorn",
+    "date": "Dec 22 – Jan 19", "element": "Earth", "ruler": "Saturn",
+    "keywords": ["Ambitious", "Disciplined", "Responsible", "Practical", "Reserved", "Persevering"],
+    "strengths": ["Exceptional discipline", "Unshakeable responsibility", "Strategic vision", "Enduring patience", "Quiet authority"],
+    "weaknesses": ["Overly serious", "Workaholic tendencies", "Emotionally guarded", "Pessimistic streak", "Can be rigid"],
+    "personality": "Capricorn is the mountain climber of the zodiac. Ruled by Saturn, the planet of structure, discipline, and time, Capricorns understand better than any other sign that great things are built slowly. They are not interested in shortcuts or flash-in-the-pan success. They are playing the long game. A Capricorn's determination is quiet but absolute — they will be working steadily toward their goal while everyone else is still talking about theirs. Their sense of responsibility is both their greatest strength and their heaviest burden. They take on more than their share because they trust their own ability to deliver. This can lead to a life that is heavy with duty and light on pleasure. Beneath the serious exterior is a dry wit and a deep capacity for loyalty, but you have to earn the right to see it.",
+    "love": "Capricorn loves by building. They show commitment through reliability, through showing up, through providing. They may not be the most romantic sign, but their love is proven over a lifetime. They need a partner who respects their ambition and doesn't demand constant emotional exhibition.",
+    "career": "Destined for leadership: CEO, banker, lawyer, engineer, architect, government official, or any role that rewards long-term strategy. Capricorn was born to climb.",
+    "fortune": "Lucky numbers: 8 and 4. Lucky colors: brown and black. Lucky direction: Northeast."
+  },
+  "10": {
+    "name": "Aquarius", "englishName": "Aquarius",
+    "date": "Jan 20 – Feb 18", "element": "Air", "ruler": "Uranus/Saturn",
+    "keywords": ["Innovative", "Independent", "Humanitarian", "Eccentric", "Intellectual", "Visionary"],
+    "strengths": ["Brilliant originality", "Strong sense of justice", "Intellectual depth", "Humanitarian values", "Future-focused vision"],
+    "weaknesses": ["Emotionally detached", "Rebellious streak", "Can be aloof", "Unpredictable", "Stubbornly unconventional"],
+    "personality": "Aquarius is the visionary of the zodiac, born a century ahead of their time. Ruled by Uranus, the planet of innovation and rebellion, Aquarians see the world not as it is, but as it could be. They are the inventors, the activists, the ones who challenge every assumption. Their minds are wired for the unconventional — they delight in ideas that make others uncomfortable. Aquarians value their independence above all else. They need freedom to think, to experiment, to be different. They can seem detached emotionally because they process the world through intellect rather than feeling. But this detachment masks a deep concern for humanity. An Aquarius cares deeply about justice, about progress, about the collective good — even if they struggle to connect with individuals on an emotional level.",
+    "love": "Aquarius needs a partner who respects their independence and shares their intellectual passions. They are not interested in conventional relationships. They want a meeting of minds, a partnership that allows both people to grow and explore. Emotional intensity can overwhelm them — give them space, and they will come closer.",
+    "career": "Perfect for forward-thinking roles: scientist, inventor, programmer, social activist, astronaut, futurist, or humanitarian worker. Aquarius thrives at the cutting edge.",
+    "fortune": "Lucky numbers: 4 and 1. Lucky colors: sky blue and silver. Lucky direction: Northwest."
+  },
+  "11": {
+    "name": "Pisces", "englishName": "Pisces",
+    "date": "Feb 19 – Mar 20", "element": "Water", "ruler": "Neptune/Jupiter",
+    "keywords": ["Dreamy", "Compassionate", "Artistic", "Intuitive", "Gentle", "Selfless"],
+    "strengths": ["Boundless creativity", "Deep empathy", "Artistic genius", "Spiritual depth", "Adaptable nature"],
+    "weaknesses": ["Easily overwhelmed", "Escapist tendencies", "Overly trusting", "Poor boundaries", "Prone to melancholy"],
+    "personality": "Pisces is the dreamer of the zodiac, the one who feels the world's pain and beauty more acutely than anyone else. Ruled by Neptune, the planet of dreams and illusion, Pisceans inhabit a world between reality and imagination. They are the artists, the mystics, the ones who hear music in silence and see colors in darkness. Their empathy is extraordinary — they can absorb the emotions of everyone around them, sometimes to their own detriment. Boundaries are a challenge for Pisces; they give and give until there is nothing left. Their creativity flows from a deep well of subconscious imagery, making them natural poets, musicians, and healers. The shadow side of Pisces is a tendency to escape — through fantasy, through substances, through any doorway out of a world that often feels too harsh for their gentle souls.",
+    "love": "Pisces loves like a poem — romantic, selfless, and slightly unreal. They seek a soulmate, a union of spirits. They will sacrifice their own needs for the one they love. Their challenge is finding a partner who is grounded enough to keep them tethered to reality while not crushing their beautiful dreams.",
+    "career": "Excels in creative and healing professions: artist, musician, writer, therapist, healer, photographer, or filmmaker. Pisces works best when they can channel their emotional depth into creation.",
+    "fortune": "Lucky numbers: 7 and 3. Lucky colors: sea blue and purple. Lucky direction: Southeast."
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "yijing-intro",
+    "title": "What Is the I-Ching? — The Classic of Changes",
+    "summary": "The I-Ching, or Book of Changes, is the oldest and most revered of the Chinese classics. It is a philosophical guide to understanding change.",
+    "content": "The I-Ching (易经), also known as the Book of Changes, is one of the oldest and most important texts in world literature. Its origins stretch back over three thousand years to the Shang and Zhou dynasties.\n\n【Origins】\nLegend holds that Fu Xi, a mythical sage-king, created the eight trigrams by observing patterns in nature. King Wen of Zhou, while imprisoned, expanded these into the sixty-four hexagrams and wrote the judgment texts. His son, the Duke of Zhou, added the line texts. Confucius and his disciples later composed the Ten Wings, commentaries that transformed the I-Ching from a divination manual into a philosophical masterpiece.\n\n【Core Structure】\nThe I-Ching has two parts:\n- The Classic: 64 hexagrams, each made of six lines (yang ⚊ or yin ⚋), with judgment texts and line texts.\n- The Commentaries: Ten Wings that explain the philosophy behind the hexagrams.\n\n【Key Concepts】\n- Yin and Yang: The fundamental duality of the universe. All change arises from their interplay.\n- The Eight Trigrams: Heaven (☰), Earth (☷), Thunder (☳), Wind (☴), Water (☵), Fire (☲), Mountain (☶), Lake (☱).\n- The Sixty-four Hexagrams: formed by combining two trigrams, each represents a life situation.\n\n【Modern Relevance】\nThe I-Ching has influenced not only Chinese philosophy but also modern fields like systems theory, decision science, and even computer science (Leibniz saw binary numbers in the hexagrams). Its core teaching — that change is the only constant — resonates across cultures and centuries.",
+    "tags": [
+      "I-Ching",
+      "Book of Changes",
+      "introduction",
+      "philosophy"
+    ]
+  },
+  {
+    "id": "bagua",
+    "title": "The Eight Trigrams — Fundamental Forces of the Universe",
+    "summary": "The eight trigrams are the building blocks of the I-Ching, each representing a fundamental natural force.",
+    "content": "The eight trigrams (八卦) are the foundation of the I-Ching system. Each trigram consists of three lines (yin or yang) and represents a basic natural phenomenon.\n\n【Qian ☰ — Heaven】\nThree yang lines. Symbolizes creativity, strength, and initiative. Its virtue is activity. Represents the father, the head, and winter-spring transition.\n\n【Kun ☷ — Earth】\nThree yin lines. Symbolizes receptivity, nurturing, and devotion. Its virtue is yielding. Represents the mother and late summer.\n\n【Zhen ☳ — Thunder】\nOne yang under two yin. Symbolizes arousal, action, and breakthrough. Its virtue is movement. Represents spring and the east.\n\n【Xun ☴ — Wind】\nOne yin under two yang. Symbolizes penetration, gentleness, and adaptability. Its virtue is entering. Represents early summer.\n\n【Kan ☵ — Water】\nOne yang trapped between two yin. Symbolizes danger, flow, and wisdom. Its virtue is falling. Represents winter and the north.\n\n【Li ☲ — Fire】\nOne yin held between two yang. Symbolizes light, clarity, and civilization. Its virtue is radiance. Represents summer and the south.\n\n【Gen ☶ — Mountain】\nOne yang above two yin. Symbolizes stillness, rest, and stability. Its virtue is stopping. Represents the northeast.\n\n【Dui ☱ — Lake】\nOne yin above two yang. Symbolizes joy, communication, and satisfaction. Its virtue is pleasure. Represents autumn and the west.",
+    "tags": [
+      "I-Ching",
+      "trigrams",
+      "Bagua",
+      "eight trigrams"
+    ]
+  },
+  {
+    "id": "sixty-four",
+    "title": "The Structure of the Sixty-four Hexagrams",
+    "summary": "The 64 hexagrams are formed by pairing the eight trigrams, and their sequence follows a profound philosophical logic.",
+    "content": "The sixty-four hexagrams are the heart of the I-Ching. Each hexagram consists of two trigrams (six lines total) and represents a distinct archetypal situation.\n\n【Formation】\nEach of the eight trigrams is paired with every other trigram, yielding 8 × 8 = 64 hexagrams. For example, Heaven above Earth forms Pi (Standstill), while Earth above Heaven forms Tai (Peace).\n\n【The Sequence】\nThe traditional King Wen sequence arranges the hexagrams in pairs according to the principle of \"reversal or transformation.\" When a hexagram cannot be reversed (turned upside down), its lines are all changed to their opposites.\n\n【Upper and Lower Canon】\nThe 64 hexagrams are divided into two sections: the Upper Canon (hexagrams 1-30) focuses more on cosmic and natural principles, while the Lower Canon (31-64) emphasizes human relationships and social affairs.\n\n【The Final Hexagram】\nThe I-Ching ends with Wei Ji (Before Completion, hexagram 64), not with Ji Ji (Already Completed, hexagram 63). This is deeply meaningful: nothing ever reaches a final, permanent state. Change is endless.",
+    "tags": [
+      "I-Ching",
+      "hexagrams",
+      "structure",
+      "sequence"
+    ]
+  },
+  {
+    "id": "yijing-life",
+    "title": "Applying I-Ching Wisdom to Daily Life",
+    "summary": "The I-Ching is not only for divination — its wisdom can guide everyday decisions and personal growth.",
+    "content": "Many people think the I-Ching is only for fortune-telling, but it is actually a profound guide to living wisely in a world of constant change.\n\n【Living with Awareness】\nThe I-Ching teaches us to be aware of our circumstances and adapt accordingly. Hexagram Xu (Waiting) reminds us that sometimes the wise action is to wait patiently. Hexagram Ge (Revolution) shows when decisive change is necessary.\n\n【Balance in All Things】\nThe interplay of yin and yang in every hexagram illustrates the importance of balance. Tai (Peace) shows harmony between above and below; Sun (Decrease) paradoxically shows that loss can lead to gain.\n\n【The Superior Person】\nThroughout the I-Ching, the ideal is the \"superior person\" (junzi) who cultivates virtue, acts with integrity, and responds appropriately to changing circumstances. Qian hexagram sets the tone: \"Heaven moves vigorously; the superior person tirelessly strengthens himself.\"\n\n【Practical Use in Decision-Making】\nWhen facing a decision, consulting the I-Ching is not about predicting a fixed future, but about gaining perspective. The hexagram you receive reflects the energies at play and suggests a way forward. It is a tool for deep reflection, not superstition.",
+    "tags": [
+      "I-Ching",
+      "daily life",
+      "wisdom",
+      "application"
+    ]
+  }
+]
