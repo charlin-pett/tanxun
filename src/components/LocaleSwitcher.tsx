@@ -33,6 +33,7 @@ export default function LocaleSwitcher() {
     'zh-CN': { label: '中文', native: '中文' },
     'en': { label: 'English', native: 'English' },
     'ru': { label: 'Русский', native: 'Русский' },
+    'es': { label: 'Español', native: 'Español' },
   };
 
   /**

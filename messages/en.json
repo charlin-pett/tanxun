@@ -1,0 +1,117 @@
+{
+  "site": {
+    "name": "TanXun",
+    "tagline": "Explore Chinese Metaphysical Wisdom",
+    "description": "A cultural platform integrating I-Ching, Five Elements, Bazi, and Dream Interpretation"
+  },
+  "nav": {
+    "home": "Home",
+    "dream": "Dreams",
+    "bazi": "Ba Zi",
+    "knowledge": "Library",
+    "hexagram": "I-Ching"
+  },
+  "home": {
+    "hero": {
+      "title": "Explore the Mysteries",
+      "subtitle": "I-Ching · Five Elements · Ba Zi · Dreams",
+      "description": "Discover traditional Chinese metaphysical wisdom — understand destiny, interpret dreams, and explore the I-Ching"
+    },
+    "features": {
+      "dream": { "title": "Dream Interpretation", "description": "AI-powered dream analysis combining Zhou Gong's wisdom with modern psychology" },
+      "bazi": { "title": "Ba Zi Reading", "description": "Enter your birth info for a complete Four Pillars analysis" },
+      "hexagram": { "title": "I-Ching Hexagrams", "description": "Browse all 64 hexagrams with full explanations" },
+      "knowledge": { "title": "Metaphysical Library", "description": "Covers Five Elements, Heavenly Stems, Qi Men Dun Jia, and more" }
+    },
+    "dailyFortune": {
+      "title": "Daily Fortune",
+      "description": "Today's fortune not yet generated. Check back later."
+    }
+  },
+  "dream": {
+    "title": "Dream Interpretation",
+    "subtitle": "Describe your dream and discover its meaning",
+    "placeholder": "Describe your dream in detail...",
+    "placeholderHint": "E.g., I dreamed I was flying through the clouds...",
+    "submit": "Interpret Dream",
+    "submitting": "Interpreting your dream...",
+    "resultTitle": "Dream Analysis",
+    "historyTitle": "Dream History",
+    "emptyHistory": "No dream history yet",
+    "error": "Interpretation failed. Please try again.",
+    "categories": {
+      "animals": "Animals", "nature": "Nature", "people": "People",
+      "objects": "Objects", "actions": "Actions", "places": "Places",
+      "body": "Body", "other": "Other"
+    }
+  },
+  "bazi": {
+    "title": "Ba Zi (Four Pillars)",
+    "subtitle": "Enter your birth info to see your destiny chart",
+    "form": {
+      "title": "Birth Information",
+      "year": "Birth Year",
+      "month": "Month",
+      "day": "Day",
+      "hour": "Birth Hour",
+      "hourUnknown": "Unknown Hour",
+      "minute": "Minute",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "birthplace": "Birthplace",
+      "submit": "Calculate",
+      "submitting": "Calculating..."
+    },
+    "result": {
+      "title": "Ba Zi Chart",
+      "fourPillars": "Four Pillars",
+      "yearPillar": "Year", "monthPillar": "Month", "dayPillar": "Day", "hourPillar": "Hour",
+      "heavenlyStem": "Heavenly Stem", "earthlyBranch": "Earthly Branch",
+      "hiddenStems": "Hidden Stems", "shishen": "Ten Gods",
+      "wuxing": "Five Elements", "dayMaster": "Day Master",
+      "dayMasterIs": "Day Master is", "wuxingChart": "Element Distribution",
+      "dayun": "Decade Luck", "liunian": "Yearly Fortune",
+      "summary": "Summary"
+    },
+    "error": "Calculation failed. Please check your input."
+  },
+  "knowledge": {
+    "title": "Metaphysical Library",
+    "subtitle": "Explore traditional Chinese wisdom",
+    "search": "Search the library...",
+    "noResults": "No results found",
+    "categories": {
+      "yijing": "I-Ching", "wuxing": "Five Elements",
+      "ganzhi": "Stems & Branches", "qimen": "Qi Men Dun Jia",
+      "fengshui": "Feng Shui", "face": "Face & Palm Reading"
+    }
+  },
+  "hexagram": {
+    "title": "I-Ching Hexagrams",
+    "subtitle": "Explore the 64 hexagrams",
+    "loading": "Loading hexagrams...",
+    "notFound": "Hexagram not found",
+    "lines": "Lines",
+    "judgment": "Judgment",
+    "xiang": "Image",
+    "meaning": "Interpretation",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "back": "Back",
+    "home": "Home",
+    "language": "Language",
+    "switchLang": "Switch Language",
+    "chinese": "中文",
+    "english": "English",
+    "russian": "Русский",
+    "spanish": "Español",
+    "copyright": "© 2026 TanXun — For cultural reference only, not professional advice",
+    "disclaimer": "Disclaimer: All content on this site is for traditional cultural research purposes only. It is not scientifically validated. Please maintain a rational perspective."
+  }
+}
