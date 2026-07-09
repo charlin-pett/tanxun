@@ -3,7 +3,14 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import hexData from '@/data/hexagrams/zh-CN.json';
+import hexCN from '@/data/hexagrams/zh-CN.json';
+import hexEN from '@/data/hexagrams/en.json';
+import hexRU from '@/data/hexagrams/ru.json';
+import hexES from '@/data/hexagrams/es.json';
+
+const HEX_DATA: Record<string, any> = {
+  'zh-CN': hexCN, en: hexEN, ru: hexRU, es: hexES,
+};
 
 /** 每日一签组件
  *
@@ -51,7 +58,8 @@ export default function DailyFortune() {
   // 获取卦象数据
   const hex = useMemo(() => {
     if (!todayHex) return null;
-    const data = (hexData as Record<string, any>)[String(todayHex)];
+    const localeData = HEX_DATA[locale] || HEX_DATA['zh-CN'];
+    const data = (localeData as Record<string, any>)[String(todayHex)];
     if (!data) return null;
     return data;
   }, [todayHex]);
