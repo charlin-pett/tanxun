@@ -71,7 +71,7 @@ export default function AdSenseAd({
       <ins
         className="adsbygoogle"
         style={{ display: 'block', width: fullWidth ? '100%' : undefined }}
-        data-ad-client="ca-pub-xxxxxxxxxxxxxxxx" // ← 审核通过后替换
+        data-ad-client="ca-pub-3764903137431855"
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive={fullWidth.toString()}
