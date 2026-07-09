@@ -19,6 +19,7 @@ import { useEffect, useState, useRef } from 'react';
 interface BaziTransitionProps {
   onComplete: () => void;
   duration?: number;
+  locale?: string;
 }
 
 // ===== 动画用数据 =====
@@ -47,6 +48,7 @@ const ZODIAC_SYMBOLS: string[] = [
 export default function BaziTransition({
   onComplete,
   duration = 5500,
+  locale = 'zh-CN',
 }: BaziTransitionProps) {
   // 当前阶段：0=八卦, 1=五行, 2=星座, 3=收尾
   const [phase, setPhase] = useState(0);
@@ -127,13 +129,17 @@ export default function BaziTransition({
     'from-gray-900 to-gray-900',                   // 收尾
   ];
 
-  // 每个阶段的状态文字
-  const phaseTexts = [
-    '天地初开 · 八卦轮转',
-    '五行生克 · 万象更新',
-    '星辰列阵 · 命理昭然',
-    '推演完成 · 即将呈现',
-  ];
+  // 每个阶段的状态文字（多语言）
+  const TXT = locale === 'zh-CN'
+    ? { phases: ['天地初开 · 八卦轮转', '五行生克 · 万象更新', '星辰列阵 · 命理昭然', '推演完成 · 即将呈现'], loading: '正在为您推演命理…' }
+    : locale === 'en'
+    ? { phases: ['Heaven and Earth Open · Trigrams Turn', 'Five Elements Transform · All Things Renew', 'Stars Align · Destiny Revealed', 'Reading Complete · Almost Ready'], loading: 'Calculating your destiny…' }
+    : locale === 'ru'
+    ? { phases: ['Открытие Неба и Земли', 'Превращение Пяти Элементов', 'Звёзды Выстраиваются', 'Готово'], loading: 'Вычисляем вашу судьбу…' }
+    : locale === 'es'
+    ? { phases: ['Cielo y Tierra se Abren', 'Elementos se Transforman', 'Estrellas se Alinean', 'Completado'], loading: 'Calculando tu destino…' }
+    : { phases: ['天地初开 · 八卦轮转', '五行生克 · 万象更新', '星辰列阵 · 命理昭然', '推演完成 · 即将呈现'], loading: '正在为您推演命理…' };
+  const phaseTexts = TXT.phases;
 
   return (
     <div
@@ -234,7 +240,7 @@ export default function BaziTransition({
       </div>
 
       <p className="mt-3 text-xs text-white/30">
-        正在为您推演命理…
+        {TXT.loading}
       </p>
     </div>
   );

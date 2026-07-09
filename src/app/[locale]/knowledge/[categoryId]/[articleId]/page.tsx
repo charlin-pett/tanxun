@@ -41,12 +41,12 @@ export default async function ArticleDetailPage({ params }: ArticleDetailProps) 
       {/* 面包屑导航 */}
       <div className="flex items-center gap-2 text-sm text-gray-400 mb-8">
         <Link href="/knowledge" className="hover:text-amber-700 transition-colors">
-          玄学百科
+          {locale === 'zh-CN' ? '玄学百科' : locale === 'en' ? 'Library' : locale === 'ru' ? 'Библиотека' : locale === 'es' ? 'Biblioteca' : 'Back'}
         </Link>
         <span>/</span>
         <span className={`${colors.text}`}>{category.name}</span>
         <span>/</span>
-        <span className="text-gray-600">正文</span>
+        <span className="text-gray-600">{locale === 'zh-CN' ? '正文' : locale === 'en' ? 'Article' : locale === 'ru' ? 'Статья' : locale === 'es' ? 'Artículo' : ''}</span>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -54,7 +54,7 @@ export default async function ArticleDetailPage({ params }: ArticleDetailProps) 
         <aside className="hidden lg:block lg:col-span-1">
           <div className={`sticky top-24 p-4 rounded-xl border ${colors.border} ${colors.bg}`}>
             <h3 className={`text-sm font-semibold ${colors.text} mb-3`}>
-              {category.name} · 目录
+              {category.name} · {locale === 'zh-CN' ? '目录' : locale === 'en' ? 'Contents' : locale === 'ru' ? 'Содержание' : locale === 'es' ? 'Contenido' : ''}
             </h3>
             <ul className="space-y-1">
               {siblingArticles.map((a, i) => (
@@ -151,7 +151,7 @@ export default async function ArticleDetailPage({ params }: ArticleDetailProps) 
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
-                上一篇
+                {locale === 'zh-CN' ? '上一篇' : locale === 'en' ? 'Previous' : locale === 'ru' ? 'Назад' : locale === 'es' ? 'Anterior' : 'Back'}
               </Link>
             ) : (
               <div />
@@ -164,7 +164,7 @@ export default async function ArticleDetailPage({ params }: ArticleDetailProps) 
                            bg-white rounded-lg border border-gray-200 hover:border-amber-300
                            hover:text-amber-700 transition-all"
               >
-                下一篇
+                {locale === 'zh-CN' ? '下一篇' : locale === 'en' ? 'Next' : locale === 'ru' ? 'Вперёд' : locale === 'es' ? 'Siguiente' : 'Next'}
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>

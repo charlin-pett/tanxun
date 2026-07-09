@@ -72,7 +72,7 @@ export default async function HexagramDetailPage({
               {t('lines')}
               {hexagram.upperTrigram} · {hexagram.lowerTrigram}
               <span className="mx-2">|</span>
-              第{hexagram.number}卦
+              {locale === 'zh-CN' ? `第${hexagram.number}卦` : locale === 'en' ? `Hexagram ${hexagram.number}` : locale === 'ru' ? `Гексаграмма ${hexagram.number}` : locale === 'es' ? `Hexagrama ${hexagram.number}` : `#${hexagram.number}`}
             </p>
           </div>
         </div>

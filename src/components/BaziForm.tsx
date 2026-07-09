@@ -44,7 +44,7 @@ export default function BaziForm() {
 
   return (
     <div className="max-w-lg mx-auto">
-      {screen === 'transition' && <BaziTransition onComplete={handleTransitionComplete} />}
+      {screen === 'transition' && <BaziTransition onComplete={handleTransitionComplete} locale={locale} />}
       {screen === 'form' && (
         <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-8">
           <h2 className="text-xl font-bold text-gray-900 text-center mb-6">{t.title}</h2>

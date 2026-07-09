@@ -33,6 +33,14 @@ interface BaziResultViewProps {
 
 export default function BaziResultView({ input, autoFetchReading = false }: BaziResultViewProps) {
   const locale = useLocale();
+  // ===== 多语言文本映射 =====
+  const T = (locale === 'zh-CN' ? { pillars: '四柱八字', wx: '五行分布', dayun: '大运', liunian: '当前流年', dayunDir: (s: boolean) => s ? '顺排' : '逆排', startAge: (n: number) => `${n}岁起运`, yearLabel: '流年干支' }
+    : locale === 'en' ? { pillars: 'Four Pillars', wx: 'Five Elements', dayun: 'Decade Luck', liunian: 'Current Year', dayunDir: (s: boolean) => s ? 'Forward' : 'Reverse', startAge: (n: number) => `${n}yo start`, yearLabel: 'Year Pillar' }
+    : locale === 'ru' ? { pillars: 'Четыре Столпа', wx: 'Пять Элементов', dayun: 'Десятилетие', liunian: 'Текущий год', dayunDir: (s: boolean) => s ? 'Прямой' : 'Обратный', startAge: (n: number) => `${n} лет`, yearLabel: 'Столп года' }
+    : locale === 'es' ? { pillars: 'Cuatro Pilares', wx: 'Cinco Elementos', dayun: 'Década de Suerte', liunian: 'Año Actual', dayunDir: (s: boolean) => s ? 'Directo' : 'Inverso', startAge: (n: number) => `${n} años`, yearLabel: 'Pilar del Año' }
+    : { pillars: '四柱八字', wx: '五行分布', dayun: '大运', liunian: '当前流年', dayunDir: (s: boolean) => s ? '顺排' : '逆排', startAge: (n: number) => `${n}岁起运`, yearLabel: '流年干支' }
+  );
+
   // 计算命盘
   const result = useMemo(() => calcBaZi(input), [input]);
 
@@ -137,7 +145,7 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
       {/* ===== 四柱八字（核心） ===== */}
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
         <div className="p-4 bg-amber-50 border-b border-amber-200">
-          <h2 className="text-lg font-bold text-gray-900 text-center">四柱八字</h2>
+          <h2 className="text-lg font-bold text-gray-900 text-center">{T.pillars}</h2>
         </div>
 
         {/* 四柱表格 */}
@@ -201,7 +209,7 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
 
       {/* ===== 五行统计 ===== */}
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
-        <h3 className="text-base font-bold text-gray-900 mb-4">五行分布</h3>
+        <h3 className="text-base font-bold text-gray-900 mb-4">{T.wx}</h3>
         <div className="space-y-2">
           {result.wuXingCount.map((count, i) => {
             const maxCount = Math.max(...result.wuXingCount, 1);
@@ -246,14 +254,16 @@ function DaYunDisplay({
 }: {
   daYun: ReturnType<typeof calcBaZi>['daYun']; locale?: string
 }) {
+  const T = locale === 'zh-CN' ? { title: '大运', dir: (s: boolean) => s ? '顺排' : '逆排', start: (n: number) => `${n}岁起运` }
+    : locale === 'en' ? { title: 'Decade Luck', dir: (s: boolean) => s ? 'Forward' : 'Reverse', start: (n: number) => `${n}yo start` }
+    : locale === 'ru' ? { title: 'Десятилетие', dir: (s: boolean) => s ? 'Прямой' : 'Обратный', start: (n: number) => `${n} лет` }
+    : locale === 'es' ? { title: 'Década de Suerte', dir: (s: boolean) => s ? 'Directo' : 'Inverso', start: (n: number) => `${n} años` }
+    : { title: '大运', dir: (s: boolean) => s ? '顺排' : '逆排', start: (n: number) => `${n}岁起运` };
   return (
     <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
-      <h3 className="text-base font-bold text-gray-900 mb-4">大运</h3>
+      <h3 className="text-base font-bold text-gray-900 mb-4">{T.title}</h3>
       <p className="text-xs text-gray-500 mb-3">
-        {daYun.isShun
-          ? (locale === 'zh-CN' ? '顺排' : locale === 'en' ? 'Forward' : locale === 'ru' ? 'Прямой' : 'Directo')
-          : (locale === 'zh-CN' ? '逆排' : locale === 'en' ? 'Reverse' : locale === 'ru' ? 'Обратный' : 'Inverso')}
-        · {daYun.startAge}{locale === 'zh-CN' ? '岁起运' : locale === 'en' ? 'yo start' : locale === 'ru' ? ' лет старт' : ' años inicio'}
+        {T.dir(daYun.isShun)} · {T.start(daYun.startAge)}
       </p>
       <div className="flex flex-wrap gap-2">
         {daYun.pillars.map((p, i) => {
@@ -287,11 +297,16 @@ function LiuNianDisplay({
   liuNian?: { year: number; pillar: { ganIndex: number; zhiIndex: number } };
   currentYear: number; locale?: string
 }) {
+  const T = locale === 'zh-CN' ? { title: '当前流年', label: '流年干支' }
+    : locale === 'en' ? { title: 'Current Year', label: 'Year Pillar' }
+    : locale === 'ru' ? { title: 'Текущий год', label: 'Столп года' }
+    : locale === 'es' ? { title: 'Año Actual', label: 'Pilar del Año' }
+    : { title: '当前流年', label: '流年干支' };
   if (!liuNian) return null;
 
   return (
     <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
-      <h3 className="text-base font-bold text-gray-900 mb-4">当前流年</h3>
+      <h3 className="text-base font-bold text-gray-900 mb-4">{T.title}</h3>
       <div className="flex items-center gap-4">
         <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center">
           <span className="text-xl font-bold text-amber-800">
@@ -301,7 +316,7 @@ function LiuNianDisplay({
         <div>
           <p className="text-2xl font-bold text-gray-900">{liuNian.year}年</p>
           <p className="text-sm text-gray-500">
-            {locale === 'zh-CN' ? '流年干支' : locale === 'en' ? 'Year Pillar' : locale === 'ru' ? 'Столп года' : 'Pilar del año'}：{getGanText(liuNian.pillar.ganIndex, locale)}
+            {T.label}：{getGanText(liuNian.pillar.ganIndex, locale)}
             {getZhiText(liuNian.pillar.zhiIndex, locale)}
           </p>
         </div>

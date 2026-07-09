@@ -1,7 +1,8 @@
 'use client';
 
+import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { CATEGORY_LABELS_CN } from '@/engine/dream/categories';
+import { CATEGORY_LABELS_CN, CATEGORY_LABELS_EN, CATEGORY_LABELS_RU, CATEGORY_LABELS_ES } from '@/engine/dream/categories';
 
 /**
  * 解梦结果展示组件
@@ -68,6 +69,13 @@ export default function DreamResult({
   interpretation,
   categories,
 }: DreamResultProps) {
+  const locale = useLocale();
+  const catLabels = locale === 'zh-CN' ? CATEGORY_LABELS_CN : locale === 'en' ? CATEGORY_LABELS_EN : locale === 'ru' ? CATEGORY_LABELS_RU : locale === 'es' ? CATEGORY_LABELS_ES : CATEGORY_LABELS_CN;
+  const TXT = locale === 'zh-CN' ? { dreamContent: '梦境内容', analysis: '解梦分析', related: '相关卦象参考', hexagram: '卦' }
+    : locale === 'en' ? { dreamContent: 'Dream Content', analysis: 'Dream Analysis', related: 'Related Hexagrams', hexagram: 'Hexagram' }
+    : locale === 'ru' ? { dreamContent: 'Содержание сна', analysis: 'Анализ сна', related: 'Связанные гексаграммы', hexagram: 'Гексаграмма' }
+    : locale === 'es' ? { dreamContent: 'Contenido del Sueño', analysis: 'Análisis del Sueño', related: 'Hexagramas Relacionados', hexagram: 'Hexagrama' }
+    : { dreamContent: '梦境内容', analysis: '解梦分析', related: '相关卦象参考', hexagram: '卦' };
   const hexagrams = getRecommendedHexagrams(dreamText, categories);
 
   // 将解梦文本按段落分割
@@ -77,7 +85,7 @@ export default function DreamResult({
     <div className="space-y-6">
       {/* ===== 梦境摘要 ===== */}
       <div className="bg-gradient-to-r from-amber-50 to-white rounded-xl border border-amber-200 shadow-sm p-6">
-        <h3 className="text-sm font-semibold text-amber-700 mb-2">梦境内容</h3>
+        <h3 className="text-sm font-semibold text-amber-700 mb-2">{TXT.dreamContent}</h3>
         <p className="text-gray-700 font-classic leading-relaxed">
           {dreamText}
         </p>
@@ -88,7 +96,7 @@ export default function DreamResult({
                 key={cat}
                 className="px-2 py-0.5 bg-amber-100 text-amber-600 text-xs rounded-full"
               >
-                {CATEGORY_LABELS_CN[cat] || cat}
+                {catLabels[cat] || cat}
               </span>
             ))}
           </div>
@@ -98,7 +106,7 @@ export default function DreamResult({
       {/* ===== 解梦正文 ===== */}
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
         <div className="p-4 bg-gradient-to-r from-amber-700 to-amber-600 text-white">
-          <h3 className="text-lg font-bold">解梦分析</h3>
+          <h3 className="text-lg font-bold">{TXT.analysis}</h3>
         </div>
         <div className="p-6">
           <div className="text-gray-700 leading-relaxed whitespace-pre-line">
@@ -133,9 +141,7 @@ export default function DreamResult({
 
       {/* ===== 相关卦象推荐 ===== */}
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
-        <h3 className="text-base font-bold text-gray-900 mb-4">
-          相关卦象参考
-        </h3>
+        <h3 className="text-base font-bold text-gray-900 mb-4">{TXT.related}</h3>
         <div className="flex flex-wrap gap-3">
           {hexagrams.map((h) => (
             <Link
@@ -145,7 +151,7 @@ export default function DreamResult({
                          hover:bg-amber-100 transition-colors group"
             >
               <span className="text-sm font-medium text-amber-800 group-hover:text-amber-900">
-                第{h.num}卦 · {h.name}
+                {TXT.hexagram} {h.num} · {h.name}
               </span>
               <span className="text-xs text-amber-500 ml-1">→</span>
             </Link>
