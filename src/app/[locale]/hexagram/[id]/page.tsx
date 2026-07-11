@@ -91,7 +91,7 @@ export default async function HexagramDetailPage({
         {hexagram.xiang && (
           <div className="mb-6">
             <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">
-              象传
+              {t('xiang')}
             </h2>
             <p className="text-base font-classic text-gray-700 leading-relaxed italic">
               {hexagram.xiang}
