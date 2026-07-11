@@ -28,7 +28,7 @@ export default async function ArticleDetailPage({ params }: ArticleDetailProps) 
   const colors = CATEGORY_COLORS[categoryId] || { bg: 'bg-gray-50', text: 'text-gray-700', border: 'border-gray-200' };
 
   // 获取同分类的其他文章（用于侧栏导航）
-  const siblingArticles = await getArticlesByCategory(categoryId);
+  const siblingArticles = await getArticlesByCategory(categoryId, locale);
   const currentIdx = siblingArticles.findIndex((a) => a.id === articleId);
   const prevArticle = currentIdx > 0 ? siblingArticles[currentIdx - 1] : null;
   const nextArticle = currentIdx < siblingArticles.length - 1 ? siblingArticles[currentIdx + 1] : null;

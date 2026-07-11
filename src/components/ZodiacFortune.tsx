@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useMemo } from 'react';
 import { useLocale } from 'next-intl';
-import { getZodiacIndexByYear, getZodiacOverview, ZODIAC_NAMES } from '@/data/zodiac-fortune/zh-CN';
+import { getZodiacIndexByYear, getZodiacFortune, ZODIAC_NAMES } from '@/data/zodiac-fortune';
 
 const TXT: Record<string, any> = {
   'zh-CN': { title: '生肖运势', selectYear: '选择出生年份', selectSign: '选择生肖', signLabel: '您的生肖', overall: '总体运势', luckyNum: '幸运数字', luckyColor: '幸运颜色', luckyDir: '幸运方位', monthly: '每月运势', month: '月', switchSign: '切换生肖', year: '年' },
@@ -32,8 +32,8 @@ export default function ZodiacFortune() {
 
   const fortune = useMemo(() => {
     if (selectedIndex === null) return null;
-    return getZodiacOverview(selectedIndex);
-  }, [selectedIndex]);
+    return getZodiacFortune(selectedIndex, locale);
+  }, [selectedIndex, locale]);
 
   const yearOptions: number[] = [];
   for (let y = 2026; y >= 1920; y--) yearOptions.push(y);
