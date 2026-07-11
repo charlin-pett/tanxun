@@ -9,7 +9,8 @@
     "dream": "Dreams",
     "bazi": "Ba Zi",
     "knowledge": "Library",
-    "hexagram": "I-Ching"
+    "hexagram": "I-Ching",
+    "name": "Name"
   },
   "home": {
     "hero": {
@@ -21,7 +22,8 @@
       "dream": { "title": "Dream Interpretation", "description": "AI-powered dream analysis combining Zhou Gong's wisdom with modern psychology" },
       "bazi": { "title": "Ba Zi Reading", "description": "Enter your birth info for a complete Four Pillars analysis" },
       "hexagram": { "title": "I-Ching Hexagrams", "description": "Browse all 64 hexagrams with full explanations" },
-      "knowledge": { "title": "Metaphysical Library", "description": "Covers Five Elements, Heavenly Stems, Qi Men Dun Jia, and more" }
+      "knowledge": { "title": "Metaphysical Library", "description": "Covers Five Elements, Heavenly Stems, Qi Men Dun Jia, and more" },
+      "name": { "title": "Name Analysis", "description": "Chinese Five Numerologies or Western Numerology" }
     },
     "dailyFortune": {
       "title": "Daily Fortune",
@@ -98,6 +100,13 @@
     "meaning": "Interpretation",
     "prev": "Previous",
     "next": "Next"
+  },
+  "name": {
+    "title": "Name Analysis",
+    "subtitle": "Analyze Chinese names with Five Numerologies or Western names with Numerology",
+    "chineseName": "Chinese Name",
+    "westernName": "English Name",
+    "description": "Auto-detects Chinese (Five Numerologies) and English (Pythagorean Numerology)"
   },
   "common": {
     "loading": "Loading...",
