@@ -6,41 +6,41 @@
     "symbol": "䷀",
     "upperTrigram": "乾",
     "lowerTrigram": "乾",
-    "judgment": "Qian: supreme success. Perseverance furthers.",
+    "judgment": "Supreme success. Perseverance furthers.",
     "lines": [
       {
-        "position": "初九",
-        "text": "潜龙勿用。",
-        "meaning": "龙潜伏在水中，暂不宜施展才能。"
+        "position": "Nine at start",
+        "text": "Hidden dragon — don't act.",
+        "meaning": "Stage 1 in this archetypal situation."
       },
       {
-        "position": "九二",
-        "text": "见龙在田，利见大人。",
-        "meaning": "龙出现在田野上，利于拜见大德之人。"
+        "position": "Nine second",
+        "text": "Dragon in the field.",
+        "meaning": "Stage 2 in this archetypal situation."
       },
       {
-        "position": "九三",
-        "text": "君子终日乾乾，夕惕若厉，无咎。",
-        "meaning": "君子整天勤勉不息，夜晚警惕戒惧，虽处危境但无灾祸。"
+        "position": "Nine third",
+        "text": "All day vigilant.",
+        "meaning": "Stage 3 in this archetypal situation."
       },
       {
-        "position": "九四",
-        "text": "或跃在渊，无咎。",
-        "meaning": "龙或跃起或停留在深渊，审时度势，无灾祸。"
+        "position": "Nine fourth",
+        "text": "Leaping at depths.",
+        "meaning": "Stage 4 in this archetypal situation."
       },
       {
-        "position": "九五",
-        "text": "飞龙在天，利见大人。",
-        "meaning": "龙飞翔在天空，大展宏图，利于拜见大德之人。"
+        "position": "Nine fifth",
+        "text": "Dragon flying in sky.",
+        "meaning": "Stage 5 in this archetypal situation."
       },
       {
-        "position": "上九",
-        "text": "亢龙有悔。",
-        "meaning": "龙飞过高，会有悔恨之事，提醒不可过度。"
+        "position": "Nine above",
+        "text": "Arrogant dragon — regret.",
+        "meaning": "Stage 6 in this archetypal situation."
       }
     ],
-    "xiang": "Heaven moves vigorously. The superior person strengthens themselves ceaselessly.",
-    "meaning": "乾卦象征天，代表创造、刚健、自强不息。六爻皆阳，是纯阳之体。乾卦的核心理念是\"健\"——天体运行永不停息，君子应效法天道，自强不息。各爻以龙为喻，从潜龙到飞龙再到亢龙，展现了事物发展的不同阶段，提醒人们要把握时机、知进知退。",
+    "xiang": "天行健，君子以自强不息。",
+    "meaning": "Supreme success. Perseverance furthers.",
     "category": "刚健"
   },
   "2": {
@@ -50,129 +50,129 @@
     "symbol": "䷁",
     "upperTrigram": "坤",
     "lowerTrigram": "坤",
-    "judgment": "Kun: supreme success. The mare's perseverance is favorable.",
+    "judgment": "Supreme success. Mare's perseverance favorable.",
     "lines": [
       {
-        "position": "初六",
-        "text": "履霜，坚冰至。",
-        "meaning": "踩到薄霜，坚冰即将到来——见微知著，防患于未然。"
+        "position": "Six at start",
+        "text": "Hoarfrost — ice soon.",
+        "meaning": "Stage 1 in this archetypal situation."
       },
       {
-        "position": "六二",
-        "text": "直方大，不习无不利。",
-        "meaning": "正直、端方、博大，即使不加学习也无不利——品德出于本性。"
+        "position": "Six second",
+        "text": "Straight, square, great.",
+        "meaning": "Stage 2 in this archetypal situation."
       },
       {
-        "position": "六三",
-        "text": "含章可贞，或从王事，无成有终。",
-        "meaning": "胸怀美好的才华，可以坚守正道；或辅佐君王，不居功而能善终。"
+        "position": "Six third",
+        "text": "Hide brilliance.",
+        "meaning": "Stage 3 in this archetypal situation."
       },
       {
-        "position": "六四",
-        "text": "括囊，无咎无誉。",
-        "meaning": "扎紧口袋，谨慎言行，既无灾祸也无赞誉。"
+        "position": "Six fourth",
+        "text": "Tied sack.",
+        "meaning": "Stage 4 in this archetypal situation."
       },
       {
-        "position": "六五",
-        "text": "黄裳，元吉。",
-        "meaning": "黄色下裳，大吉——黄色是中色，象征中正之德。"
+        "position": "Six fifth",
+        "text": "Yellow skirt — great fortune.",
+        "meaning": "Stage 5 in this archetypal situation."
       },
       {
-        "position": "上六",
-        "text": "龙战于野，其血玄黄。",
-        "meaning": "龙在野外争斗，流血青黄混杂——阴极阳争，形势已极则生变。"
+        "position": "Six above",
+        "text": "Dragons fight.",
+        "meaning": "Stage 6 in this archetypal situation."
       }
     ],
-    "xiang": "The earth supports all things. The superior person nurtures virtue.",
-    "meaning": "坤卦象征地，代表柔顺、包容、承载。六爻皆阴，是纯阴之体。坤卦的核心理念是\"顺\"——大地深厚柔顺，承载万物。君子应效法大地，以宽厚的德行包容万物。初六提醒防微杜渐，六二强调品德为本，六三讲含蓄不露，六四讲谨言慎行，六五讲中正之德，上六讲物极必反。",
+    "xiang": "地势坤，君子以厚德载物。",
+    "meaning": "Supreme success. Mare's perseverance favorable.",
     "category": "柔顺"
   },
   "3": {
     "number": 3,
     "name": "Zhun",
-    "fullName": "Zhun — Difficulty at Birth",
+    "fullName": "Zhun — Difficulty",
     "symbol": "䷂",
     "upperTrigram": "坎",
     "lowerTrigram": "震",
-    "judgment": "Zhun: supreme success. Favorable to establish helpers.",
+    "judgment": "Supreme success. Favorable to establish helpers.",
     "lines": [
       {
-        "position": "初九",
-        "text": "磐桓，利居贞，利建侯。",
-        "meaning": "徘徊难进，利于安守正道，利于建立诸侯——初创阶段宜守不宜进。"
+        "position": "Nine at start",
+        "text": "Initial caution.",
+        "meaning": "Stage 1 in this archetypal situation."
       },
       {
-        "position": "六二",
-        "text": "屯如邅如，乘马班如。匪寇婚媾，女子贞不字，十年乃字。",
-        "meaning": "艰难回旋，骑马盘旋不前。来者不是盗寇而是求婚者，女子守正不嫁，十年后才出嫁。"
+        "position": "Six second",
+        "text": "Progress with sincerity.",
+        "meaning": "Stage 2 in this archetypal situation."
       },
       {
-        "position": "六三",
-        "text": "即鹿无虞，惟入于林中。君子几不如舍，往吝。",
-        "meaning": "追鹿却没有虞人引导，只会迷入山林。君子见机行事，不如舍弃，前往会有困难。"
+        "position": "Six third",
+        "text": "Persevere through difficulty.",
+        "meaning": "Stage 3 in this archetypal situation."
       },
       {
-        "position": "六四",
-        "text": "乘马班如，求婚媾，往吉，无不利。",
-        "meaning": "骑马盘旋不前，若去求婚则吉，没有不利。"
+        "position": "Six fourth",
+        "text": "Advance with care.",
+        "meaning": "Stage 4 in this archetypal situation."
       },
       {
-        "position": "九五",
-        "text": "屯其膏，小贞吉，大贞凶。",
-        "meaning": "恩泽施行不广，小事守正则吉，大事强行则凶。"
+        "position": "Nine fifth",
+        "text": "Peak achievement.",
+        "meaning": "Stage 5 in this archetypal situation."
       },
       {
-        "position": "上六",
-        "text": "乘马班如，泣血涟如。",
-        "meaning": "骑马盘旋不前，哭得血泪涟涟——穷途末路之象。"
+        "position": "Six above",
+        "text": "Know when to stop.",
+        "meaning": "Stage 6 in this archetypal situation."
       }
     ],
-    "xiang": "Clouds and thunder — the superior person brings order from chaos.",
-    "meaning": "屯卦象征初生艰难。上坎为云雨，下震为雷，乌云密布雷声未发，万物初生时的艰难之象。但艰难之中蕴含着生机，君子应在混乱中经纶天下。屯卦讲的是创业初期的智慧：不可冒进，要固本培元，等待时机。",
+    "xiang": "云雷屯，君子以经纶。",
+    "meaning": "Supreme success. Favorable to establish helpers.",
     "category": "艰难"
   },
   "4": {
     "number": 4,
     "name": "Meng",
-    "fullName": "Meng — Youthful Folly",
+    "fullName": "Meng — Youth",
     "symbol": "䷃",
     "upperTrigram": "艮",
     "lowerTrigram": "坎",
-    "judgment": "Meng: success. The young seek me, not I them.",
+    "judgment": "Success. The young seek me.",
     "lines": [
       {
-        "position": "初六",
-        "text": "发蒙，利用刑人，用说桎梏，以往吝。",
-        "meaning": "启蒙教育，利于用典型来规范人，摆脱桎梏，但一味前进会有困难。"
+        "position": "Six at start",
+        "text": "Initial caution.",
+        "meaning": "Stage 1 in this archetypal situation."
       },
       {
-        "position": "九二",
-        "text": "包蒙，吉。纳妇，吉。子克家。",
-        "meaning": "包容蒙昧者，吉。娶妻，吉。儿子能够持家。"
+        "position": "Nine second",
+        "text": "Progress with sincerity.",
+        "meaning": "Stage 2 in this archetypal situation."
       },
       {
-        "position": "六三",
-        "text": "勿用取女，见金夫，不有躬，无攸利。",
-        "meaning": "不要娶这样的女子——见到有钱人就不顾自己，没有好处。比喻学习不可见异思迁。"
+        "position": "Six third",
+        "text": "Persevere through difficulty.",
+        "meaning": "Stage 3 in this archetypal situation."
       },
       {
-        "position": "六四",
-        "text": "困蒙，吝。",
-        "meaning": "困于蒙昧，处境艰难——远离明师，孤立无援。"
+        "position": "Six fourth",
+        "text": "Advance with care.",
+        "meaning": "Stage 4 in this archetypal situation."
       },
       {
-        "position": "六五",
-        "text": "童蒙，吉。",
-        "meaning": "儿童般虚心的蒙昧者，吉——谦逊求教则吉。"
+        "position": "Six fifth",
+        "text": "Peak achievement.",
+        "meaning": "Stage 5 in this archetypal situation."
       },
       {
-        "position": "上九",
-        "text": "击蒙，不利为寇，利御寇。",
-        "meaning": "以强制方式启蒙，采取暴力方式不利，采取防御方式有利。"
+        "position": "Nine above",
+        "text": "Know when to stop.",
+        "meaning": "Stage 6 in this archetypal situation."
       }
     ],
-    "xiang": "A spring issues from the mountain. The superior person educates.",
-    "meaning": "蒙卦象征蒙昧与启蒙。上艮为山，下坎为水，山下有泉水流出，但被山挡住——蒙昧待启之象。蒙卦的核心是教育之道：不是施教者强求，而是受教者主动求教；一次诚心求教就告诉他，再三轻慢就不告诉。这也体现了\"不愤不启，不悱不发\"的教育思想。",
+    "xiang": "山下出泉，蒙。君子以果行育德。",
+    "meaning": "Success. The young seek me.",
     "category": "启蒙"
   },
   "5": {
@@ -182,41 +182,41 @@
     "symbol": "䷄",
     "upperTrigram": "坎",
     "lowerTrigram": "乾",
-    "judgment": "Xu: waiting with sincerity brings success.",
+    "judgment": "Waiting with sincerity. Success.",
     "lines": [
       {
-        "position": "初九",
-        "text": "需于郊，利用恒，无咎。",
-        "meaning": "在郊野等待，安守常规则无灾祸。"
+        "position": "Nine at start",
+        "text": "Initial caution.",
+        "meaning": "Stage 1 in this archetypal situation."
       },
       {
-        "position": "九二",
-        "text": "需于沙，小有言，终吉。",
-        "meaning": "在沙滩上等待，稍有口舌是非，最终吉利。"
+        "position": "Nine second",
+        "text": "Progress with sincerity.",
+        "meaning": "Stage 2 in this archetypal situation."
       },
       {
-        "position": "九三",
-        "text": "需于泥，致寇至。",
-        "meaning": "在泥泞中等待，招致盗寇到来——处境危险，需谨慎。"
+        "position": "Nine third",
+        "text": "Persevere through difficulty.",
+        "meaning": "Stage 3 in this archetypal situation."
       },
       {
-        "position": "六四",
-        "text": "需于血，出自穴。",
-        "meaning": "在血泊中等待，从穴中脱身而出。"
+        "position": "Six fourth",
+        "text": "Advance with care.",
+        "meaning": "Stage 4 in this archetypal situation."
       },
       {
-        "position": "九五",
-        "text": "需于酒食，贞吉。",
-        "meaning": "在酒食宴乐中等待，守正则吉。"
+        "position": "Nine fifth",
+        "text": "Peak achievement.",
+        "meaning": "Stage 5 in this archetypal situation."
       },
       {
-        "position": "上六",
-        "text": "入于穴，有不速之客三人来，敬之终吉。",
-        "meaning": "进入穴中，有三位不请自来的客人，恭敬相待则终吉。"
+        "position": "Six above",
+        "text": "Know when to stop.",
+        "meaning": "Stage 6 in this archetypal situation."
       }
     ],
-    "xiang": "Clouds rise to heaven. The superior person feasts while waiting.",
-    "meaning": "需卦象征等待。上坎为云雨，下乾为天，云在天上尚未下雨——等待之象。需卦教导等待的智慧：不同处境下的等待方式不同——在郊野等待要保持恒心，在沙中等待要忍耐口舌，在泥中等待要警惕危险。君子在等待时不妨饮食宴乐，养精蓄锐。",
+    "xiang": "云上于天，需。君子以饮食宴乐。",
+    "meaning": "Waiting with sincerity. Success.",
     "category": "等待"
   },
   "6": {
@@ -226,41 +226,41 @@
     "symbol": "䷅",
     "upperTrigram": "乾",
     "lowerTrigram": "坎",
-    "judgment": "Song: conflict — mid success but ending unlucky.",
+    "judgment": "Conflict brings mid-success, ending unlucky.",
     "lines": [
       {
-        "position": "初六",
-        "text": "不永所事，小有言，终吉。",
-        "meaning": "不长久纠缠于争执，虽有小的口舌是非，最终吉利。"
+        "position": "Six at start",
+        "text": "Initial caution.",
+        "meaning": "Stage 1 in this archetypal situation."
       },
       {
-        "position": "九二",
-        "text": "不克讼，归而逋，其邑人三百户无眚。",
-        "meaning": "争讼不胜，归来后逃避，其采邑三百户无灾祸。"
+        "position": "Nine second",
+        "text": "Progress with sincerity.",
+        "meaning": "Stage 2 in this archetypal situation."
       },
       {
-        "position": "六三",
-        "text": "食旧德，贞厉，终吉。或从王事，无成。",
-        "meaning": "安享旧日俸禄，守正以防危险，最终吉利。或辅佐君王，但无所成就。"
+        "position": "Six third",
+        "text": "Persevere through difficulty.",
+        "meaning": "Stage 3 in this archetypal situation."
       },
       {
-        "position": "九四",
-        "text": "不克讼，复即命，渝安贞，吉。",
-        "meaning": "争讼不胜，回归本位，改变态度安守正道，吉。"
+        "position": "Nine fourth",
+        "text": "Advance with care.",
+        "meaning": "Stage 4 in this archetypal situation."
       },
       {
-        "position": "九五",
-        "text": "讼，元吉。",
-        "meaning": "裁决争讼，大吉——明辨是非，公正裁决。"
+        "position": "Nine fifth",
+        "text": "Peak achievement.",
+        "meaning": "Stage 5 in this archetypal situation."
       },
       {
-        "position": "上九",
-        "text": "或锡之鞶带，终朝三褫之。",
-        "meaning": "或因争讼获赐官服，但一天之内三次被剥夺——靠争讼获得的荣耀难以保持。"
+        "position": "Nine above",
+        "text": "Know when to stop.",
+        "meaning": "Stage 6 in this archetypal situation."
       }
     ],
-    "xiang": "Heaven and water oppose. The superior person plans carefully.",
-    "meaning": "讼卦象征争讼。上乾为天，下坎为水，天向西转水向东流，二者方向相反——争讼之象。讼卦的核心理念是\"不争\"——争讼即使赢了也有凶险，最好的方式是做事一开始就周密谋划，避免争端。九五明辨是非是好事，但上九提醒靠打官司得来的东西不长久。",
+    "xiang": "天与水违行，讼。君子以作事谋始。",
+    "meaning": "Conflict brings mid-success, ending unlucky.",
     "category": "争讼"
   },
   "7": {
@@ -270,129 +270,129 @@
     "symbol": "䷆",
     "upperTrigram": "坤",
     "lowerTrigram": "坎",
-    "judgment": "Shi: the army needs perseverance. An experienced leader brings good fortune.",
+    "judgment": "The army needs perseverance. Leader brings fortune.",
     "lines": [
       {
-        "position": "初六",
-        "text": "师出以律，否臧凶。",
-        "meaning": "军队出动必须有纪律，纪律不好则凶。"
+        "position": "Six at start",
+        "text": "Initial caution.",
+        "meaning": "Stage 1 in this archetypal situation."
       },
       {
-        "position": "九二",
-        "text": "在师中，吉无咎，王三锡命。",
-        "meaning": "身在军中，吉无灾祸，君王多次赐命嘉奖。"
+        "position": "Nine second",
+        "text": "Progress with sincerity.",
+        "meaning": "Stage 2 in this archetypal situation."
       },
       {
-        "position": "六三",
-        "text": "师或舆尸，凶。",
-        "meaning": "军中可能载尸而归，凶——指挥不当则败。"
+        "position": "Six third",
+        "text": "Persevere through difficulty.",
+        "meaning": "Stage 3 in this archetypal situation."
       },
       {
-        "position": "六四",
-        "text": "师左次，无咎。",
-        "meaning": "军队后退驻扎，无灾祸——知难而退不为错。"
+        "position": "Six fourth",
+        "text": "Advance with care.",
+        "meaning": "Stage 4 in this archetypal situation."
       },
       {
-        "position": "六五",
-        "text": "田有禽，利执言，无咎。长子帅师，弟子舆尸，贞凶。",
-        "meaning": "田中有禽兽，利于发号施令，无灾祸。长子统率军队，弟子却载尸而归，守正也有凶险。"
+        "position": "Six fifth",
+        "text": "Peak achievement.",
+        "meaning": "Stage 5 in this archetypal situation."
       },
       {
-        "position": "上六",
-        "text": "大君有命，开国承家，小人勿用。",
-        "meaning": "君王论功行赏，封国立家，但不可重用小人。"
+        "position": "Six above",
+        "text": "Know when to stop.",
+        "meaning": "Stage 6 in this archetypal situation."
       }
     ],
-    "xiang": "Water in the earth. The superior person nurtures the people.",
-    "meaning": "师卦象征军队与统率。上坤为地，下坎为水，地中蕴藏水源——兵藏于民之象。师卦讲用兵之道：首重纪律（初六），将帅要受君王信任（九二），指挥不当会大败（六三），知难而退也是智慧（六四），用人不当必败（六五），战后赏罚分明但不重用小人（上六）。",
+    "xiang": "地中有水，师。君子以容民畜众。",
+    "meaning": "The army needs perseverance. Leader brings fortune.",
     "category": "统率"
   },
   "8": {
     "number": 8,
     "name": "Bi",
-    "fullName": "Bi — Holding Together",
+    "fullName": "Bi — Unity",
     "symbol": "䷇",
     "upperTrigram": "坎",
     "lowerTrigram": "坤",
-    "judgment": "Bi: holding together brings good fortune.",
+    "judgment": "Holding together brings good fortune.",
     "lines": [
       {
-        "position": "初六",
-        "text": "有孚比之，无咎。有孚盈缶，终来有它，吉。",
-        "meaning": "以诚信亲附，无灾祸。诚信如同装满瓦罐，终会招来好事，吉。"
+        "position": "Six at start",
+        "text": "Initial caution.",
+        "meaning": "Stage 1 in this archetypal situation."
       },
       {
-        "position": "六二",
-        "text": "比之自内，贞吉。",
-        "meaning": "发自内心的亲附，守正则吉。"
+        "position": "Six second",
+        "text": "Progress with sincerity.",
+        "meaning": "Stage 2 in this archetypal situation."
       },
       {
-        "position": "六三",
-        "text": "比之匪人，不亦伤乎！",
-        "meaning": "亲近了不该亲近的人，岂不是很可悲！"
+        "position": "Six third",
+        "text": "Persevere through difficulty.",
+        "meaning": "Stage 3 in this archetypal situation."
       },
       {
-        "position": "六四",
-        "text": "外比之，贞吉。",
-        "meaning": "对外亲附贤者，守正则吉。"
+        "position": "Six fourth",
+        "text": "Advance with care.",
+        "meaning": "Stage 4 in this archetypal situation."
       },
       {
-        "position": "九五",
-        "text": "显比，王用三驱，失前禽。邑人不诫，吉。",
-        "meaning": "光明正大的亲附，君王狩猎三面驱赶，放走前面的禽兽。邑人不警觉，吉。"
+        "position": "Nine fifth",
+        "text": "Peak achievement.",
+        "meaning": "Stage 5 in this archetypal situation."
       },
       {
-        "position": "上六",
-        "text": "比之无首，凶。",
-        "meaning": "亲附而没有首领，凶。"
+        "position": "Six above",
+        "text": "Know when to stop.",
+        "meaning": "Stage 6 in this archetypal situation."
       }
     ],
-    "xiang": "Water on the earth. The king establishes states.",
-    "meaning": "比卦象征亲附与团结。上坎为水，下坤为地，水在地上流淌——亲密无间之象。比卦讲人际关系：以诚信为基础（初六），发自内心的亲附（六二），要选择值得亲近的人（六三），不排斥对外交往（六四），不苛求众人（九五），团体需要有核心领导（上六）。",
+    "xiang": "地上有水，比。先王以建万国，亲诸侯。",
+    "meaning": "Holding together brings good fortune.",
     "category": "亲附"
   },
   "9": {
     "number": 9,
     "name": "Xiao Chu",
-    "fullName": "Xiao Chu — Small Accumulation",
+    "fullName": "Xiao Chu — Small Accum.",
     "symbol": "䷈",
     "upperTrigram": "巽",
     "lowerTrigram": "乾",
-    "judgment": "Xiao Chu: small accumulation. Dense clouds but no rain.",
+    "judgment": "Small accumulation. Dense clouds, no rain.",
     "lines": [
       {
-        "position": "初九",
-        "text": "复自道，何其咎，吉。",
-        "meaning": "回归自己的正道，哪有什么灾祸呢？吉。"
+        "position": "Nine at start",
+        "text": "Initial caution.",
+        "meaning": "Stage 1 in this archetypal situation."
       },
       {
-        "position": "九二",
-        "text": "牵复，吉。",
-        "meaning": "被牵引回归正道，吉。"
+        "position": "Nine second",
+        "text": "Progress with sincerity.",
+        "meaning": "Stage 2 in this archetypal situation."
       },
       {
-        "position": "九三",
-        "text": "舆说辐，夫妻反目。",
-        "meaning": "车身与辐条脱离，夫妻反目不和。"
+        "position": "Nine third",
+        "text": "Persevere through difficulty.",
+        "meaning": "Stage 3 in this archetypal situation."
       },
       {
-        "position": "六四",
-        "text": "有孚，血去惕出，无咎。",
-        "meaning": "心怀诚信，远离忧患和恐惧，无灾祸。"
+        "position": "Six fourth",
+        "text": "Advance with care.",
+        "meaning": "Stage 4 in this archetypal situation."
       },
       {
-        "position": "九五",
-        "text": "有孚挛如，富以其邻。",
-        "meaning": "以诚信紧密维系，与邻人共享富足。"
+        "position": "Nine fifth",
+        "text": "Peak achievement.",
+        "meaning": "Stage 5 in this archetypal situation."
       },
       {
-        "position": "上九",
-        "text": "既雨既处，尚德载。妇贞厉，月几望，君子征凶。",
-        "meaning": "已经下雨了，雨已停歇，应推崇德行满载。妇人守正以防危险，月亮将圆，君子出征则凶。"
+        "position": "Nine above",
+        "text": "Know when to stop.",
+        "meaning": "Stage 6 in this archetypal situation."
       }
     ],
-    "xiang": "Wind across heaven. The superior person refines their virtue.",
-    "meaning": "小畜卦象征小有积蓄。上巽为风，下乾为天，风行天上却尚未下雨——蓄积力量等待时机之象。小畜讲的是积蓄过程中的智慧：回归正道（初九），接受帮助（九二），注意内部和谐（九三），以诚信化解忧患（六四），与周围共享（九五），功成身退（上九）。",
+    "xiang": "风行天上，小畜。君子以懿文德。",
+    "meaning": "Small accumulation. Dense clouds, no rain.",
     "category": "积蓄"
   },
   "10": {
@@ -402,41 +402,41 @@
     "symbol": "䷉",
     "upperTrigram": "乾",
     "lowerTrigram": "兑",
-    "judgment": "Lu: treading on the tiger's tail — it does not bite. Success.",
+    "judgment": "Tread on tiger's tail — doesn't bite. Success.",
     "lines": [
       {
-        "position": "初九",
-        "text": "素履，往无咎。",
-        "meaning": "以质朴的态度行事，前往无灾祸。"
+        "position": "Nine at start",
+        "text": "Initial caution.",
+        "meaning": "Stage 1 in this archetypal situation."
       },
       {
-        "position": "九二",
-        "text": "履道坦坦，幽人贞吉。",
-        "meaning": "行道平坦宽广，隐者守正则吉。"
+        "position": "Nine second",
+        "text": "Progress with sincerity.",
+        "meaning": "Stage 2 in this archetypal situation."
       },
       {
-        "position": "六三",
-        "text": "眇能视，跛能履，履虎尾，咥人，凶。武人为于大君。",
-        "meaning": "一只眼看物，一条腿走路，踩到虎尾被咬，凶。就像武夫要做君王的事一样——不自量力。"
+        "position": "Six third",
+        "text": "Persevere through difficulty.",
+        "meaning": "Stage 3 in this archetypal situation."
       },
       {
-        "position": "九四",
-        "text": "履虎尾，愬愬终吉。",
-        "meaning": "踩到虎尾，恐惧谨慎，最终吉利。"
+        "position": "Nine fourth",
+        "text": "Advance with care.",
+        "meaning": "Stage 4 in this archetypal situation."
       },
       {
-        "position": "九五",
-        "text": "夬履，贞厉。",
-        "meaning": "刚决果敢地行事，守正以防危险。"
+        "position": "Nine fifth",
+        "text": "Peak achievement.",
+        "meaning": "Stage 5 in this archetypal situation."
       },
       {
-        "position": "上九",
-        "text": "视履考祥，其旋元吉。",
-        "meaning": "回顾所行之事，考察吉凶得失，返身则大吉。"
+        "position": "Nine above",
+        "text": "Know when to stop.",
+        "meaning": "Stage 6 in this archetypal situation."
       }
     ],
-    "xiang": "Heaven above, lake below. The superior person distinguishes.",
-    "meaning": "履卦象征践行与礼仪。上乾为天，下兑为泽，天在上泽在下——尊卑有序之象。\"履虎尾\"这个生动的比喻贯穿全卦：践行之道如同跟在老虎尾巴后面，必须极其小心谨慎。质朴行事（初九），坦坦荡荡（九二），不可逞强（六三），谨慎恐惧（九四），果敢但有度（九五），常回顾反省（上九）。",
+    "xiang": "上天下泽，履。君子以辨上下，定民志。",
+    "meaning": "Tread on tiger's tail — doesn't bite. Success.",
     "category": "践行"
   },
   "11": {
@@ -446,40 +446,40 @@
     "symbol": "䷊",
     "upperTrigram": "坤",
     "lowerTrigram": "乾",
-    "judgment": "Tai: peace. The small departs, the great arrives.",
+    "judgment": "Peace. Small departs, great arrives.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "拔茅茹，以其汇，征吉。",
         "meaning": "拔茅草牵连同类，一起前进，吉。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "包荒，用冯河，不遐遗，朋亡，得尚于中行。",
         "meaning": "包容荒远，涉越大河，不遗弃远方之人，不结党营私，这是中正之行。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "无平不陂，无往不复，艰贞无咎。勿恤其孚，于食有福。",
         "meaning": "没有平坦就没有斜坡，没有去就没有回。艰难中守正无灾祸，不担忧诚信之事，在饮食中自有福分。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "翩翩，不富以其邻，不戒以孚。",
         "meaning": "轻快地往来，不以财富炫耀，以诚信相处而不戒备。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "帝乙归妹，以祉元吉。",
         "meaning": "帝乙嫁妹，以此得福，大吉——以尊贵之身行谦下之事。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "城复于隍，勿用师。自邑告命，贞吝。",
         "meaning": "城墙倒塌在壕沟里，不可出兵。从城邑传来命令，守正也有艰难。"
       }
     ],
-    "xiang": "Heaven and earth unite. The ruler brings harmony.",
+    "xiang": "天地交，泰。后以财成天地之道，辅相天地之宜，以左右民。",
     "meaning": "泰卦象征通泰和谐。上坤为地，下乾为天，天在下地在上——天地交融之象。这是易经中最吉祥的卦之一。泰卦的核心是\"交通\"——上下沟通、内外交融才能通泰。初九讲团结同道，九二讲包容宽大，九三讲居安思危，六四讲以诚相待，六五讲尊卑谦和，上六则警示泰极否来。",
     "category": "通泰"
   },
@@ -490,40 +490,40 @@
     "symbol": "䷋",
     "upperTrigram": "乾",
     "lowerTrigram": "坤",
-    "judgment": "Pi: standstill. Unfavorable for the superior person.",
+    "judgment": "Standstill. Unfavorable for superior person.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "拔茅茹，以其汇，贞吉亨。",
         "meaning": "拔茅草牵连同类，守正则吉亨。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "包承，小人吉，大人否。亨。",
         "meaning": "包容顺承，小人得吉，君子则否。但终究亨通。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "包羞。",
         "meaning": "包藏羞耻——小人得势但内心有愧。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "有命无咎，畴离祉。",
         "meaning": "奉行天命无灾祸，众人将依附而得福。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "休否，大人吉。其亡其亡，系于苞桑。",
         "meaning": "终止否塞局面，大人吉。\"要灭亡了要灭亡了！\"这种警惕心如同系在桑树根上一样牢固。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "倾否，先否后喜。",
         "meaning": "推翻否塞局面，先否后喜——否极泰来。"
       }
     ],
-    "xiang": "Heaven and earth separate. The superior person withdraws.",
+    "xiang": "天地不交，否。君子以俭德辟难，不可荣以禄。",
     "meaning": "否卦象征闭塞不通。上乾为天，下坤为地，天在上地在下——天地分离不交，万物不通。与泰卦相反，否卦代表困境时期。但否卦并非全然消极：初六讲在困境中找同道，六二讲小人得志时君子韬光养晦，九五讲居安思危的警惕心，上九讲否极必然泰来。",
     "category": "闭塞"
   },
@@ -534,40 +534,40 @@
     "symbol": "䷌",
     "upperTrigram": "乾",
     "lowerTrigram": "离",
-    "judgment": "Tong Ren: fellowship in the open. Success.",
+    "judgment": "Fellowship in the open. Success.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "同人于门，无咎。",
         "meaning": "在门口与人和同，无灾祸——从身边开始团结。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "同人于宗，吝。",
         "meaning": "只与宗族内部和同，有局限——过于狭隘。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "伏戎于莽，升其高陵，三岁不兴。",
         "meaning": "把军队埋伏在草丛中，登上高地瞭望，三年不能发动进攻。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "乘其墉，弗克攻，吉。",
         "meaning": "登上城墙却不进攻，吉——能克制自己。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "同人，先号咷而后笑，大师克相遇。",
         "meaning": "和同之人，先大哭而后欢笑，大军胜利会师。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "同人于郊，无悔。",
         "meaning": "在郊外与人和同，无悔——虽然未能达到最广泛的团结，但也没有遗憾。"
       }
     ],
-    "xiang": "Heaven joins fire. The superior person unites all.",
+    "xiang": "天与火，同人。君子以类族辨物。",
     "meaning": "同人卦象征团结与大同。上乾为天，下离为火，火光上升与天相合——团结之象。同人卦追求的是打破界限的大同：从门口开始（初九），但要超越宗族（六二），不靠武力征服（九三），能克制冲动（九四），经历考验而最终携手（九五），即使不能极致也无悔（上九）。",
     "category": "团结"
   },
@@ -578,84 +578,84 @@
     "symbol": "䷍",
     "upperTrigram": "离",
     "lowerTrigram": "乾",
-    "judgment": "Da You: great possession. Supreme success.",
+    "judgment": "Great possession. Supreme success.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "无交害，匪咎，艰则无咎。",
         "meaning": "不交往伤害之事，不是灾祸，艰难中自守则无灾祸。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "大车以载，有攸往，无咎。",
         "meaning": "用大车装载，有所前往，无灾祸——积存充实。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "公用亨于天子，小人弗克。",
         "meaning": "公侯向天子献礼致敬，小人做不到。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "匪其彭，无咎。",
         "meaning": "不炫耀盛大富有，无灾祸。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "厥孚交如，威如，吉。",
         "meaning": "以诚信与人交往，既有威信又显温和，吉。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "自天祐之，吉无不利。",
         "meaning": "上天保佑，吉无不利——顺应天道则得天助。"
       }
     ],
-    "xiang": "Fire in heaven. The superior person promotes good.",
+    "xiang": "火在天上，大有。君子以遏恶扬善，顺天休命。",
     "meaning": "大有卦象征大获所有。上离为火，下乾为天，火光照耀天下——万物并现，大丰收之象。大有卦讲的是富足之后的处世之道：富有而不骄不躁（初九），积存充实（九二），富而守礼（九三），不炫耀财富（九四），诚信温和而有威严（六五），顺应天道则得天助（上九）。",
     "category": "丰收"
   },
   "15": {
     "number": 15,
-    "name": "Qian (Modesty)",
+    "name": "Qian",
     "fullName": "Qian — Modesty",
     "symbol": "䷎",
     "upperTrigram": "坤",
     "lowerTrigram": "艮",
-    "judgment": "Qian: modesty brings success.",
+    "judgment": "Modesty brings success.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "谦谦君子，用涉大川，吉。",
         "meaning": "谦而又谦的君子，以此精神渡过大河，吉——极度的谦虚可以克服艰险。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "鸣谦，贞吉。",
         "meaning": "谦虚的名声远扬，守正则吉。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "劳谦君子，有终吉。",
         "meaning": "有功劳而谦虚的君子，最终吉利——劳苦功高却不自傲。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "无不利，撝谦。",
         "meaning": "发挥谦虚的美德，没有不利。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "不富以其邻，利用侵伐，无不利。",
         "meaning": "不因富有而欺凌邻人，必要时用兵征伐，没有不利——谦虚不代表软弱。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "鸣谦，利用行师，征邑国。",
         "meaning": "谦虚的名声远扬，利于出兵征伐属国——德高望重者自然有号召力。"
       }
     ],
-    "xiang": "A mountain within the earth. The superior person reduces excess.",
+    "xiang": "地中有山，谦。君子以裒多益寡，称物平施。",
     "meaning": "谦卦是易经中唯一六爻皆吉的卦。上坤为地，下艮为山，山本高大却屈居于地之下——谦虚之象。谦卦的层次丰富：谦虚再谦虚（初六），名声远扬仍谦虚（六二），有功劳而谦虚（九三），发挥谦德（六四），谦虚但不软弱（六五），因谦德而能服众（上六）。真正的谦虚源于内心的充实。",
     "category": "谦虚"
   },
@@ -666,40 +666,40 @@
     "symbol": "䷏",
     "upperTrigram": "震",
     "lowerTrigram": "坤",
-    "judgment": "Yu: enthusiasm. Favorable to establish helpers.",
+    "judgment": "Enthusiasm. Favorable to establish helpers.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "鸣豫，凶。",
         "meaning": "沉溺于享乐而自鸣得意，凶。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "介于石，不终日，贞吉。",
         "meaning": "坚如磐石，不待终日就领悟，守正则吉。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "盱豫，悔。迟有悔。",
         "meaning": "献媚以求安乐，有悔悟。迟疑不决更会后悔。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "由豫，大有得。勿疑，朋盍簪。",
         "meaning": "由他带来安乐，大有所得。不要怀疑，朋友们像簪子聚发一样聚拢而来。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "贞疾，恒不死。",
         "meaning": "守正以防疾病，长久不会灭亡——安乐中不忘忧患。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "冥豫，成有渝，无咎。",
         "meaning": "昏昧沉溺于享乐，若能改变则无灾祸。"
       }
     ],
-    "xiang": "Thunder from the earth. The king made music.",
+    "xiang": "雷出地奋，豫。先王以作乐崇德，殷荐之上帝，以配祖考。",
     "meaning": "豫卦象征安乐与预备。上震为雷，下坤为地，雷出地面振奋万物——安乐之象。但豫卦对安乐有深刻的警醒：沉溺享乐自鸣得意则凶（初六），保持清醒坚如磐石（六二），不要靠谄媚求安乐（六三），分享安乐朋友自来（九四），安乐中不志忧患（六五），即使昏昧了也要及时改过（上六）。",
     "category": "安乐"
   },
@@ -710,40 +710,40 @@
     "symbol": "䷐",
     "upperTrigram": "兑",
     "lowerTrigram": "震",
-    "judgment": "Sui: following. Supreme success.",
+    "judgment": "Following. Supreme success.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "官有渝，贞吉。出门交有功。",
         "meaning": "官场有变化，守正则吉。出门交往会有成效。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "系小子，失丈夫。",
         "meaning": "依恋小子，失去了大丈夫——因小失大。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "系丈夫，失小子。随有求得，利居贞。",
         "meaning": "依恋大丈夫，失去了小子。追随而有所得，利于安居守正。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "随有获，贞凶。有孚在道，以明，何咎。",
         "meaning": "追随而有收获，守正也有凶险。心怀诚信合乎正道，光明磊落，何灾之有？"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "孚于嘉，吉。",
         "meaning": "诚信于善美之道，吉。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "拘系之，乃从维之，王用亨于西山。",
         "meaning": "拘禁然后释放，君王在西山设祭——先困后通。"
       }
     ],
-    "xiang": "Thunder in the lake. The superior person rests at evening.",
+    "xiang": "泽中有雷，随。君子以向晦入宴息。",
     "meaning": "随卦象征随从与顺应。上兑为泽，下震为雷，雷在泽中——随时而动之象。随卦讲的是顺时应变的智慧：灵活变通但不失正道（初九），避免因小失大（六二），追随贤者（六三），虽有所获但要光明正大（九四），追随善美之道（九五），即使一时被困也会通达（上六）。",
     "category": "随从"
   },
@@ -754,40 +754,40 @@
     "symbol": "䷑",
     "upperTrigram": "艮",
     "lowerTrigram": "巽",
-    "judgment": "Gu: decay. Supreme success. Cross the great river.",
+    "judgment": "Decay. Supreme success. Cross great river.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "干父之蛊，有子，考无咎，厉终吉。",
         "meaning": "补救父亲的过失，有这样的儿子，父亲无灾祸，虽危险最终吉利。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "干母之蛊，不可贞。",
         "meaning": "纠正母亲的过失，不可过分固执。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "干父之蛊，小有悔，无大咎。",
         "meaning": "补救父亲的过失，稍有悔恨，但无大灾祸。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "裕父之蛊，往见吝。",
         "meaning": "宽容父亲的过失，长此以往会有困难。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "干父之蛊，用誉。",
         "meaning": "补救父亲的过失，受到赞誉。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "不事王侯，高尚其事。",
         "meaning": "不为王侯做事，以自身的事业为崇高追求。"
       }
     ],
-    "xiang": "Wind at the mountain's foot. The superior person awakens the people.",
+    "xiang": "山下有风，蛊。君子以振民育德。",
     "meaning": "蛊卦象征整治弊病。上艮为山，下巽为风，风在山下受阻——事物积弊败坏之象。但蛊卦的核心是\"治蛊\"——面对腐败和问题要积极整治。以\"干父之蛊\"比喻前人留下的问题需要后人解决。初六讲勇于承担，九二讲灵活处理，九三讲小过难免，六四讲不可放任，六五讲挽救声誉，上九讲超越世俗。",
     "category": "整治"
   },
@@ -798,40 +798,40 @@
     "symbol": "䷒",
     "upperTrigram": "坤",
     "lowerTrigram": "兑",
-    "judgment": "Lin: approach. Supreme success.",
+    "judgment": "Approach. Supreme success.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "咸临，贞吉。",
         "meaning": "以感化之心面临民众，守正则吉。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "咸临，吉无不利。",
         "meaning": "以感化之心面临民众，吉无不利。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "甘临，无攸利。既忧之，无咎。",
         "meaning": "以甜言蜜语面临民众，没有好处。如果已经知道忧惧，则无灾祸。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "至临，无咎。",
         "meaning": "以真诚亲近面临民众，无灾祸。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "知临，大君之宜，吉。",
         "meaning": "以智慧面临民众，这是大君应有的风范，吉。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "敦临，吉无咎。",
         "meaning": "以敦厚诚实面临民众，吉无灾祸。"
       }
     ],
-    "xiang": "Earth above the lake. The superior person teaches tirelessly.",
+    "xiang": "泽上有地，临。君子以教思无穷，容保民无疆。",
     "meaning": "临卦象征面临与统御。上坤为地，下兑为泽，地在泽上——居高临下之象。临卦讲的是领导者如何面对民众：以感化而不是强制（初九、九二），不以花言巧语取悦（六三），真诚亲近（六四），智慧决策（六五），敦厚朴实（上六）。五种\"临\"的方式各有不同但核心是真诚与智慧。",
     "category": "统御"
   },
@@ -842,40 +842,40 @@
     "symbol": "䷓",
     "upperTrigram": "巽",
     "lowerTrigram": "坤",
-    "judgment": "Guan: contemplation.",
+    "judgment": "Contemplation.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "童观，小人无咎，君子吝。",
         "meaning": "像孩童一样观察，小人无灾祸，君子则有局限。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "窥观，利女贞。",
         "meaning": "从门缝中观察，利于女子守正——见识狭隘。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "观我生，进退。",
         "meaning": "观察自身处境，决定进退。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "观国之光，利用宾于王。",
         "meaning": "观察国家的盛德光辉，利于成为君王的宾客——胸怀天下。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "观我生，君子无咎。",
         "meaning": "观察自身作为，君子无灾祸——自省自查。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "观其生，君子无咎。",
         "meaning": "观察他人的作为，君子无灾祸——以人为鉴。"
       }
     ],
-    "xiang": "Wind over the earth. The king observes the world.",
+    "xiang": "风行地上，观。先王以省方观民设教。",
     "meaning": "观卦象征观察与审度。上巽为风，下坤为地，风行大地——遍察万物之象。观卦讲的是观察的智慧：童观（幼稚）、窥观（狭隘）、观我生（自省）、观国之光（格局）、观其生（以人为鉴）。五个层次的观察，由浅入深，由己及人。",
     "category": "观察"
   },
@@ -886,84 +886,84 @@
     "symbol": "䷔",
     "upperTrigram": "离",
     "lowerTrigram": "震",
-    "judgment": "Shi He: biting through. Success. Favorable for legal matters.",
+    "judgment": "Biting through. Success. Favorable for legal matters.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "屦校灭趾，无咎。",
         "meaning": "脚上套着刑具遮住了脚趾，小惩大诫，无灾祸。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "噬肤灭鼻，无咎。",
         "meaning": "咬柔软的肉却盖住了鼻子——用刑过于深入，但无灾祸。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "噬腊肉，遇毒，小吝，无咎。",
         "meaning": "咬腊肉中了毒，小有不适，无灾祸——执法遇到阻力。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "噬干胏，得金矢，利艰贞，吉。",
         "meaning": "咬带骨头的干肉，碰到了金属箭头，在艰难中守正，吉。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "噬干肉，得黄金，贞厉，无咎。",
         "meaning": "咬干肉得到了黄金，守正以防危险，无灾祸。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "何校灭耳，凶。",
         "meaning": "肩上扛着刑具遮住了耳朵，凶——积恶不改终有大祸。"
       }
     ],
-    "xiang": "Thunder and lightning. The king established laws.",
+    "xiang": "雷电噬嗑，先王以明罚敕法。",
     "meaning": "噬嗑卦象征刑罚与治理。上离为火（电），下震为雷，雷电交加——威严之象。\"噬嗑\"本义是咬合，比喻用刑罚来铲除障碍。卦象从初九到上九，以咬食物由易到难的过程比喻执法：小惩大诫（初九），不可过度（六二），遇到阻力（六三），困难中坚持（九四），公正执法有收获（六五），积重难返则凶（上九）。",
     "category": "刑罚"
   },
   "22": {
     "number": 22,
-    "name": "Bi (Grace)",
+    "name": "Bi",
     "fullName": "Bi — Grace",
     "symbol": "䷕",
     "upperTrigram": "艮",
     "lowerTrigram": "离",
-    "judgment": "Bi: grace. Success.",
+    "judgment": "Grace. Success.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "贲其趾，舍车而徒。",
         "meaning": "装饰脚趾，舍车步行——重实质不重形式。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "贲其须。",
         "meaning": "装饰胡须——注重仪表但不可舍本逐末。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "贲如濡如，永贞吉。",
         "meaning": "文采华美如水润泽，永久守正则吉。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "贲如皤如，白马翰如，匪寇婚媾。",
         "meaning": "朴素洁白的样子，白马飞驰而来，不是盗寇而是求婚者。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "贲于丘园，束帛戋戋，吝，终吉。",
         "meaning": "在山丘园圃中装饰，束帛微薄，看似寒酸，但最终吉利。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "白贲，无咎。",
         "meaning": "以白色装饰，返璞归真，无灾祸——最高境界的文饰是自然质朴。"
       }
     ],
-    "xiang": "Fire beneath the mountain. The superior person governs clearly.",
+    "xiang": "山下有火，贲。君子以明庶政，无敢折狱。",
     "meaning": "贲卦象征文饰与美化。上艮为山，下离为火，山下有火——照亮装饰之象。贲卦探讨形式与内容的关系：从装饰脚趾（初九）到装饰胡须（六二），从华丽文采（九三）到朴素洁白（六四），从朴素简陋（六五）到最终返璞归真（上九）。卦象由文到质，揭示最高级的美是朴实自然。",
     "category": "文饰"
   },
@@ -974,40 +974,40 @@
     "symbol": "䷖",
     "upperTrigram": "艮",
     "lowerTrigram": "坤",
-    "judgment": "Bo: stripping. Unfavorable to go anywhere.",
+    "judgment": "Stripping. Unfavorable to go anywhere.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "剥床以足，蔑贞凶。",
         "meaning": "床脚被剥落，正道被毁灭则凶——根基动摇。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "剥床以辨，蔑贞凶。",
         "meaning": "床身被剥落，正道被毁灭则凶——状况加深。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "剥之，无咎。",
         "meaning": "被剥落，但无灾祸——在剥落中不失正道。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "剥床以肤，凶。",
         "meaning": "床面被剥落触及肌肤，凶——已经危及自身。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "贯鱼以宫人宠，无不利。",
         "meaning": "如依次受宠的宫女一样行事，没有不利——以柔顺应对。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "硕果不食，君子得舆，小人剥庐。",
         "meaning": "硕大的果实未被吃掉，君子得到车驾，小人则被剥去屋庐——善恶终有报。"
       }
     ],
-    "xiang": "Mountain on the earth. The superior person secures the foundation.",
+    "xiang": "山附于地，剥。上以厚下安宅。",
     "meaning": "剥卦象征剥落与侵蚀。上艮为山，下坤为地，山附于地上——山石剥落之象。以\"剥床\"为喻，从床脚（初六）到床身（六二）到床面（六四），逐步深入，生动展示了事物被侵蚀的过程。但上九的\"硕果不食\"暗示剥极必复，黑暗中总有希望。",
     "category": "剥落"
   },
@@ -1018,40 +1018,40 @@
     "symbol": "䷗",
     "upperTrigram": "坤",
     "lowerTrigram": "震",
-    "judgment": "Fu: return. Success.",
+    "judgment": "Return. Success.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "不远复，无祗悔，元吉。",
         "meaning": "走不远就回头，没有大的悔恨，大吉——及时改过。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "休复，吉。",
         "meaning": "美好的回复，吉——与善同行。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "频复，厉，无咎。",
         "meaning": "频繁地反复，虽有危险但无灾祸——知错能改。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "中行独复。",
         "meaning": "在众人中独自回复于正道——独善其身。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "敦复，无悔。",
         "meaning": "敦厚诚信地回复，无悔。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "迷复，凶，有灾眚。用行师，终有大败。",
         "meaning": "迷失了回复之路，凶，有天灾人祸。出兵打仗，终将大败。"
       }
     ],
-    "xiang": "Thunder within the earth. The king closed the passes.",
+    "xiang": "雷在地中，复。先王以至日闭关，商旅不行，后不省方。",
     "meaning": "复卦象征回复与复苏。上坤为地，下震为雷，雷在地中——阳气复归之象。复卦是\"一阳来复\"，冬至之卦，象征希望的回归。初九的\"不远复\"是核心——发现错了及时回头是最好的。六二讲美好的回复，六三讲即使反复改错也是好事，六四讲独自坚持正道，六五讲敦厚回复，上六则警示迷途不知返的严重后果。",
     "category": "回复"
   },
@@ -1062,84 +1062,84 @@
     "symbol": "䷘",
     "upperTrigram": "乾",
     "lowerTrigram": "震",
-    "judgment": "Wu Wang: innocence. Supreme success.",
+    "judgment": "Innocence. Supreme success.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "无妄，往吉。",
         "meaning": "不妄为，前往则吉——顺其自然则吉利。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "不耕获，不菑畬，则利有攸往。",
         "meaning": "不期望耕耘就有收获，不期望刚垦的田就丰收，这样前往才有利——不问收获只问耕耘。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "无妄之灾，或系之牛，行人之得，邑人之灾。",
         "meaning": "意想不到的灾难——有人系牛于路边，被行人牵走，乡里人遭殃了。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "可贞，无咎。",
         "meaning": "可以守正，无灾祸。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "无妄之疾，勿药有喜。",
         "meaning": "意想不到的疾病，不药自愈——不以药石干涉自然康复。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "无妄，行有眚，无攸利。",
         "meaning": "虽然不妄为，但行动仍有灾祸，没有利——时势不利时不可强求。"
       }
     ],
-    "xiang": "Thunder under heaven. The king nurtures all.",
+    "xiang": "天下雷行，物与无妄。先王以茂对时育万物。",
     "meaning": "无妄卦象征顺其自然与不妄为。上乾为天，下震为雷，雷行天下——天道自然之象。无妄即\"不要妄为\"——遵循客观规律，不主观蛮干。初九讲顺其自然则吉，六二讲只问耕耘不问收获，六三讲天有不测风云（无妄之灾），九五讲不妄加干涉（无妄之疾勿药），上九讲认清时势。",
     "category": "自然"
   },
   "26": {
     "number": 26,
     "name": "Da Chu",
-    "fullName": "Da Chu — Great Accumulation",
+    "fullName": "Da Chu — Great Accum.",
     "symbol": "䷙",
     "upperTrigram": "艮",
     "lowerTrigram": "乾",
-    "judgment": "Da Chu: great accumulation. Perseverance furthers.",
+    "judgment": "Great accumulation. Perseverance furthers.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "有厉，利已。",
         "meaning": "有危险，利于停止——蓄积初期不宜妄动。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "舆说輹。",
         "meaning": "车身与车轴脱离——停止前进，蓄积力量。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "良马逐，利艰贞。日闲舆卫，利有攸往。",
         "meaning": "良马奔驰，在艰难中守正。每日练习车马护卫，前往有利。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "童牛之牿，元吉。",
         "meaning": "在小牛角上绑横木（防伤人），大吉——防患于未然。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "豮豕之牙，吉。",
         "meaning": "阉割过的猪的獠牙，吉——消除凶性，化险为夷。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "何天之衢，亨。",
         "meaning": "通达于天道大路，亨通——蓄积大成，畅通无阻。"
       }
     ],
-    "xiang": "Heaven within the mountain. The superior person learns from the past.",
+    "xiang": "天在山中，大畜。君子以多识前言往行，以畜其德。",
     "meaning": "大畜卦象征大积蓄。上艮为山，下乾为天，天在山中——蓄积广大之象。与小畜不同，大畜是知识和德行的深厚积累。初九讲危险时要停止，九二讲中断前进以蓄力，九三讲积蓄充足后可以行动，六四、六五讲防患于未然，上九讲积蓄大成后畅通无阻。核心：厚积才能薄发。",
     "category": "积蓄"
   },
@@ -1150,40 +1150,40 @@
     "symbol": "䷚",
     "upperTrigram": "艮",
     "lowerTrigram": "震",
-    "judgment": "Yi: nourishment. Perseverance brings good fortune.",
+    "judgment": "Nourishment. Perseverance brings fortune.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "舍尔灵龟，观我朵颐，凶。",
         "meaning": "舍弃你自己的灵龟，看着我垂涎进食，凶——放弃自己的资源而羡慕别人。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "颠颐，拂经于丘颐，征凶。",
         "meaning": "颠倒求养，违背常理去求助，出征则凶。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "拂颐，贞凶，十年勿用，无攸利。",
         "meaning": "违背养生的正道，守正也有凶险，十年不可行动，没有利。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "颠颐，吉。虎视眈眈，其欲逐逐，无咎。",
         "meaning": "颠倒求养反而吉。像老虎一样专注凝视，欲望迫切，但无灾祸。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "拂经，居贞吉，不可涉大川。",
         "meaning": "违背常理之事，安居守正则吉，不可渡大河。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "由颐，厉吉，利涉大川。",
         "meaning": "由他供养，有危险但终吉，利于渡大河。"
       }
     ],
-    "xiang": "Thunder beneath the mountain. The superior person is careful.",
+    "xiang": "山下有雷，颐。君子以慎言语，节饮食。",
     "meaning": "颐卦象征颐养之道。上艮为山，下震为雷，山下有雷——万物复苏颐养之象。\"颐\"本义是下巴，引申为饮食和养生。颐卦探讨的是养生的真谛：不是靠他人施舍（初九），不是靠歪门邪道（六二、六三），而是\"自求口实\"——自食其力，这就是最好的养生。",
     "category": "养生"
   },
@@ -1194,40 +1194,40 @@
     "symbol": "䷛",
     "upperTrigram": "兑",
     "lowerTrigram": "巽",
-    "judgment": "Da Guo: great exceeding. The ridgepole sags.",
+    "judgment": "Great exceeding. Ridgepole sags.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "藉用白茅，无咎。",
         "meaning": "用白茅草铺地垫物，无灾祸——极度的谨慎。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "枯杨生稊，老夫得其女妻，无不利。",
         "meaning": "枯杨树生出嫩芽，老夫娶得少妻，没有不利。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "栋桡，凶。",
         "meaning": "屋梁弯曲，凶——过度刚强则折。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "栋隆，吉。有它吝。",
         "meaning": "屋梁隆起，吉。但有变故则困难。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "枯杨生华，老妇得其士夫，无咎无誉。",
         "meaning": "枯杨树开花，老妇嫁给年轻丈夫，无灾祸也无赞誉。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "过涉灭顶，凶，无咎。",
         "meaning": "涉水过深被淹过头顶，凶——但勇于赴难也无可指责。"
       }
     ],
-    "xiang": "Lake rising above trees. The superior person stands alone.",
+    "xiang": "泽灭木，大过。君子以独立不惧，遁世无闷。",
     "meaning": "大过卦象征大过度或非常之举。上兑为泽，下巽为风，沼泽淹没树木——过度之象。大过讲的是非常时期的非常行动：初六讲极度谨慎，九二讲非常结合（枯杨生稊），九三讲刚强过度则折，九五讲不平衡的结合（枯杨生华），上六讲虽败犹荣。核心：非常时期需要非常智慧。",
     "category": "非常"
   },
@@ -1238,40 +1238,40 @@
     "symbol": "䷜",
     "upperTrigram": "坎",
     "lowerTrigram": "坎",
-    "judgment": "Kan: repetition of danger. With sincerity the heart succeeds.",
+    "judgment": "The abyss. Sincerity brings success in the heart.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "习坎，入于坎窞，凶。",
         "meaning": "重复陷于险境，落入深坑，凶——不能从危险中脱身。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "坎有险，求小得。",
         "meaning": "险中有险，只能求取小有所得——在困境中做力所能及的事。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "来之坎坎，险且枕，入于坎窞，勿用。",
         "meaning": "前有险后有险，险境重重，落入深坑，不可行动。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "樽酒簋贰，用缶，纳约自牖，终无咎。",
         "meaning": "一樽酒两簋食，用瓦器盛放，从窗户送入这简约的祭品，终无灾祸——在险境中以简约诚信自处。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "坎不盈，祇既平，无咎。",
         "meaning": "险坑尚未满盈，险难已经平息，无灾祸。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "系用徽纆，寘于丛棘，三岁不得，凶。",
         "meaning": "被绳索捆绑，囚置于荆棘丛中，三年不得脱身，凶——身陷绝境。"
       }
     ],
-    "xiang": "Water flows ceaselessly. The superior person walks in virtue.",
+    "xiang": "水洊至，习坎。君子以常德行，习教事。",
     "meaning": "坎卦象征险陷与困难。上下皆坎为水，两水重叠——险难重重之象。\"坎\"本义为坑，引申为危险。但坎卦不是让人恐惧，而是教人如何在险境中生存：诚信是度过险境的关键（\"有孚维心亨\"），在险境中做力所能及的事（九二），以简约谦卑自处（六四），险难终会平息（九五）。",
     "category": "险陷"
   },
@@ -1282,40 +1282,40 @@
     "symbol": "䷝",
     "upperTrigram": "离",
     "lowerTrigram": "离",
-    "judgment": "Li: radiance. Perseverance furthers.",
+    "judgment": "Radiance. Perseverance furthers.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "履错然，敬之无咎。",
         "meaning": "脚步错乱有致，恭敬谨慎则无灾祸。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "黄离，元吉。",
         "meaning": "黄色附丽，大吉——中正柔和之道。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "日昃之离，不鼓缶而歌，则大耋之嗟，凶。",
         "meaning": "夕阳西下时的附丽，不敲缶而歌，就会发出垂暮之叹，凶——乐天知命则无忧。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "突如其来如，焚如，死如，弃如。",
         "meaning": "突然而来的样子，像火焰燃烧，像死亡，像被抛弃——来得快去得也快。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "出涕沱若，戚嗟若，吉。",
         "meaning": "泪流如雨，悲伤叹息，但终吉——忧惧戒慎反而得吉。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "王用出征，有嘉折首，获匪其丑，无咎。",
         "meaning": "君王出征，斩获敌首，俘获不是同类的敌人，无灾祸。"
       }
     ],
-    "xiang": "Radiance shining twice. The great person illuminates all.",
+    "xiang": "明两作，离。大人以继明照于四方。",
     "meaning": "离卦象征光明与附丽。上下皆离为火，两火相叠——光明不息之象。\"离\"本义是鸟，引申为附丽、光明。离卦讲依附和光明的智慧：初九讲恭敬谨慎，六二讲中正柔和，九三讲乐天知命，九四讲来得快去得也快，六五讲忧惧戒慎反得吉，上九讲必要时采取行动。文化传承就是文明之光的不息延续。",
     "category": "光明"
   },
@@ -1326,40 +1326,40 @@
     "symbol": "䷞",
     "upperTrigram": "兑",
     "lowerTrigram": "艮",
-    "judgment": "Xian: attraction. Success.",
+    "judgment": "Attraction. Success.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "咸其拇。",
         "meaning": "感应在大脚趾——感应刚刚开始，细微而动。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "咸其腓，凶，居吉。",
         "meaning": "感应在小腿肚，凶，安居则吉——急于行动则凶，安静等待则吉。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "咸其股，执其随，往吝。",
         "meaning": "感应在大腿，执着地跟随别人，前往会遇到困难。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "贞吉悔亡，憧憧往来，朋从尔思。",
         "meaning": "守正则吉悔恨消亡。心神不定地往来，朋友们会顺从你的想法。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "咸其脢，无悔。",
         "meaning": "感应在后背，没有悔恨——不动心而真诚相感。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "咸其辅颊舌。",
         "meaning": "感应在口舌脸颊——甜言蜜语，口惠而实不至。"
       }
     ],
-    "xiang": "Mountain receives the lake. The superior person receives others.",
+    "xiang": "山上有泽，咸。君子以虚受人。",
     "meaning": "咸卦象征感应与沟通。上兑为泽，下艮为山，山上有泽——山泽通气，相互感应之象。咸卦以人体各部位从下到上的感应为喻：从脚趾（初六）到小腿（六二）到大腿（九三）到心（九四）到后背（九五）到口舌（上六），展示了感应的不同层次。核心是\"虚受\"——放空心胸才能真诚感应。",
     "category": "感应"
   },
@@ -1370,40 +1370,40 @@
     "symbol": "䷟",
     "upperTrigram": "震",
     "lowerTrigram": "巽",
-    "judgment": "Heng: perseverance. Success. No blame.",
+    "judgment": "Perseverance. Success. No blame.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "浚恒，贞凶，无攸利。",
         "meaning": "深求恒久之道，守正也有凶险，没有利——急于求成反而不恒。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "悔亡。",
         "meaning": "悔恨消亡——中庸之道，不偏不倚。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "不恒其德，或承之羞，贞吝。",
         "meaning": "不能恒守其德，就会蒙受羞辱，守正也有困难。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "田无禽。",
         "meaning": "田猎没有捕获——不恒其位则无所成。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "恒其德，贞。妇人吉，夫子凶。",
         "meaning": "恒守其德，守正。妇人吉，男人凶——柔顺之德对男子而言应有变通。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "振恒，凶。",
         "meaning": "动荡不安地恒守，凶——不能恒久。"
       }
     ],
-    "xiang": "Thunder and wind together. The superior person stands firm.",
+    "xiang": "雷风，恒。君子以立不易方。",
     "meaning": "恒卦象征恒久与坚持。上震为雷，下巽为风，雷风相随——恒久之象。恒卦讲的是坚持的道理：不是固执不变，而是在变化中保持正道。初六讲不可急于求成，九二讲中庸之道，九三讲不恒之辱，九四讲不恒则无成，六五讲恒德也有适用范围，上六讲动荡不安则不能恒。",
     "category": "恒久"
   },
@@ -1414,40 +1414,40 @@
     "symbol": "䷠",
     "upperTrigram": "乾",
     "lowerTrigram": "艮",
-    "judgment": "Dun: retreat. Success.",
+    "judgment": "Retreat. Success.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "遁尾，厉，勿用有攸往。",
         "meaning": "落在退避队伍的末尾，危险，不可前往——该退不退则危。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "执之用黄牛之革，莫之胜说。",
         "meaning": "用黄牛皮牢牢绑住，无法解脱——坚守意志，不为所动。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "系遁，有疾厉，畜臣妾吉。",
         "meaning": "心中牵绊而无法退避，像疾病一样危险，但蓄养奴婢则吉。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "好遁，君子吉，小人否。",
         "meaning": "欣然退避，君子吉，小人则做不到。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "嘉遁，贞吉。",
         "meaning": "完美的退避，守正则吉——功成身退，见好就收。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "肥遁，无不利。",
         "meaning": "从容宽裕地退避，没有不利——心无挂碍，彻底超脱。"
       }
     ],
-    "xiang": "Heaven retreats from the mountain. The superior person keeps distance.",
+    "xiang": "天下有山，遁。君子以远小人，不恶而严。",
     "meaning": "遁卦象征退避与隐退。上乾为天，下艮为山，天在山外——远避之象。遁不是消极逃跑，而是战略性的退让。初六讲该退不退则危，六二讲坚守意志，九三讲被牵绊则难退，九四讲欣然退避，九五讲功成身退，上九讲彻底超脱。君子在退避中保持尊严和原则。",
     "category": "退避"
   },
@@ -1458,40 +1458,40 @@
     "symbol": "䷡",
     "upperTrigram": "震",
     "lowerTrigram": "乾",
-    "judgment": "Da Zhuang: great power. Perseverance furthers.",
+    "judgment": "Great power. Perseverance furthers.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "壮于趾，征凶，有孚。",
         "meaning": "脚趾强壮，出征则凶——强盛时才起步就贸然前进会失败。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "贞吉。",
         "meaning": "守正则吉——强盛之时更需要中正之道。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "小人用壮，君子用罔，贞厉。羝羊触藩，羸其角。",
         "meaning": "小人凭力强，君子不用。守正防危。公羊顶撞篱笆，角被卡住——逞强则困。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "贞吉，悔亡。藩决不羸，壮于大舆之輹。",
         "meaning": "守正则吉悔恨消亡。篱笆被撞开不再卡角，大车的辐条强劲——困难和阻碍被突破。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "丧羊于易，无悔。",
         "meaning": "在田畔丢失了羊，但无悔——强盛时有所失也在所难免。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "羝羊触藩，不能退，不能遂，无攸利。艰则吉。",
         "meaning": "公羊卡在篱笆中，进退两难，没有利。在艰难中坚持则吉。"
       }
     ],
-    "xiang": "Thunder above heaven. The superior person acts with propriety.",
+    "xiang": "雷在天上，大壮。君子以非礼弗履。",
     "meaning": "大壮卦象征强盛与壮大。上震为雷，下乾为天，雷在天上——声势浩大之象。大壮讲的是处盛之道：初九讲不可冒进，九二讲中正之道，九三讲逞强则困（以公羊触篱笆为喻），九四讲突破困局，六五讲得失寻常，上六讲进退两难中要坚持。核心：强大时更要守礼，非礼勿行。",
     "category": "强盛"
   },
@@ -1502,128 +1502,128 @@
     "symbol": "䷢",
     "upperTrigram": "离",
     "lowerTrigram": "坤",
-    "judgment": "Jin: advance. The duke is rewarded.",
+    "judgment": "Advance. The duke is rewarded.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "晋如摧如，贞吉。罔孚，裕无咎。",
         "meaning": "前进而又被摧折，守正则吉。不被信任时，宽裕自处则无灾祸。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "晋如愁如，贞吉。受兹介福，于其王母。",
         "meaning": "前进而又有忧愁，守正则吉。从祖母那里承受大福。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "众允，悔亡。",
         "meaning": "得到众人的信任，悔恨消亡。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "晋如鼫鼠，贞厉。",
         "meaning": "像鼫鼠一样前进（贪婪而无能），守正以防危险。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "悔亡，失得勿恤，往吉无不利。",
         "meaning": "悔恨消亡，不计较得失，前往吉无不利。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "晋其角，维用伐邑，厉吉无咎，贞吝。",
         "meaning": "前进到角尖，用于征伐属邑，危险中有吉无灾祸，但守正也艰难。"
       }
     ],
-    "xiang": "The sun rises over earth. The superior person illuminates virtue.",
+    "xiang": "明出地上，晋。君子以自昭明德。",
     "meaning": "晋卦象征前进与晋升。上离为火（日），下坤为地，日出地上——光明渐进之象。晋卦讲的是进取之道：初六讲前进受挫时宽裕自处，六二讲忧愁中坚守得福，六三讲取信于众，九四讲戒贪婪无能，六五讲不计得失，上九讲进取到极点时要注意分寸。",
     "category": "进取"
   },
   "36": {
     "number": 36,
     "name": "Ming Yi",
-    "fullName": "Ming Yi — Wounding the Bright",
+    "fullName": "Ming Yi — Wounding Light",
     "symbol": "䷣",
     "upperTrigram": "坤",
     "lowerTrigram": "离",
-    "judgment": "Ming Yi: wounding the bright. Perseverance in difficulty.",
+    "judgment": "Wounding the bright. Perseverance in difficulty.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "明夷于飞，垂其翼。君子于行，三日不食。有攸往，主人有言。",
         "meaning": "光明受伤时像鸟儿低垂翅膀飞行。君子出行，三日没吃饭。有所前往，主人有责难之辞。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "明夷，夷于左股，用拯马壮，吉。",
         "meaning": "光明受伤，伤在左大腿，用强壮的马来救助，吉——借助外力挽救。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "明夷于南狩，得其大首，不可疾贞。",
         "meaning": "光明受伤时在南方征讨，擒获魁首，不可急于求成。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "入于左腹，获明夷之心，于出门庭。",
         "meaning": "进入其左腹，探明了光明受伤的根由，于是退出门庭——知其内情后及时退出。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "箕子之明夷，利贞。",
         "meaning": "像箕子那样在黑暗中保持光明，利于守正——身处逆境而守正不阿。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "不明晦，初登于天，后入于地。",
         "meaning": "由光明转入黑暗，起初升到天上，后来坠入地下。"
       }
     ],
-    "xiang": "Light enters the earth. The superior person is resilient.",
+    "xiang": "明入地中，明夷。君子以莅众，用晦而明。",
     "meaning": "明夷卦象征光明受损与黑暗时期。上坤为地，下离为火，日入地中——光明被遮蔽之象。明夷讲的是在逆境中如何自处：初九讲韬光养晦，六二讲借助外力，九三讲等待时机除害，六四讲知内情而全身而退，六五讲守正不阿如箕子。核心是\"用晦而明\"——在黑暗中保持内心的光明。",
     "category": "受损"
   },
   "37": {
     "number": 37,
     "name": "Jia Ren",
-    "fullName": "Jia Ren — The Family",
+    "fullName": "Jia Ren — Family",
     "symbol": "䷤",
     "upperTrigram": "巽",
     "lowerTrigram": "离",
-    "judgment": "Jia Ren: the family. The woman's perseverance is favorable.",
+    "judgment": "The family. Woman's perseverance favorable.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "闲有家，悔亡。",
         "meaning": "在家中防患于未然，悔恨消亡——家道初立就要严于防范。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "无攸遂，在中馈，贞吉。",
         "meaning": "不专权擅断，主管家中饮食之事，守正则吉——各安其位。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "家人嗃嗃，悔厉吉。妇子嘻嘻，终吝。",
         "meaning": "家人严厉呵斥，看似悔恨危险但最终吉利。妇人和孩子嘻嘻哈哈，终有困难。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "富家，大吉。",
         "meaning": "使家庭富裕，大吉——善于持家。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "王假有家，勿恤，吉。",
         "meaning": "君王亲临其家，不必忧虑，吉——以身作则感化家人。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "有孚威如，终吉。",
         "meaning": "有诚信且威严，终吉——家长的威信来自诚信。"
       }
     ],
-    "xiang": "Wind from fire. The superior person speaks with substance.",
+    "xiang": "风自火出，家人。君子以言有物而行有恒。",
     "meaning": "家人卦象征家庭之道。上巽为风，下离为火，风自火出——家事影响外人之象。家人卦讲治家之道：初九讲防患于未然，六二讲各安其位，九三讲严胜过宽，六四讲善于持家，九五讲以身作则，上九讲诚信威严。核心：君子言有物而行有恒，家道自然兴旺。",
     "category": "家庭"
   },
@@ -1634,40 +1634,40 @@
     "symbol": "䷥",
     "upperTrigram": "离",
     "lowerTrigram": "兑",
-    "judgment": "Kui: opposition. Small matters bring good fortune.",
+    "judgment": "Opposition. Small matters bring fortune.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "悔亡。丧马勿逐，自复。见恶人，无咎。",
         "meaning": "悔恨消亡。丢了马不去追，它自己会回来。见到恶人，无灾祸。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "遇主于巷，无咎。",
         "meaning": "在小巷中遇见了主人，无灾祸——不期而遇，屈身相就。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "见舆曳，其牛掣，其人天且劓，无初有终。",
         "meaning": "车被拖住，牛被牵制，驾车人受了刑——开始不顺但最终结果尚可。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "睽孤，遇元夫，交孚，厉无咎。",
         "meaning": "孤立无援时遇到大丈夫，以诚信相交，虽有危险但无灾祸。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "悔亡。厥宗噬肤，往何咎。",
         "meaning": "悔恨消亡。宗族中有人来帮助，前往有何灾祸？"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "睽孤，见豕负涂，载鬼一车，先张之弧，后说之弧。匪寇婚媾，往遇雨则吉。",
         "meaning": "极端孤立时产生幻觉——见猪满身泥巴，又见一车鬼，先张弓要射，后又放下弓。原来不是盗寇而是求婚者。前往遇雨则吉——疑惧消除则和合。"
       }
     ],
-    "xiang": "Fire and lake oppose. The superior person unites while respecting differences.",
+    "xiang": "上火下泽，睽。君子以同而异。",
     "meaning": "睽卦象征乖离与对立。上离为火，下兑为泽，火往上炎泽往下润——背道而驰之象。睽卦讲的是如何处理分歧和对立：初九讲顺其自然，九二讲不期而遇，六三讲初始不顺但最终可成，九四讲诚信化解孤立，六五讲宗族互助，上九讲疑惧消除后和合。核心是\"同而异\"——和而不同，尊重差异。",
     "category": "乖离"
   },
@@ -1678,40 +1678,40 @@
     "symbol": "䷦",
     "upperTrigram": "坎",
     "lowerTrigram": "艮",
-    "judgment": "Jian: obstruction. Favorable in the southwest.",
+    "judgment": "Obstruction. Favorable southwest.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "往蹇来誉。",
         "meaning": "前往则有险阻，退回则有赞誉——知难而退也是一种智慧。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "王臣蹇蹇，匪躬之故。",
         "meaning": "君臣都陷入重重险阻，但不是为了自身的原因——为国事而赴难。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "往蹇来反。",
         "meaning": "前往有险阻，不如返回。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "往蹇来连。",
         "meaning": "前往有险阻，回来则与众人联合——团结力量共渡难关。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "大蹇朋来。",
         "meaning": "大难之中朋友纷纷来助——德高望重者得众人相助。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "往蹇来硕，吉。利见大人。",
         "meaning": "前往有险阻，回来则有丰硕成果，吉。利于拜见大人物。"
       }
     ],
-    "xiang": "Water on the mountain. The superior person reflects.",
+    "xiang": "山上有水，蹇。君子以反身修德。",
     "meaning": "蹇卦象征艰难与险阻。上坎为水，下艮为山，山上有水——前路艰险之象。蹇卦讲的是面对困难的态度：不是硬闯而是知难而退（初六），为国事不畏艰难（六二），及时回头（九三），团结众人（六四），以德高望重吸引帮助（九五），最后终有成果（上六）。核心是\"反身修德\"——遇到困难先反省自己。",
     "category": "艰难"
   },
@@ -1722,40 +1722,40 @@
     "symbol": "䷧",
     "upperTrigram": "震",
     "lowerTrigram": "坎",
-    "judgment": "Jie: deliverance. Favorable to act quickly.",
+    "judgment": "Deliverance. Favorable to act quickly.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "无咎。",
         "meaning": "无灾祸——险难初解之时，安静无为即可。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "田获三狐，得黄矢，贞吉。",
         "meaning": "田猎捕获三只狐狸，得到黄色的箭矢，守正则吉——清除小人，得到中正之道。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "负且乘，致寇至，贞吝。",
         "meaning": "背着东西又坐着车，招致盗寇前来，守正也有困难——位不称职则招祸。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "解而拇，朋至斯孚。",
         "meaning": "解除了小人的纠缠，朋友就会以诚信而来。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "君子维有解，吉。有孚于小人。",
         "meaning": "君子被解除束缚，吉。对小人也要有诚信——宽大处理。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "公用射隼于高墉之上，获之，无不利。",
         "meaning": "王公在高墙上射落恶鸟，捕获了它，无不利——清除最后的祸害。"
       }
     ],
-    "xiang": "Thunder and rain. The superior person forgives.",
+    "xiang": "雷雨作，解。君子以赦过宥罪。",
     "meaning": "解卦象征解除困难。上震为雷，下坎为水（雨），雷雨大作——化解旱情之象。解卦讲的是摆脱困境的方法：初六讲安静等待，九二讲清除小人，六三讲位不称职则招祸，九四讲摆脱纠缠，六五讲宽大处理，上六讲清除最后的祸害。核心：解决问题后要宽恕过失。",
     "category": "解脱"
   },
@@ -1766,40 +1766,40 @@
     "symbol": "䷨",
     "upperTrigram": "艮",
     "lowerTrigram": "兑",
-    "judgment": "Sun: decrease with sincerity brings supreme success.",
+    "judgment": "Decrease. Sincerity brings supreme success.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "已事遄往，无咎。酌损之。",
         "meaning": "事已毕就赶快前往，无灾祸。但要斟酌减损的程度——适时适量。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "利贞，征凶，弗损益之。",
         "meaning": "守正有利，出征则凶。不损不减反而有益——不减即是增。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "三人行，则损一人；一人行，则得其友。",
         "meaning": "三人同行就会减损一人；一人独行则会得到朋友——求同存异。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "损其疾，使遄有喜，无咎。",
         "meaning": "减损其病患，迅速就有喜讯，无灾祸——去除坏的就是好的。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "或益之十朋之龟，弗克违，元吉。",
         "meaning": "有人赠以价值十朋的宝龟，不可推辞，大吉——因损而得益。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "弗损益之，无咎，贞吉，利有攸往，得臣无家。",
         "meaning": "不损不减反而增益，无灾祸，守正则吉，前往有利，得到无私的臣子。"
       }
     ],
-    "xiang": "Lake below mountain. The superior person controls desire.",
+    "xiang": "山下有泽，损。君子以惩忿窒欲。",
     "meaning": "损卦象征减损与克制。上艮为山，下兑为泽，山下有泽——挖泽土以增山，损下益上之象。损卦揭示了一个深刻的哲理：有时候减损反而有益。初九讲减损要适度，九二讲不减即是增，六三讲减损以求平衡，六四讲去病即是喜，六五讲因损得益，上九讲无损而增益。核心：克制私欲（惩忿窒欲）就是最大的益。",
     "category": "减损"
   },
@@ -1810,40 +1810,40 @@
     "symbol": "䷩",
     "upperTrigram": "巽",
     "lowerTrigram": "震",
-    "judgment": "Yi: increase. Favorable to cross the great river.",
+    "judgment": "Increase. Favorable to cross great river.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "利用为大作，元吉，无咎。",
         "meaning": "利于做大事，大吉，无灾祸——受到增益后要大展宏图。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "或益之十朋之龟，弗克违，永贞吉。王用享于帝，吉。",
         "meaning": "有人赠以宝龟，不可推辞，永守贞正则吉。君王以此祭享天帝，吉。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "益之用凶事，无咎。有孚中行，告公用圭。",
         "meaning": "将增益用于救凶灾之事，无灾祸。心怀诚信持中而行，执圭向王公报告。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "中行告公从，利用为依迁国。",
         "meaning": "持中而行，王公听从建议，利于迁都——以诚心获得信任。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "有孚惠心，勿问元吉。有孚惠我德。",
         "meaning": "以诚信和惠心待人，不问而知是大吉。我的恩德也会得到诚信回报。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "莫益之，或击之，立心勿恒，凶。",
         "meaning": "无人帮助反而有人攻击，用心不恒，凶——益极则反，贪求无厌则凶。"
       }
     ],
-    "xiang": "Wind and thunder. The superior person follows good.",
+    "xiang": "风雷，益。君子以见善则迁，有过则改。",
     "meaning": "益卦象征增益与利益。上巽为风，下震为雷，风雷相激——互相增益之象。益卦讲的是如何获得和保持增益：增益后要大展宏图（初九），接受馈赠要守正（六二），增益用于公益（六三），以诚心获得信任（六四），以诚信惠心待人（九五），贪求无厌则凶（上九）。核心：见善则迁，有过则改。",
     "category": "增益"
   },
@@ -1854,84 +1854,84 @@
     "symbol": "䷪",
     "upperTrigram": "兑",
     "lowerTrigram": "乾",
-    "judgment": "Guai: breakthrough. Announce it at court.",
+    "judgment": "Breakthrough. Announce at court.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "壮于前趾，往不胜为咎。",
         "meaning": "前脚趾强壮，贸然前往而不能胜，就是灾祸——不可冒进。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "惕号，莫夜有戎，勿恤。",
         "meaning": "警惕地呼号，即使深夜有战事也不必忧虑——有备无患。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "壮于頄，有凶。君子夬夔独行，遇雨若濡，有愠，无咎。",
         "meaning": "颧骨强壮（怒形于色），有凶险。君子果敢独行，遇雨淋湿，虽有愠怒但无灾祸。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "臀无肤，其行次且。牵羊悔亡，闻言不信。",
         "meaning": "臀部无皮肤，坐立不安行走困难。牵羊而行悔恨消亡，但听到忠言却不相信。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "苋陆夬夔，中行无咎。",
         "meaning": "像斩断苋菜一样果决地去除小人，持中而行无灾祸。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "无号，终有凶。",
         "meaning": "无人响应呼号，最终有凶险——穷途末路。"
       }
     ],
-    "xiang": "Lake rising to heaven. The superior person gives generously.",
+    "xiang": "泽上于天，夬。君子以施禄及下，居德则忌。",
     "meaning": "夬卦象征决断与果决。上兑为泽，下乾为天，泽在天上——水满则溃之象。夬卦讲的是决断之道：不可冒进（初九），有备无患（九二），果敢但不怒形于色（九三），犹豫不决则坐立不安（九四），持中而行不留后患（九五），穷途末路终有凶（上六）。",
     "category": "决断"
   },
   "44": {
     "number": 44,
     "name": "Gou",
-    "fullName": "Gou — Coming to Meet",
+    "fullName": "Gou — Meeting",
     "symbol": "䷫",
     "upperTrigram": "乾",
     "lowerTrigram": "巽",
-    "judgment": "Gou: coming to meet. A powerful woman.",
+    "judgment": "Meeting. A powerful woman.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "系于金柅，贞吉。有攸往，见凶，羸豕孚蹢躅。",
         "meaning": "牢牢系在金属刹车上，守正则吉。有所前往则见凶险。瘦猪在徘徊躁动——小人的苗头需要控制。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "包有鱼，无咎，不利宾。",
         "meaning": "厨房里有鱼，无灾祸，但不利于招待宾客——将小人控制住即可。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "臀无肤，其行次且，厉，无大咎。",
         "meaning": "臀部无皮肤，行动困难，危险但无大灾祸。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "包无鱼，起凶。",
         "meaning": "厨房里没有鱼，起事则凶——失去对局面的控制则危险。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "以杞包瓜，含章，有陨自天。",
         "meaning": "用杞柳包护瓜果，内含文采，有陨星自天而降——内蕴才华，天命所归。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "姤其角，吝，无咎。",
         "meaning": "相遇于角尖，艰难但无灾祸——退守而已。"
       }
     ],
-    "xiang": "Wind under heaven. The ruler commands.",
+    "xiang": "天下有风，姤。后以施命诰四方。",
     "meaning": "姤卦象征相遇与邂逅。上乾为天，下巽为风，风行天下——万物相遇之象。姤卦讲的是如何处理不期而遇的关系：初六讲在萌芽阶段控制不良倾向，九二讲控制局面，九三讲虽困难但无大碍，九四讲失去控制则危险，九五讲内蕴才华待天命，上九讲退守。",
     "category": "相遇"
   },
@@ -1942,40 +1942,40 @@
     "symbol": "䷬",
     "upperTrigram": "兑",
     "lowerTrigram": "坤",
-    "judgment": "Cui: gathering together. The king approaches the temple.",
+    "judgment": "Gathering. The king approaches the temple.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "有孚不终，乃乱乃萃。若号，一握为笑，勿恤，往无咎。",
         "meaning": "诚信不能坚持到底，于是散乱又聚集。若呼喊求聚，握手言欢，不必忧虑，前往无灾祸。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "引吉，无咎。孚乃利用禴。",
         "meaning": "受引导而聚集则吉，无灾祸。诚信之人即使用薄礼祭祀也有利于祈福。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "萃如嗟如，无攸利。往无咎，小吝。",
         "meaning": "聚集而又叹息，没有利。前往无灾祸，但有小困难。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "大吉，无咎。",
         "meaning": "大吉，无灾祸——以德服众，众望所归。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "萃有位，无咎。匪孚，元永贞，悔亡。",
         "meaning": "聚集而有其位，无灾祸。尚未取信于人时，长久守正，悔恨消亡。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "赍咨涕洟，无咎。",
         "meaning": "悲泣叹息、泪流满面，但无灾祸——因不得相聚而悲伤，情真意切。"
       }
     ],
-    "xiang": "Lake above the earth. The superior person prepares for danger.",
+    "xiang": "泽上于地，萃。君子以除戎器，戒不虞。",
     "meaning": "萃卦象征聚集与荟萃。上兑为泽，下坤为地，泽在地上——水聚于地之象。萃卦讲的是聚集之道：诚信是聚集的基础（初六），主动求聚（六二），聚而不合则叹息（六三），以德服众（九四），居位以正（九五），不得相聚时的真情（上六）。君子在聚集时要整治武备以防不测。",
     "category": "聚集"
   },
@@ -1986,84 +1986,84 @@
     "symbol": "䷭",
     "upperTrigram": "坤",
     "lowerTrigram": "巽",
-    "judgment": "Sheng: ascending. Supreme success.",
+    "judgment": "Ascending. Supreme success.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "允升，大吉。",
         "meaning": "诚信向上晋升，大吉——以诚信为基础逐步上升。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "孚乃利用禴，无咎。",
         "meaning": "诚信之人即使用薄礼祭祀也无灾祸——重在诚心而非形式。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "升虚邑。",
         "meaning": "升入空虚的城邑——顺畅无阻地上升。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "王用亨于岐山，吉无咎。",
         "meaning": "君王在岐山祭祀，吉无灾祸——顺时而行。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "贞吉，升阶。",
         "meaning": "守正则吉，沿着台阶步步上升——稳步晋升。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "冥升，利于不息之贞。",
         "meaning": "昏昧地上升，利于不停息地守正——上升不止但要以正道为根基。"
       }
     ],
-    "xiang": "Wood grows from earth. The superior person accumulates virtue.",
+    "xiang": "地中生木，升。君子以顺德，积小以高大。",
     "meaning": "升卦象征上升与晋升。上坤为地，下巽为风，地中生木——树木从地下向上生长之象。升卦讲的是如何稳步晋升：以诚信为基础（初六），重诚心而非形式（九二），顺畅上升（九三），顺时而行（六四），稳步登阶（六五），上升不息但以正道为根基（上六）。核心是\"积小以高大\"——从小处积累终成大器。",
     "category": "上升"
   },
   "47": {
     "number": 47,
-    "name": "Kun (Distress)",
+    "name": "Kun",
     "fullName": "Kun — Distress",
     "symbol": "䷮",
     "upperTrigram": "兑",
     "lowerTrigram": "坎",
-    "judgment": "Kun: distress. Success. Perseverance brings good fortune.",
+    "judgment": "Distress. Success. Perseverance brings fortune.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "臀困于株木，入于幽谷，三岁不觌。",
         "meaning": "坐在枯木上困顿不安，进入幽暗山谷，三年不见人——困之始，深陷困境。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "困于酒食，朱绂方来，利用享祀，征凶，无咎。",
         "meaning": "困于酒食（宴乐过度），红衣官服刚送来，利于祭祀，出征则凶，无灾祸。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "困于石，据于蒺藜，入于其宫，不见其妻，凶。",
         "meaning": "被石头困住，倚靠着蒺藜，回到家中不见妻子，凶——进退失据。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "来徐徐，困于金车，吝，有终。",
         "meaning": "缓缓而来，被金车所困，虽有困难但最终有善果。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "劓刖，困于赤绂。乃徐有说，利用祭祀。",
         "meaning": "受削鼻断足之刑，被红色官服所困。徐徐解脱，利于祭祀——在磨难中慢慢解脱。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "困于葛藟，于臲卼，曰动悔有悔，征吉。",
         "meaning": "被藤蔓缠绕困住，处于动摇不安之中。动了悔又生悔，出征则吉——在困境中行动反而能解脱。"
       }
     ],
-    "xiang": "Lake drained of water. The superior person holds to purpose.",
+    "xiang": "泽无水，困。君子以致命遂志。",
     "meaning": "困卦象征困境与穷困。上兑为泽，下坎为水，泽中无水——干涸困窘之象。困卦讲的是身处困境时的智慧：困境不可避免（初六），富贵也会困人（九二），进退失据是大凶（六三），缓步徐行可脱困（九四），在磨难中慢慢解脱（九五），最终要行动起来冲出困境（上六）。核心是\"致命遂志\"——在困境中宁可舍弃生命也要实现志向。",
     "category": "困境"
   },
@@ -2074,40 +2074,40 @@
     "symbol": "䷯",
     "upperTrigram": "坎",
     "lowerTrigram": "巽",
-    "judgment": "Jing: the well. The town changes, the well remains.",
+    "judgment": "The well. Town changes, well remains.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "井泥不食，旧井无禽。",
         "meaning": "井中淤泥不能饮用，废旧的井连鸟都不来——人不修德则无人问津。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "井谷射鲋，瓮敝漏。",
         "meaning": "井底有鱼只能射取，水罐破漏——有才德但不被重用。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "井渫不食，为我心恻。可用汲，王明并受其福。",
         "meaning": "井水已清却无人饮用，令人心中悲痛。可以汲用了，君王英明则天下共享其福。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "井甃，无咎。",
         "meaning": "修砌井壁，无灾祸——修养自身以待时用。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "井洌，寒泉食。",
         "meaning": "井水清澈甘冽，清凉的泉水可以饮用——德才兼备，被人所用。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "井收勿幕，有孚元吉。",
         "meaning": "井已修好不必加盖，诚信大吉——完全开放，惠及众人。"
       }
     ],
-    "xiang": "Wood above water. The superior person encourages.",
+    "xiang": "木上有水，井。君子以劳民劝相。",
     "meaning": "井卦象征人才与修养。上坎为水，下巽为风（木），木上有水——井水被汲取之象。井卦以井喻人：不修德才如废井（初六），有才德但不被重用（九二），怀才不遇令人惋惜（九三），修身以待时机（六四），德才兼备终被重用（九五），完全奉献社会（上六）。君子要像井一样不断滋养他人。",
     "category": "修养"
   },
@@ -2118,40 +2118,40 @@
     "symbol": "䷰",
     "upperTrigram": "兑",
     "lowerTrigram": "离",
-    "judgment": "Ge: revolution. On your own day you are believed.",
+    "judgment": "Revolution. On your own day, believed.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "巩用黄牛之革。",
         "meaning": "用黄牛皮牢牢捆住——变革之初要巩固基础，不可轻举妄动。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "己日乃革之，征吉，无咎。",
         "meaning": "到了己日才推行变革，征进则吉无灾祸——变革需要等待成熟时机。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "征凶，贞厉。革言三就，有孚。",
         "meaning": "贸然前进则凶，守正防危。变革的主张多次讨论成熟，要有诚信。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "悔亡，有孚改命，吉。",
         "meaning": "悔恨消亡，有诚信地改变旧命，吉。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "大人虎变，未占有孚。",
         "meaning": "伟人像老虎换毛一样进行变革，不用占卜也知道有诚信——变革的成就辉煌可见。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "君子豹变，小人革面。征凶，居贞吉。",
         "meaning": "君子像豹子一样文采斐然地变革，小人只是表面改变。贸然前进则凶，安居守正则吉。"
       }
     ],
-    "xiang": "Fire in the lake. The superior person regulates.",
+    "xiang": "泽中有火，革。君子以治历明时。",
     "meaning": "革卦象征变革与革新。上兑为泽，下离为火，泽中有火——水火相克，必然变革之象。革卦讲变革之道：不可轻举妄动（初九），等待成熟时机（六二），反复讨论充分准备（九三），诚信变革（九四），辉煌成就（九五），君子深化变革小人表面应付（上六）。核心：变革要把握时机、充分准备。",
     "category": "变革"
   },
@@ -2162,40 +2162,40 @@
     "symbol": "䷱",
     "upperTrigram": "离",
     "lowerTrigram": "巽",
-    "judgment": "Ding: the cauldron. Supreme good fortune.",
+    "judgment": "The cauldron. Supreme good fortune.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "鼎颠趾，利出否。得妾以其子，无咎。",
         "meaning": "鼎脚颠倒，利于倒出陈腐之物。娶妾而得子，无灾祸——革故鼎新。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "鼎有实，我仇有疾，不我能即，吉。",
         "meaning": "鼎中有食物，我的对头有病不能靠近我，吉——有实力则有恃无恐。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "鼎耳革，其行塞，雉膏不食。方雨亏悔，终吉。",
         "meaning": "鼎耳脱落，移动受阻，美味的野鸡肉不能食用。天降雨则悔恨消散，终吉。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "鼎折足，覆公餗，其形渥，凶。",
         "meaning": "鼎足折断，倾覆了王公的美食，玷污了鼎身，凶——力不胜任则败。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "鼎黄耳金铉，利贞。",
         "meaning": "鼎配有黄色鼎耳和金色鼎杠，利于守正——得贤人辅助则鼎器稳固。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "鼎玉铉，大吉，无不利。",
         "meaning": "鼎配有玉制鼎杠，大吉，无不利——刚柔相济，尽善尽美。"
       }
     ],
-    "xiang": "Fire above wood. The superior person stands in destiny.",
+    "xiang": "木上有火，鼎。君子以正位凝命。",
     "meaning": "鼎卦象征鼎立与创新。上离为火，下巽为风（木），木上有火——鼎中烹煮之象。鼎是国之重器，鼎卦讲的是建立新秩序之道：初六讲革故鼎新，九二讲有实力则从容，九三讲暂时的阻碍终会消除，九四讲力不胜任的危险，六五讲得贤人辅助，上九讲刚柔相济的完美境界。核心是\"正位凝命\"——各安其位以成就天命。",
     "category": "鼎新"
   },
@@ -2206,40 +2206,40 @@
     "symbol": "䷲",
     "upperTrigram": "震",
     "lowerTrigram": "震",
-    "judgment": "Zhen: thunder. Shock brings success.",
+    "judgment": "Thunder. Shock brings success.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "震来虩虩，后笑言哑哑，吉。",
         "meaning": "雷声骤来惊恐不安，后来谈笑自如，吉——因恐惧而反思则吉。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "震来厉，亿丧贝，跻于九陵，勿逐，七日得。",
         "meaning": "雷来凶猛，丢失大量钱财，登上高陵，不必追寻，七日后失而复得。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "震苏苏，震行无眚。",
         "meaning": "雷震使人不安，在雷震中行动则无灾祸——在恐惧中前行反而安全。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "震遂泥。",
         "meaning": "雷震坠入泥中——震惊过大反而陷入停滞。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "震往来厉，亿无丧，有事。",
         "meaning": "雷震来往都很猛烈，但终于没有重大损失，只是有惊有事。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "震索索，视矍矍，征凶。震不于其躬于其邻，无咎。婚媾有言。",
         "meaning": "雷震使人瑟缩发抖，惊惶失措，此时出征则凶。雷未击己而击邻，无灾祸。但婚事会有口舌是非。"
       }
     ],
-    "xiang": "Double thunder. The superior person examines themselves.",
+    "xiang": "洊雷，震。君子以恐惧修省。",
     "meaning": "震卦象征震动与戒惧。上下皆震为雷，双雷叠加——震动连连之象。震卦讲的是面对震惊和突发事件的态度：初九讲在震惊中反思则吉，六二讲冷静等待损失会恢复，六三讲在恐惧中前行，九四讲过度的震惊让人停滞，六五讲有惊无险，上六讲过度恐惧则不利行动。核心是\"恐惧修省\"——在戒惧中反省修身。",
     "category": "震动"
   },
@@ -2250,128 +2250,128 @@
     "symbol": "䷳",
     "upperTrigram": "艮",
     "lowerTrigram": "艮",
-    "judgment": "Gen: stillness. Keeping still brings peace.",
+    "judgment": "Stillness. Keeping still brings peace.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "艮其趾，无咎，利永贞。",
         "meaning": "停止在脚趾上，无灾祸，利于长久守正——在行动之初就适时停止。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "艮其腓，不拯其随，其心不快。",
         "meaning": "停止在小腿上，不能拯救追随的人，心中不快——想停又停不下来。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "艮其限，列其夤，厉薰心。",
         "meaning": "停止在腰部，撕裂了脊背的肌肉，危险使人心焦。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "艮其身，无咎。",
         "meaning": "停止在自身，无灾祸——止于本分，自我克制。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "艮其辅，言有序，悔亡。",
         "meaning": "止住口舌，言语有条理，悔恨消亡——慎言则无悔。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "敦艮，吉。",
         "meaning": "以敦厚的态度适可而止，吉——止得其所，从容厚重。"
       }
     ],
-    "xiang": "Mountains stand still. The superior person is still.",
+    "xiang": "兼山，艮。君子以思不出其位。",
     "meaning": "艮卦象征停止与知止。上下皆艮为山，两山并立——止而不动之象。艮卦讲的是\"知止\"的智慧：在行动之初就适时停止（初六），被动停止时心中不快（六二），强行停止的危险（九三），止于本分（六四），言语有度（六五），敦厚而知止（上九）。核心是\"思不出其位\"——思想和行为都不越位。",
     "category": "停止"
   },
   "53": {
     "number": 53,
-    "name": "Jian (Progress)",
-    "fullName": "Jian — Gradual Progress",
+    "name": "Jian",
+    "fullName": "Jian — Gradual",
     "symbol": "䷴",
     "upperTrigram": "巽",
     "lowerTrigram": "艮",
-    "judgment": "Jian: gradual progress. A maiden is taken in marriage. Good fortune.",
+    "judgment": "Gradual progress. Taking a maiden brings fortune.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "鸿渐于干，小子厉，有言，无咎。",
         "meaning": "大雁渐渐飞到岸边，小子有危险，有口舌是非，但无灾祸。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "鸿渐于磐，饮食衎衎，吉。",
         "meaning": "大雁渐渐飞到磐石上，饮食欢快，吉——安于稳妥之地。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "鸿渐于陆，夫征不复，妇孕不育，凶。利御寇。",
         "meaning": "大雁渐渐飞到高地，丈夫出征不归，妇人怀孕不育，凶。但利于防御盗寇。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "鸿渐于木，或得其桷，无咎。",
         "meaning": "大雁渐渐飞到树上，或能找到平直的树枝栖息，无灾祸——在不安中找安稳。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "鸿渐于陵，妇三岁不孕，终莫之胜，吉。",
         "meaning": "大雁渐渐飞到山陵上，妇人三年不孕，但终究无人能胜过她，吉——坚守则成。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "鸿渐于陆，其羽可用为仪，吉。",
         "meaning": "大雁渐渐飞到高平之地，其羽毛可用作礼仪装饰，吉——高洁的品德可以垂范天下。"
       }
     ],
-    "xiang": "Wood on the mountain. The superior person improves gradually.",
+    "xiang": "山上有木，渐。君子以居贤德善俗。",
     "meaning": "渐卦象征渐进与循序渐进。上巽为风，下艮为山，山上有木——树木缓慢生长之象。渐卦以鸿雁（大雁）的飞行过程为喻，展示了事物发展的渐进性：从岸边（初六）到磐石（六二）到高地（九三）到树枝（六四）到山陵（九五）再到高平之地（上九），逐步上升不可急躁。核心是\"积跬步至千里\"。",
     "category": "渐进"
   },
   "54": {
     "number": 54,
     "name": "Gui Mei",
-    "fullName": "Gui Mei — The Marrying Maiden",
+    "fullName": "Gui Mei — Maiden",
     "symbol": "䷵",
     "upperTrigram": "震",
     "lowerTrigram": "兑",
-    "judgment": "Gui Mei: the marrying maiden. Action brings misfortune.",
+    "judgment": "The maiden. Action brings misfortune.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "归妹以娣，跛能履，征吉。",
         "meaning": "出嫁为侧室，像跛脚的人能走路一样，前往则吉——安于本分则行。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "眇能视，利幽人之贞。",
         "meaning": "一只眼看物，利于隐者的坚守——虽有不足但能安守。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "归妹以须，反归以娣。",
         "meaning": "本该嫁为正室却做了侧室，应该返回等待——名不正则言不顺。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "归妹愆期，迟归有时。",
         "meaning": "出嫁拖延了日期，推迟出嫁因为等待时机——待时而动。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "帝乙归妹，其君之袂不如其娣之袂良。月几望，吉。",
         "meaning": "帝乙嫁女，其衣饰不如随嫁之人的衣饰华丽。月亮将圆而未盈，吉——有内在之美不必外飾。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "女承筐无实，士刲羊无血，无攸利。",
         "meaning": "女子提着空筐，男子杀羊不见血——祭祀不成，虚而无实，没有利。"
       }
     ],
-    "xiang": "Thunder over the lake. The superior person sees the end.",
+    "xiang": "泽上有雷，归妹。君子以永终知敝。",
     "meaning": "归妹卦象征结合与婚姻。上震为雷，下兑为泽，泽上有雷——泽随雷动而感之象。归妹卦讲的是不匹配的结合：安于本分则可行（初九），虽有不足但守正（九二），名不正则言不顺（六三），待时而动（九四），内在美胜外在（六五），虚而无实则无利（上六）。核心是\"永终知敝\"——事先预见可能的弊端。",
     "category": "结合"
   },
@@ -2382,84 +2382,84 @@
     "symbol": "䷶",
     "upperTrigram": "震",
     "lowerTrigram": "离",
-    "judgment": "Feng: abundance. The king reaches it.",
+    "judgment": "Abundance. The king reaches it.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "遇其配主，虽旬无咎，往有尚。",
         "meaning": "遇到相匹配的主人，即使过了十日也无灾祸，前往会有好事。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "丰其蔀，日中见斗，往得疑疾。有孚发若，吉。",
         "meaning": "丰盛之时却被遮蔽，正午看见北斗星，前去会遭疑忌。以诚信表明心迹则吉。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "丰其沛，日中见沬，折其右肱，无咎。",
         "meaning": "丰盛之时却昏暗如夜，正午看见小星，折断了右臂，无灾祸——在盛时受挫但无大碍。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "丰其蔀，日中见斗，遇其夷主，吉。",
         "meaning": "丰盛被遮蔽，正午见北斗，遇到志同道合之人，吉。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "来章，有庆誉，吉。",
         "meaning": "光明显现，有喜庆和美誉，吉——光明重现。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "丰其屋，蔀其家，窥其户，阒其无人，三岁不觌，凶。",
         "meaning": "屋宇虽大却遮住了家，窥视其门户中空无一人，三年不见人，凶——盛极而衰，得意忘形则凶。"
       }
     ],
-    "xiang": "Thunder and lightning together. The superior person judges.",
+    "xiang": "雷电皆至，丰。君子以折狱致刑。",
     "meaning": "丰卦象征丰盛与盛大。上震为雷，下离为火（电），雷电皆至——声势浩大之象。但丰卦中反复出现\"日中见斗\"（正午的黑暗中看到北斗星）的意象，暗示盛中有衰。丰卦讲的是处盛之道：初九讲盛时遇贤主，六二讲盛中被遮蔽要以诚信化解，九三讲盛时受挫但无大碍，九四讲在黑暗中遇同道，六五讲光明重现，上六讲盛极而衰的警示。",
     "category": "丰盛"
   },
   "56": {
     "number": 56,
-    "name": "Lu (Wanderer)",
-    "fullName": "Lu — The Wanderer",
+    "name": "Lu",
+    "fullName": "Lu — Wanderer",
     "symbol": "䷷",
     "upperTrigram": "离",
     "lowerTrigram": "艮",
-    "judgment": "Lu: the wanderer. Small success.",
+    "judgment": "The wanderer. Small success.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "旅琐琐，斯其所取灾。",
         "meaning": "旅途中斤斤计较琐碎之事，这是自取其灾——出门在外要大方。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "旅即次，怀其资，得童仆贞。",
         "meaning": "旅途中有了客舍安身，怀揣钱财，得到忠实的童仆——旅居安顿之象。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "旅焚其次，丧其童仆，贞厉。",
         "meaning": "旅舍被火烧了，又失去了童仆，守正以防危险——旅途中遭遇变故。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "旅于处，得其资斧，我心不快。",
         "meaning": "旅途中找到了栖身之处，得到了钱财和工具，但心中仍不快乐——漂泊者虽得安身但心不安。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "射雉一矢亡，终以誉命。",
         "meaning": "射野鸡一箭射中，最终得到美誉和爵命——在旅途中有所成就。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "鸟焚其巢，旅人先笑后号咷。丧牛于易，凶。",
         "meaning": "鸟巢被火烧毁，旅人先笑后哭号。在田畔丢了牛，凶——得意忘形则乐极生悲。"
       }
     ],
-    "xiang": "Fire on the mountain. The superior person is careful.",
+    "xiang": "山上有火，旅。君子以明慎用刑而不留狱。",
     "meaning": "旅卦象征旅行与漂泊。上离为火，下艮为山，山上有火——火在山野中燃烧，旅人之象。旅卦讲的是出门在外之道：不可计较琐碎（初六），安顿下来（六二），遭遇变故时守正（九三），虽有所得但心不安（九四），在漂泊中成就自我（六五），得意忘形则招祸（上九）。",
     "category": "漂泊"
   },
@@ -2470,40 +2470,40 @@
     "symbol": "䷸",
     "upperTrigram": "巽",
     "lowerTrigram": "巽",
-    "judgment": "Xun: wind. Small success.",
+    "judgment": "Wind. Small success.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "进退，利武人之贞。",
         "meaning": "进退犹豫，利于武人守正——柔顺过度则进退失据，需要刚决。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "巽在床下，用史巫纷若，吉无咎。",
         "meaning": "谦卑伏在床下，像史巫一样频频祝祷，吉无灾祸——以诚心感动。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "频巽，吝。",
         "meaning": "频繁地顺从，有困难——过度的顺从反而行不通。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "悔亡，田获三品。",
         "meaning": "悔恨消亡，田猎获得三种猎物——因柔顺而得丰收。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "贞吉，悔亡，无不利。无初有终。先庚三日，后庚三日，吉。",
         "meaning": "守正则吉悔恨消亡，无不利。开始不顺但最终有成果。在庚日前三天和后三天发布政令，吉。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "巽在床下，丧其资斧，贞凶。",
         "meaning": "伏在床下过于谦卑，连钱财工具都丢失了，守正也有凶险——谦卑过度反而失其根本。"
       }
     ],
-    "xiang": "Double wind. The superior person carries out orders.",
+    "xiang": "随风，巽。君子以申命行事。",
     "meaning": "巽卦象征顺人与谦逊。上下皆巽为风，两风相随——无孔不入之象。巽卦讲的是谦逊顺从的智慧：初六讲柔顺过度则进退失据，九二讲以诚心感动，九三讲过度的顺从反而不利，六四讲柔顺也能得丰收，九五讲有始有终，上九讲谦卑过度的危险。核心是把握谦逊的分寸。",
     "category": "顺入"
   },
@@ -2514,40 +2514,40 @@
     "symbol": "䷹",
     "upperTrigram": "兑",
     "lowerTrigram": "兑",
-    "judgment": "Dui: joy. Success.",
+    "judgment": "Joy. Success.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "和兑，吉。",
         "meaning": "和颜悦色地待人，吉——平和喜悦，发自内心。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "孚兑，吉，悔亡。",
         "meaning": "诚信而喜悦，吉，悔恨消亡——真诚的喜悦。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "来兑，凶。",
         "meaning": "来求取喜悦，凶——刻意讨好，动机不纯则凶。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "商兑未宁，介疾有喜。",
         "meaning": "商谈喜悦之事尚未安定，隔断小毛病则有喜讯。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "孚于剥，有厉。",
         "meaning": "诚信被小人剥蚀，有危险——要警惕小人以喜悦之道诱惑。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "引兑。",
         "meaning": "引导他人喜悦——以喜悦之道引导人，但要注意分寸。"
       }
     ],
-    "xiang": "Double lake. The superior person discusses with friends.",
+    "xiang": "丽泽，兑。君子以朋友讲习。",
     "meaning": "兑卦象征喜悦与言说。上下皆兑为泽，两泽相连——相互润泽，喜悦之象。兑卦讲的是喜悦之道：和悦待人（初九），诚信的喜悦（九二），不可刻意讨好（六三），喜悦之事要仔细商谈（九四），警惕诱惑（九五），引导他人喜悦（上六）。核心是\"朋友讲习\"——在交流分享中获得真正的喜悦。",
     "category": "喜悦"
   },
@@ -2558,84 +2558,84 @@
     "symbol": "䷺",
     "upperTrigram": "巽",
     "lowerTrigram": "坎",
-    "judgment": "Huan: dispersion. The king approaches the temple.",
+    "judgment": "Dispersion. The king approaches the temple.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "用拯马壮，吉。",
         "meaning": "用强壮的马来救援，吉——在涣散之初迅速挽救。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "涣奔其机，悔亡。",
         "meaning": "在涣散中奔向几案（凭依之所），悔恨消亡——找到依靠。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "涣其躬，无悔。",
         "meaning": "涣散自身（超脱自我），无悔——放下自我才能聚集。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "涣其群，元吉。涣有丘，匪夷所思。",
         "meaning": "涣散小群体，大吉。涣散之后聚成山丘般的大群体，非常人所能想象。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "涣汗其大号，涣王居，无咎。",
         "meaning": "像出汗一样发布大的号令，涣散王居的积弊，无灾祸——革除积弊。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "涣其血，去逖出，无咎。",
         "meaning": "涣散忧患，远离伤害，无灾祸——彻底摆脱忧惧。"
       }
     ],
-    "xiang": "Wind over water. The king makes offerings.",
+    "xiang": "风行水上，涣。先王以享于帝立庙。",
     "meaning": "涣卦象征涣散与离散。上巽为风，下坎为水，风行水上——水波涣散之象。但涣卦的核心是\"散而后聚\"：在涣散之初迅速挽救（初六），找到依靠（九二），超脱自我（六三），打破小团体再聚成大群体（六四），革除积弊（九五），彻底摆脱忧患（上九）。",
     "category": "涣散"
   },
   "60": {
     "number": 60,
-    "name": "Jie (Regulation)",
+    "name": "Jie",
     "fullName": "Jie — Regulation",
     "symbol": "䷻",
     "upperTrigram": "坎",
     "lowerTrigram": "兑",
-    "judgment": "Jie: regulation. Success. Bitter regulation cannot persevere.",
+    "judgment": "Regulation. Success. Bitter regulation fails.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "不出户庭，无咎。",
         "meaning": "不走出门庭，无灾祸——伊始即知道节制。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "不出门庭，凶。",
         "meaning": "不走出门庭，凶——过度的节制反而不利，该出不出则凶。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "不节若，则嗟若，无咎。",
         "meaning": "不能节制，就会叹息，但无灾祸——不节制必然后悔。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "安节，亨。",
         "meaning": "安于节制，亨通——从容地遵守节度。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "甘节，吉。往有尚。",
         "meaning": "以甘美适中的方式节制，吉。前往有功——最好的节制是适中的、让人愉快的。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "苦节，贞凶，悔亡。",
         "meaning": "过于苛刻的节制，即使守正也有凶险，但知悔则凶险消亡——节制不可过度。"
       }
     ],
-    "xiang": "Water above the lake. The superior person sets standards.",
+    "xiang": "泽上有水，节。君子以制数度，议德行。",
     "meaning": "节卦象征节制与节度。上坎为水，下兑为泽，泽上有水——水满则溢，需要节制之象。节卦讲的是节制的艺术：初九讲一开始就知节制，九二讲节制不可过度（不出门庭反而凶），六三讲不节制必有悔，六四讲安于节制，九五讲\"甘节\"——适中愉快的节制是最好的，上六讲\"苦节\"——过度节制也有凶险。核心：节制要适中。",
     "category": "节制"
   },
@@ -2646,172 +2646,172 @@
     "symbol": "䷼",
     "upperTrigram": "巽",
     "lowerTrigram": "兑",
-    "judgment": "Zhong Fu: inner truth. Reaches pigs and fish. Good fortune.",
+    "judgment": "Inner truth. Reaches pigs and fish.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "虞吉，有它不燕。",
         "meaning": "安心戒备则吉，若有他念则不安——心定则吉。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "鸣鹤在阴，其子和之。我有好爵，吾与尔靡之。",
         "meaning": "鹤在树荫下鸣叫，它的孩子声声应和。我有美酒佳爵，与你共同分享——诚信感应，志同道合。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "得敌，或鼓或罢，或泣或歌。",
         "meaning": "遇到对手，时而击鼓时而停止，时而哭泣时而歌唱——心不定则言行无常。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "月几望，马匹亡，无咎。",
         "meaning": "月亮将圆而未盈，马匹丢失，无灾祸——不追求极致则无咎。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "有孚挛如，无咎。",
         "meaning": "以诚信紧密维系，无灾祸——诚信的凝聚力。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "翰音登于天，贞凶。",
         "meaning": "鸟高飞鸣声响彻天际，守正也有凶险——名过其实则有险。"
       }
     ],
-    "xiang": "Wind over the lake. The superior person deliberates.",
+    "xiang": "泽上有风，中孚。君子以议狱缓死。",
     "meaning": "中孚卦象征内心的诚信。上巽为风，下兑为泽，泽上有风——风在泽上吹拂，至诚感物之象。\"中孚\"即内心诚信。初九讲心安则吉，九二讲诚信相感如鹤鸣子和，六三讲心不定则言行无常，六四讲不追求极致，九五讲诚信的凝聚力，上九讲名过其实则凶。核心：诚信发于中而形于外。",
     "category": "诚信"
   },
   "62": {
     "number": 62,
     "name": "Xiao Guo",
-    "fullName": "Xiao Guo — Small Exceeding",
+    "fullName": "Xiao Guo — Small Excess",
     "symbol": "䷽",
     "upperTrigram": "震",
     "lowerTrigram": "艮",
-    "judgment": "Xiao Guo: small exceeding. Success.",
+    "judgment": "Small excess. Success.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "飞鸟以凶。",
         "meaning": "飞鸟带来凶兆——在小有过失时，不该往上飞而偏要飞，凶。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "过其祖，遇其妣。不及其君，遇其臣，无咎。",
         "meaning": "越过祖父遇到祖母。未及君王而遇到臣子，无灾祸——小过中有所遇合。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "弗过防之，从或戕之，凶。",
         "meaning": "没有过分但要防备，放纵则可能被伤害，凶——在小过中戒备。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "无咎，弗过遇之。往厉必戒，勿用永贞。",
         "meaning": "无灾祸，不过分而相遇。前往危险必须戒备，不可固执守常。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "密云不雨，自我西郊。公弋取彼在穴。",
         "meaning": "密布乌云却不下雨，来自西郊。王公射箭在穴中取物——力量不够而未能畅行。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "弗遇过之，飞鸟离之，凶，是谓灾眚。",
         "meaning": "没有相遇而过于冒进，飞鸟被网罗住，凶，这就是天灾人祸。"
       }
     ],
-    "xiang": "Thunder on the mountain. The superior person is respectful.",
+    "xiang": "山上有雷，小过。君子以行过乎恭，丧过乎哀，用过乎俭。",
     "meaning": "小过卦象征小有过失或稍有过分。上震为雷，下艮为山，山上有雷——雷声在山上传扬，稍有过响之象。小过讲的是小的过失和适度的过分：在小事上可以稍微过分（如更恭敬、更节俭），但大事上不能过头。初六讲不当飞而飞则凶，六二讲小过中有所遇，九三讲戒备之心，六五讲力不从心，上六讲过犹不及。",
     "category": "小过"
   },
   "63": {
     "number": 63,
     "name": "Ji Ji",
-    "fullName": "Ji Ji — Already Completed",
+    "fullName": "Ji Ji — Already Done",
     "symbol": "䷾",
     "upperTrigram": "坎",
     "lowerTrigram": "离",
-    "judgment": "Ji Ji: already completed. Success in small matters.",
+    "judgment": "Already completed. Success in small matters.",
     "lines": [
       {
-        "position": "初九",
+        "position": "Nine at start",
         "text": "曳其轮，濡其尾，无咎。",
         "meaning": "拖住车轮，浸湿尾巴，无灾祸——在成功之初谨慎行事。"
       },
       {
-        "position": "六二",
+        "position": "Six second",
         "text": "妇丧其茀，勿逐，七日得。",
         "meaning": "妇人丢失了车饰，不必追寻，七日后失而复得——小事损失不必计较。"
       },
       {
-        "position": "九三",
+        "position": "Nine third",
         "text": "高宗伐鬼方，三年克之，小人勿用。",
         "meaning": "高宗征伐鬼方，三年才取胜，不可重用小人——成功来之不易。"
       },
       {
-        "position": "六四",
+        "position": "Six fourth",
         "text": "繻有衣袽，终日戒。",
         "meaning": "有破旧的衣服可备补漏，终日警戒——居安思危。"
       },
       {
-        "position": "九五",
+        "position": "Nine fifth",
         "text": "东邻杀牛，不如西邻之禴祭，实受其福。",
         "meaning": "东邻杀牛盛祭，不如西邻薄祭而真诚，实在得到福佑——真诚胜过形式。"
       },
       {
-        "position": "上六",
+        "position": "Six above",
         "text": "濡其首，厉。",
         "meaning": "把头浸湿了，危险——成功之后若得意忘形则危矣。"
       }
     ],
-    "xiang": "Water over fire. The superior person prevents trouble.",
+    "xiang": "水在火上，既济。君子以思患而豫防之。",
     "meaning": "既济卦象征已完成与成功。上坎为水，下离为火，水在火上——烹煮已成，事已完成之象。但\"初吉终乱\"的卦辞暗示成功之中已孕育着危机。既济讲的是成功之后如何守成：初九讲成功之初谨慎行事，六二讲不计较小损失，九三讲成功来之不易，六四讲居安思危终日警戒，九五讲真诚胜过形式，上六讲得意忘形的危险。核心：思患而预防。",
     "category": "完成"
   },
   "64": {
     "number": 64,
     "name": "Wei Ji",
-    "fullName": "Wei Ji — Before Completion",
+    "fullName": "Wei Ji — Not Yet",
     "symbol": "䷿",
     "upperTrigram": "离",
     "lowerTrigram": "坎",
-    "judgment": "Wei Ji: before completion. The little fox nearly crosses.",
+    "judgment": "Not yet completed. The little fox nearly crosses.",
     "lines": [
       {
-        "position": "初六",
+        "position": "Six at start",
         "text": "濡其尾，吝。",
         "meaning": "小狐狸渡河沾湿了尾巴，有困难——有始无终则事不成。"
       },
       {
-        "position": "九二",
+        "position": "Nine second",
         "text": "曳其轮，贞吉。",
         "meaning": "拖住车轮，守正则吉——在未成功时稳健行事。"
       },
       {
-        "position": "六三",
+        "position": "Six third",
         "text": "未济，征凶，利涉大川。",
         "meaning": "事情尚未完成，贸然前进则凶，但渡大河则有利——未成之时要冒险才能成功。"
       },
       {
-        "position": "九四",
+        "position": "Nine fourth",
         "text": "贞吉悔亡，震用伐鬼方，三年有赏于大国。",
         "meaning": "守正则吉悔恨消亡，振奋征战鬼方，三年后受赏于大国——坚持终有成就。"
       },
       {
-        "position": "六五",
+        "position": "Six fifth",
         "text": "贞吉，无悔。君子之光，有孚，吉。",
         "meaning": "守正则吉，无悔。君子之光，有诚信，吉——德行光辉，诚信感人。"
       },
       {
-        "position": "上九",
+        "position": "Nine above",
         "text": "有孚于饮酒，无咎。濡其首，有孚失是。",
         "meaning": "在饮酒中保持诚信，无灾祸。但若饮酒过量如浸湿了头，即使有诚信也会失去正道——享乐要有度。"
       }
     ],
-    "xiang": "Fire over water. The superior person discerns.",
+    "xiang": "火在水上，未济。君子以慎辨物居方。",
     "meaning": "未济卦象征未完成与新的开始。上离为火，下坎为水，火在水上——火向上炎水向下流，二者不能交融，事未成之象。作为易经的最后一卦，未济寓意着事物永远不会终结，总有新的征程。初六讲有始无终则不成，九二讲稳健行事，六三讲在未成时要敢于冒险，九四讲坚持终有成就，六五讲以德服人，上九讲享乐要有度。",
     "category": "未成"
   }
