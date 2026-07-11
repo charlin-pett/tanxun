@@ -28,8 +28,8 @@ export default async function HomePage({ params }: PageProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <FeatureCard title={t('features.dream.title')} description={t('features.dream.description')} href="/dream" icon="dream" />
           <FeatureCard title={t('features.bazi.title')} description={t('features.bazi.description')} href="/bazi" icon="bazi" />
+          <FeatureCard title={t('features.zodiac.title')} description={t('features.zodiac.description')} href="/zodiac" icon="zodiac" />
           <FeatureCard title={t('features.hexagram.title')} description={t('features.hexagram.description')} href="/hexagram" icon="hexagram" />
-          <FeatureCard title={t('features.name.title')} description={t('features.name.description')} href="/name" icon="name" />
           <FeatureCard title={t('features.knowledge.title')} description={t('features.knowledge.description')} href="/knowledge" icon="knowledge" />
         </div>
       </section>

@@ -11,10 +11,10 @@
   "nav": {
     "home": "首页",
     "dream": "解梦",
+    "zodiac": "生肖运势",
     "bazi": "八字算命",
     "knowledge": "玄学百科",
-    "hexagram": "六十四卦",
-    "name": "姓名测试"
+    "hexagram": "六十四卦"
   },
 
   "home": {
@@ -40,9 +40,9 @@
         "title": "玄学百科",
         "description": "涵盖五行、天干地支、奇门遁甲等传统文化知识"
       },
-      "name": {
-        "title": "姓名测试",
-        "description": "输入姓名，分析五格数理与五行运势"
+      "zodiac": {
+        "title": "生肖运势",
+        "description": "查看生肖运程，每月运势早知道"
       }
     },
     "dailyFortune": {
@@ -142,12 +142,9 @@
     "next": "下一卦"
   },
 
-  "name": {
-    "title": "姓名测试",
-    "subtitle": "输入姓名，分析五格数理与五行运势",
-    "chineseName": "中文姓名",
-    "westernName": "英文姓名",
-    "description": "自动识别中文（五格剖象）和英文（生命灵数）"
+  "zodiac": {
+    "title": "生肖运势",
+    "subtitle": "查看你的生肖年度运程"
   },
 
   "common": {

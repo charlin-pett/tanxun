@@ -7,10 +7,10 @@
   "nav": {
     "home": "Inicio",
     "dream": "Sueños",
+    "zodiac": "Horóscopo",
     "bazi": "Ba Zi",
     "knowledge": "Biblioteca",
-    "hexagram": "I-Ching",
-    "name": "Nombre"
+    "hexagram": "I-Ching"
   },
   "home": {
     "hero": {
@@ -23,7 +23,7 @@
       "bazi": { "title": "Lectura de Ba Zi", "description": "Ingresa tu fecha de nacimiento para un análisis completo de los Cuatro Pilares" },
       "hexagram": { "title": "Hexagramas del I-Ching", "description": "Los 64 hexagramas con explicaciones detalladas" },
       "knowledge": { "title": "Biblioteca Metafísica", "description": "Cinco Elementos, Troncos Celestes, Qi Men Dun Jia y más" },
-      "name": { "title": "Análisis de Nombre", "description": "Cinco numerologías chinas o numerología occidental" }
+      "zodiac": { "title": "Horóscopo", "description": "Pronóstico anual de tu signo" }
     },
     "dailyFortune": {
       "title": "Horóscopo Diario",
@@ -101,12 +101,9 @@
     "prev": "Anterior",
     "next": "Siguiente"
   },
-  "name": {
-    "title": "Análisis de Nombre",
-    "subtitle": "Analiza nombres chinos o nombres occidentales con numerología",
-    "chineseName": "Nombre chino",
-    "westernName": "Nombre inglés",
-    "description": "Detección automática de nombres chinos y occidentales"
+  "zodiac": {
+    "title": "Horóscopo",
+    "subtitle": "Pronóstico anual para tu signo"
   },
   "common": {
     "loading": "Cargando...",
