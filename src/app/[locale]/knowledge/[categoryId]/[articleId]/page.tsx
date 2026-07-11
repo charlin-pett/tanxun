@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { getArticle, getArticlesByCategory } from '@/lib/knowledge';
 
@@ -18,6 +19,7 @@ const CATEGORY_COLORS: Record<string, { bg: string; text: string; border: string
 
 export default async function ArticleDetailPage({ params }: ArticleDetailProps) {
   const { locale, categoryId, articleId } = await params;
+  setRequestLocale(locale);
 
   const result = await getArticle(categoryId, articleId, locale);
   if (!result) {

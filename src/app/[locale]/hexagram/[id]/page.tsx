@@ -20,7 +20,7 @@ export default async function HexagramDetailPage({
     notFound();
   }
 
-  const hexagram = await getHexagramByNumber(hexNumber);
+  const hexagram = await getHexagramByNumber(hexNumber, locale);
   if (!hexagram) {
     notFound();
   }

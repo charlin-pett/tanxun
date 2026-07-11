@@ -10,7 +10,7 @@ export default async function HexagramPage({ params }: PageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'hexagram' });
-  const hexagrams = await getAllHexagrams();
+  const hexagrams = await getAllHexagrams(locale);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
