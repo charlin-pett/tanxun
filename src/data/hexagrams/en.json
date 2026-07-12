@@ -11,35 +11,35 @@
       {
         "position": "Nine at start",
         "text": "Hidden dragon - do not act.",
-        "meaning": ""
+        "meaning": "The dragon lies hidden in the water; it is not yet time to act."
       },
       {
         "position": "Nine second",
         "text": "Dragon appears in the field.",
-        "meaning": ""
+        "meaning": "The dragon appears in the field; it is favorable to see the great person."
       },
       {
         "position": "Nine third",
         "text": "All day active, vigilant at night.",
-        "meaning": ""
+        "meaning": "The superior person is active and vigilant all day, and at night he is cautious; though in danger, there is no blame."
       },
       {
         "position": "Nine fourth",
         "text": "Leaping at the depths.",
-        "meaning": ""
+        "meaning": "The dragon leaps or stays in the abyss; it adapts to the situation, and there is no blame."
       },
       {
         "position": "Nine fifth",
         "text": "Dragon flying in the sky.",
-        "meaning": ""
+        "meaning": "The dragon flies in the sky; it is favorable to see the great person."
       },
       {
         "position": "Nine above",
         "text": "Arrogant dragon - regret.",
-        "meaning": ""
+        "meaning": "The dragon flies too high; there will be regret, warning against excess."
       }
     ],
-    "xiang": "天行健，君子以自强不息。",
+    "xiang": "Heaven moves with vigor; the superior person strives to strengthen himself unceasingly.",
     "meaning": "Supreme success. Perseverance furthers.",
     "category": "刚健"
   },
@@ -55,35 +55,35 @@
       {
         "position": "Six at start",
         "text": "Hoarfrost - solid ice soon.",
-        "meaning": ""
+        "meaning": "Treading on hoarfrost, the solid ice will come—seeing the small signs, prevent trouble before it arises."
       },
       {
         "position": "Six second",
         "text": "Straight, square, great.",
-        "meaning": ""
+        "meaning": "Straight, square, and great; even without learning, nothing is unfavorable—virtue comes from nature."
       },
       {
         "position": "Six third",
         "text": "Hide brilliance - serve without claiming.",
-        "meaning": ""
+        "meaning": "Holding beautiful talents, one can abide in correctness; or assisting the ruler, not claiming merit, and ending well."
       },
       {
         "position": "Six fourth",
         "text": "Tied sack - no blame, no praise.",
-        "meaning": ""
+        "meaning": "Tying the sack, being cautious in words and deeds; neither blame nor praise."
       },
       {
         "position": "Six fifth",
         "text": "Yellow skirt - great fortune.",
-        "meaning": ""
+        "meaning": "A yellow lower garment, great good fortune—yellow is the color of the center, symbolizing central virtue."
       },
       {
         "position": "Six above",
         "text": "Dragons fight - blood black and yellow.",
-        "meaning": ""
+        "meaning": "Dragons fight in the wilderness; their blood is dark yellow—the extreme of yin leads to conflict with yang, and change arises."
       }
     ],
-    "xiang": "地势坤，君子以厚德载物。",
+    "xiang": "The earth's condition is receptive; the superior person carries all things with deep virtue.",
     "meaning": "Supreme success. Mare persev. favorable.",
     "category": "柔顺"
   },
@@ -99,35 +99,35 @@
       {
         "position": "Nine at start",
         "text": "Hesitation - stay true, establish helpers.",
-        "meaning": ""
+        "meaning": "Hesitating to advance, it is favorable to abide in correctness and to establish feudal lords—in the beginning, it is better to stay than to advance."
       },
       {
         "position": "Six second",
         "text": "Horses wheel - not bandits, suitors.",
-        "meaning": ""
+        "meaning": "Difficulty piles up; the horse turns back. The comer is not a robber but a suitor; the maiden remains chaste and does not marry, only after ten years she marries."
       },
       {
         "position": "Six third",
         "text": "Chase deer - lost in woods.",
-        "meaning": ""
+        "meaning": "Chasing the deer without a guide only leads into the forest. The superior person sees the opportunity and gives up; going forward brings difficulty."
       },
       {
         "position": "Six fourth",
         "text": "Horses wheel - seek union. Fortune.",
-        "meaning": ""
+        "meaning": "The horse turns back; if one seeks marriage, it is auspicious, and nothing is unfavorable."
       },
       {
         "position": "Nine fifth",
         "text": "Bountiful harvest squeezed.",
-        "meaning": ""
+        "meaning": "Favor is not widely spread; small matters are auspicious if correct, but great matters forced bring misfortune."
       },
       {
         "position": "Six above",
         "text": "Horses wheel - tears of blood.",
-        "meaning": ""
+        "meaning": "The horse turns back; one weeps blood and tears—the image of being at the end of the road."
       }
     ],
-    "xiang": "云雷屯，君子以经纶。",
+    "xiang": "Clouds and thunder create difficulty; the superior person brings order out of chaos.",
     "meaning": "Supreme success. Establish helpers.",
     "category": "艰难"
   },
@@ -143,35 +143,35 @@
       {
         "position": "Six at start",
         "text": "Reveal the fool - exemplary punishments.",
-        "meaning": ""
+        "meaning": "Enlightenment education is favorable for using examples to correct people, freeing them from shackles, but blindly advancing brings difficulty."
       },
       {
         "position": "Nine second",
         "text": "Tolerate ignorance - fortune.",
-        "meaning": ""
+        "meaning": "Tolerating the ignorant is auspicious. Taking a wife is auspicious. The son can manage the household."
       },
       {
         "position": "Six third",
         "text": "Do not marry this woman.",
-        "meaning": ""
+        "meaning": "Do not marry such a woman—seeing a rich man, she forgets herself; there is no benefit. This warns against fickleness in learning."
       },
       {
         "position": "Six fourth",
         "text": "Trapped in ignorance - regret.",
-        "meaning": ""
+        "meaning": "Trapped in ignorance, the situation is difficult—far from a wise teacher, isolated and without help."
       },
       {
         "position": "Six fifth",
         "text": "Childlike ignorance - fortune.",
-        "meaning": ""
+        "meaning": "A childlike ignorant person is auspicious—humbly seeking instruction brings good fortune."
       },
       {
         "position": "Nine above",
         "text": "Correct ignorance - as defender.",
-        "meaning": ""
+        "meaning": "Enlightening by force is unfavorable; using defensive methods is favorable."
       }
     ],
-    "xiang": "山下出泉，蒙。君子以果行育德。",
+    "xiang": "A spring issues from the mountain; the superior person acts with determination and nurtures virtue.",
     "meaning": "Success. The young seek me.",
     "category": "启蒙"
   },
@@ -187,35 +187,35 @@
       {
         "position": "Nine at start",
         "text": "Wait in suburbs - constant.",
-        "meaning": ""
+        "meaning": "Waiting in the countryside, abiding in constancy brings no blame."
       },
       {
         "position": "Nine second",
         "text": "Wait on sand - gossip, final good.",
-        "meaning": ""
+        "meaning": "Waiting on the sand, there is some gossip, but ultimately good fortune."
       },
       {
         "position": "Nine third",
         "text": "Wait in mud - robbers arrive.",
-        "meaning": ""
+        "meaning": "Waiting in the mud, inviting robbers to come—the situation is dangerous, and caution is needed."
       },
       {
         "position": "Six fourth",
         "text": "Wait in blood - escape pit.",
-        "meaning": ""
+        "meaning": "Waiting in blood, one escapes from the cave."
       },
       {
         "position": "Nine fifth",
         "text": "Wait feasting - fortune.",
-        "meaning": ""
+        "meaning": "Waiting with feasting and enjoyment, abiding in correctness brings good fortune."
       },
       {
         "position": "Six above",
         "text": "Three guests - respect them.",
-        "meaning": ""
+        "meaning": "Entering the cave, three uninvited guests come; treating them with respect brings ultimate good fortune."
       }
     ],
-    "xiang": "云上于天，需。君子以饮食宴乐。",
+    "xiang": "Clouds rise up to heaven; the superior person eats and drinks and enjoys himself.",
     "meaning": "Waiting with sincerity. Success.",
     "category": "等待"
   },
@@ -231,35 +231,35 @@
       {
         "position": "Six at start",
         "text": "Do not prolong dispute.",
-        "meaning": ""
+        "meaning": "Not prolonging the dispute, though there is some gossip, ultimately good fortune."
       },
       {
         "position": "Nine second",
         "text": "Cannot win - return and flee.",
-        "meaning": ""
+        "meaning": "Losing the lawsuit, returning and fleeing, the fief of three hundred households is without blame."
       },
       {
         "position": "Six third",
         "text": "Live on old virtue - danger.",
-        "meaning": ""
+        "meaning": "Enjoying the old salary, abiding in correctness to prevent danger, ultimately good fortune. Or assisting the ruler, but achieving nothing."
       },
       {
         "position": "Nine fourth",
         "text": "Cannot win - return to fate.",
-        "meaning": ""
+        "meaning": "Losing the lawsuit, returning to one's place, changing attitude and abiding in correctness, good fortune."
       },
       {
         "position": "Nine fifth",
         "text": "Litigation - great fortune.",
-        "meaning": ""
+        "meaning": "Deciding the lawsuit, great good fortune—distinguishing right from wrong, fair judgment."
       },
       {
         "position": "Nine above",
         "text": "Awarded belt - stripped three times.",
-        "meaning": ""
+        "meaning": "Perhaps receiving a robe due to the lawsuit, but being stripped of it three times in a day—honor gained through litigation is hard to keep."
       }
     ],
-    "xiang": "天与水违行，讼。君子以作事谋始。",
+    "xiang": "Heaven and water go in opposite directions; the superior person plans at the beginning of affairs.",
     "meaning": "Conflict, mid-success, unlucky end.",
     "category": "争讼"
   },
@@ -275,35 +275,35 @@
       {
         "position": "Six at start",
         "text": "Army disciplined.",
-        "meaning": ""
+        "meaning": "The army must have discipline; without it, misfortune."
       },
       {
         "position": "Nine second",
         "text": "General in army - fortune.",
-        "meaning": ""
+        "meaning": "Being in the army, good fortune without blame; the king bestows multiple commendations."
       },
       {
         "position": "Six third",
         "text": "Corpses in carts - misfortune.",
-        "meaning": ""
+        "meaning": "The army may carry corpses back, misfortune—poor command leads to defeat."
       },
       {
         "position": "Six fourth",
         "text": "Army retreats - no blame.",
-        "meaning": ""
+        "meaning": "The army retreats and camps, no blame—retreating when knowing difficulty is not wrong."
       },
       {
         "position": "Six fifth",
         "text": "Capture game - no blame.",
-        "meaning": ""
+        "meaning": "There are beasts in the field; it is favorable to issue orders, no blame. The eldest son leads the army, but the younger son carries corpses back; even correctness brings danger."
       },
       {
         "position": "Six above",
         "text": "King commands - shun petty men.",
-        "meaning": ""
+        "meaning": "The king rewards merit, enfeoffs states, but should not employ petty people."
       }
     ],
-    "xiang": "地中有水，师。君子以容民畜众。",
+    "xiang": "Water is in the earth; the superior person nourishes the people and gathers the multitude.",
     "meaning": "Army needs perseverance.",
     "category": "统率"
   },
@@ -319,35 +319,35 @@
       {
         "position": "Six at start",
         "text": "Sincere allegiance - no blame.",
-        "meaning": ""
+        "meaning": "Approaching with sincerity, no blame. Sincerity is like a full earthen vessel; it will eventually attract good things, good fortune."
       },
       {
         "position": "Six second",
         "text": "Allegiance within - fortune.",
-        "meaning": ""
+        "meaning": "Approaching from within, abiding in correctness brings good fortune."
       },
       {
         "position": "Six third",
         "text": "Wrong allies - sorrow.",
-        "meaning": ""
+        "meaning": "Approaching those one should not approach—how sad!"
       },
       {
         "position": "Six fourth",
         "text": "Outer allegiance - fortune.",
-        "meaning": ""
+        "meaning": "Approaching the worthy outwardly, abiding in correctness brings good fortune."
       },
       {
         "position": "Nine fifth",
         "text": "King hunts - lets prey escape.",
-        "meaning": ""
+        "meaning": "Open and aboveboard approach; the king hunts on three sides, letting go the animals in front. The people of the town are not alert, good fortune."
       },
       {
         "position": "Six above",
         "text": "No leader - misfortune.",
-        "meaning": ""
+        "meaning": "Approaching without a leader, misfortune."
       }
     ],
-    "xiang": "地上有水，比。先王以建万国，亲诸侯。",
+    "xiang": "Water is on the earth; the ancient kings established many states and treated the feudal lords kindly.",
     "meaning": "Holding together brings fortune.",
     "category": "亲附"
   },
@@ -363,35 +363,35 @@
       {
         "position": "Nine at start",
         "text": "Return to path - fortune.",
-        "meaning": ""
+        "meaning": "Return to the proper path. What misfortune could there be? Good fortune."
       },
       {
         "position": "Nine second",
         "text": "Pulled back - fortune.",
-        "meaning": ""
+        "meaning": "Led back to the proper path. Good fortune."
       },
       {
         "position": "Nine third",
         "text": "Wheel spokes fall - quarrel.",
-        "meaning": ""
+        "meaning": "The spokes burst out of the wagon wheels. Husband and wife roll their eyes."
       },
       {
         "position": "Six fourth",
         "text": "Sincere - fear dispelled.",
-        "meaning": ""
+        "meaning": "With sincerity, one avoids fear and danger. No blame."
       },
       {
         "position": "Nine fifth",
         "text": "Share with neighbors.",
-        "meaning": ""
+        "meaning": "With sincerity, one binds closely and shares abundance with neighbors."
       },
       {
         "position": "Nine above",
         "text": "Rain stops - virtue.",
-        "meaning": ""
+        "meaning": "It rains, then stops. Esteem the fullness of virtue. The woman perseveres in danger. The moon is nearly full. The superior man goes forth—misfortune."
       }
     ],
-    "xiang": "风行天上，小畜。君子以懿文德。",
+    "xiang": "The wind drives across the heavens: the image of THE TAMING POWER OF THE SMALL. Thus the superior man refines the outward aspect of his virtue.",
     "meaning": "Small accum. Dense clouds, no rain.",
     "category": "积蓄"
   },
@@ -407,35 +407,35 @@
       {
         "position": "Nine at start",
         "text": "Simple conduct - no blame.",
-        "meaning": ""
+        "meaning": "Proceed with simple, honest conduct. No blame."
       },
       {
         "position": "Nine second",
         "text": "Path smooth.",
-        "meaning": ""
+        "meaning": "The path is level and broad. The recluse perseveres—good fortune."
       },
       {
         "position": "Six third",
         "text": "One-eyed, lame - tiger bites.",
-        "meaning": ""
+        "meaning": "A one-eyed man sees, a lame man walks. He treads on the tiger's tail and is bitten. Misfortune. This is like a warrior acting as a ruler—overreaching."
       },
       {
         "position": "Nine fourth",
         "text": "Caution - fortune.",
-        "meaning": ""
+        "meaning": "He treads on the tiger's tail. Fearful and cautious, in the end good fortune."
       },
       {
         "position": "Nine fifth",
         "text": "Resolute - danger.",
-        "meaning": ""
+        "meaning": "Resolute action. Perseverance in danger."
       },
       {
         "position": "Nine above",
         "text": "Review - fortune.",
-        "meaning": ""
+        "meaning": "Look back at your deeds, examine good and ill fortune. Turning back brings great good fortune."
       }
     ],
-    "xiang": "上天下泽，履。君子以辨上下，定民志。",
+    "xiang": "Heaven above, the lake below: the image of TREADING. Thus the superior man discriminates between high and low, and thereby fixes the aims of the people.",
     "meaning": "Tread on tiger tail - not bitten.",
     "category": "践行"
   },
@@ -451,35 +451,35 @@
       {
         "position": "Nine at start",
         "text": "Rush grass pulled - others follow. Advance.",
-        "meaning": ""
+        "meaning": "Pull up the reed; its kind follows. Advance—good fortune."
       },
       {
         "position": "Nine second",
         "text": "Embrace all, cross river, no cliques.",
-        "meaning": ""
+        "meaning": "Embrace the distant, cross the great river. Do not neglect the far-off, do not form cliques. This is the central path."
       },
       {
         "position": "Nine third",
         "text": "No flat without slope. Persevere.",
-        "meaning": ""
+        "meaning": "No level without slope, no going without return. Persevere in difficulty—no blame. Do not worry about sincerity; blessing comes in the midst of daily life."
       },
       {
         "position": "Six fourth",
         "text": "Fluttering down - sincere, not boastful.",
-        "meaning": ""
+        "meaning": "Lighthearted coming and going. Do not flaunt wealth. Trust without suspicion."
       },
       {
         "position": "Six fifth",
         "text": "Emperor marries daughter - great fortune.",
-        "meaning": ""
+        "meaning": "The emperor gives his daughter in marriage. This brings blessing and great good fortune—the noble one acts humbly."
       },
       {
         "position": "Six above",
         "text": "Wall crumbles into moat. Mourn.",
-        "meaning": ""
+        "meaning": "The city wall falls into the moat. Do not send troops. Orders come from the city. Perseverance brings difficulty."
       }
     ],
-    "xiang": "天地交，泰。后以财成天地之道，辅相天地之宜，以左右民。",
+    "xiang": "Heaven and earth unite: the image of PEACE. Thus the ruler fashions the course of heaven and earth, furthers the harmony of heaven and earth, and thereby guides the people.",
     "meaning": "Peace. Small departs, great arrives.",
     "category": "通泰"
   },
@@ -495,35 +495,35 @@
       {
         "position": "Six at start",
         "text": "Rush grass pulled - others follow. Persevere.",
-        "meaning": ""
+        "meaning": "Pull up the reed; its kind follows. Perseverance brings good fortune and success."
       },
       {
         "position": "Six second",
         "text": "Embrace and endure - petty prosper, great decline.",
-        "meaning": ""
+        "meaning": "Embrace and comply. The small man gains good fortune; the superior man is blocked. Yet in the end, success."
       },
       {
         "position": "Six third",
         "text": "Bearing shame - no blame.",
-        "meaning": ""
+        "meaning": "Bearing shame—the small man gains power but feels inner guilt."
       },
       {
         "position": "Nine fourth",
         "text": "Act on decree - no blame.",
-        "meaning": ""
+        "meaning": "Act on the mandate of heaven—no blame. The multitude will follow and receive blessing."
       },
       {
         "position": "Nine fifth",
         "text": "Standstill ends - great person brings fortune.",
-        "meaning": ""
+        "meaning": "End the standstill. The great man gains good fortune. 'Perishing, perishing!'—this vigilance is as firm as a mulberry root."
       },
       {
         "position": "Nine above",
         "text": "Overthrow standstill - first bad, then joy.",
-        "meaning": ""
+        "meaning": "Overthrow the standstill. First standstill, then joy—when things reach their extreme, they reverse."
       }
     ],
-    "xiang": "天地不交，否。君子以俭德辟难，不可荣以禄。",
+    "xiang": "Heaven and earth do not unite: the image of STANDSTILL. Thus the superior man withdraws his virtue to avoid danger, and cannot be honored with emolument.",
     "meaning": "Standstill. Unfavorable.",
     "category": "闭塞"
   },
@@ -539,35 +539,35 @@
       {
         "position": "Nine at start",
         "text": "Fellowship at gate - no blame.",
-        "meaning": ""
+        "meaning": "Fellowship at the gate—no blame. Begin unity close at hand."
       },
       {
         "position": "Six second",
         "text": "Fellowship in clan - regret.",
-        "meaning": ""
+        "meaning": "Fellowship only within the clan—limited, too narrow."
       },
       {
         "position": "Nine third",
         "text": "Hide weapons on hill. Three years.",
-        "meaning": ""
+        "meaning": "Hide troops in the grass, climb the high ground to watch. For three years, no attack."
       },
       {
         "position": "Nine fourth",
         "text": "Mount wall - do not attack. Fortune.",
-        "meaning": ""
+        "meaning": "Climb the wall but do not attack—good fortune. One can restrain oneself."
       },
       {
         "position": "Nine fifth",
         "text": "Fellowship - first cry, then laugh. Armies meet.",
-        "meaning": ""
+        "meaning": "Those in fellowship first weep, then laugh. The great army meets in victory."
       },
       {
         "position": "Nine above",
         "text": "Fellowship in countryside - no regret.",
-        "meaning": ""
+        "meaning": "Fellowship in the outskirts—no regret. Though not the broadest unity, there is no remorse."
       }
     ],
-    "xiang": "天与火，同人。君子以类族辨物。",
+    "xiang": "Heaven together with fire: the image of FELLOWSHIP. Thus the superior man distinguishes things according to their kinds.",
     "meaning": "Fellowship in the open. Success.",
     "category": "团结"
   },
@@ -583,35 +583,35 @@
       {
         "position": "Nine at start",
         "text": "No harmful dealings - no blame.",
-        "meaning": ""
+        "meaning": "No harmful dealings, no misfortune. Persevere in difficulty—no blame."
       },
       {
         "position": "Nine second",
         "text": "Great cart loaded - advance.",
-        "meaning": ""
+        "meaning": "Load the great wagon. Going forward—no blame. Accumulation brings fullness."
       },
       {
         "position": "Nine third",
         "text": "Duke offers tribute - petty cannot.",
-        "meaning": ""
+        "meaning": "The duke offers tribute to the Son of Heaven. The small man cannot do this."
       },
       {
         "position": "Nine fourth",
         "text": "Not showing off - no blame.",
-        "meaning": ""
+        "meaning": "Do not flaunt great wealth—no blame."
       },
       {
         "position": "Six fifth",
         "text": "Sincere authority - fortune.",
-        "meaning": ""
+        "meaning": "Sincerity in dealings, both dignified and gentle—good fortune."
       },
       {
         "position": "Nine above",
         "text": "Blessed by heaven - all favorable.",
-        "meaning": ""
+        "meaning": "Heaven's blessing—good fortune without ill. Follow heaven's way and receive help."
       }
     ],
-    "xiang": "火在天上，大有。君子以遏恶扬善，顺天休命。",
+    "xiang": "Fire in heaven above: the image of GREAT POSSESSION. Thus the superior man curbs evil and promotes good, in obedience to the good will of heaven.",
     "meaning": "Great possession. Supreme success.",
     "category": "丰收"
   },
@@ -627,35 +627,35 @@
       {
         "position": "Six at start",
         "text": "Modest, modest - cross great waters.",
-        "meaning": ""
+        "meaning": "A modest and yet more modest superior man. With this spirit, cross the great river—good fortune. Extreme humility overcomes danger."
       },
       {
         "position": "Six second",
         "text": "Modesty known - persevere.",
-        "meaning": ""
+        "meaning": "Modesty that is known far and wide. Perseverance brings good fortune."
       },
       {
         "position": "Nine third",
         "text": "Laboring modest - carry through.",
-        "meaning": ""
+        "meaning": "A superior man with merit yet modest—in the end good fortune. Great labor without pride."
       },
       {
         "position": "Six fourth",
         "text": "Modesty in action - favorable.",
-        "meaning": ""
+        "meaning": "Act on modesty—nothing unfavorable."
       },
       {
         "position": "Six fifth",
         "text": "Not wealthy but generous.",
-        "meaning": ""
+        "meaning": "Do not oppress neighbors with wealth. When necessary, use force—nothing unfavorable. Modesty is not weakness."
       },
       {
         "position": "Six above",
         "text": "Modesty known - correct your own state.",
-        "meaning": ""
+        "meaning": "Modesty known far and wide. Advantageous to lead expeditions against vassal states—great virtue naturally commands influence."
       }
     ],
-    "xiang": "地中有山，谦。君子以裒多益寡，称物平施。",
+    "xiang": "Within the earth, a mountain: the image of MODESTY. Thus the superior man reduces what is too much and increases what is too little, balancing things according to their weight.",
     "meaning": "Modesty brings success.",
     "category": "谦虚"
   },
@@ -671,35 +671,35 @@
       {
         "position": "Six at start",
         "text": "Enthusiasm shouting - misfortune.",
-        "meaning": ""
+        "meaning": "Indulging in pleasure and self-satisfaction—misfortune."
       },
       {
         "position": "Six second",
         "text": "Firm as rock - do not wait.",
-        "meaning": ""
+        "meaning": "Firm as a rock. Understand before the day ends. Perseverance brings good fortune."
       },
       {
         "position": "Six third",
         "text": "Eager enthusiasm - regret. Delay more.",
-        "meaning": ""
+        "meaning": "Flattering for ease—regret. Hesitation brings more regret."
       },
       {
         "position": "Nine fourth",
         "text": "Source of enthusiasm - friends gather.",
-        "meaning": ""
+        "meaning": "He brings joy—great gain. Do not doubt. Friends gather like hairpins."
       },
       {
         "position": "Six fifth",
         "text": "Persevere against illness.",
-        "meaning": ""
+        "meaning": "Persevere against illness. Long-lasting, not perishing—remember danger in joy."
       },
       {
         "position": "Six above",
         "text": "Dark enthusiasm - change heart.",
-        "meaning": ""
+        "meaning": "Dark and indulgent in pleasure. If one can change, no blame."
       }
     ],
-    "xiang": "雷出地奋，豫。先王以作乐崇德，殷荐之上帝，以配祖考。",
+    "xiang": "Thunder comes resounding out of the earth: the image of ENTHUSIASM. Thus the ancient kings made music to honor virtue, and offered it with splendor to the Supreme Deity, together with their ancestors.",
     "meaning": "Enthusiasm. Establish helpers.",
     "category": "安乐"
   },
@@ -715,35 +715,35 @@
       {
         "position": "Nine at start",
         "text": "Standard changes - connect.",
-        "meaning": ""
+        "meaning": "Changes in officialdom; perseverance brings good fortune. Going out for dealings will yield results."
       },
       {
         "position": "Six second",
         "text": "Hold young - lose strong.",
-        "meaning": ""
+        "meaning": "Clinging to a small man loses the great man—sacrificing the important for the trivial."
       },
       {
         "position": "Six third",
         "text": "Hold strong - lose young.",
-        "meaning": ""
+        "meaning": "Clinging to the great man loses the small man. Following and gaining something; it is beneficial to remain steadfast and correct."
       },
       {
         "position": "Nine fourth",
         "text": "Follow and achieve - danger.",
-        "meaning": ""
+        "meaning": "Following brings gain; even with correctness there is danger. With sincerity and alignment with the right path, being open and upright, what disaster can there be?"
       },
       {
         "position": "Nine fifth",
         "text": "Sincere in goodness - fortune.",
-        "meaning": ""
+        "meaning": "Sincerity in the path of goodness brings good fortune."
       },
       {
         "position": "Six above",
         "text": "Bound fast - king offers sacrifice.",
-        "meaning": ""
+        "meaning": "Bound and then released; the king offers sacrifice on the western mountain—obstruction first, then passage."
       }
     ],
-    "xiang": "泽中有雷，随。君子以向晦入宴息。",
+    "xiang": "Thunder within the lake: the image of FOLLOWING. Thus the superior man at dusk goes indoors for rest and recuperation.",
     "meaning": "Following. Supreme success.",
     "category": "随从"
   },
@@ -759,35 +759,35 @@
       {
         "position": "Six at start",
         "text": "Correct father corruption - son steps forward.",
-        "meaning": ""
+        "meaning": "Correcting the father's faults; having such a son, the father is without blame. Though dangerous, ultimately good fortune."
       },
       {
         "position": "Nine second",
         "text": "Correct mother corruption - not rigid.",
-        "meaning": ""
+        "meaning": "Correcting the mother's faults; one should not be too stubborn."
       },
       {
         "position": "Nine third",
         "text": "Correct father corruption - small regret.",
-        "meaning": ""
+        "meaning": "Correcting the father's faults; slight regret, but no great misfortune."
       },
       {
         "position": "Six fourth",
         "text": "Tolerate father corruption - regret.",
-        "meaning": ""
+        "meaning": "Tolerating the father's faults; persisting in this will lead to difficulty."
       },
       {
         "position": "Six fifth",
         "text": "Correct father corruption - praised.",
-        "meaning": ""
+        "meaning": "Correcting the father's faults; receiving praise."
       },
       {
         "position": "Nine above",
         "text": "Not serving king - higher purpose.",
-        "meaning": ""
+        "meaning": "Not serving kings or princes; pursuing one's own lofty goals."
       }
     ],
-    "xiang": "山下有风，蛊。君子以振民育德。",
+    "xiang": "Wind below the mountain: the image of DECAY. Thus the superior man stirs up the people and nourishes their virtue.",
     "meaning": "Decay. Supreme success. Cross river.",
     "category": "整治"
   },
@@ -803,35 +803,35 @@
       {
         "position": "Nine at start",
         "text": "Approach with sympathy - persevere.",
-        "meaning": ""
+        "meaning": "Approaching the people with a heart of influence; perseverance brings good fortune."
       },
       {
         "position": "Nine second",
         "text": "Approach with sympathy - all favorable.",
-        "meaning": ""
+        "meaning": "Approaching the people with a heart of influence; good fortune and nothing unfavorable."
       },
       {
         "position": "Six third",
         "text": "Approach with sweetness - not favorable.",
-        "meaning": ""
+        "meaning": "Approaching the people with sweet words; no benefit. If one already knows anxiety, there is no blame."
       },
       {
         "position": "Six fourth",
         "text": "Approach directly - no blame.",
-        "meaning": ""
+        "meaning": "Approaching the people with sincere closeness; no blame."
       },
       {
         "position": "Six fifth",
         "text": "Wise approach - fitting for ruler.",
-        "meaning": ""
+        "meaning": "Approaching the people with wisdom; this is the demeanor of a great ruler, bringing good fortune."
       },
       {
         "position": "Six above",
         "text": "Honest approach - fortune.",
-        "meaning": ""
+        "meaning": "Approaching the people with honesty and sincerity; good fortune and no blame."
       }
     ],
-    "xiang": "泽上有地，临。君子以教思无穷，容保民无疆。",
+    "xiang": "Earth above the lake: the image of APPROACH. Thus the superior man's teaching and thought are inexhaustible, and he embraces and protects the people without limit.",
     "meaning": "Approach. Supreme success.",
     "category": "统御"
   },
@@ -847,35 +847,35 @@
       {
         "position": "Six at start",
         "text": "Childlike observation - no blame for small.",
-        "meaning": ""
+        "meaning": "Observing like a child; for a petty man, no blame; for a superior man, limitation."
       },
       {
         "position": "Six second",
         "text": "Peep through crack - womans perseverance.",
-        "meaning": ""
+        "meaning": "Observing through a crack; beneficial for a woman's perseverance—narrow vision."
       },
       {
         "position": "Six third",
         "text": "Observe your life - advance or retreat.",
-        "meaning": ""
+        "meaning": "Observing one's own situation to decide advance or retreat."
       },
       {
         "position": "Six fourth",
         "text": "Observe kingdom glory - serve king.",
-        "meaning": ""
+        "meaning": "Observing the glorious virtue of the state; beneficial to become a guest of the king—embracing the world."
       },
       {
         "position": "Nine fifth",
         "text": "Observe your life - no blame.",
-        "meaning": ""
+        "meaning": "Observing one's own actions; for a superior man, no blame—self-reflection."
       },
       {
         "position": "Nine above",
         "text": "Observe others lives - no blame.",
-        "meaning": ""
+        "meaning": "Observing the actions of others; for a superior man, no blame—learning from others."
       }
     ],
-    "xiang": "风行地上，观。先王以省方观民设教。",
+    "xiang": "Wind moving over the earth: the image of CONTEMPLATION. Thus the ancient kings inspected the regions and observed the people to establish teachings.",
     "meaning": "Contemplation.",
     "category": "观察"
   },
@@ -891,35 +891,35 @@
       {
         "position": "Nine at start",
         "text": "Feet in stocks - no blame.",
-        "meaning": ""
+        "meaning": "Feet in stocks covering the toes; small punishment as a warning, no blame."
       },
       {
         "position": "Six second",
         "text": "Bites soft meat - nose hidden.",
-        "meaning": ""
+        "meaning": "Biting soft meat but covering the nose—applying punishment too deeply, but no blame."
       },
       {
         "position": "Six third",
         "text": "Bites dried meat - poison.",
-        "meaning": ""
+        "meaning": "Biting dried meat and encountering poison; slight discomfort, no blame—encountering resistance in law enforcement."
       },
       {
         "position": "Nine fourth",
         "text": "Bites dried bone - metal arrow. Persevere.",
-        "meaning": ""
+        "meaning": "Biting dried meat with bone, encountering a metal arrow; perseverance in difficulty brings good fortune."
       },
       {
         "position": "Six fifth",
         "text": "Bites dried meat - gold.",
-        "meaning": ""
+        "meaning": "Biting dried meat and obtaining gold; perseverance to guard against danger, no blame."
       },
       {
         "position": "Nine above",
         "text": "Shoulders in cangue - misfortune.",
-        "meaning": ""
+        "meaning": "Shoulders in a cangue covering the ears; misfortune—accumulated evil unrepented leads to great disaster."
       }
     ],
-    "xiang": "雷电噬嗑，先王以明罚敕法。",
+    "xiang": "Thunder and lightning: the image of BITING THROUGH. Thus the ancient kings clarified punishments and established laws.",
     "meaning": "Biting through. Success.",
     "category": "刑罚"
   },
@@ -935,35 +935,35 @@
       {
         "position": "Nine at start",
         "text": "Adorn toes - walk.",
-        "meaning": ""
+        "meaning": "Adorning the toes; abandoning the carriage and walking—valuing substance over form."
       },
       {
         "position": "Six second",
         "text": "Adorn beard - no blame.",
-        "meaning": ""
+        "meaning": "Adorning the beard—paying attention to appearance but not neglecting the essential."
       },
       {
         "position": "Nine third",
         "text": "Graceful and moist - persevere.",
-        "meaning": ""
+        "meaning": "Graceful and brilliant like water's moistening; perseverance brings good fortune."
       },
       {
         "position": "Six fourth",
         "text": "Graceful yet simple - white horse.",
-        "meaning": ""
+        "meaning": "Plain and white; horses come galloping, not as bandits but as suitors."
       },
       {
         "position": "Six fifth",
         "text": "Grace in garden - small gift, final good.",
-        "meaning": ""
+        "meaning": "Adorning in the hills and gardens; the bundle of silk is meager, seemingly shabby, but ultimately good fortune."
       },
       {
         "position": "Nine above",
         "text": "Simple grace - no blame.",
-        "meaning": ""
+        "meaning": "Adorning with white; returning to simplicity, no blame—the highest grace is natural simplicity."
       }
     ],
-    "xiang": "山下有火，贲。君子以明庶政，无敢折狱。",
+    "xiang": "Fire below the mountain: the image of GRACE. Thus the superior man attends to ordinary affairs but dares not decide lawsuits.",
     "meaning": "Grace. Success.",
     "category": "文饰"
   },
@@ -979,35 +979,35 @@
       {
         "position": "Six at start",
         "text": "Bed stripped of legs - misfortune.",
-        "meaning": ""
+        "meaning": "The bed leg is split; destroying the right path brings misfortune—foundation shaken."
       },
       {
         "position": "Six second",
         "text": "Bed stripped of frame - misfortune.",
-        "meaning": ""
+        "meaning": "The bed frame is split; destroying the right path brings misfortune—deepening condition."
       },
       {
         "position": "Six third",
         "text": "Stripped - no blame.",
-        "meaning": ""
+        "meaning": "Splitting apart, but no blame—not losing the right path amid decay."
       },
       {
         "position": "Six fourth",
         "text": "Bed stripped to skin - misfortune.",
-        "meaning": ""
+        "meaning": "The bed surface is split, reaching the skin; misfortune—already endangering oneself."
       },
       {
         "position": "Six fifth",
         "text": "String of fish - gain favor below.",
-        "meaning": ""
+        "meaning": "Acting like a favored concubine; nothing unfavorable—responding with gentleness."
       },
       {
         "position": "Nine above",
         "text": "Great fruit uneaten - noble ride, common lose.",
-        "meaning": ""
+        "meaning": "The great fruit not eaten; the superior man gains a carriage, the petty man loses his roof—good and evil are ultimately requited."
       }
     ],
-    "xiang": "山附于地，剥。上以厚下安宅。",
+    "xiang": "The mountain resting on the earth: the image of SPLITTING APART. Thus the superior man enriches the people below to secure his dwelling.",
     "meaning": "Stripping. Unfavorable.",
     "category": "剥落"
   },
@@ -1023,35 +1023,35 @@
       {
         "position": "Nine at start",
         "text": "Return after short stray - great fortune.",
-        "meaning": ""
+        "meaning": "Turning back after going a short distance; no great regret, great good fortune—timely correction of errors."
       },
       {
         "position": "Six second",
         "text": "Beautiful return - fortune.",
-        "meaning": ""
+        "meaning": "Beautiful return; good fortune—walking with goodness."
       },
       {
         "position": "Six third",
         "text": "Repeated returns - danger, no blame.",
-        "meaning": ""
+        "meaning": "Frequent returns; though dangerous, no blame—knowing errors and correcting them."
       },
       {
         "position": "Six fourth",
         "text": "Walking middle - returning alone.",
-        "meaning": ""
+        "meaning": "Returning alone to the right path amid the crowd—maintaining integrity alone."
       },
       {
         "position": "Six fifth",
         "text": "Honest return - no regret.",
-        "meaning": ""
+        "meaning": "Honest and sincere return; no regret."
       },
       {
         "position": "Six above",
         "text": "Bewildered return - misfortune.",
-        "meaning": ""
+        "meaning": "Losing the path of return; misfortune, with natural and human calamities. Sending troops to war will end in great defeat."
       }
     ],
-    "xiang": "雷在地中，复。先王以至日闭关，商旅不行，后不省方。",
+    "xiang": "Thunder within the earth: the image of RETURN. Thus the ancient kings closed the passes on the solstice; merchants and travelers did not move, and the ruler did not inspect the regions.",
     "meaning": "Return. Success.",
     "category": "回复"
   },
@@ -1067,35 +1067,35 @@
       {
         "position": "Nine at start",
         "text": "Innocent action - fortune.",
-        "meaning": ""
+        "meaning": "Do not act willfully; going forward brings good fortune—follow nature and all goes well."
       },
       {
         "position": "Six second",
         "text": "Not harvesting while plowing - go.",
-        "meaning": ""
+        "meaning": "Do not expect harvest from plowing, nor bounty from newly cleared fields; thus proceeding is beneficial—ask not about results, only about effort."
       },
       {
         "position": "Six third",
         "text": "Unexpected calamity - cow taken.",
-        "meaning": ""
+        "meaning": "Unexpected disaster—someone ties an ox by the roadside, a passerby leads it away, and the villagers suffer."
       },
       {
         "position": "Nine fourth",
         "text": "Perseverance - no blame.",
-        "meaning": ""
+        "meaning": "Perseverance brings no misfortune."
       },
       {
         "position": "Nine fifth",
         "text": "Unexpected illness - no medicine, joy.",
-        "meaning": ""
+        "meaning": "Unexpected illness heals without medicine—do not interfere with natural recovery."
       },
       {
         "position": "Nine above",
         "text": "Innocent action - action brings disaster.",
-        "meaning": ""
+        "meaning": "Though not acting willfully, action still brings disaster, no benefit—when the time is unfavorable, do not force matters."
       }
     ],
-    "xiang": "天下雷行，物与无妄。先王以茂对时育万物。",
+    "xiang": "Thunder rolls under heaven, and all things are in accord with the state of innocence. The ancient kings, in accordance with this, fostered the seasons and nourished all things.",
     "meaning": "Innocence. Supreme success.",
     "category": "自然"
   },
@@ -1111,35 +1111,35 @@
       {
         "position": "Nine at start",
         "text": "Danger - stop in time.",
-        "meaning": ""
+        "meaning": "Danger, it is beneficial to stop—in the early stage of accumulation, do not act rashly."
       },
       {
         "position": "Nine second",
         "text": "Cart sheds spokes.",
-        "meaning": ""
+        "meaning": "The body of the cart separates from the axle—stop advancing and gather strength."
       },
       {
         "position": "Nine third",
         "text": "Good horse gallops - persevere.",
-        "meaning": ""
+        "meaning": "A fine horse gallops; persevere in hardship. Practice daily chariot and guard duties; going forward is beneficial."
       },
       {
         "position": "Six fourth",
         "text": "Young bulls tether - great fortune.",
-        "meaning": ""
+        "meaning": "A horizontal beam is bound to the horns of a young calf (to prevent injury)—great good fortune—prevent trouble before it arises."
       },
       {
         "position": "Six fifth",
         "text": "Gelded boars tusks - fortune.",
-        "meaning": ""
+        "meaning": "The tusks of a gelded boar bring good fortune—eliminate ferocity and turn danger into safety."
       },
       {
         "position": "Nine above",
         "text": "Highway of heaven - success.",
-        "meaning": ""
+        "meaning": "The path of heaven is open and unobstructed; success—great accumulation achieved, unimpeded progress."
       }
     ],
-    "xiang": "天在山中，大畜。君子以多识前言往行，以畜其德。",
+    "xiang": "Heaven within the mountain: the image of Great Accumulation. Thus the superior man acquaints himself with many sayings and deeds of the past, in order to accumulate virtue.",
     "meaning": "Great accum. Perseverance furthers.",
     "category": "积蓄"
   },
@@ -1155,35 +1155,35 @@
       {
         "position": "Nine at start",
         "text": "Leave your tortoise - watch me eat. Misfortune.",
-        "meaning": ""
+        "meaning": "You forsake your own spiritual tortoise and gaze at me with drooling mouth—misfortune—abandoning your own resources to envy others."
       },
       {
         "position": "Six second",
         "text": "Inverted nourishment - wrong path.",
-        "meaning": ""
+        "meaning": "Seeking nourishment upside down, contrary to reason; to act brings misfortune."
       },
       {
         "position": "Six third",
         "text": "Offending nourishment - no good ten years.",
-        "meaning": ""
+        "meaning": "Going against the proper way of nourishment; even perseverance brings danger. For ten years, no action is beneficial."
       },
       {
         "position": "Six fourth",
         "text": "Inverted nourishment - fortune.",
-        "meaning": ""
+        "meaning": "Seeking nourishment upside down yet brings good fortune. Like a tiger staring intently, desire is urgent, but no misfortune."
       },
       {
         "position": "Six fifth",
         "text": "Oppose nature - stay put.",
-        "meaning": ""
+        "meaning": "Contrary to reason; staying still and persevering brings good fortune, but do not cross the great river."
       },
       {
         "position": "Nine above",
         "text": "Source of nourishment - danger then fortune.",
-        "meaning": ""
+        "meaning": "Nourished by others; danger but ultimately good fortune, beneficial to cross the great river."
       }
     ],
-    "xiang": "山下有雷，颐。君子以慎言语，节饮食。",
+    "xiang": "Thunder under the mountain: the image of Nourishment. Thus the superior man is careful in his words and temperate in eating and drinking.",
     "meaning": "Nourishment. Perseverance.",
     "category": "养生"
   },
@@ -1199,35 +1199,35 @@
       {
         "position": "Six at start",
         "text": "Spread white rushes beneath - no blame.",
-        "meaning": ""
+        "meaning": "Spread white rushes as a mat for offerings—no misfortune—extreme caution."
       },
       {
         "position": "Nine second",
         "text": "Withered poplar sprouts - old man, young wife.",
-        "meaning": ""
+        "meaning": "A withered poplar sprouts new shoots; an old man takes a young wife—nothing unfavorable."
       },
       {
         "position": "Nine third",
         "text": "Ridgepole sags - misfortune.",
-        "meaning": ""
+        "meaning": "The ridgepole bends—misfortune—excessive strength leads to breakage."
       },
       {
         "position": "Nine fourth",
         "text": "Ridgepole rises - fortune.",
-        "meaning": ""
+        "meaning": "The ridgepole rises—good fortune. But if there are changes, difficulties arise."
       },
       {
         "position": "Nine fifth",
         "text": "Withered poplar flowers - old woman, young man.",
-        "meaning": ""
+        "meaning": "A withered poplar blooms; an old woman marries a young husband—no misfortune, no praise."
       },
       {
         "position": "Six above",
         "text": "Water over head - misfortune.",
-        "meaning": ""
+        "meaning": "Crossing water too deep, submerged over the head—misfortune—but courage in facing danger is not blameworthy."
       }
     ],
-    "xiang": "泽灭木，大过。君子以独立不惧，遁世无闷。",
+    "xiang": "The lake rises above the trees: the image of Great Excess. Thus the superior man stands alone and without fear, and withdraws from the world without regret.",
     "meaning": "Great exceeding. Ridgepole sags.",
     "category": "非常"
   },
@@ -1243,35 +1243,35 @@
       {
         "position": "Six at start",
         "text": "Abyss doubled - fall in pit. Misfortune.",
-        "meaning": ""
+        "meaning": "Repeatedly falling into danger, sinking into a pit—misfortune—unable to escape from peril."
       },
       {
         "position": "Nine second",
         "text": "Abyss dangerous - seek small gains.",
-        "meaning": ""
+        "meaning": "Danger within danger; only seek small gains—do what is possible in adversity."
       },
       {
         "position": "Six third",
         "text": "Forward, backward - abyss. Do not act.",
-        "meaning": ""
+        "meaning": "Danger before and behind, perils upon perils, falling into a deep pit—no action possible."
       },
       {
         "position": "Six fourth",
         "text": "Simple offerings from window - final no blame.",
-        "meaning": ""
+        "meaning": "A jug of wine, two bowls of rice, simple vessels, offered through a window—ultimately no misfortune—in danger, act with simplicity and sincerity."
       },
       {
         "position": "Nine fifth",
         "text": "Abyss not filled - danger levels out.",
-        "meaning": ""
+        "meaning": "The pit is not yet full; the danger has subsided—no misfortune."
       },
       {
         "position": "Six above",
         "text": "Bound in ropes, imprisoned - three years.",
-        "meaning": ""
+        "meaning": "Bound with ropes, imprisoned in a thicket of thorns, unable to escape for three years—misfortune—trapped in a hopeless situation."
       }
     ],
-    "xiang": "水洊至，习坎。君子以常德行，习教事。",
+    "xiang": "Water flows on and on: the image of the Abyss. Thus the superior man walks in constant virtue and practices the work of teaching.",
     "meaning": "The abyss. Sincerity succeeds.",
     "category": "险陷"
   },
@@ -1287,35 +1287,35 @@
       {
         "position": "Nine at start",
         "text": "Step carefully - respect brings no blame.",
-        "meaning": ""
+        "meaning": "Steps are confused yet orderly; respectful caution brings no misfortune."
       },
       {
         "position": "Six second",
         "text": "Yellow radiance - great fortune.",
-        "meaning": ""
+        "meaning": "Yellow clinging—great good fortune—the way of centrality and gentleness."
       },
       {
         "position": "Nine third",
         "text": "Sunset radiance - sigh at old age. Misfortune.",
-        "meaning": ""
+        "meaning": "Clinging at sunset; if you do not beat the pot and sing, you will sigh in old age—misfortune—accept fate and be free from worry."
       },
       {
         "position": "Nine fourth",
         "text": "Sudden arrival - blaze up, die down.",
-        "meaning": ""
+        "meaning": "Sudden arrival, like a blazing fire, like death, like abandonment—comes quickly, goes quickly."
       },
       {
         "position": "Six fifth",
         "text": "Tears flow - final fortune.",
-        "meaning": ""
+        "meaning": "Tears flow like rain, sorrowful sighs, but ultimately good fortune—fear and caution bring good fortune."
       },
       {
         "position": "Nine above",
         "text": "King uses force - behead leader, capture rest.",
-        "meaning": ""
+        "meaning": "The king goes on campaign, beheads the enemy leader, captures those not of his kind—no misfortune."
       }
     ],
-    "xiang": "明两作，离。大人以继明照于四方。",
+    "xiang": "Brightness rises twice: the image of the Clinging. Thus the great man continues his brightness and illuminates the four quarters.",
     "meaning": "Radiance. Perseverance furthers.",
     "category": "光明"
   },
@@ -1331,35 +1331,35 @@
       {
         "position": "Six at start",
         "text": "Influence in toe.",
-        "meaning": ""
+        "meaning": "Influence in the big toe—the beginning of influence, subtle and stirring."
       },
       {
         "position": "Six second",
         "text": "Influence in calf - misfortune. Stay - fortune.",
-        "meaning": ""
+        "meaning": "Influence in the calves—misfortune; staying still brings good fortune—hasty action brings misfortune, quiet waiting brings good fortune."
       },
       {
         "position": "Nine third",
         "text": "Influence in thigh - holding on brings regret.",
-        "meaning": ""
+        "meaning": "Influence in the thighs, clinging persistently to others; going forward brings difficulty."
       },
       {
         "position": "Nine fourth",
         "text": "Persevere - fortune, doubts vanish.",
-        "meaning": ""
+        "meaning": "Perseverance brings good fortune and regret disappears. Restless coming and going; friends will follow your thoughts."
       },
       {
         "position": "Nine fifth",
         "text": "Influence in back - no regret.",
-        "meaning": ""
+        "meaning": "Influence in the back—no regret—sincere influence without stirring the heart."
       },
       {
         "position": "Six above",
         "text": "Influence in cheeks and tongue - chatter.",
-        "meaning": ""
+        "meaning": "Influence in the mouth and jaws—sweet words, promises without substance."
       }
     ],
-    "xiang": "山上有泽，咸。君子以虚受人。",
+    "xiang": "A lake on the mountain: the image of Influence. Thus the superior man receives others with an empty heart.",
     "meaning": "Attraction. Success.",
     "category": "感应"
   },
@@ -1375,35 +1375,35 @@
       {
         "position": "Six at start",
         "text": "Seek depth too quickly - danger.",
-        "meaning": ""
+        "meaning": "Seeking deep constancy; even perseverance brings danger, no benefit—haste leads to inconsistency."
       },
       {
         "position": "Nine second",
         "text": "Regret vanishes.",
-        "meaning": ""
+        "meaning": "Regret disappears—the way of the mean, without bias."
       },
       {
         "position": "Nine third",
         "text": "Not lasting in virtue - shame.",
-        "meaning": ""
+        "meaning": "Not constant in virtue brings shame; even perseverance brings difficulty."
       },
       {
         "position": "Nine fourth",
         "text": "No game in fields.",
-        "meaning": ""
+        "meaning": "Hunting yields no game—not constant in position leads to no achievement."
       },
       {
         "position": "Six fifth",
         "text": "Lasting in virtue - woman good, man dangerous.",
-        "meaning": ""
+        "meaning": "Constant in virtue; perseverance. Good fortune for a woman, misfortune for a man—gentle virtue should be flexible for a man."
       },
       {
         "position": "Six above",
         "text": "Excessive restlessness - misfortune.",
-        "meaning": ""
+        "meaning": "Restless and unstable constancy—misfortune—unable to endure."
       }
     ],
-    "xiang": "雷风，恒。君子以立不易方。",
+    "xiang": "Thunder and wind: the image of Duration. Thus the superior man stands firm and does not change his direction.",
     "meaning": "Perseverance. Success.",
     "category": "恒久"
   },
@@ -1419,35 +1419,35 @@
       {
         "position": "Six at start",
         "text": "Retreat at tail - dangerous.",
-        "meaning": ""
+        "meaning": "At the tail of the retreat, this is dangerous. One must not wish to undertake anything."
       },
       {
         "position": "Six second",
         "text": "Hold fast with oxhide.",
-        "meaning": ""
+        "meaning": "He holds him fast with yellow oxhide. No one can tear him loose."
       },
       {
         "position": "Nine third",
         "text": "Entangled retreat - dangerous.",
-        "meaning": ""
+        "meaning": "A halted retreat is dangerous and distressing. To keep people and servants is fortunate."
       },
       {
         "position": "Nine fourth",
         "text": "Voluntary retreat - noble good.",
-        "meaning": ""
+        "meaning": "A voluntary retreat brings good fortune to the superior man, but the inferior man cannot attain this."
       },
       {
         "position": "Nine fifth",
         "text": "Perfect retreat - persevere, fortune.",
-        "meaning": ""
+        "meaning": "A retreat carried out in a friendly manner brings good fortune. Perseverance brings good fortune."
       },
       {
         "position": "Nine above",
         "text": "Great retreat - all favorable.",
-        "meaning": ""
+        "meaning": "A cheerful retreat brings good fortune in every respect. It is favorable to set forth."
       }
     ],
-    "xiang": "天下有山，遁。君子以远小人，不恶而严。",
+    "xiang": "Mountain under heaven: the image of Retreat. Thus the superior man keeps the small men at a distance, not by showing enmity but by his own dignity.",
     "meaning": "Retreat. Success.",
     "category": "退避"
   },
@@ -1463,35 +1463,35 @@
       {
         "position": "Nine at start",
         "text": "Strength in toes - advance misfortune.",
-        "meaning": ""
+        "meaning": "Power in the toes. Going forward brings misfortune. This is certainly true."
       },
       {
         "position": "Nine second",
         "text": "Perseverance - fortune.",
-        "meaning": ""
+        "meaning": "Perseverance brings good fortune."
       },
       {
         "position": "Nine third",
         "text": "Petty use strength - ram butting fence.",
-        "meaning": ""
+        "meaning": "The inferior man uses power, the superior man does not. If he acts, it is dangerous. The goat butts against a hedge and gets its horns entangled."
       },
       {
         "position": "Nine fourth",
         "text": "Fence opens, horns freed - fortune.",
-        "meaning": ""
+        "meaning": "Perseverance brings good fortune. Regret disappears. The hedge opens; there is no entanglement. Power depends on the axle of a big cart."
       },
       {
         "position": "Six fifth",
         "text": "Lose goat in field - no regret.",
-        "meaning": ""
+        "meaning": "Loses the goat in the neighborhood. No regret."
       },
       {
         "position": "Six above",
         "text": "Ram stuck - cannot advance or retreat.",
-        "meaning": ""
+        "meaning": "A goat butts against a hedge. It cannot go backward, it cannot go forward. Nothing serves to further. If one notes the difficulty, this brings good fortune."
       }
     ],
-    "xiang": "雷在天上，大壮。君子以非礼弗履。",
+    "xiang": "Thunder above heaven: the image of Great Power. Thus the superior man does not tread upon paths that do not accord with propriety.",
     "meaning": "Great power. Perseverance.",
     "category": "强盛"
   },
@@ -1507,35 +1507,35 @@
       {
         "position": "Six at start",
         "text": "Advancing blocked - persevere.",
-        "meaning": ""
+        "meaning": "Progressing, but turned back. Perseverance brings good fortune. If one meets with no confidence, one should remain calm and no mistake."
       },
       {
         "position": "Six second",
         "text": "Advancing worried - receive blessing.",
-        "meaning": ""
+        "meaning": "Progressing, but in sorrow. Perseverance brings good fortune. One obtains great happiness from one's ancestress."
       },
       {
         "position": "Six third",
         "text": "Trusted by all - regret vanishes.",
-        "meaning": ""
+        "meaning": "All are in accord. Regret disappears."
       },
       {
         "position": "Nine fourth",
         "text": "Advance like a rat - dangerous.",
-        "meaning": ""
+        "meaning": "Progress like a hamster. Perseverance brings danger."
       },
       {
         "position": "Six fifth",
         "text": "Dont fret loss - advance, fortune.",
-        "meaning": ""
+        "meaning": "Regret disappears. Take not gain and loss to heart. Undertakings bring good fortune. Everything serves to further."
       },
       {
         "position": "Nine above",
         "text": "Advance with horns - attack city. Danger.",
-        "meaning": ""
+        "meaning": "Progressing with the horns is permissible only for the purpose of punishing one's own city. To be conscious of danger brings good fortune. No blame. Perseverance brings humiliation."
       }
     ],
-    "xiang": "明出地上，晋。君子以自昭明德。",
+    "xiang": "The sun rises over the earth: the image of Progress. Thus the superior man makes his virtue bright and luminous.",
     "meaning": "Advance. Duke rewarded.",
     "category": "进取"
   },
@@ -1551,35 +1551,35 @@
       {
         "position": "Nine at start",
         "text": "Wounded flight - drooping wings.",
-        "meaning": ""
+        "meaning": "Darkening of the light during flight. He lowers his wings. The superior man goes forth; for three days he has nothing to eat. He goes somewhere. The host has something to say."
       },
       {
         "position": "Six second",
         "text": "Wounded left thigh - saved by horse.",
-        "meaning": ""
+        "meaning": "Darkening of the light injures him in the left thigh. He gives aid with the strength of a horse. Good fortune."
       },
       {
         "position": "Nine third",
         "text": "Wounded hunting south - capture chief.",
-        "meaning": ""
+        "meaning": "Darkening of the light during the hunt in the south. Their great leader is captured. One must not expect perseverance too soon."
       },
       {
         "position": "Six fourth",
         "text": "Enter left belly - understand injury.",
-        "meaning": ""
+        "meaning": "He penetrates the left side of the belly. One gets at the very heart of the darkening of the light, and leaves the gate and courtyard."
       },
       {
         "position": "Six fifth",
         "text": "Like Prince Ji - persevere, fortune.",
-        "meaning": ""
+        "meaning": "Darkening of the light as with Prince Ji. Perseverance furthers."
       },
       {
         "position": "Six above",
         "text": "Rose to heaven, fell to earth.",
-        "meaning": ""
+        "meaning": "Not light but darkness. First he climbed up to heaven, then he plunged into the depths of the earth."
       }
     ],
-    "xiang": "明入地中，明夷。君子以莅众，用晦而明。",
+    "xiang": "The light has sunk into the earth: the image of Darkening of the Light. Thus the superior man lives among the people; he hides his light, yet still shines.",
     "meaning": "Wounding light. Persevere.",
     "category": "受损"
   },
@@ -1595,35 +1595,35 @@
       {
         "position": "Nine at start",
         "text": "Lock household - regret vanishes.",
-        "meaning": ""
+        "meaning": "Firm seclusion within the family. Regret disappears."
       },
       {
         "position": "Six second",
         "text": "No independent will - tend household.",
-        "meaning": ""
+        "meaning": "She should not follow her whims. She must attend within to the food. Perseverance brings good fortune."
       },
       {
         "position": "Nine third",
         "text": "Strict household - harsh, final good.",
-        "meaning": ""
+        "meaning": "When the family is severe, there are sighs and reproaches, but good fortune. When wife and children giggle and chatter, it leads to regret."
       },
       {
         "position": "Six fourth",
         "text": "Rich household - great fortune.",
-        "meaning": ""
+        "meaning": "She is the treasure of the house. Great good fortune."
       },
       {
         "position": "Nine fifth",
         "text": "King approaches - do not worry.",
-        "meaning": ""
+        "meaning": "As a king he approaches his family. Fear not. Good fortune."
       },
       {
         "position": "Nine above",
         "text": "Sincere and authoritative - fortune.",
-        "meaning": ""
+        "meaning": "His work is commanded. In the end good fortune comes."
       }
     ],
-    "xiang": "风自火出，家人。君子以言有物而行有恒。",
+    "xiang": "Wind comes forth from fire: the image of The Family. Thus the superior man has substance in his words and duration in his way of life.",
     "meaning": "The family. Woman perseveres.",
     "category": "家庭"
   },
@@ -1639,35 +1639,35 @@
       {
         "position": "Nine at start",
         "text": "Regret vanishes. Lose horse - do not chase.",
-        "meaning": ""
+        "meaning": "Regret disappears. If you lose your horse, do not run after it; it will come back of its own accord. When you see evil people, guard yourself against mistakes."
       },
       {
         "position": "Nine second",
         "text": "Meet lord in alley - no blame.",
-        "meaning": ""
+        "meaning": "One meets his lord in a narrow street. No blame."
       },
       {
         "position": "Six third",
         "text": "Cart dragging, ox held - bad start, good end.",
-        "meaning": ""
+        "meaning": "One sees his cart dragged back, the oxen halted, a man with a shaved head and a branded forehead. Though at first there is difficulty, the end is good."
       },
       {
         "position": "Nine fourth",
         "text": "Isolated - meet great man. Sincere.",
-        "meaning": ""
+        "meaning": "Isolated through opposition, one meets a like-minded man with whom one can associate in good faith. Despite the danger, no blame."
       },
       {
         "position": "Six fifth",
         "text": "Kinsman bites through - what blame?",
-        "meaning": ""
+        "meaning": "Regret disappears. The companion bites his way through the wrappings. If one goes to him, how could it be a mistake?"
       },
       {
         "position": "Nine above",
         "text": "Pig in mud, wagon of ghosts - drop bow.",
-        "meaning": ""
+        "meaning": "Isolated through opposition, one sees one's companion as a pig covered with dirt, as a wagon full of devils. First one draws a bow against him, then one lays the bow aside. He is not a robber; he will woo at the right time. As one goes, rain falls; then good fortune comes."
       }
     ],
-    "xiang": "上火下泽，睽。君子以同而异。",
+    "xiang": "Above fire, below the lake: the image of Opposition. Thus the superior man, while sharing common ground, differs in his ways.",
     "meaning": "Opposition. Small fortune.",
     "category": "乖离"
   },
@@ -1683,35 +1683,35 @@
       {
         "position": "Six at start",
         "text": "Going - difficulty. Retreat praised.",
-        "meaning": ""
+        "meaning": "Going forward leads to difficulties, remaining still brings praise."
       },
       {
         "position": "Six second",
         "text": "Official in repeated difficulty - not for self.",
-        "meaning": ""
+        "meaning": "The king's servant is beset by difficulty upon difficulty, but it is not his own fault."
       },
       {
         "position": "Nine third",
         "text": "Going - turn back.",
-        "meaning": ""
+        "meaning": "Going forward leads to difficulties; hence he turns back."
       },
       {
         "position": "Six fourth",
         "text": "Going - retreat and join others.",
-        "meaning": ""
+        "meaning": "Going forward leads to difficulties; hence he turns back and joins with others."
       },
       {
         "position": "Nine fifth",
         "text": "Great difficulty - friends arrive.",
-        "meaning": ""
+        "meaning": "In the midst of the greatest difficulties, friends come to help."
       },
       {
         "position": "Six above",
         "text": "Going - return with reward. Fortune.",
-        "meaning": ""
+        "meaning": "Going forward leads to difficulties; remaining still brings great good fortune. It furthers one to see the great man."
       }
     ],
-    "xiang": "山上有水，蹇。君子以反身修德。",
+    "xiang": "Water on the mountain: the image of Obstruction. Thus the superior man turns his attention to himself and molds his character.",
     "meaning": "Obstruction. Favors SW.",
     "category": "艰难"
   },
@@ -1727,35 +1727,35 @@
       {
         "position": "Six at start",
         "text": "No blame.",
-        "meaning": ""
+        "meaning": "No blame."
       },
       {
         "position": "Nine second",
         "text": "Capture three foxes - gain yellow arrow.",
-        "meaning": ""
+        "meaning": "One kills three foxes in the field and receives a yellow arrow. Perseverance brings good fortune."
       },
       {
         "position": "Six third",
         "text": "Carry burdens and ride - invites bandits.",
-        "meaning": ""
+        "meaning": "A man carries a burden on his back and yet rides in a carriage; this attracts robbers. Perseverance leads to humiliation."
       },
       {
         "position": "Nine fourth",
         "text": "Remove little toe - friends come.",
-        "meaning": ""
+        "meaning": "Deliver yourself from your own entanglements. Then others will come to you in trust."
       },
       {
         "position": "Six fifth",
         "text": "Noble freed - fortune.",
-        "meaning": ""
+        "meaning": "The superior man delivers himself from his bonds. Good fortune. He shows himself trustworthy toward the inferior man."
       },
       {
         "position": "Six above",
         "text": "Duke shoots hawk on wall - captures.",
-        "meaning": ""
+        "meaning": "The prince shoots at a hawk on a high wall. He kills it. Everything serves to further."
       }
     ],
-    "xiang": "雷雨作，解。君子以赦过宥罪。",
+    "xiang": "Thunder and rain set in: the image of Deliverance. Thus the superior man pardons mistakes and forgives misdeeds.",
     "meaning": "Deliverance. Act quickly.",
     "category": "解脱"
   },
@@ -1771,35 +1771,35 @@
       {
         "position": "Nine at start",
         "text": "Go quickly after matter - reduce.",
-        "meaning": ""
+        "meaning": "When a task is completed, go forward quickly. No misfortune. But consider the extent of the decrease—timely and moderate."
       },
       {
         "position": "Nine second",
         "text": "Persevere favorable. Act - misfortune.",
-        "meaning": ""
+        "meaning": "Perseverance brings good fortune. To undertake something brings misfortune. Not decreasing but rather increasing—not decreasing is itself an increase."
       },
       {
         "position": "Six third",
         "text": "Three walk - lose one. One walks - gain friend.",
-        "meaning": ""
+        "meaning": "When three people travel together, one is lost; when one travels alone, a friend is found—seek common ground while reserving differences."
       },
       {
         "position": "Six fourth",
         "text": "Reduce illness - quickly rejoice.",
-        "meaning": ""
+        "meaning": "Decrease one's affliction; soon there is joyful news. No misfortune—removing the bad is good."
       },
       {
         "position": "Six fifth",
         "text": "Given treasure turtle - cannot refuse.",
-        "meaning": ""
+        "meaning": "Someone gives you a tortoise shell worth ten pairs of cowries. Do not refuse. Great good fortune—gain through loss."
       },
       {
         "position": "Nine above",
         "text": "No reduction - increase. Fortune.",
-        "meaning": ""
+        "meaning": "Neither decrease nor increase, but rather gain. No misfortune. Perseverance brings good fortune. Going forward brings benefit. One gains a selfless minister."
       }
     ],
-    "xiang": "山下有泽，损。君子以惩忿窒欲。",
+    "xiang": "A mountain above a lake: the image of Decrease. The superior man controls his anger and restrains his desires.",
     "meaning": "Decrease. Supreme success.",
     "category": "减损"
   },
@@ -1815,35 +1815,35 @@
       {
         "position": "Nine at start",
         "text": "Great deeds - great fortune.",
-        "meaning": ""
+        "meaning": "It is favorable to undertake great tasks. Great good fortune. No misfortune—after receiving increase, expand your ambitions."
       },
       {
         "position": "Six second",
         "text": "Given treasure turtle - eternal perseverance.",
-        "meaning": ""
+        "meaning": "Someone gives you a tortoise shell. Do not refuse. Eternal perseverance brings good fortune. The king uses it to sacrifice to the Lord. Good fortune."
       },
       {
         "position": "Six third",
         "text": "Use fortune for misfortune - no blame. Report.",
-        "meaning": ""
+        "meaning": "Use the increase for relief in times of disaster. No misfortune. With sincerity and holding to the mean, report to the prince with a jade tablet."
       },
       {
         "position": "Six fourth",
         "text": "Centered - duke follows. Move capital.",
-        "meaning": ""
+        "meaning": "Holding to the mean, the prince follows your advice. It is favorable to move the capital—gain trust through sincerity."
       },
       {
         "position": "Nine fifth",
         "text": "Sincere kind heart - great fortune.",
-        "meaning": ""
+        "meaning": "Treat others with sincerity and kindness. Without asking, you know it is great good fortune. Your virtue will be repaid with sincerity."
       },
       {
         "position": "Nine above",
         "text": "No help, some attack - unsettled heart.",
-        "meaning": ""
+        "meaning": "No one helps; instead, some attack. An inconstant heart brings misfortune—when increase reaches its extreme, it reverses; insatiable greed brings misfortune."
       }
     ],
-    "xiang": "风雷，益。君子以见善则迁，有过则改。",
+    "xiang": "Wind and thunder: the image of Increase. The superior man, seeing good, moves toward it; having faults, he corrects them.",
     "meaning": "Increase. Cross river.",
     "category": "增益"
   },
@@ -1859,35 +1859,35 @@
       {
         "position": "Nine at start",
         "text": "Strong forefoot - advancing loses. Blame.",
-        "meaning": ""
+        "meaning": "The front toes are strong. Going forward rashly without success brings misfortune—do not advance recklessly."
       },
       {
         "position": "Nine second",
         "text": "Warning calls - armed guards. Dont worry.",
-        "meaning": ""
+        "meaning": "A cry of alarm. Even if there is war at night, there is no cause for anxiety—preparedness prevents disaster."
       },
       {
         "position": "Nine third",
         "text": "Strong cheekbones - misfortune.",
-        "meaning": ""
+        "meaning": "The cheekbones are strong (anger shows on the face). Misfortune. The superior man resolutely walks alone. Caught in the rain, he is drenched, but though annoyed, no misfortune."
       },
       {
         "position": "Nine fourth",
         "text": "No skin on buttocks - difficult walk.",
-        "meaning": ""
+        "meaning": "The buttocks have no skin; one cannot sit or walk steadily. Leading a sheep, regret disappears. But hearing advice, one does not believe it."
       },
       {
         "position": "Nine fifth",
         "text": "Decisive as cutting purslane - no blame.",
-        "meaning": ""
+        "meaning": "Resolutely remove the petty person like cutting through a mallow. Holding to the mean brings no misfortune."
       },
       {
         "position": "Six above",
         "text": "No response - final misfortune.",
-        "meaning": ""
+        "meaning": "No one responds to the cry. In the end, misfortune—the end of the road."
       }
     ],
-    "xiang": "泽上于天，夬。君子以施禄及下，居德则忌。",
+    "xiang": "The lake rises up to heaven: the image of Breakthrough. The superior man bestows blessings upon those below and avoids resting on his virtue.",
     "meaning": "Breakthrough. Announce.",
     "category": "决断"
   },
@@ -1903,35 +1903,35 @@
       {
         "position": "Six at start",
         "text": "Tied to metal brake - persevere.",
-        "meaning": ""
+        "meaning": "Tie it firmly to a metal brake. Perseverance brings good fortune. Going forward brings misfortune. A lean pig restlessly stirs—the first signs of a petty person must be controlled."
       },
       {
         "position": "Nine second",
         "text": "Kitchen fish - no blame. Not for guests.",
-        "meaning": ""
+        "meaning": "There is a fish in the kitchen. No misfortune. But it is not favorable to entertain guests—keep the petty person under control."
       },
       {
         "position": "Nine third",
         "text": "No skin on buttocks - difficult walk.",
-        "meaning": ""
+        "meaning": "The buttocks have no skin; walking is difficult. Danger, but no great misfortune."
       },
       {
         "position": "Nine fourth",
         "text": "No fish in kitchen - starting misfortune.",
-        "meaning": ""
+        "meaning": "There is no fish in the kitchen. Undertaking something brings misfortune—losing control of the situation is dangerous."
       },
       {
         "position": "Nine fifth",
         "text": "Wrapped melon in willow - hidden beauty.",
-        "meaning": ""
+        "meaning": "Wrap the melon with willow branches. Inner beauty. A star falls from heaven—inner talent, destined by heaven."
       },
       {
         "position": "Nine above",
         "text": "Meeting at horns - regret, no blame.",
-        "meaning": ""
+        "meaning": "Meeting at the horn. Difficulty, but no misfortune—retreat and hold firm."
       }
     ],
-    "xiang": "天下有风，姤。后以施命诰四方。",
+    "xiang": "Wind under heaven: the image of Encounter. The ruler spreads his commands and proclaims them to the four quarters.",
     "meaning": "Meeting. Powerful woman.",
     "category": "相遇"
   },
@@ -1947,35 +1947,35 @@
       {
         "position": "Six at start",
         "text": "Sincere but unfinished - chaos. Shout, unite.",
-        "meaning": ""
+        "meaning": "Sincerity cannot be maintained to the end; there is scattering and then gathering. If you call out for gathering, shake hands, and have no anxiety, going forward brings no misfortune."
       },
       {
         "position": "Six second",
         "text": "Drawn forward - fortune, simple sacrifice.",
-        "meaning": ""
+        "meaning": "Being led to gather brings good fortune. No misfortune. A sincere person, even with a meager offering, is favored in prayer."
       },
       {
         "position": "Six third",
         "text": "Gathering and sighing - not favorable.",
-        "meaning": ""
+        "meaning": "Gathering but sighing. No benefit. Going forward brings no misfortune, but there is a small difficulty."
       },
       {
         "position": "Nine fourth",
         "text": "Great fortune - no blame.",
-        "meaning": ""
+        "meaning": "Great good fortune. No misfortune—virtue wins the crowd; all look to you."
       },
       {
         "position": "Nine fifth",
         "text": "Gathering in position - no blame.",
-        "meaning": ""
+        "meaning": "Gathering and having a position. No misfortune. When trust is not yet gained, long perseverance causes regret to disappear."
       },
       {
         "position": "Six above",
         "text": "Weeping, sighing, tears - no blame.",
-        "meaning": ""
+        "meaning": "Weeping and sighing, tears flowing. But no misfortune—sorrow at not being able to gather is genuine."
       }
     ],
-    "xiang": "泽上于地，萃。君子以除戎器，戒不虞。",
+    "xiang": "The lake rises above the earth: the image of Gathering. The superior man puts away his weapons and guards against the unexpected.",
     "meaning": "Gathering. King at temple.",
     "category": "聚集"
   },
@@ -1991,35 +1991,35 @@
       {
         "position": "Six at start",
         "text": "Ascending with trust - great fortune.",
-        "meaning": ""
+        "meaning": "Sincerely ascending. Great good fortune—rise step by step on a foundation of sincerity."
       },
       {
         "position": "Nine second",
         "text": "Sincere - simple offering, no blame.",
-        "meaning": ""
+        "meaning": "A sincere person, even with a meager offering, has no misfortune—the heart matters, not the form."
       },
       {
         "position": "Nine third",
         "text": "Ascending empty city - no obstacle.",
-        "meaning": ""
+        "meaning": "Ascending into an empty city—smooth and unimpeded ascent."
       },
       {
         "position": "Six fourth",
         "text": "King offers on mountain - fortune.",
-        "meaning": ""
+        "meaning": "The king offers sacrifice on Mount Qi. Good fortune, no misfortune—act in accord with the time."
       },
       {
         "position": "Six fifth",
         "text": "Persevere - step by step ascent.",
-        "meaning": ""
+        "meaning": "Perseverance brings good fortune. Ascending step by step along the stairs—steady promotion."
       },
       {
         "position": "Six above",
         "text": "Blindly ascending - ceaseless effort.",
-        "meaning": ""
+        "meaning": "Darkly ascending. It is favorable to persevere without ceasing—ascend without end, but base it on the right path."
       }
     ],
-    "xiang": "地中生木，升。君子以顺德，积小以高大。",
+    "xiang": "Wood grows within the earth: the image of Ascending. The superior man follows virtue and accumulates small things to become great and lofty.",
     "meaning": "Ascending. Supreme success.",
     "category": "上升"
   },
@@ -2035,35 +2035,35 @@
       {
         "position": "Six at start",
         "text": "Seated on withered tree - dark valley.",
-        "meaning": ""
+        "meaning": "Sitting oppressed on a withered tree, entering a dark valley, seeing no one for three years—the beginning of oppression, deep in difficulty."
       },
       {
         "position": "Nine second",
         "text": "Distressed by food - red robe approaches. Sacrifice.",
-        "meaning": ""
+        "meaning": "Oppressed by food and drink (excessive feasting). The red official robe just arrives. It is favorable to sacrifice. Undertaking something brings misfortune. No misfortune."
       },
       {
         "position": "Six third",
         "text": "Distressed by stone, thorns - no wife.",
-        "meaning": ""
+        "meaning": "Oppressed by stones, leaning on thorns. Returning home, one does not see his wife. Misfortune—no way forward or back."
       },
       {
         "position": "Nine fourth",
         "text": "Slow approach - distressed in golden carriage.",
-        "meaning": ""
+        "meaning": "Coming slowly, oppressed by a golden carriage. Difficulty, but in the end, a good outcome."
       },
       {
         "position": "Nine fifth",
         "text": "Nose and feet cut - slowly freed.",
-        "meaning": ""
+        "meaning": "Suffering nose-cutting and foot-cutting, oppressed by the red robe. Slowly freed. It is favorable to sacrifice—slowly freed through trials."
       },
       {
         "position": "Six above",
         "text": "Tangled vines, restless - regret, then fortune.",
-        "meaning": ""
+        "meaning": "Oppressed by creeping vines, in a state of agitation. Moving causes regret, then regret disappears. Undertaking something brings good fortune—action in oppression brings release."
       }
     ],
-    "xiang": "泽无水，困。君子以致命遂志。",
+    "xiang": "The lake has no water: the image of Oppression. The superior man stakes his life on fulfilling his will.",
     "meaning": "Distress. Success. Persevere.",
     "category": "困境"
   },
@@ -2079,35 +2079,35 @@
       {
         "position": "Six at start",
         "text": "Muddy well - no one drinks. Old well - no birds.",
-        "meaning": ""
+        "meaning": "Mud in the well; it cannot be drunk. An old well; even birds do not come—if one does not cultivate virtue, no one cares."
       },
       {
         "position": "Nine second",
         "text": "Well pool shoots fish - jar broken.",
-        "meaning": ""
+        "meaning": "Fish at the bottom of the well can only be shot. The water jar is broken—talent and virtue but not employed."
       },
       {
         "position": "Nine third",
         "text": "Well clean but not drunk - heart aches.",
-        "meaning": ""
+        "meaning": "The well water is clear but not drunk; this pains the heart. It can be drawn. If the king is wise, all share the blessing."
       },
       {
         "position": "Six fourth",
         "text": "Well wall rebuilt - no blame.",
-        "meaning": ""
+        "meaning": "Repair the well wall. No misfortune—cultivate oneself, awaiting the time of use."
       },
       {
         "position": "Nine fifth",
         "text": "Clear well - cold spring water drunk.",
-        "meaning": ""
+        "meaning": "The well water is clear and sweet; cool spring water can be drunk—virtue and talent complete, employed by others."
       },
       {
         "position": "Six above",
         "text": "Well open, no cover - great fortune.",
-        "meaning": ""
+        "meaning": "The well is repaired; no need to cover it. Sincerity brings great good fortune—fully open, benefiting all."
       }
     ],
-    "xiang": "木上有水，井。君子以劳民劝相。",
+    "xiang": "Wood above water: the image of the Well. The superior man encourages the people and urges them to help one another.",
     "meaning": "The well. Town changes, well stays.",
     "category": "修养"
   },
@@ -2123,35 +2123,35 @@
       {
         "position": "Nine at start",
         "text": "Wrapped in oxhide - cannot change yet.",
-        "meaning": ""
+        "meaning": "Bound with the hide of a yellow ox — at the beginning of revolution, consolidate the foundation and do not act rashly."
       },
       {
         "position": "Six second",
         "text": "After the day, change - advance, fortune.",
-        "meaning": ""
+        "meaning": "Only when the day has come does one introduce the revolution. Going forward brings good fortune and no blame — revolution requires waiting for the ripe moment."
       },
       {
         "position": "Nine third",
         "text": "Advance - misfortune. Discuss change three times.",
-        "meaning": ""
+        "meaning": "Rash action brings misfortune. Perseverance is dangerous. When the proposals for revolution have been discussed repeatedly, one must have sincerity."
       },
       {
         "position": "Nine fourth",
         "text": "Regret vanishes. Sincere change - fortune.",
-        "meaning": ""
+        "meaning": "Remorse vanishes. With sincerity, change the old mandate. Good fortune."
       },
       {
         "position": "Nine fifth",
         "text": "Great person changes like a tiger.",
-        "meaning": ""
+        "meaning": "The great man changes like a tiger shedding its fur. Even without divination, one knows his sincerity — the achievement of revolution is brilliantly visible."
       },
       {
         "position": "Six above",
         "text": "Noble changes like a leopard.",
-        "meaning": ""
+        "meaning": "The superior man changes like a leopard shedding its fur; the inferior man merely changes his face. Rash action brings misfortune. To abide in perseverance brings good fortune."
       }
     ],
-    "xiang": "泽中有火，革。君子以治历明时。",
+    "xiang": "Fire in the lake: the image of REVOLUTION. Thus the superior man sets the calendar in order and makes the seasons clear.",
     "meaning": "Revolution. On your day.",
     "category": "变革"
   },
@@ -2167,35 +2167,35 @@
       {
         "position": "Six at start",
         "text": "Upset cauldron - remove rotten.",
-        "meaning": ""
+        "meaning": "The caldron is overturned, which is favorable for removing stale things. Taking a concubire brings a son. No blame — discarding the old and establishing the new."
       },
       {
         "position": "Nine second",
         "text": "Cauldron full - enemy cannot reach.",
-        "meaning": ""
+        "meaning": "There is food in the caldron. My adversary is ill and cannot approach me. Good fortune — having strength, one has nothing to fear."
       },
       {
         "position": "Nine third",
         "text": "Cauldron handle lost - good food uneaten.",
-        "meaning": ""
+        "meaning": "The handle of the caldron is broken, hindering movement. The delicious pheasant meat cannot be eaten. Rain falls, and remorse vanishes. In the end, good fortune."
       },
       {
         "position": "Nine fourth",
         "text": "Cauldron breaks legs - food spills. Misfortune.",
-        "meaning": ""
+        "meaning": "The leg of the caldron is broken, spilling the duke's feast, and the caldron is stained. Misfortune — incompetence leads to failure."
       },
       {
         "position": "Six fifth",
         "text": "Yellow ears, gold rings - persevere.",
-        "meaning": ""
+        "meaning": "The caldron has yellow handles and golden carrying rings. Favorable for perseverance — with the help of worthy people, the caldron is secure."
       },
       {
         "position": "Nine above",
         "text": "Jade rings - great fortune.",
-        "meaning": ""
+        "meaning": "The caldron has jade carrying rings. Great good fortune. Nothing unfavorable — hardness and softness complement each other, achieving perfection."
       }
     ],
-    "xiang": "木上有火，鼎。君子以正位凝命。",
+    "xiang": "Fire over wood: the image of THE CALDRON. Thus the superior man consolidates his fate by making his position correct.",
     "meaning": "The cauldron. Supreme fortune.",
     "category": "鼎新"
   },
@@ -2211,35 +2211,35 @@
       {
         "position": "Nine at start",
         "text": "Shock - terrified, then laughing. Fortune.",
-        "meaning": ""
+        "meaning": "Shock comes — terrified and anxious, then laughing and talking freely. Good fortune — fear leads to reflection, which brings good fortune."
       },
       {
         "position": "Six second",
         "text": "Shock - danger. Lose valuables - they return.",
-        "meaning": ""
+        "meaning": "Shock comes with violence. One loses a great amount of money. Climb the high hill; do not pursue it. After seven days, it will be recovered."
       },
       {
         "position": "Six third",
         "text": "Shocked but act - no disaster.",
-        "meaning": ""
+        "meaning": "Shock unsettles one. Acting in the midst of shock brings no harm — moving forward in fear is actually safe."
       },
       {
         "position": "Nine fourth",
         "text": "Shock sinks in mud - no blame.",
-        "meaning": ""
+        "meaning": "Shock sinks into the mud — excessive shock leads to stagnation."
       },
       {
         "position": "Six fifth",
         "text": "Shock comes and goes - danger but no loss.",
-        "meaning": ""
+        "meaning": "Shock comes and goes violently, but in the end there is no great loss. Only a fright and an incident."
       },
       {
         "position": "Six above",
         "text": "Shock terrifies - but not you.",
-        "meaning": ""
+        "meaning": "Shock makes one shrink and tremble, utterly panicked. Setting out on an expedition brings misfortune. The shock does not strike oneself but strikes one's neighbor. No blame. But in marriage, there will be disputes."
       }
     ],
-    "xiang": "洊雷，震。君子以恐惧修省。",
+    "xiang": "Thunder repeated: the image of SHOCK. Thus the superior man, in fear and trembling, examines himself and corrects his faults.",
     "meaning": "Thunder. Shock brings success.",
     "category": "震动"
   },
@@ -2255,35 +2255,35 @@
       {
         "position": "Six at start",
         "text": "Stillness in toes - no blame.",
-        "meaning": ""
+        "meaning": "Keeping still in the toes. No blame. Favorable for long-term perseverance — stopping in time at the very beginning of action."
       },
       {
         "position": "Six second",
         "text": "Stillness in calves - cannot help. Unhappy.",
-        "meaning": ""
+        "meaning": "Keeping still in the calves. One cannot rescue those he follows; his heart is uneasy — wanting to stop but unable to."
       },
       {
         "position": "Nine third",
         "text": "Stillness in waist - tears the back.",
-        "meaning": ""
+        "meaning": "Keeping still in the waist. The flesh of the back is torn. Danger chokes the heart."
       },
       {
         "position": "Six fourth",
         "text": "Stillness in torso - no blame.",
-        "meaning": ""
+        "meaning": "Keeping still in oneself. No blame — stopping within one's proper bounds, self-restraint."
       },
       {
         "position": "Six fifth",
         "text": "Stillness in jaw - ordered words.",
-        "meaning": ""
+        "meaning": "Keeping still in the jaws. Words are orderly. Remorse vanishes — cautious speech brings no regret."
       },
       {
         "position": "Nine above",
         "text": "Noble stillness - fortune.",
-        "meaning": ""
+        "meaning": "Stopping with a sincere and generous attitude. Good fortune — stopping at the right place, calm and dignified."
       }
     ],
-    "xiang": "兼山，艮。君子以思不出其位。",
+    "xiang": "Mountain standing on mountain: the image of KEEPING STILL. Thus the superior man does not let his thoughts go beyond his position.",
     "meaning": "Stillness. Peace.",
     "category": "停止"
   },
@@ -2299,35 +2299,35 @@
       {
         "position": "Six at start",
         "text": "Geese approach shore - young in danger.",
-        "meaning": ""
+        "meaning": "The wild goose gradually approaches the shore. The young son is in danger. There are disputes, but no blame."
       },
       {
         "position": "Six second",
         "text": "Geese approach cliff - feasting, fortune.",
-        "meaning": ""
+        "meaning": "The wild goose gradually approaches the great rock. Eating and drinking joyfully. Good fortune — resting securely in a stable place."
       },
       {
         "position": "Nine third",
         "text": "Geese approach high ground - misfortune.",
-        "meaning": ""
+        "meaning": "The wild goose gradually approaches the high plateau. The husband goes on campaign and does not return. The wife becomes pregnant but does not give birth. Misfortune. But it is favorable to defend against robbers."
       },
       {
         "position": "Six fourth",
         "text": "Geese approach tree - find branch.",
-        "meaning": ""
+        "meaning": "The wild goose gradually approaches the tree. Perhaps it finds a level branch to perch on. No blame — finding stability amidst unease."
       },
       {
         "position": "Nine fifth",
         "text": "Geese approach hill - three years no pregnancy.",
-        "meaning": ""
+        "meaning": "The wild goose gradually approaches the hill. The wife does not become pregnant for three years, but in the end no one can overcome her. Good fortune — perseverance leads to success."
       },
       {
         "position": "Nine above",
         "text": "Geese approach heights - feathers as ornaments.",
-        "meaning": ""
+        "meaning": "The wild goose gradually approaches the high plain. Its feathers can be used for ritual adornment. Good fortune — noble virtue can serve as a model for the world."
       }
     ],
-    "xiang": "山上有木，渐。君子以居贤德善俗。",
+    "xiang": "Wood on the mountain: the image of DEVELOPMENT. Thus the superior man abides in virtue and improves the customs.",
     "meaning": "Gradual progress. Fortune.",
     "category": "渐进"
   },
@@ -2343,35 +2343,35 @@
       {
         "position": "Nine at start",
         "text": "Marry as sister - cripple can walk. Fortune.",
-        "meaning": ""
+        "meaning": "The maiden is married as a concubine. Like a lame person who can still walk, going forward brings good fortune — accepting one's proper place brings success."
       },
       {
         "position": "Nine second",
         "text": "One-eyed can see - hermit's perseverance.",
-        "meaning": ""
+        "meaning": "Seeing with one eye. Favorable for the perseverance of a hermit — though imperfect, one can abide in peace."
       },
       {
         "position": "Six third",
         "text": "Marry as handmaid - return as wife. Wait.",
-        "meaning": ""
+        "meaning": "She who should be the principal wife becomes a concubine. She should return and wait — without proper status, words have no effect."
       },
       {
         "position": "Nine fourth",
         "text": "Delayed marriage - waiting for right time.",
-        "meaning": ""
+        "meaning": "The marriage is delayed. The delay is due to waiting for the right time — acting when the time is ripe."
       },
       {
         "position": "Six fifth",
         "text": "Emperors daughter married - plain dress.",
-        "meaning": ""
+        "meaning": "The emperor Yi gives his daughter in marriage. Her finery is not as splendid as that of her attendants. The moon is nearly full but not yet full. Good fortune — inner beauty needs no outward adornment."
       },
       {
         "position": "Six above",
         "text": "Empty basket, bleeding sheep - nothing good.",
-        "meaning": ""
+        "meaning": "The woman carries an empty basket. The man stabs a sheep but sees no blood. The sacrifice is incomplete — empty and without substance, nothing is favorable."
       }
     ],
-    "xiang": "泽上有雷，归妹。君子以永终知敝。",
+    "xiang": "Thunder over the lake: the image of THE MARRYING MAIDEN. Thus the superior man understands the transitory and knows the defects.",
     "meaning": "The maiden. Action misfortune.",
     "category": "结合"
   },
@@ -2387,35 +2387,35 @@
       {
         "position": "Nine at start",
         "text": "Meet equal lord - ten days, no blame.",
-        "meaning": ""
+        "meaning": "Meeting a matching host. Even after ten days, no blame. Going forward brings something to celebrate."
       },
       {
         "position": "Six second",
         "text": "Abundance hidden - midday sees stars.",
-        "meaning": ""
+        "meaning": "In the midst of abundance, one is obscured. At noon, one sees the Big Dipper. Going forward arouses suspicion. Showing sincerity brings good fortune."
       },
       {
         "position": "Nine third",
         "text": "Abundance darkened - break arm, no blame.",
-        "meaning": ""
+        "meaning": "In the midst of abundance, it is dark as night. At noon, one sees small stars. The right arm is broken. No blame — setbacks in prosperity but no great harm."
       },
       {
         "position": "Nine fourth",
         "text": "Abundance hidden - meet kindred spirit.",
-        "meaning": ""
+        "meaning": "Abundance is obscured. At noon, one sees the Big Dipper. Meeting a like-minded person brings good fortune."
       },
       {
         "position": "Six fifth",
         "text": "Bringing brilliance - celebration, fortune.",
-        "meaning": ""
+        "meaning": "Brightness appears. There is celebration and praise. Good fortune — light returns."
       },
       {
         "position": "Six above",
         "text": "Abundant house, empty - three years, misfortune.",
-        "meaning": ""
+        "meaning": "The house is large but overshadows the family. Peeping through the door, it is empty and deserted. For three years, no one is seen. Misfortune — when prosperity reaches its peak, pride leads to ruin."
       }
     ],
-    "xiang": "雷电皆至，丰。君子以折狱致刑。",
+    "xiang": "Thunder and lightning come together: the image of ABUNDANCE. Thus the superior man decides lawsuits and executes punishments.",
     "meaning": "Abundance. King reaches it.",
     "category": "丰盛"
   },
@@ -2431,35 +2431,35 @@
       {
         "position": "Six at start",
         "text": "Petty traveling - trouble.",
-        "meaning": ""
+        "meaning": "In the journey, one fusses over trivial matters. This brings calamity upon oneself — when traveling, be generous."
       },
       {
         "position": "Six second",
         "text": "Traveler finds lodging, wealth, servant.",
-        "meaning": ""
+        "meaning": "In the journey, one finds lodging and carries money. One gains a faithful servant — the image of settling down while traveling."
       },
       {
         "position": "Nine third",
         "text": "Traveler burns lodging - loses servant.",
-        "meaning": ""
+        "meaning": "The lodging is burned, and the servant is lost. Persevere to guard against danger — encountering misfortune on the journey."
       },
       {
         "position": "Nine fourth",
         "text": "Traveler finds shelter, tools - unhappy.",
-        "meaning": ""
+        "meaning": "In the journey, one finds a place to stay and obtains money and tools, but the heart is still unhappy — a wanderer may find shelter but not peace of mind."
       },
       {
         "position": "Six fifth",
         "text": "Shoot pheasant - lose arrow, final praise.",
-        "meaning": ""
+        "meaning": "Shooting a pheasant, one arrow hits. In the end, one gains praise and a position — achieving something while traveling."
       },
       {
         "position": "Nine above",
         "text": "Bird burns nest - first laugh, then weep. Misfortune.",
-        "meaning": ""
+        "meaning": "The bird's nest is burned. The wanderer first laughs, then wails. The ox is lost in the field. Misfortune — pride leads to joy turning to sorrow."
       }
     ],
-    "xiang": "山上有火，旅。君子以明慎用刑而不留狱。",
+    "xiang": "Fire on the mountain: the image of THE WANDERER. Thus the superior man is clear and cautious in imposing punishments and does not prolong lawsuits.",
     "meaning": "The wanderer. Small success.",
     "category": "漂泊"
   },
@@ -2475,35 +2475,35 @@
       {
         "position": "Six at start",
         "text": "Advance and retreat - warriors perseverance.",
-        "meaning": ""
+        "meaning": "Advancing and retreating, hesitating. It furthers one to be like a warrior who is steadfast. — Excessive gentleness leads to loss of footing; resolute action is needed."
       },
       {
         "position": "Nine second",
         "text": "Prostrate beneath bed - shaman ritual. Fortune.",
-        "meaning": ""
+        "meaning": "Bending lowly under the bed, like a shaman or priest praying frequently. Good fortune, no blame. — Sincerity moves the heart."
       },
       {
         "position": "Nine third",
         "text": "Repeated penetration - regret.",
-        "meaning": ""
+        "meaning": "Repeatedly following, there is difficulty. — Excessive compliance leads to obstruction."
       },
       {
         "position": "Six fourth",
         "text": "Regret vanishes - three kinds of game.",
-        "meaning": ""
+        "meaning": "Remorse vanishes. In hunting, one catches three kinds of game. — Through gentleness, one gains abundance."
       },
       {
         "position": "Nine fifth",
         "text": "Persevere - bad start, good finish.",
-        "meaning": ""
+        "meaning": "Perseverance brings good fortune, remorse vanishes. Nothing that does not further. Beginning may be difficult, but the end bears fruit. Proclaim orders three days before and three days after the day of Geng. Good fortune."
       },
       {
         "position": "Nine above",
         "text": "Prostrate beneath bed - lose wealth. Danger.",
-        "meaning": ""
+        "meaning": "Bending under the bed, too humble. Even the tools and money are lost. Perseverance brings danger. — Excessive humility loses the foundation."
       }
     ],
-    "xiang": "随风，巽。君子以申命行事。",
+    "xiang": "The Gentle, the Penetrating. The superior man, in accordance with this, repeats his commands, and carries out his undertakings.",
     "meaning": "Wind. Small success.",
     "category": "顺入"
   },
@@ -2519,35 +2519,35 @@
       {
         "position": "Nine at start",
         "text": "Joyous harmony - fortune.",
-        "meaning": ""
+        "meaning": "Being friendly and cheerful, good fortune. — Peaceful joy, from the heart."
       },
       {
         "position": "Nine second",
         "text": "Sincere joy - fortune, regret gone.",
-        "meaning": ""
+        "meaning": "Sincere and joyful, good fortune, remorse vanishes. — Genuine joy."
       },
       {
         "position": "Six third",
         "text": "Coming joy - misfortune.",
-        "meaning": ""
+        "meaning": "Coming to seek joy, misfortune. — Deliberate flattery, impure motives bring evil."
       },
       {
         "position": "Nine fourth",
         "text": "Joyous negotiation unsettled - illness brings joy.",
-        "meaning": ""
+        "meaning": "Negotiating joy, not yet settled. Cutting off minor ailments brings happy news."
       },
       {
         "position": "Nine fifth",
         "text": "Sincere toward undermining - danger.",
-        "meaning": ""
+        "meaning": "Sincerity is being eroded by petty men, danger. — Beware of petty men tempting with joy."
       },
       {
         "position": "Six above",
         "text": "Guiding joy - no blame.",
-        "meaning": ""
+        "meaning": "Leading others to joy. — Guide with joy, but maintain proper measure."
       }
     ],
-    "xiang": "丽泽，兑。君子以朋友讲习。",
+    "xiang": "The Joyous, the Lake. The superior man, in accordance with this, discusses with friends and practices.",
     "meaning": "Joy. Success.",
     "category": "喜悦"
   },
@@ -2563,35 +2563,35 @@
       {
         "position": "Six at start",
         "text": "Swift rescue with strong horse - fortune.",
-        "meaning": ""
+        "meaning": "Using a strong horse to rescue, good fortune. — Swiftly remedy at the onset of dispersion."
       },
       {
         "position": "Nine second",
         "text": "Scattered - hasten to the stand. Regret gone.",
-        "meaning": ""
+        "meaning": "In dispersion, rushing to a place of support, remorse vanishes. — Finding a refuge."
       },
       {
         "position": "Six third",
         "text": "Scattering self - no regret.",
-        "meaning": ""
+        "meaning": "Dispersion of the self, no regret. — Letting go of ego enables gathering."
       },
       {
         "position": "Six fourth",
         "text": "Scattering the group - great fortune.",
-        "meaning": ""
+        "meaning": "Dispersion of small groups, great good fortune. After dispersion, gathering into a great multitude like a hill, beyond ordinary imagination."
       },
       {
         "position": "Nine fifth",
         "text": "Scattering the great - sweat the proclamation.",
-        "meaning": ""
+        "meaning": "Issuing great commands like sweat, dispersing the accumulated evils of the king's dwelling, no blame. — Removing deep-rooted abuses."
       },
       {
         "position": "Nine above",
         "text": "Scattering blood - depart far. No blame.",
-        "meaning": ""
+        "meaning": "Dispersion of worries, escaping harm, no blame. — Completely freeing from fear."
       }
     ],
-    "xiang": "风行水上，涣。先王以享于帝立庙。",
+    "xiang": "The Wind over the Water, Dispersion. The ancient kings, in accordance with this, presented offerings to the Lord and established temples.",
     "meaning": "Dispersion. King at temple.",
     "category": "涣散"
   },
@@ -2607,35 +2607,35 @@
       {
         "position": "Nine at start",
         "text": "Not leaving courtyard - no blame.",
-        "meaning": ""
+        "meaning": "Not going out of the door and courtyard, no blame. — Knowing limitation from the start."
       },
       {
         "position": "Nine second",
         "text": "Not leaving gate - misfortune.",
-        "meaning": ""
+        "meaning": "Not going out of the door and courtyard, misfortune. — Excessive limitation is harmful; not going out when needed brings evil."
       },
       {
         "position": "Six third",
         "text": "No regulation - sighing, no blame.",
-        "meaning": ""
+        "meaning": "Unable to limit, one sighs, but no blame. — Lack of limitation leads to regret."
       },
       {
         "position": "Six fourth",
         "text": "Peaceful regulation - success.",
-        "meaning": ""
+        "meaning": "Content with limitation, success. — Following limits with ease."
       },
       {
         "position": "Nine fifth",
         "text": "Sweet regulation - fortune. Advance rewarded.",
-        "meaning": ""
+        "meaning": "Limiting with sweet moderation, good fortune. Going forward brings merit. — The best limitation is moderate and pleasant."
       },
       {
         "position": "Six above",
         "text": "Bitter regulation - danger. Regret vanishes.",
-        "meaning": ""
+        "meaning": "Harsh limitation, even perseverance brings danger. But knowing regret, danger vanishes. — Limitation must not be excessive."
       }
     ],
-    "xiang": "泽上有水，节。君子以制数度，议德行。",
+    "xiang": "The Lake over the Water, Limitation. The superior man, in accordance with this, establishes measures and standards, and discusses virtue and conduct.",
     "meaning": "Regulation. Success.",
     "category": "节制"
   },
@@ -2651,35 +2651,35 @@
       {
         "position": "Nine at start",
         "text": "Readiness - fortune. Other thoughts disturb.",
-        "meaning": ""
+        "meaning": "Being prepared and at ease brings good fortune. If there are other thoughts, one becomes restless. — A settled mind brings good fortune."
       },
       {
         "position": "Nine second",
         "text": "Crying crane in shade - young answers.",
-        "meaning": ""
+        "meaning": "A crane calls in the shade, its young answer. I have a fine goblet of wine, I will share it with you. — Sincerity resonates, like minds unite."
       },
       {
         "position": "Six third",
         "text": "Meeting rival - drum then stop, weep then sing.",
-        "meaning": ""
+        "meaning": "Meeting an opponent, now beating the drum, now stopping, now weeping, now singing. — An unsettled mind leads to erratic words and actions."
       },
       {
         "position": "Six fourth",
         "text": "Moon nearly full - horse vanishes. No blame.",
-        "meaning": ""
+        "meaning": "The moon nearly full, the horse is lost, no blame. — Not seeking perfection brings no fault."
       },
       {
         "position": "Nine fifth",
         "text": "Sincere and united - no blame.",
-        "meaning": ""
+        "meaning": "Bound closely with sincerity, no blame. — The cohesive power of sincerity."
       },
       {
         "position": "Nine above",
         "text": "Cockcrow reaches heaven - danger.",
-        "meaning": ""
+        "meaning": "A bird flies high, its cry reaches heaven. Perseverance brings danger. — Fame exceeding reality brings peril."
       }
     ],
-    "xiang": "泽上有风，中孚。君子以议狱缓死。",
+    "xiang": "The Wind over the Lake, Inner Truth. The superior man, in accordance with this, discusses legal cases and delays executions.",
     "meaning": "Inner truth. Reaches pigs.",
     "category": "诚信"
   },
@@ -2695,35 +2695,35 @@
       {
         "position": "Six at start",
         "text": "Birds flying - misfortune.",
-        "meaning": ""
+        "meaning": "A bird brings omens of misfortune. — In small excess, striving upward when one should not brings evil."
       },
       {
         "position": "Six second",
         "text": "Pass grandfather - meet grandmother.",
-        "meaning": ""
+        "meaning": "Passing over the grandfather, meeting the grandmother. Not reaching the ruler, meeting the minister, no blame. — In small excess, one finds encounters."
       },
       {
         "position": "Nine third",
         "text": "No excess - guard against harm.",
-        "meaning": ""
+        "meaning": "No excess, but be on guard. Indulgence may lead to harm, misfortune. — Be vigilant in small excess."
       },
       {
         "position": "Nine fourth",
         "text": "No exceeding - forward brings danger.",
-        "meaning": ""
+        "meaning": "No blame, meeting without excess. Going forward is dangerous, one must be cautious, not stubbornly clinging to the norm."
       },
       {
         "position": "Six fifth",
         "text": "Dense clouds, no rain - duke shoots.",
-        "meaning": ""
+        "meaning": "Dense clouds but no rain, from the western outskirts. The duke shoots an arrow, taking prey in a cave. — Insufficient power to act freely."
       },
       {
         "position": "Six above",
         "text": "No meeting - excessive. Flying bird trapped.",
-        "meaning": ""
+        "meaning": "Meeting no one, rushing forward excessively. The bird is caught in a net, misfortune. This is disaster from heaven and man."
       }
     ],
-    "xiang": "山上有雷，小过。君子以行过乎恭，丧过乎哀，用过乎俭。",
+    "xiang": "The Thunder on the Mountain, Small Excess. The superior man, in accordance with this, is excessively respectful in conduct, excessively sorrowful in mourning, and excessively frugal in expenditure.",
     "meaning": "Small excess. Success.",
     "category": "小过"
   },
@@ -2739,35 +2739,35 @@
       {
         "position": "Nine at start",
         "text": "Drag wheels - wet tail. No blame.",
-        "meaning": ""
+        "meaning": "Dragging the wheels, wetting the tail, no blame. — Caution at the beginning of success."
       },
       {
         "position": "Six second",
         "text": "Woman loses curtain - returns in seven days.",
-        "meaning": ""
+        "meaning": "The woman loses her carriage ornament. Do not seek it; after seven days, it will be found. — Small losses need not be worried about."
       },
       {
         "position": "Nine third",
         "text": "King attacks demon country - three years.",
-        "meaning": ""
+        "meaning": "The High Ancestor attacks the Demon Region, taking three years to conquer. Do not employ petty men. — Success is hard-won."
       },
       {
         "position": "Six fourth",
         "text": "Fine clothes become rags - careful all day.",
-        "meaning": ""
+        "meaning": "Having old clothes to mend leaks, be on guard all day. — Be vigilant in times of peace."
       },
       {
         "position": "Nine fifth",
         "text": "Neighbor slaughers ox - less blessed.",
-        "meaning": ""
+        "meaning": "The eastern neighbor slaughters an ox for a grand sacrifice, but it is not as good as the western neighbor's simple offering with sincerity, which truly receives blessings. — Sincerity outweighs form."
       },
       {
         "position": "Six above",
         "text": "Wetting head - danger.",
-        "meaning": ""
+        "meaning": "Wetting the head, danger. — Success leads to peril if one becomes complacent."
       }
     ],
-    "xiang": "水在火上，既济。君子以思患而豫防之。",
+    "xiang": "The Water over the Fire, After Completion. The superior man, in accordance with this, thinks of danger and takes precautions against it.",
     "meaning": "Already done. Small success.",
     "category": "完成"
   },
@@ -2783,35 +2783,35 @@
       {
         "position": "Six at start",
         "text": "Wet tail - regret.",
-        "meaning": ""
+        "meaning": "The young fox wets its tail crossing the river, there is difficulty. — Starting but not finishing leads to failure."
       },
       {
         "position": "Nine second",
         "text": "Drag wheels - persevere, fortune.",
-        "meaning": ""
+        "meaning": "Dragging the wheels, perseverance brings good fortune. — Acting steadily when not yet successful."
       },
       {
         "position": "Six third",
         "text": "Not yet crossing - advance dangerous.",
-        "meaning": ""
+        "meaning": "Before completion, rushing forward brings misfortune. But crossing the great river is favorable. — In incompletion, one must take risks to succeed."
       },
       {
         "position": "Nine fourth",
         "text": "Persevere - king attacks demon country.",
-        "meaning": ""
+        "meaning": "Perseverance brings good fortune, remorse vanishes. Rouse yourself to attack the Demon Region, after three years receive reward from the great state. — Persistence brings achievement."
       },
       {
         "position": "Six fifth",
         "text": "Persevere - no regret. Noble light.",
-        "meaning": ""
+        "meaning": "Perseverance brings good fortune, no regret. The light of the superior man, with sincerity, good fortune. — Virtue shines, sincerity moves."
       },
       {
         "position": "Nine above",
         "text": "Sincere feasting - no blame. Wetting head loses all.",
-        "meaning": ""
+        "meaning": "Maintaining sincerity while drinking, no blame. But if drinking excessively, like wetting the head, even sincerity loses the right path. — Enjoyment must have limits."
       }
     ],
-    "xiang": "火在水上，未济。君子以慎辨物居方。",
+    "xiang": "The Fire over the Water, Before Completion. The superior man, in accordance with this, carefully distinguishes things and places them in their proper positions.",
     "meaning": "Not yet. Fox nearly crosses.",
     "category": "未成"
   }

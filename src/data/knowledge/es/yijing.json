@@ -20,5 +20,29 @@
       "trigramas",
       "Bagua"
     ]
+  },
+  {
+    "id": "sixty-four",
+    "title": "Estructura y lógica de disposición de los 64 hexagramas",
+    "summary": "Los 64 hexagramas se forman combinando los ocho trigramas en pares, y su orden de disposición contiene un profundo sistema de pensamiento.",
+    "content": "Los 64 hexagramas son el marco básico del I Ching, formados por la combinación de los ocho trigramas en pares. Cada hexagrama contiene seis líneas, que simbolizan las seis etapas del desarrollo de las cosas.\n\n【Reglas estructurales】\nLos 64 hexagramas comienzan con el hexagrama Qian (☰) y terminan con el hexagrama Weiji (☿). Cada hexagrama se compone de seis líneas de abajo arriba, siendo la línea inferior la «inicial» y la superior la «superior».\n\n【Lógica de disposición】\nEl «Tratado sobre el orden de los hexagramas» revela la lógica interna de la disposición de los 64 hexagramas: Qian y Kun son el principio del cielo y la tierra; Zhun simboliza las dificultades al inicio de todas las cosas; Meng simboliza el estado de ignorancia después del nacimiento, que requiere iluminación... y así sucesivamente, cada hexagrama tiene una conexión lógica con el anterior y el siguiente.\n\n【Principio de inversión o cambio】\nLa disposición de los 64 hexagramas sigue el principio de «inversión o cambio»: la relación entre cada hexagrama y el siguiente es ya sea de «inversión» (volteado de arriba abajo) o de «cambio» (todas las líneas yin y yang se transforman).\n\n【Parte superior e inferior】\nLos 64 hexagramas se dividen en dos secciones: la sección superior tiene 30 hexagramas, desde Qian hasta Li; la sección inferior tiene 34 hexagramas, desde Xian hasta Weiji. La sección superior se centra más en el camino del cielo y la naturaleza, mientras que la inferior se enfoca más en la ética y las relaciones humanas.\n\n【Significado profundo del último hexagrama】\nEl I Ching termina con el hexagrama «Weiji» (incompleto), en lugar de «Jiji» (completado), lo que contiene una profunda filosofía: todas las cosas están siempre en proceso de cambio y desarrollo, sin un estado final de culminación.",
+    "tags": [
+      "I Ching",
+      "64 hexagramas",
+      "orden de hexagramas",
+      "estructura"
+    ]
+  },
+  {
+    "id": "yijing-life",
+    "title": "Cómo usar la sabiduría del I Ching en la vida",
+    "summary": "El I Ching no solo es un clásico filosófico, sino que su sabiduría puede guiar todos los aspectos de la vida cotidiana.",
+    "content": "Mucha gente piensa que el I Ching es solo una metafísica para la adivinación, pero en realidad, es una obra filosófica que estudia las leyes del cambio y guía a las personas a tomar decisiones sabias.\n\n【Conciencia de peligro en tiempos de paz】\n«En la seguridad, no olvides el peligro; en la existencia, no olvides la destrucción; en el orden, no olvides el caos»: esta es la sabiduría de mantener la claridad en tiempos de prosperidad. Cuando todo va bien, hay que ser consciente de que en la bonanza pueden ocultarse factores de adversidad.\n\n【El camino de la adaptación al tiempo】\nEl I Ching enfatiza «actuar conforme al tiempo»: ajustar el propio comportamiento según los cambios de las circunstancias. El hexagrama Xu enseña a esperar pacientemente cuando el momento no ha madurado; el hexagrama Ge enseña a actuar con decisión cuando el momento es oportuno.\n\n【El pensamiento de equilibrio entre yin y yang】\n«Un yin y un yang constituyen el Dao»: el desarrollo de las cosas requiere equilibrio. El hexagrama Tai, con la interacción del cielo y la tierra y la fluidez de todas las cosas, es el estado ideal de armonía entre yin y yang.\n\n【Espíritu de superación constante】\nEl hexagrama Qian dice: «El movimiento del cielo es vigoroso; el caballero se esfuerza sin cesar por superarse», enseñando a las personas a mejorar continuamente, como el movimiento constante de los cuerpos celestes.\n\n【Amplia tolerancia para sostener todas las cosas】\nEl hexagrama Kun dice: «La tierra es receptiva; el caballero cultiva la virtud para sostener todas las cosas», inspirándonos a tener una virtud amplia y tolerante, como la tierra que sostiene todo.\n\n【Aplicación en la toma de decisiones】\nLa esencia de la adivinación no es predecir el destino, sino ayudar al decisor a ver múltiples dimensiones del problema a través del significado simbólico de los hexagramas. Los juicios de buena o mala fortuna en las sentencias de los hexagramas y las líneas no son absolutos, sino que indican las tendencias del desarrollo de las cosas y los aspectos a los que se debe prestar atención.",
+    "tags": [
+      "I Ching",
+      "vida",
+      "aplicación",
+      "sabiduría"
+    ]
   }
 ]

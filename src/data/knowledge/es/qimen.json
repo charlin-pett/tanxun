@@ -9,5 +9,17 @@
       "metafísica china",
       "adivinación"
     ]
+  },
+  {
+    "id": "qimen-basics",
+    "title": "Introducción a la Disposición del Tablero de Qimen Dunjia",
+    "summary": "Comprende los principios básicos de la disposición del tablero de Qimen Dunjia, conociendo la distribución de los Nueve Palacios, las Ocho Puertas, las Nueve Estrellas y los Ocho Espíritus.",
+    "content": "La disposición del tablero de Qimen Dunjia parece compleja, pero sigue un conjunto de reglas lógicas estrictas.\n\n【Cuadrícula de los Nueve Palacios】\nLa base de la disposición del tablero de Qimen es una cuadrícula de nueve palacios, que corresponde a los números del Luo Shu:\nPalacio Xun 4   Palacio Li 9   Palacio Kun 2\nPalacio Zhen 3   Palacio Central 5   Palacio Dui 7\nPalacio Gen 8   Palacio Kan 1   Palacio Qian 6\n\n【Parámetros de Tiempo】\nLa disposición del tablero primero requiere determinar los parámetros de tiempo, es decir, los Troncos y Ramas del año, mes, día y hora. El más utilizado es el Qimen de la Hora.\n\n【Cuatro Niveles】\nEl tablero completo de Qimen se divide en cuatro niveles:\n1. Tablero de Tierra (Nueve Palacios) — fijo e inmutable\n2. Tablero del Cielo (Nueve Estrellas) — gira con los Troncos Celestiales\n3. Tablero Humano (Ocho Puertas) — gira con las horas\n4. Tablero Espiritual (Ocho Espíritus) — gira con los períodos solares\n\n【Dun Yin y Dun Yang】\nDun Yang: desde el Solsticio de Invierno hasta el Solsticio de Verano, la energía Yang asciende, se disponen los números en orden ascendente.\nDun Yin: desde el Solsticio de Verano hasta el Solsticio de Invierno, la energía Yin asciende, se disponen los números en orden descendente.\n\n【Consejos para Principiantes】\nAprender Qimen Dunjia se puede dividir en tres pasos: memorizar las propiedades de los Nueve Palacios y las Ocho Puertas → dominar los números de los períodos solares de Dun Yin y Dun Yang → aprender a analizar las relaciones de generación y control en el tablero.",
+    "tags": [
+      "Qimen Dunjia",
+      "Disposición del tablero",
+      "Nueve Palacios",
+      "Introducción"
+    ]
   }
 ]

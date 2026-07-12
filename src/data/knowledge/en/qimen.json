@@ -10,5 +10,17 @@
       "eight gates",
       "Chinese metaphysics"
     ]
+  },
+  {
+    "id": "qimen-basics",
+    "title": "Introduction to Qimen Dunjia Chart Setup",
+    "summary": "Understand the basic principles of Qimen Dunjia chart setup, and learn the distribution patterns of the Nine Palaces, Eight Gates, Nine Stars, and Eight Spirits.",
+    "content": "The chart setup of Qimen Dunjia may seem complex, but it follows a set of strict logical rules.\n\n【Nine Palaces Grid】\nThe foundation of Qimen chart setup is a Nine Palaces grid, corresponding to the numbers of the Luoshu Nine Palaces:\nXun 4 Palace   Li 9 Palace   Kun 2 Palace\nZhen 3 Palace   Center 5 Palace   Dui 7 Palace\nGen 8 Palace   Kan 1 Palace   Qian 6 Palace\n\n【Time Parameters】\nChart setup first requires determining the time parameters, i.e., the Heavenly Stems and Earthly Branches of the year, month, day, and hour. The most commonly used is the Hour-based Qimen.\n\n【Four Layers】\nA complete Qimen chart consists of four layers:\n1. Earth Plate (Nine Palaces) — Fixed and unchanging\n2. Heaven Plate (Nine Stars) — Rotates with the Heavenly Stems\n3. Human Plate (Eight Gates) — Rotates with the hour\n4. Spirit Plate (Eight Spirits) — Rotates with the solar terms\n\n【Yin and Yang Dun】\nYang Dun: From the Winter Solstice to the Summer Solstice, Yang energy rises, and the sequence of bureaus is arranged in forward order.\nYin Dun: From the Summer Solstice to the Winter Solstice, Yin energy rises, and the sequence of bureaus is arranged in reverse order.\n\n【Beginner Advice】\nLearning Qimen Dunjia can be divided into three steps: Memorize the attributes of the Nine Palaces and Eight Gates → Master the Yin and Yang Dun and the bureaus of solar terms → Learn to analyze the relationships of generation and control in the chart.",
+    "tags": [
+      "Qimen Dunjia",
+      "Chart Setup",
+      "Nine Palaces",
+      "Beginner"
+    ]
   }
 ]

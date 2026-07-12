@@ -9,5 +9,18 @@
       "Wu Xing",
       "filosofía"
     ]
+  },
+  {
+    "id": "wuxing-application",
+    "title": "Tabla de correspondencias de los Cinco Elementos",
+    "summary": "La teoría de los Cinco Elementos establece un sistema de correspondencias preciso que incluye fenómenos naturales, órganos humanos, colores, sabores, etc.",
+    "content": "Una de las cosas más fascinantes de la teoría de los Cinco Elementos es que establece un sistema de correspondencias preciso, clasificando todas las cosas en los cinco elementos.\n\n【Tabla general de correspondencias de los Cinco Elementos】\n\nCinco direcciones: Madera (Este)   Fuego (Sur)   Tierra (Centro)   Metal (Oeste)   Agua (Norte)\nCinco estaciones: Madera (Primavera)   Fuego (Verano)   Tierra (Verano tardío)   Metal (Otoño)   Agua (Invierno)\nCinco colores: Madera (Verde)   Fuego (Rojo)   Tierra (Amarillo)   Metal (Blanco)   Agua (Negro)\nCinco sabores: Madera (Ácido)   Fuego (Amargo)   Tierra (Dulce)   Metal (Picante)   Agua (Salado)\nCinco órganos: Madera (Hígado)   Fuego (Corazón)   Tierra (Bazo)   Metal (Pulmón)   Agua (Riñón)\nCinco orificios: Madera (Ojos)   Fuego (Lengua)   Tierra (Boca)   Metal (Nariz)   Agua (Oídos)\nCinco tejidos: Madera (Tendones)   Fuego (Vasos)   Tierra (Músculos)   Metal (Piel)   Agua (Huesos)\nCinco emociones: Madera (Ira)   Fuego (Alegría)   Tierra (Reflexión)   Metal (Tristeza)   Agua (Miedo)\nCinco virtudes: Madera (Benevolencia)   Fuego (Cortesía)   Tierra (Confianza)   Metal (Rectitud)   Agua (Sabiduría)\n\n【Cinco Elementos y los Troncos Celestiales y Ramas Terrestres】\nTroncos Celestiales: Jia y Yi pertenecen a Madera; Bing y Ding a Fuego; Wu y Ji a Tierra; Geng y Xin a Metal; Ren y Gui a Agua.\nRamas Terrestres: Yin y Mao pertenecen a Madera; Si y Wu a Fuego; Chen, Xu, Chou y Wei a Tierra; Shen y You a Metal; Hai y Zi a Agua.\n\n【Cinco Elementos y los Ocho Trigramas】\nZhen y Xun pertenecen a Madera; Li a Fuego; Kun y Gen a Tierra; Qian y Dui a Metal; Kan a Agua.\n\nEste sistema de correspondencias refleja el pensamiento antiguo de «unidad entre el cielo y el hombre»: existe una correspondencia holográfica entre el microcosmos del cuerpo humano y el macrocosmos de la naturaleza.",
+    "tags": [
+      "Cinco Elementos",
+      "tabla de correspondencias",
+      "cinco órganos",
+      "colores",
+      "direcciones"
+    ]
   }
 ]
