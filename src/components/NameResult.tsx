@@ -58,10 +58,41 @@ const TXT: Record<string, any> = {
 const ELEMENT_COLORS: Record<string, string> = {
   '木': 'text-green-700 bg-green-50', '火': 'text-red-700 bg-red-50', '土': 'text-amber-700 bg-amber-50',
   '金': 'text-yellow-700 bg-yellow-50', '水': 'text-blue-700 bg-blue-50',
+  'Wood': 'text-green-700 bg-green-50', 'Fire': 'text-red-700 bg-red-50', 'Earth': 'text-amber-700 bg-amber-50',
+  'Metal': 'text-yellow-700 bg-yellow-50', 'Water': 'text-blue-700 bg-blue-50',
+  'Madera': 'text-green-700 bg-green-50', 'Fuego': 'text-red-700 bg-red-50', 'Tierra': 'text-amber-700 bg-amber-50',
+  'Agua': 'text-blue-700 bg-blue-50',
+  'Дерево': 'text-green-700 bg-green-50', 'Огонь': 'text-red-700 bg-red-50', 'Земля': 'text-amber-700 bg-amber-50',
+  'Металл': 'text-yellow-700 bg-yellow-50', 'Вода': 'text-blue-700 bg-blue-50',
+  '목': 'text-green-700 bg-green-50', '화': 'text-red-700 bg-red-50', '토': 'text-amber-700 bg-amber-50',
+  '금': 'text-yellow-700 bg-yellow-50', '수': 'text-blue-700 bg-blue-50',
+  '대길': 'text-green-700 bg-green-50', '길': 'text-green-600 bg-green-50', '중길': 'text-blue-600 bg-blue-50',
+  '반길': 'text-amber-600 bg-amber-50', '중평': 'text-gray-600 bg-gray-50',
+  '흉': 'text-red-600 bg-red-50', '대흉': 'text-red-700 bg-red-100',
+  'Great Fortune': 'text-green-700 bg-green-50', 'Fortune': 'text-green-600 bg-green-50', 'Moderate Fortune': 'text-blue-600 bg-blue-50',
+  'Half Fortune': 'text-amber-600 bg-amber-50', 'Neutral': 'text-gray-600 bg-gray-50',
+  'Misfortune': 'text-red-600 bg-red-50', 'Great Misfortune': 'text-red-700 bg-red-100',
+  'Gran Fortuna': 'text-green-700 bg-green-50', 'Fortuna': 'text-green-600 bg-green-50', 'Fortuna Media': 'text-blue-600 bg-blue-50',
+  'Media Fortuna': 'text-amber-600 bg-amber-50', 'Desgracia': 'text-red-600 bg-red-50', 'Gran Desgracia': 'text-red-700 bg-red-100',
+  'Великая Удача': 'text-green-700 bg-green-50', 'Удача': 'text-green-600 bg-green-50', 'Средняя Удача': 'text-blue-600 bg-blue-50',
+  'Полу-Удача': 'text-amber-600 bg-amber-50', 'Нейтрально': 'text-gray-600 bg-gray-50',
+  'Неудача': 'text-red-600 bg-red-50', 'Большая Неудача': 'text-red-700 bg-red-100',
   '大吉': 'text-green-700 bg-green-50', '吉': 'text-green-600 bg-green-50', '中吉': 'text-blue-600 bg-blue-50',
   '半吉': 'text-amber-600 bg-amber-50', '中平': 'text-gray-600 bg-gray-50',
   '凶': 'text-red-600 bg-red-50', '大凶': 'text-red-700 bg-red-100',
 };
+
+const ELEMENT_DISPLAY: Record<string, Record<string, string>> = {
+  'zh-CN': { '木':'木', '火':'火', '土':'土', '金':'金', '水':'水' },
+  en: { '木':'Wood', '火':'Fire', '土':'Earth', '金':'Metal', '水':'Water' },
+  ru: { '木':'Дерево', '火':'Огонь', '土':'Земля', '金':'Металл', '水':'Вода' },
+  es: { '木':'Madera', '火':'Fuego', '土':'Tierra', '金':'Metal', '水':'Agua' },
+  ko: { '木':'목', '火':'화', '土':'토', '金':'금', '水':'수' },
+};
+
+function getElemDisplay(elem: string, locale: string): string {
+  return ELEMENT_DISPLAY[locale]?.[elem] || ELEMENT_DISPLAY['zh-CN']?.[elem] || elem;
+}
 
 interface Props {
   result: NameFortuneResult;
@@ -74,7 +105,7 @@ export default function NameResult({ result, locale, method }: Props) {
 
   return (
     <div className="space-y-4">
-      {method === 'chinese' && <ChineseResultBox result={result as ChineseNameResult} t={t} />}
+      {method === 'chinese' && <ChineseResultBox result={result as ChineseNameResult} t={t} locale={locale} />}
       {(method === 'pythagorean' || method === 'chaldean') && (
         <WesternResultBox result={result as WesternNameResult} t={t} method={method} />
       )}
@@ -92,9 +123,10 @@ function Badge({ label, value, colorClass }: { label: string; value: string | nu
   );
 }
 
-function ChineseResultBox({ result, t }: { result: ChineseNameResult; t: any }) {
+function ChineseResultBox({ result, t, locale }: { result: ChineseNameResult; t: any; locale: string }) {
   const { grids, elements, threeTalents, gridInterpretations, personality } = result;
-  const eClass = (e: string) => ELEMENT_COLORS[e] || '';
+  // Element colors: look up by both Chinese key and localized display name
+  const eClass = (e: string, raw: string) => ELEMENT_COLORS[e] || ELEMENT_COLORS[raw] || '';
 
   return (
     <div className="space-y-4">
@@ -102,11 +134,11 @@ function ChineseResultBox({ result, t }: { result: ChineseNameResult; t: any }) 
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
         <h3 className="text-base font-bold text-gray-900 mb-4">{t.grid}</h3>
         <div className="grid grid-cols-5 gap-2 mb-4">
-          <Badge label={t.heaven} value={grids.heaven} colorClass={eClass(elements.heaven)} />
-          <Badge label={t.personality} value={grids.personality} colorClass={eClass(elements.personality)} />
-          <Badge label={t.earth} value={grids.earth} colorClass={eClass(elements.earth)} />
-          <Badge label={t.total} value={grids.total} colorClass={eClass(elements.total)} />
-          <Badge label={t.external} value={grids.external} colorClass={eClass(elements.external)} />
+          <Badge label={t.heaven} value={grids.heaven} colorClass={eClass(getElemDisplay(elements.heaven, locale), elements.heaven)} />
+          <Badge label={t.personality} value={grids.personality} colorClass={eClass(getElemDisplay(elements.personality, locale), elements.personality)} />
+          <Badge label={t.earth} value={grids.earth} colorClass={eClass(getElemDisplay(elements.earth, locale), elements.earth)} />
+          <Badge label={t.total} value={grids.total} colorClass={eClass(getElemDisplay(elements.total, locale), elements.total)} />
+          <Badge label={t.external} value={grids.external} colorClass={eClass(getElemDisplay(elements.external, locale), elements.external)} />
         </div>
 
         {/* Three Talents */}
@@ -119,7 +151,7 @@ function ChineseResultBox({ result, t }: { result: ChineseNameResult; t: any }) 
           </div>
           <div className="flex gap-2 mb-2">
             {threeTalents.elements.map((e, i) => (
-              <span key={i} className={`px-2 py-0.5 rounded text-xs font-medium ${eClass(e)}`}>{e}</span>
+              <span key={i} className={`px-2 py-0.5 rounded text-xs font-medium ${eClass(getElemDisplay(e, locale), e)}`}>{getElemDisplay(e, locale)}</span>
             ))}
           </div>
           <p className="text-xs text-gray-600">{threeTalents.description}</p>

@@ -1,0 +1,335 @@
+/**
+ * Translate Name Fortune output content to en/ru/es/ko
+ * Uses DeepSeek API
+ */
+import { readFileSync, writeFileSync } from 'fs';
+
+const API_KEY = process.env.DEEPSEEK_API_KEY;
+if (!API_KEY) {
+  console.error('DEEPSEEK_API_KEY not set');
+  process.exit(1);
+}
+
+const API_URL = 'https://api.deepseek.com/v1/chat/completions';
+
+async function translate(texts, targetLang, langName) {
+  const items = texts.map((t, i) => `[${i}] ${t}`).join('\n\n');
+  const prompt = `Translate the following Chinese fortune-telling / numerology texts into ${langName}.
+Each entry is marked with [index]. Translate ONLY the content after the index marker.
+Keep the same [index] markers. Do NOT translate the indices themselves.
+Preserve the fortune classification labels using these equivalents:
+- 大吉 -> ${targetLang === 'en' ? 'Great Fortune' : targetLang === 'ru' ? 'Великая Удача' : targetLang === 'es' ? 'Gran Fortuna' : targetLang === 'ko' ? '대길' : 'Great Fortune'}
+- 吉 -> ${targetLang === 'en' ? 'Fortune' : targetLang === 'ru' ? 'Удача' : targetLang === 'es' ? 'Fortuna' : targetLang === 'ko' ? '길' : 'Fortune'}
+- 中吉 -> ${targetLang === 'en' ? 'Moderate Fortune' : targetLang === 'ru' ? 'Средняя Удача' : targetLang === 'es' ? 'Fortuna Media' : targetLang === 'ko' ? '중길' : 'Moderate Fortune'}
+- 半吉 -> ${targetLang === 'en' ? 'Half Fortune' : targetLang === 'ru' ? 'Полу-Удача' : targetLang === 'es' ? 'Media Fortuna' : targetLang === 'ko' ? '반길' : 'Half Fortune'}
+- 中平 -> ${targetLang === 'en' ? 'Neutral' : targetLang === 'ru' ? 'Нейтрально' : targetLang === 'es' ? 'Neutral' : targetLang === 'ko' ? '중평' : 'Neutral'}
+- 凶 -> ${targetLang === 'en' ? 'Misfortune' : targetLang === 'ru' ? 'Неудача' : targetLang === 'es' ? 'Desgracia' : targetLang === 'ko' ? '흉' : 'Misfortune'}
+- 大凶 -> ${targetLang === 'en' ? 'Great Misfortune' : targetLang === 'ru' ? 'Большая Неудача' : targetLang === 'es' ? 'Gran Desgracia' : targetLang === 'ko' ? '대흉' : 'Great Misfortune'}
+
+Return ONLY a JSON object mapping index strings to translated text strings. No other text.`;
+
+  const body = JSON.stringify({
+    model: 'deepseek-chat',
+    messages: [
+      { role: 'system', content: 'You are a professional translator specializing in Chinese metaphysics, numerology, and fortune-telling texts. Translate accurately while preserving the meaning and tone.' },
+      { role: 'user', content: prompt + '\n\n' + items }
+    ],
+    max_tokens: 8000,
+    temperature: 0.3,
+  });
+
+  const res = await fetch(API_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${API_KEY}` },
+    body,
+  });
+
+  const json = await res.json();
+  const content = json.choices[0].message.content.trim();
+
+  // Try to parse JSON from response
+  const jsonMatch = content.match(/\{[\s\S]*\}/);
+  if (jsonMatch) {
+    try {
+      return JSON.parse(jsonMatch[0]);
+    } catch (e) {
+      console.error('Parse error for', targetLang, ':', e.message);
+      console.error('Raw:', content.slice(0, 500));
+      return null;
+    }
+  }
+  console.error('No JSON found for', targetLang);
+  console.error('Raw:', content.slice(0, 500));
+  return null;
+}
+
+// ============================================================
+// Data to translate
+// ============================================================
+
+// 81 Fortune table descriptions
+const FORTUNE_81 = [
+  '太极之数，万物开泰，生发无穷，利禄亨通。',
+  '混沌未定，进退保守，志望难达。',
+  '三才之数，天地人和，大事大业，繁荣昌隆。',
+  '破败之数，进退维谷，非有毅力，难望成功。',
+  '五行之数，阴阳和合，名利双收，一门兴隆。',
+  '六爻之数，天德地祥，福庆吉昌，万事亨通。',
+  '七政之数，刚毅果断，排除万难，必获成功。',
+  '八卦之数，努力发达，贯彻志望，可期成功。',
+  '大成之数，虽抱奇才，有才无命，利去功空。',
+  '终结之数，雪暗飘零，偶或有成，回顾茫然。',
+  '万物更新，调顺发达，稳健着实，必得繁荣。',
+  '薄弱无力，孤立无援，外祥内苦，谋事难成。',
+  '才艺多能，智谋奇略，处事严谨，必获大功。',
+  '破兆之数，沦落天涯，失意烦闷，非有缘者。',
+  '福寿之数，福寿拱照，立身兴家，慈祥有德。',
+  '厚重之数，逢凶化吉，贵人得助，一门隆兴。',
+  '刚强之数，权威刚强，突破万难，必获成功。',
+  '铁镜重磨，有志竟成，内外有助，功成名就。',
+  '风云蔽月，辛苦重来，虽有智谋，挫折难免。',
+  '非业破运，万事不成，进退两难，一生不安。',
+  '明月中天，光风霁月，万物确立，官运亨通。',
+  '秋草逢霜，怀才不遇，忧愁怨苦，事不如意。',
+  '旭日东升，名显四方，渐次进展，终成大业。',
+  '家门余庆，金钱丰盈，白手成家，财源广进。',
+  '资性英敏，刚毅果断，才能奇特，自成大业。',
+  '变怪之数，波澜起伏，英雄豪杰，临难不屈。',
+  '欲望无止，自我心强，多受诽谤，尚可成功。',
+  '遭难之数，豪杰气概，四海漂泊，终世浮躁。',
+  '智谋优秀，财力归集，成就大业，名闻海内。',
+  '绝处逢生，吉凶难分，若凶则惨，若吉则兴。',
+  '智勇得志，博得名利，统领众人，繁荣富贵。',
+  '侥幸多望，贵人得助，财帛丰裕，繁荣至上。',
+  '旭日东升，鸾凤相会，名闻天下，隆昌至极。',
+  '破家亡身，见识短浅，辛苦遭难，灾祸至极。',
+  '温和平安，学智兼备，文雅发展，成就非凡。',
+  '波澜重叠，常陷穷困，动不如静，有才无命。',
+  '权威显达，热诚忠信，宜着雅量，终身荣富。',
+  '薄弱平凡，有志难伸，虽有才艺，难望成功。',
+  '富贵荣华，财帛丰盈，光明坦途，指日可期。',
+  '智谋胆力，冒险投机，沉浮不定，退守方安。',
+  '德望高大，事事如意，富贵荣誉，财源亨通。',
+  '寒蝉在柳，博识多能，精通世情，专心可成。',
+  '散财破产，雨夜之花，外表繁荣，内里空虚。',
+  '破家亡身，暗藏惨淡，事不如意，乱世怪杰。',
+  '新生泰运，顺风扬帆，智谋经纬，富贵繁荣。',
+  '坎坷不平，艰难重重，若无耐心，难望有成。',
+  '开花结果，权威显达，享福终身，名利双收。',
+  '古松立鹤，德智兼备，出身清贵，安享福禄。',
+  '吉凶难分，得宽则吉，得隘则凶。初吉终乱。',
+  '一成一败，吉凶互见，先得庇荫，后遭惨淡。',
+  '盛衰交加，一荣一枯，一心一德，可保成功。',
+  '卓识达眼，先见之明，智谋超群，名利双收。',
+  '外祥内苦，先吉后凶，外观幸福，内多障碍。',
+  '石上栽花，多难悲运，难望成功，素行缺德。',
+  '善恶兼半，外美内恶，先吉后凶，悲叹一生。',
+  '浪里行舟，历尽艰辛，四周障害，晚景渐佳。',
+  '日照春松，寒雪青松，时来运转，繁荣吉祥。',
+  '半凶半吉，浮沉多端，祸福无常，大成大败。',
+  '云遮半月，内里波澜，千辛万苦，难达心愿。',
+  '黑暗无光，心迷意乱，出尔反尔，难定方针。',
+  '名利双收，修炼积蓄，繁花似锦，名闻天下。',
+  '基础虚弱，困难重重，徒劳无功，衰败悲伤。',
+  '舟归平浦，万物化育，繁荣之象，富贵荣达。',
+  '骨肉分离，一生浮沉，难得安泰，孤独悲运。',
+  '巨流归海，富贵长寿，天长地久，事事如意。',
+  '进退失据，内外不和，艰难不堪，损伤灾祸。',
+  '天赋幸运，四通八达，万事如意，富贵繁昌。',
+  '深思熟虑，智谋周全，兴家立业，富贵荣华。',
+  '动摇不安，常陷逆境，灾害交至，难得平安。',
+  '残菊逢霜，惨淡忧愁，晚景凄凉，非有运者。',
+  '石上栽花，外观幸福，内里辛劳，难得实益。',
+  '先甘后苦，万难忍受，晚景悲运，身心疲劳。',
+  '志高力微，盛衰交加，若能谨慎，可保安泰。',
+  '残花经霜，智谋不足，贪功图利，终至失败。',
+  '守则可安，进则失败，宜守不宜攻，平稳是福。',
+  '倾覆离散，内外不合，骨肉分离，一生多难。',
+  '半吉半凶，先吉后凶，获福者少，受祸者多。',
+  '晚景凄凉，先得后失，无智无谋，晚境悲惨。',
+  '云头望月，身疲力尽，前途暗淡，急流勇退。',
+  '吉星入度，一生平安，早也辉煌，晚也辉煌。',
+  '最极之数，万物归根，还本归元，繁荣发达。',
+];
+
+// Fortune labels per number
+const FORTUNE_LABELS = [
+  '大吉','凶','大吉','凶','大吉','大吉','大吉','大吉','凶','凶',
+  '大吉','凶','大吉','凶','大吉','大吉','大吉','大吉','凶','凶',
+  '大吉','凶','大吉','大吉','大吉','凶','凶','凶','大吉','凶',
+  '大吉','大吉','大吉','凶','大吉','凶','大吉','凶','大吉','凶',
+  '大吉','凶','凶','凶','大吉','凶','大吉','大吉','凶','凶',
+  '凶','大吉','凶','凶','凶','凶','大吉','凶','凶','凶',
+  '大吉','凶','大吉','凶','大吉','凶','大吉','大吉','凶','凶',
+  '凶','凶','大吉','凶','大吉','凶','大吉','凶','凶','凶',
+  '大吉',
+];
+
+// Element personality
+const ELEMENT_PERSONALITY = {
+  '木': '仁慈善良，富有创造力，个性温和包容。如同大树，沉稳生长，为他人提供荫蔽。做事有耐心，重视积累。',
+  '火': '热情奔放，充满活力，具有领袖气质。行动力强，敢于表现自我。但需注意控制脾气，避免急躁误事。',
+  '土': '稳重踏实，诚实可靠，有责任感。如同大地，承载万物。做事脚踏实地，值得信赖。',
+  '金': '刚毅果断，正义感强，追求完美。做事有原则，不畏艰难。但需注意有时过于刚硬。',
+  '水': '智慧深邃，灵活变通，适应力强。善于思考，富有洞察力。如同流水，懂得迂回前进。',
+};
+
+// Three talents descriptions
+const THREE_TALENTS = {
+  perfect: '三才配置极佳，天地人三格五行相生，形成良性循环，运势亨通，诸事顺遂。',
+  same: '三才五行一致，力量集中，在某一方面有突出表现，但需注意单一五行过旺带来的偏颇。',
+  overcome: '三才相克，天地人三格五行相战，运势多有波折，需注意人际和健康。宜以柔克刚，避免强求。',
+  over1: '天格克人格，早年运势受家族因素影响较大。但人格生地格，中年后运势渐好。',
+  over2: '人格克地格，中年运势强但需注意家庭和晚年。天格生人格，早年有长辈贵人相助。',
+  neutral: '三才配置一般，有生有克，运势起伏正常，努力可改运。',
+};
+
+// Number meanings (1-9, 11, 22, 33)
+const NUMBER_MEANINGS = [
+  { num: 1, type: 'expression', text: '天生的领导者，独立自主，具有开创精神。适合创业、管理、领导岗位。' },
+  { num: 1, type: 'personality', text: '给人果断、自信、有魄力的第一印象。' },
+  { num: 1, type: 'heartDesire', text: '内心深处渴望独立和掌控，想要成为人生的主导者。' },
+  { num: 2, type: 'expression', text: '天生的协调者，温柔敏感，善于合作。适合外交、咨询、教育领域。' },
+  { num: 2, type: 'personality', text: '给人温和、友善、好相处的印象。' },
+  { num: 2, type: 'heartDesire', text: '内心渴望和谐与陪伴，重视关系和情感连接。' },
+  { num: 3, type: 'expression', text: '天生的创造者，表达能力强，乐观开朗。适合艺术、娱乐、传媒行业。' },
+  { num: 3, type: 'personality', text: '给人风趣、外向、有魅力的印象。' },
+  { num: 3, type: 'heartDesire', text: '内心渴望表达和被看见，想要通过创造力影响世界。' },
+  { num: 4, type: 'expression', text: '天生的建设者，务实稳重，勤奋坚持。适合工程、财务、行政工作。' },
+  { num: 4, type: 'personality', text: '给人可靠、踏实、值得信赖的印象。' },
+  { num: 4, type: 'heartDesire', text: '内心渴望稳定和安全，追求有序和可控的生活。' },
+  { num: 5, type: 'expression', text: '天生的自由者，热爱冒险，适应力强。适合旅行、销售、媒体行业。' },
+  { num: 5, type: 'personality', text: '给人活泼、多变、有趣的第一印象。' },
+  { num: 5, type: 'heartDesire', text: '内心渴望自由和变化，害怕被束缚。' },
+  { num: 6, type: 'expression', text: '天生的守护者，有爱心，责任感强。适合医疗、教育、公益事业。' },
+  { num: 6, type: 'personality', text: '给人温暖、体贴、有担当的印象。' },
+  { num: 6, type: 'heartDesire', text: '内心渴望爱与被爱，追求家庭的温暖和和谐。' },
+  { num: 7, type: 'expression', text: '天生的思想者，善于分析，有灵性。适合科研、哲学、神秘学。' },
+  { num: 7, type: 'personality', text: '给人沉静、睿智、深不可测的印象。' },
+  { num: 7, type: 'heartDesire', text: '内心渴望真理和智慧，追求深层次的理解。' },
+  { num: 8, type: 'expression', text: '天生的掌权者，有商业头脑，追求成功。适合商业、金融、管理领域。' },
+  { num: 8, type: 'personality', text: '给人强大、有权威、成功的印象。' },
+  { num: 8, type: 'heartDesire', text: '内心渴望成就和认可，追求物质与精神的双重丰盛。' },
+  { num: 9, type: 'expression', text: '天生的人道主义者，慈悲为怀，胸怀天下。适合慈善、艺术、社会服务。' },
+  { num: 9, type: 'personality', text: '给人博爱、理想主义、有格局的印象。' },
+  { num: 9, type: 'heartDesire', text: '内心渴望奉献和完成，追求更高层次的人生意义。' },
+  { num: 11, type: 'expression', text: '具有极高的灵性和直觉力，是启发他人的灯塔。适合精神领袖、艺术家。' },
+  { num: 11, type: 'personality', text: '给人充满魅力、有启发性、超凡脱俗的印象。' },
+  { num: 11, type: 'heartDesire', text: '内心渴望照亮他人，传递灵性的真理。' },
+  { num: 22, type: 'expression', text: '大师建造者，能将宏大的梦想转化为现实。适合大型项目、建筑、社会改造。' },
+  { num: 22, type: 'personality', text: '给人能力超群、胸怀大志的印象。' },
+  { num: 22, type: 'heartDesire', text: '内心渴望建设一个更美好的世界。' },
+  { num: 33, type: 'expression', text: '大师导师，拥有无条件的爱与服务精神。适合教育、疗愈、精神指导。' },
+  { num: 33, type: 'personality', text: '给人温暖包容、充满爱意的印象。' },
+  { num: 33, type: 'heartDesire', text: '内心渴望以爱服务和提升全人类。' },
+];
+
+// Fortune label translations
+const FORTUNE_LABEL_TRANS = {
+  en: { '大吉':'Great Fortune', '吉':'Fortune', '中吉':'Moderate Fortune', '半吉':'Half Fortune', '中平':'Neutral', '凶':'Misfortune', '大凶':'Great Misfortune' },
+  ru: { '大吉':'Великая Удача', '吉':'Удача', '中吉':'Средняя Удача', '半吉':'Полу-Удача', '中平':'Нейтрально', '凶':'Неудача', '大凶':'Большая Неудача' },
+  es: { '大吉':'Gran Fortuna', '吉':'Fortuna', '中吉':'Fortuna Media', '半吉':'Media Fortuna', '中平':'Neutral', '凶':'Desgracia', '大凶':'Gran Desgracia' },
+  ko: { '大吉':'대길', '吉':'길', '中吉':'중길', '半吉':'반길', '中平':'중평', '凶':'흉', '大凶':'대흉' },
+};
+
+async function main() {
+  const languages = [
+    { code: 'en', name: 'English' },
+    { code: 'ru', name: 'Russian' },
+    { code: 'es', name: 'Spanish' },
+    { code: 'ko', name: 'Korean' },
+  ];
+
+  const results = {};
+
+  for (const lang of languages) {
+    console.log(`\n=== Translating to ${lang.name} (${lang.code}) ===`);
+    results[lang.code] = {};
+
+    // 1. Fortune 81 descriptions (batch of 20)
+    console.log('Translating 81 fortune descriptions...');
+    results[lang.code].fortune81desc = [];
+    for (let i = 0; i < FORTUNE_81.length; i += 20) {
+      const batch = FORTUNE_81.slice(i, i + 20);
+      const translated = await translate(batch, lang.code, lang.name);
+      if (translated) {
+        for (let j = 0; j < batch.length; j++) {
+          results[lang.code].fortune81desc[i + j] = translated[String(j)] || batch[j];
+        }
+      } else {
+        // Fallback: keep Chinese
+        for (let j = 0; j < batch.length; j++) {
+          results[lang.code].fortune81desc[i + j] = batch[j];
+        }
+      }
+      console.log(`  Batch ${Math.floor(i/20)+1}/5 done (${Math.min(i+20, 81)}/81)`);
+    }
+
+    // 2. Fortune labels
+    console.log('Fortune labels...');
+    results[lang.code].fortuneLabels = {};
+    for (const [cn, trans] of Object.entries(FORTUNE_LABEL_TRANS[lang.code])) {
+      results[lang.code].fortuneLabels[cn] = trans;
+    }
+
+    // 3. Element personality
+    console.log('Translating element personality...');
+    const elemEntries = Object.entries(ELEMENT_PERSONALITY);
+    const elemTexts = elemEntries.map(([k, v]) => `${k}: ${v}`);
+    const elemTrans = await translate(elemTexts, lang.code, lang.name);
+    results[lang.code].elementPersonality = {};
+    if (elemTrans) {
+      for (let i = 0; i < elemEntries.length; i++) {
+        const [key] = elemEntries[i];
+        results[lang.code].elementPersonality[key] = elemTrans[String(i)] || ELEMENT_PERSONALITY[key];
+      }
+    } else {
+      for (const [k, v] of elemEntries) results[lang.code].elementPersonality[k] = v;
+    }
+
+    // 4. Three talents
+    console.log('Translating three talents...');
+    const talentEntries = Object.entries(THREE_TALENTS);
+    const talentTexts = talentEntries.map(([k, v]) => `${k}: ${v}`);
+    const talentTrans = await translate(talentTexts, lang.code, lang.name);
+    results[lang.code].threeTalents = {};
+    if (talentTrans) {
+      for (let i = 0; i < talentEntries.length; i++) {
+        const [key] = talentEntries[i];
+        results[lang.code].threeTalents[key] = talentTrans[String(i)] || THREE_TALENTS[key];
+      }
+    } else {
+      for (const [k, v] of talentEntries) results[lang.code].threeTalents[k] = v;
+    }
+
+    // 5. Number meanings
+    console.log('Translating number meanings...');
+    const numTexts = NUMBER_MEANINGS.map(m => `[${m.num}-${m.type}] ${m.text}`);
+    const numTrans = await translate(numTexts, lang.code, lang.name);
+    results[lang.code].numberMeanings = {};
+    if (numTrans) {
+      for (let i = 0; i < NUMBER_MEANINGS.length; i++) {
+        const m = NUMBER_MEANINGS[i];
+        const key = `${m.num}_${m.type}`;
+        results[lang.code].numberMeanings[key] = numTrans[String(i)] || m.text;
+      }
+    } else {
+      for (const m of NUMBER_MEANINGS) {
+        results[lang.code].numberMeanings[`${m.num}_${m.type}`] = m.text;
+      }
+    }
+
+    // Wait between languages
+    if (languages.indexOf(lang) < languages.length - 1) {
+      console.log('Waiting 3s before next language...');
+      await new Promise(r => setTimeout(r, 3000));
+    }
+  }
+
+  // Output results
+  const outPath = 'D:\\探寻\\scripts\\name-fortune-translations.json';
+  writeFileSync(outPath, JSON.stringify(results, null, 2), 'utf-8');
+  console.log(`\n\nTranslations saved to ${outPath}`);
+}
+
+main().catch(console.error);

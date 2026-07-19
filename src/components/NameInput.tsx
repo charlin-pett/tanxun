@@ -48,7 +48,7 @@ export default function NameInput() {
   const handleSubmit = () => {
     if (name.trim().length < 2) { setError(t.noName); return; }
     setError('');
-    const res = calculateNameFortune(name.trim(), method);
+    const res = calculateNameFortune(name.trim(), method, locale);
     setResult(res);
   };
 
