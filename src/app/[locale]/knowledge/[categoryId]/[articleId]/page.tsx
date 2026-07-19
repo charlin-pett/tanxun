@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { getArticle, getArticlesByCategory } from '@/lib/knowledge';
+import AdSenseAd from '@/components/AdSenseAd';
 
 interface ArticleDetailProps {
   params: Promise<{ locale: string; categoryId: string; articleId: string }>;
@@ -139,6 +140,11 @@ export default async function ArticleDetailPage({ params }: ArticleDetailProps) 
                 })}
               </div>
             </div>
+          </div>
+
+          {/* 广告 — 文章底部 */}
+          <div className="mb-6">
+            <AdSenseAd slot="1053793417" format="in-article" />
           </div>
 
           {/* 上下篇导航 */}

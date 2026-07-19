@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import FeatureCard from '@/components/FeatureCard';
 import DailyFortune from '@/components/DailyFortune';
+import AdSenseAd from '@/components/AdSenseAd';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -23,6 +24,11 @@ export default async function HomePage({ params }: PageProps) {
 
       {/* 每日一签 */}
       <DailyFortune />
+
+      {/* 广告 */}
+      <section className="w-full max-w-6xl mx-auto px-4">
+        <AdSenseAd slot="1053793417" />
+      </section>
 
       <section className="w-full max-w-6xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

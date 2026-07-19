@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getAllHexagrams, getHexagramByNumber } from '@/lib/hexagram';
 import { Link } from '@/i18n/navigation';
+import AdSenseAd from '@/components/AdSenseAd';
 import type { HexagramLine } from '@/types/hexagram';
 
 // 定义 props 类型（Next.js 15+ 使用 Promise params）
@@ -144,6 +145,11 @@ export default async function HexagramDetailPage({
       </div>
 
       {/* ===== 前后卦导航 ===== */}
+      {/* 广告 */}
+      <div className="mb-8">
+        <AdSenseAd slot="1053793417" />
+      </div>
+
       <div className="flex justify-between items-center">
         {hexagram.number > 1 ? (
           <Link

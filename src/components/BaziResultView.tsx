@@ -4,6 +4,7 @@ import { useMemo } from 'react';
 import { useLocale } from 'next-intl';
 import type { BaZiInput } from '@/engine/types';
 import { calcBaZi } from '@/engine/bazi';
+import AdSenseAd from '@/components/AdSenseAd';
 import {
   getGanText,
   getZhiText,
@@ -244,6 +245,11 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
 
       {/* ===== AI 命理报告 ===== */}
       <AiReading params={readingParams} autoFetch={autoFetchReading} />
+
+      {/* 广告 — 八字结果底部 */}
+      <div className="mt-6">
+        <AdSenseAd slot="1053793417" />
+      </div>
     </div>
   );
 }
