@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { useLocale } from 'next-intl';
-import { classifyDream, CATEGORY_LABELS_CN, CATEGORY_LABELS_EN, CATEGORY_LABELS_RU, CATEGORY_LABELS_ES } from '@/engine/dream/categories';
+import { classifyDream, CATEGORY_LABELS_CN, CATEGORY_LABELS_EN, CATEGORY_LABELS_RU, CATEGORY_LABELS_ES, CATEGORY_LABELS_KO } from '@/engine/dream/categories';
 import DreamResult from './DreamResult';
 
 interface DreamHistoryItem {
@@ -10,7 +10,7 @@ interface DreamHistoryItem {
 }
 
 const CAT_LABELS: Record<string, Record<string, string>> = {
-  'zh-CN': CATEGORY_LABELS_CN, en: CATEGORY_LABELS_EN, ru: CATEGORY_LABELS_RU, es: CATEGORY_LABELS_ES,
+  'zh-CN': CATEGORY_LABELS_CN, en: CATEGORY_LABELS_EN, ru: CATEGORY_LABELS_RU, es: CATEGORY_LABELS_ES, ko: CATEGORY_LABELS_KO,
 };
 
 const TXT: Record<string, { title: string; desc: string; placeholder: string; submit: string; history: string; clear: string; cont: string; empty: string; error: string }> = {
@@ -18,6 +18,7 @@ const TXT: Record<string, { title: string; desc: string; placeholder: string; su
   en: { title: 'Describe Your Dream', desc: 'The more detail you provide, the more accurate your interpretation', placeholder: 'E.g., I dreamed I was flying over the ocean, with a dragon soaring through the clouds...', submit: 'Interpret Dream', history: 'Dream History', clear: 'Clear History', cont: '← Continue Dream', empty: 'No dream history yet', error: 'Please describe your dream' },
   ru: { title: 'Опишите ваш сон', desc: 'Чем больше деталей, тем точнее толкование', placeholder: 'Например: мне снилось, что я лечу над морем, а в облаках парит дракон...', submit: 'Толковать сон', history: 'История снов', clear: 'Очистить', cont: '← Продолжить', empty: 'История пуста', error: 'Опишите ваш сон' },
   es: { title: 'Describe tu sueño', desc: 'Cuantos más detalles proporciones, más precisa será la interpretación', placeholder: 'Ej: Soñé que volaba sobre el océano, con un dragón entre las nubes...', submit: 'Interpretar Sueño', history: 'Historial de Sueños', clear: 'Limpiar', cont: '← Continuar', empty: 'Sin historial aún', error: 'Describe tu sueño' },
+  ko: { title: '꿈을 설명하세요', desc: '자세히 설명할수록 더 정확한 해석이 가능합니다', placeholder: '예: 바다 위를 날아다니는 꿈을 꾸었어요, 구름 사이로 용이 날고 있었어요...', submit: '꿈 해석하기', history: '꿈 기록', clear: '기록 지우기', cont: '← 계속하기', empty: '아직 꿈 기록이 없습니다', error: '꿈을 설명해주세요' },
 };
 
 export default function DreamInput() {

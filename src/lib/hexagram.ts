@@ -4,12 +4,14 @@ import cnData from '@/data/hexagrams/zh-CN.json';
 import enData from '@/data/hexagrams/en.json';
 import ruData from '@/data/hexagrams/ru.json';
 import esData from '@/data/hexagrams/es.json';
+import koData from '@/data/hexagrams/ko.json';
 
 const HEX_DATA: Record<string, Record<string, Hexagram>> = {
   'zh-CN': cnData as Record<string, Hexagram>,
   en: enData as Record<string, Hexagram>,
   ru: ruData as Record<string, Hexagram>,
   es: esData as Record<string, Hexagram>,
+  ko: koData as Record<string, Hexagram>,
 };
 
 export async function getAllHexagrams(locale: string = 'zh-CN'): Promise<Hexagram[]> {

@@ -6,10 +6,11 @@ import zhCN from '@/data/zodiac/zh-CN.json';
 import en from '@/data/zodiac/en.json';
 import ru from '@/data/zodiac/ru.json';
 import es from '@/data/zodiac/es.json';
+import ko from '@/data/zodiac/ko.json';
 import { getZodiacIndex } from '@/engine/zodiac';
 
 /** 按 locale 加载对应星座数据 */
-const ZODIAC_MAP: Record<string, any> = { 'zh-CN': zhCN, en, ru, es };
+const ZODIAC_MAP: Record<string, any> = { 'zh-CN': zhCN, en, ru, es, ko };
 
 /** 星座 Emoji 符号 */
 const ZODIAC_SYMBOLS: string[] = ['♈','♉','♊','♋','♌','♍','♎','♏','♐','♑','♒','♓'];
@@ -28,6 +29,10 @@ const ELEMENT_COLORS: Record<string, string> = {
   Water: 'from-cyan-100 to-blue-50 border-cyan-200 text-cyan-800',
   Agua: 'from-cyan-100 to-blue-50 border-cyan-200 text-cyan-800',
   Вода: 'from-cyan-100 to-blue-50 border-cyan-200 text-cyan-800',
+  불: 'from-orange-100 to-red-50 border-orange-200 text-orange-800',
+  흙: 'from-amber-100 to-yellow-50 border-amber-200 text-amber-800',
+  공기: 'from-sky-100 to-blue-50 border-sky-200 text-sky-800',
+  물: 'from-cyan-100 to-blue-50 border-cyan-200 text-cyan-800',
 };
 
 interface ZodiacCardProps { month: number; day: number; }
@@ -77,7 +82,7 @@ export default function ZodiacCard({ month, day }: ZodiacCardProps) {
         <div className="grid grid-cols-2 gap-3 mb-4">
           <div>
             <p className="text-xs font-semibold mb-1 opacity-60">
-              {locale === 'en' ? '✨ Strengths' : locale === 'ru' ? '✨ Сильные' : locale === 'es' ? '✨ Virtudes' : '✨ 优点'}
+              {locale === 'en' ? '✨ Strengths' : locale === 'ru' ? '✨ Сильные' : locale === 'es' ? '✨ Virtudes' : locale === 'ko' ? '✨ 장점' : '✨ 优点'}
             </p>
             <ul className="space-y-0.5">
               {info.strengths.slice(0, 3).map((s: string, i: number) => (
@@ -87,7 +92,7 @@ export default function ZodiacCard({ month, day }: ZodiacCardProps) {
           </div>
           <div>
             <p className="text-xs font-semibold mb-1 opacity-60">
-              {locale === 'en' ? '⚠ Challenges' : locale === 'ru' ? '⚠ Слабые' : locale === 'es' ? '⚠ Retos' : '⚠ 缺点'}
+              {locale === 'en' ? '⚠ Challenges' : locale === 'ru' ? '⚠ Слабые' : locale === 'es' ? '⚠ Retos' : locale === 'ko' ? '⚠ 약점' : '⚠ 缺点'}
             </p>
             <ul className="space-y-0.5">
               {info.weaknesses.slice(0, 3).map((w: string, i: number) => (

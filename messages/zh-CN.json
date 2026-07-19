@@ -14,7 +14,8 @@
     "zodiac": "生肖运势",
     "bazi": "八字算命",
     "knowledge": "玄学百科",
-    "hexagram": "六十四卦"
+    "hexagram": "六十四卦",
+    "name": "姓名预测"
   },
 
   "home": {
@@ -43,6 +44,10 @@
       "zodiac": {
         "title": "生肖运势",
         "description": "查看生肖运程，每月运势早知道"
+      },
+      "name": {
+        "title": "姓名预测",
+        "description": "融合中国传统姓名学、西方灵数学与韩国姓名学，解读你名字中的命运密码"
       }
     },
     "dailyFortune": {
@@ -147,6 +152,10 @@
     "subtitle": "查看你的生肖年度运程"
   },
 
+  "name": {
+    "title": "姓名预测",
+    "subtitle": "输入姓名，探索名字中蕴藏的命运密码"
+  },
   "common": {
     "loading": "加载中……",
     "error": "出错了",

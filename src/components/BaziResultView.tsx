@@ -38,6 +38,7 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
     : locale === 'en' ? { pillars: 'Four Pillars', wx: 'Five Elements', dayun: 'Decade Luck', liunian: 'Current Year', dayunDir: (s: boolean) => s ? 'Forward' : 'Reverse', startAge: (n: number) => `${n}yo start`, yearLabel: 'Year Pillar' }
     : locale === 'ru' ? { pillars: 'Четыре Столпа', wx: 'Пять Элементов', dayun: 'Десятилетие', liunian: 'Текущий год', dayunDir: (s: boolean) => s ? 'Прямой' : 'Обратный', startAge: (n: number) => `${n} лет`, yearLabel: 'Столп года' }
     : locale === 'es' ? { pillars: 'Cuatro Pilares', wx: 'Cinco Elementos', dayun: 'Década de Suerte', liunian: 'Año Actual', dayunDir: (s: boolean) => s ? 'Directo' : 'Inverso', startAge: (n: number) => `${n} años`, yearLabel: 'Pilar del Año' }
+    : locale === 'ko' ? { pillars: '사주팔자', wx: '오행 분포', dayun: '대운', liunian: '현재 세운', dayunDir: (s: boolean) => s ? '순행' : '역행', startAge: (n: number) => `${n}세에 시작`, yearLabel: '세운 간지' }
     : { pillars: '四柱八字', wx: '五行分布', dayun: '大运', liunian: '当前流年', dayunDir: (s: boolean) => s ? '顺排' : '逆排', startAge: (n: number) => `${n}岁起运`, yearLabel: '流年干支' }
   );
 
@@ -50,13 +51,14 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
     : locale === 'en' ? ['Year', 'Month', 'Day', 'Hour']
     : locale === 'ru' ? ['Год', 'Месяц', 'День', 'Час']
     : locale === 'es' ? ['Año', 'Mes', 'Día', 'Hora']
+    : locale === 'ko' ? ['년주', '월주', '일주', '시주']
     : ['年柱', '月柱', '日柱', '时柱'];
 
   // 格式化出生信息
   const hourText = getShiChenText(input.hour, input.minute, locale);
   const genderText = input.gender === 0
-    ? (locale === 'zh-CN' ? '男' : locale === 'en' ? 'Male' : locale === 'ru' ? 'Муж' : locale === 'es' ? 'Masculino' : '男')
-    : (locale === 'zh-CN' ? '女' : locale === 'en' ? 'Female' : locale === 'ru' ? 'Жен' : locale === 'es' ? 'Femenino' : '女');
+    ? (locale === 'zh-CN' ? '男' : locale === 'en' ? 'Male' : locale === 'ru' ? 'Муж' : locale === 'es' ? 'Masculino' : locale === 'ko' ? '남' : '男')
+    : (locale === 'zh-CN' ? '女' : locale === 'en' ? 'Female' : locale === 'ru' ? 'Жен' : locale === 'es' ? 'Femenino' : locale === 'ko' ? '여' : '女');
 
   // 五行颜色
   const wxColors = ['bg-green-500', 'bg-red-500', 'bg-yellow-600', 'bg-gray-400', 'bg-blue-500'];
@@ -121,9 +123,9 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
       wuxingSummary: wxText,
       locale,
       daYun: `${result.daYun.isShun
-        ? (locale === 'zh-CN' ? '顺排' : locale === 'en' ? 'Forward' : locale === 'ru' ? 'Прямой' : 'Directo')
-        : (locale === 'zh-CN' ? '逆排' : locale === 'en' ? 'Reverse' : locale === 'ru' ? 'Обратный' : 'Inverso')}
- ${result.daYun.startAge}${locale === 'zh-CN' ? '岁起运' : locale === 'en' ? 'yo start' : locale === 'ru' ? ' лет' : ' años'}：${dyText}`,
+        ? (locale === 'zh-CN' ? '顺排' : locale === 'en' ? 'Forward' : locale === 'ru' ? 'Прямой' : locale === 'ko' ? '순행' : 'Directo')
+        : (locale === 'zh-CN' ? '逆排' : locale === 'en' ? 'Reverse' : locale === 'ru' ? 'Обратный' : locale === 'ko' ? '역행' : 'Inverso')}
+ ${result.daYun.startAge}${locale === 'zh-CN' ? '岁起运' : locale === 'en' ? 'yo start' : locale === 'ru' ? ' лет' : locale === 'ko' ? '세에 시작' : ' años'}：${dyText}`,
       liuNian: result.liuNian
         ? `${result.liuNian.year}${locale === 'zh-CN' ? '年' : ''} · ${getGanzhiText(result.liuNian.pillar.ganIndex, result.liuNian.pillar.zhiIndex)}`
         : '未知',
@@ -165,7 +167,7 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
               </span>
               {i === 2 && (
                 <span className="block text-xs text-amber-600 mt-0.5">
-                  {locale === 'zh-CN' ? '日主' : locale === 'en' ? 'Master' : locale === 'ru' ? 'Хозяин' : 'Maestro'}
+                  {locale === 'zh-CN' ? '日主' : locale === 'en' ? 'Master' : locale === 'ru' ? 'Хозяин' : locale === 'ko' ? '일주' : 'Maestro'}
                 </span>
               )}
             </div>
@@ -258,6 +260,7 @@ function DaYunDisplay({
     : locale === 'en' ? { title: 'Decade Luck', dir: (s: boolean) => s ? 'Forward' : 'Reverse', start: (n: number) => `${n}yo start` }
     : locale === 'ru' ? { title: 'Десятилетие', dir: (s: boolean) => s ? 'Прямой' : 'Обратный', start: (n: number) => `${n} лет` }
     : locale === 'es' ? { title: 'Década de Suerte', dir: (s: boolean) => s ? 'Directo' : 'Inverso', start: (n: number) => `${n} años` }
+    : locale === 'ko' ? { title: '대운', dir: (s: boolean) => s ? '순행' : '역행', start: (n: number) => `${n}세에 시작` }
     : { title: '大运', dir: (s: boolean) => s ? '顺排' : '逆排', start: (n: number) => `${n}岁起运` };
   return (
     <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6">
@@ -301,6 +304,7 @@ function LiuNianDisplay({
     : locale === 'en' ? { title: 'Current Year', label: 'Year Pillar' }
     : locale === 'ru' ? { title: 'Текущий год', label: 'Столп года' }
     : locale === 'es' ? { title: 'Año Actual', label: 'Pilar del Año' }
+    : locale === 'ko' ? { title: '현재 세운', label: '세운 간지' }
     : { title: '当前流年', label: '流年干支' };
   if (!liuNian) return null;
 

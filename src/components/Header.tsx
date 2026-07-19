@@ -28,6 +28,7 @@ export default function Header() {
     { href: '/bazi', label: t('bazi') },
 
     { href: '/knowledge', label: t('knowledge') },
+    { href: '/name', label: t('name') },
   ];
 
   return (

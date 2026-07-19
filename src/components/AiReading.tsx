@@ -50,6 +50,7 @@ export default function AiReading({ params, autoFetch = false }: AiReadingProps)
     : locale === 'en' ? { title: 'AI Fortune Report', desc: 'AI-generated destiny analysis combining Ba Zi, zodiac, and Five Elements', btn: 'Start Reading', loading: 'Calculating your destiny…', loadingSub: 'Integrating Ba Zi with zodiac and Five Elements', resultTitle: 'AI Destiny Analysis', resultSub: 'Generated from Ba Zi, zodiac, and Five Elements analysis', errorGen: 'Failed to generate', errorNet: 'Network error, please try again' }
     : locale === 'ru' ? { title: 'AI Отчёт о Судьбе', desc: 'Анализ судьбы на основе Ба Цзы, зодиака и Пяти Элементов', btn: 'Начать', loading: 'Вычисляем вашу судьбу…', loadingSub: 'Объединяем Ба Цзы с зодиаком', resultTitle: 'Анализ Судьбы', resultSub: 'На основе Ба Цзы и Пяти Элементов', errorGen: 'Ошибка генерации', errorNet: 'Сетевая ошибка' }
     : locale === 'es' ? { title: 'Informe de Destino IA', desc: 'Análisis de destino generado por IA combinando Ba Zi, zodíaco y los Cinco Elementos', btn: 'Leer Destino', loading: 'Calculando tu destino…', loadingSub: 'Integrando Ba Zi con tu zodíaco', resultTitle: 'Análisis de Destino', resultSub: 'Basado en Ba Zi y los Cinco Elementos', errorGen: 'Error al generar', errorNet: 'Error de red' }
+    : locale === 'ko' ? { title: 'AI 운명 보고서', desc: '사주 + 별자리 + 오행을 결합한 AI 맞춤 운명 분석 보고서', btn: '운명 분석 시작', loading: '당신의 운명을 추론하는 중…', loadingSub: '사주와 별자리, 오행의 상생상극을 종합 분석 중입니다', resultTitle: 'AI 운명 분석 보고서', resultSub: '사주 명반 + 별자리 분석 + 오행 상생상극 종합', errorGen: '보고서 생성 실패', errorNet: '네트워크 오류, 잠시 후 다시 시도해주세요' }
     : { title: 'AI 命理报告', desc: '结合八字 + 星座 + 五行，AI 为您生成个性化命理分析报告', btn: '开始测算命理', loading: '正在为您推演命理…', loadingSub: '结合八字与星座，综合五行生克，请稍候', resultTitle: 'AI 命理分析报告', resultSub: '基于八字排盘 + 星座分析 + 五行生克综合生成', errorGen: '报告生成失败', errorNet: '网络异常，请稍后再试' };
   // 如果 autoFetch=true，初始状态为 'loading'，否则为 'idle'
   const [state, setState] = useState<ReadingState>(autoFetch ? 'loading' : 'idle');
@@ -168,7 +169,7 @@ export default function AiReading({ params, autoFetch = false }: AiReadingProps)
           onClick={generateReading}
           className="px-8 py-3 bg-red-600 hover:bg-red-700 text-white font-medium rounded-lg transition-colors"
         >
-          {locale === 'zh-CN' ? '重新生成' : locale === 'en' ? 'Retry' : locale === 'ru' ? 'Повторить' : locale === 'es' ? 'Reintentar' : '重试'}
+          {locale === 'zh-CN' ? '重新生成' : locale === 'en' ? 'Retry' : locale === 'ru' ? 'Повторить' : locale === 'es' ? 'Reintentar' : locale === 'ko' ? '다시 시도' : '重试'}
         </button>
       </div>
     );
@@ -199,13 +200,13 @@ export default function AiReading({ params, autoFetch = false }: AiReadingProps)
         {/* 页脚 */}
         <div className="mt-6 pt-4 border-t border-gray-100 text-center">
           <p className="text-xs text-gray-400">
-            {locale === 'zh-CN' ? '以上内容由 AI 生成，仅供文化参考，请理性看待' : locale === 'en' ? 'AI-generated for cultural reference only.' : locale === 'ru' ? 'Создано AI для культурного ознакомления.' : locale === 'es' ? 'Generado por IA solo como referencia cultural.' : ''}
+            {locale === 'zh-CN' ? '以上内容由 AI 生成，仅供文化参考，请理性看待' : locale === 'en' ? 'AI-generated for cultural reference only.' : locale === 'ru' ? 'Создано AI для культурного ознакомления.' : locale === 'es' ? 'Generado por IA solo como referencia cultural.' : locale === 'ko' ? 'AI 생성 콘텐츠이며 문화적 참고용으로만 제공됩니다.' : ''}
           </p>
           <button
             onClick={generateReading}
             className="mt-3 text-xs text-amber-600 hover:text-amber-700 underline"
           >
-            {locale === 'zh-CN' ? '重新生成' : locale === 'en' ? 'Regenerate' : locale === 'ru' ? 'Повторить' : locale === 'es' ? 'Regenerar' : '重试'}
+            {locale === 'zh-CN' ? '重新生成' : locale === 'en' ? 'Regenerate' : locale === 'ru' ? 'Повторить' : locale === 'es' ? 'Regenerar' : locale === 'ko' ? '다시 생성' : '重试'}
           </button>
         </div>
       </div>

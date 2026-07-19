@@ -31,6 +31,7 @@ export default async function HomePage({ params }: PageProps) {
           <FeatureCard title={t('features.zodiac.title')} description={t('features.zodiac.description')} href="/zodiac" icon="zodiac" />
           <FeatureCard title={t('features.hexagram.title')} description={t('features.hexagram.description')} href="/hexagram" icon="hexagram" />
           <FeatureCard title={t('features.knowledge.title')} description={t('features.knowledge.description')} href="/knowledge" icon="knowledge" />
+          <FeatureCard title={t('features.name.title')} description={t('features.name.description')} href="/name" icon="name" />
         </div>
       </section>
     </div>

@@ -37,6 +37,7 @@ export const DREAM_CATEGORIES: DreamCategory[] = [
       '蜘蛛', 'spider', 'паук', 'araña',
       '昆虫', 'insect', 'насекомое', 'insecto',
       '恐龙', 'dinosaur', 'динозавр', 'dinosaurio',
+      '개', '고양이', '뱀', '물고기', '새', '용', '호랑이', '말', '돼지', '소', '양', '원숭이', '쥐', '토끼', '나비', '거미', '곤충', '공룡',
     ],
   },
   {
@@ -60,6 +61,7 @@ export const DREAM_CATEGORIES: DreamCategory[] = [
       '太阳', 'sun', 'солнце', 'sol',
       '云', 'cloud', 'облако', 'nube',
       '彩虹', 'rainbow', 'радуга', 'arcoíris',
+      '물', '불', '홍수', '비', '눈', '바람', '천둥', '번개', '지진', '산', '바다', '강', '하늘', '별', '달', '태양', '구름', '무지개',
     ],
   },
   {
@@ -77,6 +79,7 @@ export const DREAM_CATEGORIES: DreamCategory[] = [
       '领导', 'boss', 'начальник', 'jefe',
       '结婚', 'marry', 'жениться', 'casarse',
       '亲人', 'relative', 'родственник', 'familiar',
+      '어머니', '아버지', '아이', '아기', '친구', '낯선사람', '죽은사람', '귀신', '선생님', '상사', '결혼', '친척',
     ],
   },
   {
@@ -98,6 +101,7 @@ export const DREAM_CATEGORIES: DreamCategory[] = [
       '说话', 'talk', 'говорить', 'hablar',
       '哭泣', 'cry', 'плакать', 'llorar',
       '笑', 'laugh', 'смеяться', 'reír',
+      '날다', '떨어지다', '달리다', '쫓다', '도망가다', '싸우다', '죽이다', '수영하다', '오르다', '운전하다', '길을잃다', '시험', '늦다', '말하다', '울다', '웃다',
     ],
   },
   {
@@ -119,6 +123,7 @@ export const DREAM_CATEGORIES: DreamCategory[] = [
       '门', 'door', 'дверь', 'puerta',
       '桥', 'bridge', 'мост', 'puente',
       '船', 'boat', 'лодка', 'barco',
+      '집', '차', '돈', '금', '보석', '칼', '총', '관', '무덤', '꽃', '음식', '피', '옷', '문', '다리', '배',
     ],
   },
   {
@@ -133,6 +138,7 @@ export const DREAM_CATEGORIES: DreamCategory[] = [
       '生病', 'sick', 'больной', 'enfermo',
       '死亡', 'death', 'смерть', 'muerte',
       '受伤', 'hurt', 'ранить', 'herir',
+      '이빨', '머리카락', '눈', '손', '발', '임신', '아프다', '죽음', '다치다',
     ],
   },
   {
@@ -149,6 +155,7 @@ export const DREAM_CATEGORIES: DreamCategory[] = [
       '岛屿', 'island', 'остров', 'isla',
       '城市', 'city', 'город', 'ciudad',
       '老家', 'hometown', 'родной', 'hogar',
+      '학교', '병원', '화장실', '감옥', '절', '궁전', '숲', '사막', '섬', '도시', '고향',
     ],
   },
 ];
@@ -229,4 +236,15 @@ export const CATEGORY_LABELS_ES: Record<string, string> = {
   body: 'Cuerpo',
   places: 'Lugares',
   other: 'Otro',
+};
+
+export const CATEGORY_LABELS_KO: Record<string, string> = {
+  animals: '동물',
+  nature: '자연',
+  people: '사람',
+  actions: '행동',
+  objects: '사물',
+  body: '신체',
+  places: '장소',
+  other: '기타',
 };

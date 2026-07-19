@@ -7,9 +7,10 @@ import hexCN from '@/data/hexagrams/zh-CN.json';
 import hexEN from '@/data/hexagrams/en.json';
 import hexRU from '@/data/hexagrams/ru.json';
 import hexES from '@/data/hexagrams/es.json';
+import hexKO from '@/data/hexagrams/ko.json';
 
 const HEX_DATA: Record<string, any> = {
-  'zh-CN': hexCN, en: hexEN, ru: hexRU, es: hexES,
+  'zh-CN': hexCN, en: hexEN, ru: hexRU, es: hexES, ko: hexKO,
 };
 
 /** 每日一签组件
@@ -70,6 +71,7 @@ export default function DailyFortune() {
     en: { title: 'Daily Fortune', desc: 'One hexagram a day · Guide your path', share: 'Share', copied: 'Copied!', viewMore: 'View hexagram details', noFortune: 'Today\'s fortune not yet generated.', shareText: (n: number, name: string) => `I drew «${name}» today! Check your fortune →` },
     ru: { title: 'Гороскоп дня', desc: 'Одна гексаграмма в день', share: 'Поделиться', copied: 'Скопировано!', viewMore: 'Подробнее', noFortune: 'Сегодняшний прогноз ещё не готов.', shareText: (n: number, name: string) => `Сегодня я получил «${name}»! Узнай свою судьбу →` },
     es: { title: 'Horóscopo del día', desc: 'Un hexagrama al día', share: 'Compartir', copied: '¡Copiado!', viewMore: 'Ver hexagrama', noFortune: 'Horóscopo de hoy no disponible.', shareText: (n: number, name: string) => `¡Hoy saqué «${name}»! Mira tu fortuna →` },
+    ko: { title: '오늘의 운세', desc: '하루 한 괘 · 오늘의 방향', share: '공유하기', copied: '복사됨!', viewMore: '괘 상세 보기', noFortune: '오늘의 운세가 아직 생성되지 않았습니다.', shareText: (n: number, name: string) => `오늘 «${name}» 괘를 뽑았어요! 당신의 운세를 확인하세요 →` },
   };
   const t = TXT[locale] || TXT['zh-CN'];
 
@@ -157,7 +159,7 @@ export default function DailyFortune() {
           {/* 脚注 */}
           <div className="px-8 pb-5 text-center">
             <p className="text-xs text-gray-400">
-              {locale === 'zh-CN' ? `第${todayHex}卦 · ${todayStr}` : `Hexagram ${todayHex} · ${todayStr}`}
+              {locale === 'zh-CN' ? `第${todayHex}卦 · ${todayStr}` : locale === 'ko' ? `제${todayHex}괘 · ${todayStr}` : `Hexagram ${todayHex} · ${todayStr}`}
             </p>
           </div>
         </div>

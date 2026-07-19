@@ -12,7 +12,7 @@ import { createNavigation } from 'next-intl/navigation';
  * 支持的语言列表
  * 必须与 middleware.ts 中的 locales 配置保持一致
  */
-export const locales = ['zh-CN', 'en', 'ru', 'es'] as const;
+export const locales = ['zh-CN', 'en', 'ru', 'es', 'ko'] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'zh-CN';
 

@@ -10,6 +10,7 @@ const LOCALE_FLAGS: Record<Locale, { flag: string; name: string }> = {
   'en': { flag: '🇬🇧', name: 'English' },
   'ru': { flag: '🇷🇺', name: 'Русский' },
   'es': { flag: '🇪🇸', name: 'Español' },
+  'ko': { flag: '🇰🇷', name: '한국어' },
 };
 
 export default function LocaleSwitcher() {

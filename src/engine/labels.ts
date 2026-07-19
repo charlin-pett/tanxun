@@ -15,19 +15,20 @@ import {
 import { TIAN_GAN_EN, DI_ZHI_EN, WU_XING_EN, SHI_SHEN_EN, SHI_CHEN_EN as SC_EN } from '@/engine/locale/en';
 import { TIAN_GAN_RU, DI_ZHI_RU, WU_XING_RU, SHI_SHEN_RU, SHI_CHEN_RU as SC_RU } from '@/engine/locale/ru';
 import { TIAN_GAN_ES, DI_ZHI_ES, WU_XING_ES, SHI_SHEN_ES, SHI_CHEN_ES as SC_ES } from '@/engine/locale/es';
+import { TIAN_GAN_KO, DI_ZHI_KO, WU_XING_KO, SHI_SHEN_KO, SHI_CHEN_KO as SC_KO } from '@/engine/locale/ko';
 
 /** 各语言的天干 */
-const GAN_MAP: Record<string, string[]> = { 'zh-CN': TIAN_GAN, en: TIAN_GAN_EN, ru: TIAN_GAN_RU, es: TIAN_GAN_ES };
+const GAN_MAP: Record<string, string[]> = { 'zh-CN': TIAN_GAN, en: TIAN_GAN_EN, ru: TIAN_GAN_RU, es: TIAN_GAN_ES, ko: TIAN_GAN_KO };
 /** 各语言的地支 */
-const ZHI_MAP: Record<string, string[]> = { 'zh-CN': DI_ZHI, en: DI_ZHI_EN, ru: DI_ZHI_RU, es: DI_ZHI_ES };
+const ZHI_MAP: Record<string, string[]> = { 'zh-CN': DI_ZHI, en: DI_ZHI_EN, ru: DI_ZHI_RU, es: DI_ZHI_ES, ko: DI_ZHI_KO };
 /** 各语言的五行 */
-const WX_MAP: Record<string, string[]> = { 'zh-CN': WU_XING, en: WU_XING_EN, ru: WU_XING_RU, es: WU_XING_ES };
+const WX_MAP: Record<string, string[]> = { 'zh-CN': WU_XING, en: WU_XING_EN, ru: WU_XING_RU, es: WU_XING_ES, ko: WU_XING_KO };
 /** 各语言的十神 */
-const SS_MAP: Record<string, string[]> = { 'zh-CN': SHI_SHEN, en: SHI_SHEN_EN, ru: SHI_SHEN_RU, es: SHI_SHEN_ES };
+const SS_MAP: Record<string, string[]> = { 'zh-CN': SHI_SHEN, en: SHI_SHEN_EN, ru: SHI_SHEN_RU, es: SHI_SHEN_ES, ko: SHI_SHEN_KO };
 /** 各语言的时辰 */
 const SC_MAP: Record<string, string[]> = {
   'zh-CN': ['子时(23:00-00:59)', '丑时(01:00-02:59)', '寅时(03:00-04:59)', '卯时(05:00-06:59)', '辰时(07:00-08:59)', '巳时(09:00-10:59)', '午时(11:00-12:59)', '未时(13:00-14:59)', '申时(15:00-16:59)', '酉时(17:00-18:59)', '戌时(19:00-20:59)', '亥时(21:00-22:59)'],
-  en: SC_EN, ru: SC_RU, es: SC_ES,
+  en: SC_EN, ru: SC_RU, es: SC_ES, ko: SC_KO,
 };
 
 /** 获取数组（按 locale 回退中文） */
@@ -67,7 +68,8 @@ export const getYinYangText = (index: number, locale: string = 'zh-CN'): string 
   locale === 'zh-CN' ? (index === 0 ? '阳' : '阴') :
   locale === 'en' ? (index === 0 ? 'Yang' : 'Yin') :
   locale === 'ru' ? (index === 0 ? 'Ян' : 'Инь') :
-  locale === 'es' ? (index === 0 ? 'Yang' : 'Yin') : '?';
+  locale === 'es' ? (index === 0 ? 'Yang' : 'Yin') :
+  locale === 'ko' ? (index === 0 ? '양' : '음') : '?';
 
 /** 获取时辰文字 */
 export const SHI_CHEN = (locale: string = 'zh-CN'): string[] => getArr(SC_MAP, locale);

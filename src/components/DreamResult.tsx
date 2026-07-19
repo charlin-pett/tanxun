@@ -3,13 +3,14 @@
 import { useLocale } from 'next-intl';
 import { useMemo } from 'react';
 import { Link } from '@/i18n/navigation';
-import { CATEGORY_LABELS_CN, CATEGORY_LABELS_EN, CATEGORY_LABELS_RU, CATEGORY_LABELS_ES } from '@/engine/dream/categories';
+import { CATEGORY_LABELS_CN, CATEGORY_LABELS_EN, CATEGORY_LABELS_RU, CATEGORY_LABELS_ES, CATEGORY_LABELS_KO } from '@/engine/dream/categories';
 import hexCN from '@/data/hexagrams/zh-CN.json';
 import hexEN from '@/data/hexagrams/en.json';
 import hexRU from '@/data/hexagrams/ru.json';
 import hexES from '@/data/hexagrams/es.json';
+import hexKO from '@/data/hexagrams/ko.json';
 
-const HEX_DATA: Record<string, any> = { 'zh-CN': hexCN, en: hexEN, ru: hexRU, es: hexES };
+const HEX_DATA: Record<string, any> = { 'zh-CN': hexCN, en: hexEN, ru: hexRU, es: hexES, ko: hexKO };
 
 interface DreamResultProps {
   dreamText: string;
@@ -20,12 +21,13 @@ interface DreamResultProps {
 export default function DreamResult({ dreamText, interpretation, categories }: DreamResultProps) {
   const locale = useLocale();
   const hexByLocale = HEX_DATA[locale] || HEX_DATA['zh-CN'];
-  const catLabels = locale === 'zh-CN' ? CATEGORY_LABELS_CN : locale === 'en' ? CATEGORY_LABELS_EN : locale === 'ru' ? CATEGORY_LABELS_RU : locale === 'es' ? CATEGORY_LABELS_ES : CATEGORY_LABELS_CN;
+  const catLabels = locale === 'zh-CN' ? CATEGORY_LABELS_CN : locale === 'en' ? CATEGORY_LABELS_EN : locale === 'ru' ? CATEGORY_LABELS_RU : locale === 'es' ? CATEGORY_LABELS_ES : locale === 'ko' ? CATEGORY_LABELS_KO : CATEGORY_LABELS_CN;
   const TXT: Record<string, any> = {
     'zh-CN': { dreamContent: '梦境内容', analysis: '解梦分析', related: '相关卦象参考', hexagram: '卦' },
     en: { dreamContent: 'Dream Content', analysis: 'Dream Analysis', related: 'Related Hexagrams', hexagram: 'Hex.' },
     ru: { dreamContent: 'Содержание сна', analysis: 'Анализ сна', related: 'Связанные гексаграммы', hexagram: 'Гек.' },
     es: { dreamContent: 'Contenido del Sueño', analysis: 'Análisis del Sueño', related: 'Hexagramas Relacionados', hexagram: 'Hex.' },
+    ko: { dreamContent: '꿈 내용', analysis: '꿈 분석', related: '관련 괘', hexagram: '괘' },
   };
   const t = TXT[locale] || TXT['zh-CN'];
 

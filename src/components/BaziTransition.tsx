@@ -138,6 +138,8 @@ export default function BaziTransition({
     ? { phases: ['Открытие Неба и Земли', 'Превращение Пяти Элементов', 'Звёзды Выстраиваются', 'Готово'], loading: 'Вычисляем вашу судьбу…' }
     : locale === 'es'
     ? { phases: ['Cielo y Tierra se Abren', 'Elementos se Transforman', 'Estrellas se Alinean', 'Completado'], loading: 'Calculando tu destino…' }
+    : locale === 'ko'
+    ? { phases: ['천지개벽 · 팔괘의 회전', '오행의 상생 · 만물의 갱신', '별자리 정렬 · 운명이 드러나다', '추론 완료 · 곧 공개됩니다'], loading: '운명을 추론하는 중…' }
     : { phases: ['天地初开 · 八卦轮转', '五行生克 · 万象更新', '星辰列阵 · 命理昭然', '推演完成 · 即将呈现'], loading: '正在为您推演命理…' };
   const phaseTexts = TXT.phases;
 

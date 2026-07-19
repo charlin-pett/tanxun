@@ -9,6 +9,7 @@ const TXT: Record<string, any> = {
   en: { title: 'Zodiac Fortune', selectYear: 'Select Birth Year', selectSign: 'Select Sign', signLabel: 'Your Sign', overall: 'Year Overview', luckyNum: 'Lucky Numbers', luckyColor: 'Lucky Colors', luckyDir: 'Lucky Direction', monthly: 'Monthly Fortune', month: 'Month', switchSign: 'Switch Sign', year: 'Year' },
   ru: { title: 'Гороскоп', selectYear: 'Год рождения', selectSign: 'Знак', signLabel: 'Ваш знак', overall: 'Общий прогноз', luckyNum: 'Счастливые числа', luckyColor: 'Цвета удачи', luckyDir: 'Направление', monthly: 'Ежемесячно', month: 'Месяц', switchSign: 'Сменить знак', year: 'Год' },
   es: { title: 'Horóscopo', selectYear: 'Año de nacimiento', selectSign: 'Seleccionar signo', signLabel: 'Tu signo', overall: 'Visión general', luckyNum: 'Números de la suerte', luckyColor: 'Colores de la suerte', luckyDir: 'Dirección', monthly: 'Mensual', month: 'Mes', switchSign: 'Cambiar signo', year: '' },
+  ko: { title: '띠별 운세', selectYear: '출생년도 선택', selectSign: '띠 선택', signLabel: '당신의 띠', overall: '전체 운세', luckyNum: '행운의 숫자', luckyColor: '행운의 색상', luckyDir: '행운의 방향', monthly: '월별 운세', month: '월', switchSign: '띠 변경', year: '년' },
 };
 
 export default function ZodiacFortune() {
@@ -100,7 +101,7 @@ export default function ZodiacFortune() {
         </select>
         <button onClick={handleSubmit}
           className="w-full py-3 bg-amber-700 hover:bg-amber-800 text-white font-medium rounded-lg transition-colors">
-          {locale === 'zh-CN' ? '查看运势' : locale === 'en' ? 'Check Fortune' : locale === 'ru' ? 'Узнать' : 'Ver'}
+          {locale === 'zh-CN' ? '查看运势' : locale === 'en' ? 'Check Fortune' : locale === 'ru' ? 'Узнать' : locale === 'es' ? 'Ver' : locale === 'ko' ? '운세 보기' : '查看运势'}
         </button>
       </div>
     </div>

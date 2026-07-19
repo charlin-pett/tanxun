@@ -10,7 +10,8 @@
     "zodiac": "Horóscopo",
     "bazi": "Ba Zi",
     "knowledge": "Biblioteca",
-    "hexagram": "I-Ching"
+    "hexagram": "I-Ching",
+    "name": "Numerología"
   },
   "home": {
     "hero": {
@@ -23,7 +24,8 @@
       "bazi": { "title": "Lectura de Ba Zi", "description": "Ingresa tu fecha de nacimiento para un análisis completo de los Cuatro Pilares" },
       "hexagram": { "title": "Hexagramas del I-Ching", "description": "Los 64 hexagramas con explicaciones detalladas" },
       "knowledge": { "title": "Biblioteca Metafísica", "description": "Cinco Elementos, Troncos Celestes, Qi Men Dun Jia y más" },
-      "zodiac": { "title": "Horóscopo", "description": "Pronóstico anual de tu signo" }
+      "zodiac": { "title": "Horóscopo", "description": "Pronóstico anual de tu signo" },
+      "name": { "title": "Numerología del Nombre", "description": "Numerología china, occidental y coreana — descubre el destino en tu nombre" }
     },
     "dailyFortune": {
       "title": "Horóscopo Diario",
@@ -104,6 +106,10 @@
   "zodiac": {
     "title": "Horóscopo",
     "subtitle": "Pronóstico anual para tu signo"
+  },
+  "name": {
+    "title": "Numerología del Nombre",
+    "subtitle": "Introduce tu nombre para descubrir su destino oculto"
   },
   "common": {
     "loading": "Cargando...",

@@ -10,7 +10,8 @@
     "zodiac": "Zodiac",
     "bazi": "Ba Zi",
     "knowledge": "Library",
-    "hexagram": "I-Ching"
+    "hexagram": "I-Ching",
+    "name": "Name Fortune"
   },
   "home": {
     "hero": {
@@ -23,7 +24,8 @@
       "bazi": { "title": "Ba Zi Reading", "description": "Enter your birth info for a complete Four Pillars analysis" },
       "hexagram": { "title": "I-Ching Hexagrams", "description": "Browse all 64 hexagrams with full explanations" },
       "knowledge": { "title": "Metaphysical Library", "description": "Covers Five Elements, Heavenly Stems, Qi Men Dun Jia, and more" },
-      "zodiac": { "title": "Zodiac Fortune", "description": "Check your zodiac sign's yearly fortune" }
+      "zodiac": { "title": "Zodiac Fortune", "description": "Check your zodiac sign's yearly fortune" },
+      "name": { "title": "Name Fortune", "description": "Chinese, Western, and Korean name numerology — discover the destiny in your name" }
     },
     "dailyFortune": {
       "title": "Daily Fortune",
@@ -104,6 +106,10 @@
   "zodiac": {
     "title": "Zodiac Fortune",
     "subtitle": "Discover your zodiac sign's yearly fortune"
+  },
+  "name": {
+    "title": "Name Fortune",
+    "subtitle": "Enter your name to discover its hidden destiny"
   },
   "common": {
     "loading": "Loading...",

@@ -34,6 +34,13 @@ import qimenES from '@/data/knowledge/es/qimen.json';
 import fengshuiES from '@/data/knowledge/es/fengshui.json';
 import faceES from '@/data/knowledge/es/face.json';
 
+import yijingKO from '@/data/knowledge/ko/yijing.json';
+import wuxingKO from '@/data/knowledge/ko/wuxing.json';
+import ganzhiKO from '@/data/knowledge/ko/ganzhi.json';
+import qimenKO from '@/data/knowledge/ko/qimen.json';
+import fengshuiKO from '@/data/knowledge/ko/fengshui.json';
+import faceKO from '@/data/knowledge/ko/face.json';
+
 type DataMap = Record<string, Article[]>;
 
 const DATA: Record<string, DataMap> = {
@@ -41,6 +48,7 @@ const DATA: Record<string, DataMap> = {
   en: { yijing: yijingEN as Article[], wuxing: wuxingEN as Article[], ganzhi: ganzhiEN as Article[], qimen: qimenEN as Article[], fengshui: fengshuiEN as Article[], face: faceEN as Article[] },
   ru: { yijing: yijingRU as Article[], wuxing: wuxingRU as Article[], ganzhi: ganzhiRU as Article[], qimen: qimenRU as Article[], fengshui: fengshuiRU as Article[], face: faceRU as Article[] },
   es: { yijing: yijingES as Article[], wuxing: wuxingES as Article[], ganzhi: ganzhiES as Article[], qimen: qimenES as Article[], fengshui: fengshuiES as Article[], face: faceES as Article[] },
+  ko: { yijing: yijingKO as Article[], wuxing: wuxingKO as Article[], ganzhi: ganzhiKO as Article[], qimen: qimenKO as Article[], fengshui: fengshuiKO as Article[], face: faceKO as Article[] },
 };
 
 /** 获取分类名称和描述（按语言） */
@@ -76,6 +84,14 @@ const CATEGORY_NAMES: Record<string, Array<{ id: string; name: string; icon: str
     { id: 'qimen', name: 'Qi Men', icon: '九宫', description: 'El arte del Emperador' },
     { id: 'fengshui', name: 'Feng Shui', icon: '山水', description: 'El arte de la armonía espacial' },
     { id: 'face', name: 'Rostro y Mano', icon: '面相', description: 'Lectura del destino en el rostro' },
+  ],
+  ko: [
+    { id: 'yijing', name: '주역', icon: '䷀', description: '변화의 책 — 중국 형이상학의 기초' },
+    { id: 'wuxing', name: '오행', icon: '♨', description: '목·화·토·금·수 — 우주의 다섯 가지 요소' },
+    { id: 'ganzhi', name: '천간지지', icon: '干支', description: '고대 중국의 시간 기록 체계' },
+    { id: 'qimen', name: '기문둔갑', icon: '九宫', description: '제왕의 학문 — 최고의 예측술' },
+    { id: 'fengshui', name: '풍수', icon: '山水', description: '공간과 환경의 조화' },
+    { id: 'face', name: '관상', icon: '面相', description: '얼굴과 손금으로 보는 운명' },
   ],
 };
 

@@ -15,11 +15,13 @@ export const ZODIAC_NAMES: Record<string, string[]> = {
   en: ['Rat','Ox','Tiger','Rabbit','Dragon','Snake','Horse','Goat','Monkey','Rooster','Dog','Pig'],
   ru: ['Крыса','Бык','Тигр','Кролик','Дракон','Змея','Лошадь','Коза','Обезьяна','Петух','Собака','Свинья'],
   es: ['Rata','Buey','Tigre','Conejo','Dragón','Serpiente','Caballo','Cabra','Mono','Gallo','Perro','Cerdo'],
+  ko: ['쥐','소','호랑이','토끼','용','뱀','말','양','원숭이','닭','개','돼지'],
 };
 
 const DATA: Record<string, ZodiacFortune[]> = {
   'zh-CN': getCN(),
   en: getEN(),
+  ko: getKO(),
 };
 
 function getCN(): ZodiacFortune[] {
@@ -62,6 +64,27 @@ function getEN(): ZodiacFortune[] {
 
 function genEN(m: string[]): any {
   return m.map((c, i) => ({ month: i + 1, title: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][i], content: c + '.' }));
+}
+
+function getKO(): ZodiacFortune[] {
+  const koMonths = ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'];
+  function genKO(m: string[]): any {
+    return m.map((c, i) => ({ month: i + 1, title: koMonths[i], content: c + '.' }));
+  }
+  return [
+    { overall: '쥐띠 해에 태어난 사람은 영리하고 관찰력이 뛰어납니다. 올해는 조정과 축적에 좋은 시기입니다.', luckyNumbers: [2,3], luckyColors: ['파란색','금색'], luckyDirection: '북동', months: genKO(['순조로운 시작','활발한 인간관계','직업운 상승','재물운 좋음','평온한 시기','도전 과제','전환점','재운 절정','인간관계 상승','꾸준한 상승','약간의 변동','순조로운 마무리']) },
+    { overall: '소띠 해에 태어난 사람은 성실하고 끈기 있습니다. 인내심을 갖고 꾸준히 나아가면 결실을 맺을 것입니다.', luckyNumbers: [1,9], luckyColors: ['노란색','갈색'], luckyDirection: '남서', months: genKO(['안정적 상승','원만한 인간관계','직업운 좋음','건강 관리 필요','압박 증가','운세 회복','재물운 좋음','직업운 최고','평온한 시기','활발한 교류','약간의 변동','상승세']) },
+    { overall: '호랑이띠 해에 태어난 사람은 용감하고 자신감이 넘칩니다. 올해는 과감한 혁신이 보상을 가져옵니다.', luckyNumbers: [3,8], luckyColors: ['주황색','흰색'], luckyDirection: '남동', months: genKO(['새로운 시작','상승세','인간관계 주의','건강 관리','도전 직면','운세 호전','귀인 도움','재운 절정','새로운 기회','꾸준한 상승','약간의 장애','좋은 마무리']) },
+    { overall: '토끼띠 해에 태어난 사람은 온화하고 우아합니다. 자신의 강점을 살려 안정 속에서 발전을 추구하세요.', luckyNumbers: [6,9], luckyColors: ['분홍색','초록색'], luckyDirection: '동', months: genKO(['평온한 시작','활발한 교류','직업 기회','약간의 압박','재물운 좋음','즐거운 업무','번영의 시기','인간관계 주의','직업운 최고','약간의 하락','운세 회복','좋은 마무리']) },
+    { overall: '용띠 해에 태어난 사람은 타고난 리더입니다. 올해는 당신의 재능을 발휘할 때입니다.', luckyNumbers: [5,7], luckyColors: ['금색','빨간색'], luckyDirection: '남', months: genKO(['좋은 시작','귀인 도움','재운 상승','건강 관리','직업 도전','장애 해소','뛰어난 교류','직업 정점','지속적 행운','약간의 변동','운세 상승','순조로운 마무리']) },
+    { overall: '뱀띠 해에 태어난 사람은 지혜로운 사색가입니다. 신중한 계획이 진전을 가져옵니다.', luckyNumbers: [2,8], luckyColors: ['보라색','검은색'], luckyDirection: '남서', months: genKO(['안정적 계획','원만한 관계','새로운 방향','과로 주의','극복 가능한 도전','운세 개선','귀인 출현','재운 정점','직업 인정','약간의 변동','안정적 반성','좋은 마무리']) },
+    { overall: '말띠 해에 태어난 사람은 열정적이고 자유롭습니다. 대담한 행동이 성공을 가져옵니다.', luckyNumbers: [3,7], luckyColors: ['빨간색','노란색'], luckyDirection: '남', months: genKO(['좋은 시작','활발한 교류','많은 기회','속도 조절','재운 상승','바쁘지만 보람','번영','직업 최고','약간의 하락','운세 상승','재물운 좋음','안정적 마무리']) },
+    { overall: '양띠 해에 태어난 사람은 온화하고 창의적입니다. 당신의 재능을 키우세요.', luckyNumbers: [4,9], luckyColors: ['분홍색','초록색'], luckyDirection: '남서', months: genKO(['평온한 시작','원만한 교류','직업 상승','건강 관리','감정 조절','운세 회복','좋은 교류','재운','직업 최고','약간의 변동','꾸준한 상승','좋은 마무리']) },
+    { overall: '원숭이띠 해에 태어난 사람은 총명하고 다재다능합니다. 대담하게 혁신하세요.', luckyNumbers: [1,8], luckyColors: ['흰색','금색'], luckyDirection: '북서', months: genKO(['활발한 두뇌','협력','재치 발휘','재운 상승','바쁜 진전','번영','뛰어난 교류','직업 정점','반성','운세 상승','안정적 발전','좋은 마무리']) },
+    { overall: '닭띠 해에 태어난 사람은 부지런한 조직가입니다. 꾸준한 진전이 결실을 맺습니다.', luckyNumbers: [5,7], luckyColors: ['금색','갈색'], luckyDirection: '서', months: genKO(['새로운 시작','관계 유지','능력 발휘','식단 관리','꾸준함 유지','어려움 완화','활발한 네트워크','큰 성과','투자 수익','관계 주의','꾸준한 상승','좋은 마무리']) },
+    { overall: '개띠 해에 태어난 사람은 충성스럽고 책임감이 강합니다. 신뢰성이 지속적인 결과를 가져옵니다.', luckyNumbers: [3,9], luckyColors: ['빨간색','초록색'], luckyDirection: '동', months: genKO(['평온한 시작','원만한 관계','직업 상승','운동 필요','업무 압박','효율 향상','좋은 교류','보수적 투자','직업 최고','약간의 변동','운세 상승','좋은 마무리']) },
+    { overall: '돼지띠 해에 태어난 사람은 마음이 따뜻합니다. 긍정적인 마음가짐이 행복을 가져옵니다.', luckyNumbers: [2,6], luckyColors: ['노란색','파란색'], luckyDirection: '북', months: genKO(['좋은 시작','좋은 교류','기회','식단 관리','순조로운 업무','최고의 시기','투자 놀라움','직업 최고','반성','운세 상승','안정적 발전','좋은 마무리']) },
+  ];
 }
 
 export function getZodiacFortune(index: number, locale: string = 'zh-CN'): ZodiacFortune {

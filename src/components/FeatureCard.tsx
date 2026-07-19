@@ -18,7 +18,7 @@ interface FeatureCardProps {
   title: string;
   description: string;
   href: string;
-  icon: 'dream' | 'bazi' | 'hexagram' | 'knowledge' | 'zodiac';
+  icon: 'dream' | 'bazi' | 'hexagram' | 'knowledge' | 'zodiac' | 'name';
 }
 
 export default function FeatureCard({
@@ -111,6 +111,14 @@ function Icon({ name }: { name: FeatureCardProps['icon'] }) {
           <path d="M12 21a9 9 0 0 1-9-9" />
           <path d="M3 12h18" />
           <path d="M12 3v18" />
+        </svg>
+      );
+    case 'name':
+      return (
+        <svg width={iconSize} height={iconSize} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0" />
+          <line x1="12" y1="10" x2="12" y2="18" />
+          <line x1="9" y1="13" x2="15" y2="13" />
         </svg>
       );
     default:
