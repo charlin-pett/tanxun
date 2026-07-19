@@ -248,7 +248,7 @@ export default function BaziResultView({ input, autoFetchReading = false }: Bazi
 
       {/* 广告 — 八字结果底部 */}
       <div className="mt-6">
-        <AdSenseAd slot="1053793417" />
+        <AdSenseAd slot="4589145526" />
       </div>
     </div>
   );

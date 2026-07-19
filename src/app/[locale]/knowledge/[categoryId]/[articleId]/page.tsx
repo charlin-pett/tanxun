@@ -144,7 +144,7 @@ export default async function ArticleDetailPage({ params }: ArticleDetailProps) 
 
           {/* 广告 — 文章底部 */}
           <div className="mb-6">
-            <AdSenseAd slot="1053793417" format="in-article" />
+            <AdSenseAd slot="3296813371" format="in-article" />
           </div>
 
           {/* 上下篇导航 */}

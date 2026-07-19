@@ -147,7 +147,7 @@ export default async function HexagramDetailPage({
       {/* ===== 前后卦导航 ===== */}
       {/* 广告 */}
       <div className="mb-8">
-        <AdSenseAd slot="1053793417" />
+        <AdSenseAd slot="9841472200" />
       </div>
 
       <div className="flex justify-between items-center">
